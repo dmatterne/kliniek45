@@ -1,0 +1,56 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.results-gallery {
+  padding: $space-16 0;
+  background: $neutral-white;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-6;
+  margin-bottom: $space-8;
+
+  @media (max-width: $breakpoint-lg) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: $breakpoint-sm) { grid-template-columns: 1fr; }
+}
+
+.result-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid $neutral-gray-100;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.result-before, .result-after {
+  position: relative;
+
+  .result-placeholder {
+    height: 180px;
+    background: $neutral-light;
+  }
+
+  .after-img { background: $primary-green-pale; }
+
+  .result-label {
+    position: absolute;
+    top: $space-2;
+    left: $space-2;
+    background: rgba(0,0,0,0.55);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    &.after { background: rgba($primary-green, 0.8); }
+  }
+}
+
+.results-cta { text-align: center; }

@@ -1,0 +1,34 @@
+import { Routes } from '@angular/router';
+import { HomePageComponent } from './pages/home/home';
+import { BehandelingenPageComponent } from './pages/behandelingen/behandelingen-page';
+import { HaartransplantatieMannenPageComponent } from './pages/haartransplantatie-mannen/haartransplantatie-mannen-page';
+import { HaartransplantatieVrouwenPageComponent } from './pages/haartransplantatie-vrouwen/haartransplantatie-vrouwen-page';
+import { BaardtransplantatiePageComponent } from './pages/baardtransplantatie/baardtransplantatie-page';
+import { MicroHaarpigmentatiePageComponent } from './pages/micro-haarpigmentatie/micro-haarpigmentatie-page';
+import { DhiPageComponent } from './pages/dhi/dhi-page';
+import { FueSaffierPageComponent } from './pages/fue-saffier/fue-saffier-page';
+import { WerkwijzePageComponent } from './pages/werkwijze/werkwijze-page';
+import { OverOnsPageComponent } from './pages/over-ons/over-ons-page';
+import { ResultatenPageComponent } from './pages/resultaten/resultaten-page';
+import { FaqPageComponent } from './pages/faq/faq-page';
+import { ContactPageComponent } from './pages/contact/contact-page';
+import { HaargroeiPageComponent } from './pages/haargroei/haargroei-page';
+import { NotFoundPageComponent } from './pages/not-found/not-found-page';
+
+export const routes: Routes = [
+  { path: '', component: HomePageComponent },
+  { path: 'behandelingen', component: BehandelingenPageComponent },
+  { path: 'behandelingen/haartransplantatie-mannen', component: HaartransplantatieMannenPageComponent },
+  { path: 'behandelingen/haartransplantatie-vrouwen', component: HaartransplantatieVrouwenPageComponent },
+  { path: 'behandelingen/baardtransplantatie', component: BaardtransplantatiePageComponent },
+  { path: 'behandelingen/micro-haarpigmentatie', component: MicroHaarpigmentatiePageComponent },
+  { path: 'behandelingen/dhi', component: DhiPageComponent },
+  { path: 'behandelingen/fue-saffier', component: FueSaffierPageComponent },
+  { path: 'werkwijze', component: WerkwijzePageComponent },
+  { path: 'over-ons', component: OverOnsPageComponent },
+  { path: 'resultaten', component: ResultatenPageComponent },
+  { path: 'faq', component: FaqPageComponent },
+  { path: 'contact', component: ContactPageComponent },
+  { path: 'haargroei-stimuleren', component: HaargroeiPageComponent },
+  { path: '**', component: NotFoundPageComponent },
+];

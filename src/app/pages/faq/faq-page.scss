@@ -1,0 +1,123 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.hero {
+  background: $primary-green;
+  color: $neutral-white;
+  padding: $space-16 $space-4;
+  text-align: center;
+
+  h1 {
+    font-family: $font-heading;
+    font-size: 2.4rem;
+    margin-bottom: $space-4;
+  }
+
+  .subtitle {
+    font-family: $font-body;
+    font-size: 1.15rem;
+    opacity: 0.88;
+  }
+}
+
+.intro {
+  background: $neutral-cream;
+  padding: $space-8 $space-4;
+  text-align: center;
+
+  .intro-text {
+    font-family: $font-body;
+    color: $text-secondary;
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+}
+
+.faq-section {
+  padding: $space-12 $space-4;
+  background: $neutral-white;
+}
+
+.faq-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.faq-item {
+  border: 1px solid $neutral-light;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+
+  &.open {
+    box-shadow: 0 4px 16px rgba(26, 77, 71, 0.1);
+    border-color: $primary-green-light;
+  }
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-4;
+  padding: $space-4 $space-6;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: $font-body;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $text-primary;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: $primary-green-pale;
+  }
+
+  .faq-icon {
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $primary-green;
+    line-height: 1;
+  }
+}
+
+.faq-answer {
+  padding: $space-4 $space-6 $space-6;
+  border-top: 1px solid $neutral-light;
+  background: $neutral-cream;
+
+  p {
+    font-family: $font-body;
+    color: $text-secondary;
+    line-height: 1.75;
+    margin: 0;
+  }
+}
+
+.cta-section {
+  background: $primary-green-pale;
+  padding: $space-16 $space-4;
+  text-align: center;
+
+  h2 {
+    font-family: $font-heading;
+    font-size: 1.8rem;
+    color: $text-primary;
+    margin-bottom: $space-4;
+  }
+
+  p {
+    font-family: $font-body;
+    color: $text-secondary;
+    margin-bottom: $space-8;
+  }
+}

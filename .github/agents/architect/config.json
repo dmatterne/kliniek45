@@ -1,0 +1,43 @@
+{
+  "name": "architect",
+  "version": "1.0.0",
+  "description": "Designs system architecture and technical solutions",
+  "mcpServers": ["context7", "github", "filesystem"],
+  "triggerLabels": ["needs:architecture", "agent:architect"],
+  "statusLabels": {
+    "start": "status:in-design",
+    "complete": "status:review",
+    "blocked": "status:blocked"
+  },
+  "outputLabels": ["type:architecture"],
+  "requiredApprovals": ["human"],
+  "antiHallucination": {
+    "requireSources": true,
+    "mcpValidation": true,
+    "humanCheckpoints": ["critical-decisions", "major-refactors"],
+    "temperature": 0.3,
+    "maxTokens": 4000
+  },
+  "learning": {
+    "lessonsFile": "lessons.md",
+    "updateOnComplete": true,
+    "shareWithAgents": ["ux-dev", "tester"]
+  },
+  "workflow": {
+    "inputFormat": "github-issue",
+    "outputFormat": "architecture-document",
+    "validationSteps": [
+      "Query Context7 for Angular best practices",
+      "Analyze existing codebase structure",
+      "Design component/module architecture",
+      "Create ADR if architectural decision",
+      "Document in architecture folder",
+      "Update issue with design",
+      "Request human review"
+    ]
+  },
+  "context7Libraries": [
+    "/angular/angular",
+    "/angular/components"
+  ]
+}

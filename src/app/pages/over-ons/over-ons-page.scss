@@ -1,0 +1,265 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.hero {
+  background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
+  color: $neutral-white;
+  padding: $space-24 0;
+  text-align: center;
+
+  &__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    color: $neutral-white;
+    font-family: $font-body;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: $space-2 $space-4;
+    border-radius: 20px;
+    margin-bottom: $space-4;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: $neutral-white;
+    margin: 0 0 $space-4;
+    line-height: 1.15;
+  }
+
+  &__subtitle {
+    font-family: $font-body;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 640px;
+    margin: 0 auto $space-8;
+    line-height: 1.6;
+  }
+
+  &__actions {
+    display: flex;
+    gap: $space-3;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.section {
+  padding: $space-16 0;
+
+  &--white { background: $neutral-white; }
+  &--cream { background: $neutral-cream; }
+
+  &--green {
+    background: $primary-green;
+    color: $neutral-white;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: $space-12;
+
+    &--left { text-align: left; }
+    &--light { color: $neutral-white; }
+
+    h2 {
+      font-family: $font-heading;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      color: $text-primary;
+      margin: 0 0 $space-3;
+    }
+  }
+
+  &__divider {
+    width: 60px;
+    height: 3px;
+    background: $primary-green;
+    margin: 0 auto $space-6;
+    border-radius: 2px;
+
+    &--light { background: rgba(255, 255, 255, 0.6); }
+  }
+
+  &__header--left &__divider { margin: 0 0 $space-6; }
+
+  &__lead {
+    font-family: $font-body;
+    font-size: 1.1rem;
+    color: $text-secondary;
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.7;
+
+    &--light { color: rgba(255, 255, 255, 0.85); }
+  }
+}
+
+.text-block {
+  max-width: 800px;
+  margin: 0 auto;
+
+  p {
+    font-family: $font-body;
+    font-size: 1.05rem;
+    color: $text-primary;
+    line-height: 1.8;
+    margin: 0 0 $space-4;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.value-card {
+  background: $neutral-white;
+  border-radius: 12px;
+  padding: $space-8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+
+  &__icon {
+    font-size: 2.2rem;
+    display: block;
+    margin-bottom: $space-4;
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: 1.2rem;
+    color: $primary-green;
+    margin: 0 0 $space-4;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-family: $font-body;
+      font-size: 0.9rem;
+      color: $text-primary;
+      padding: $space-2 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      line-height: 1.5;
+
+      &:last-child { border-bottom: none; }
+
+      &::before {
+        content: '✓ ';
+        color: $primary-green;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.team-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-12;
+  align-items: center;
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  &__content {
+    p {
+      font-family: $font-body;
+      font-size: 1rem;
+      color: $text-primary;
+      line-height: 1.8;
+      margin: 0 0 $space-4;
+    }
+  }
+
+  &__cta {
+    margin-top: $space-6;
+  }
+}
+
+.team-photo-placeholder {
+  background: $primary-green;
+  border-radius: 16px;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $space-3;
+  color: $neutral-white;
+
+  &__icon {
+    font-size: 3.5rem;
+  }
+
+  &__text {
+    font-family: $font-heading;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  &__sub {
+    font-family: $font-body;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.reason-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: $space-8;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $space-3;
+    margin-bottom: $space-4;
+  }
+
+  &__icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: 1.1rem;
+    color: $neutral-white;
+    margin: 0;
+  }
+
+  p {
+    font-family: $font-body;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin: 0;
+  }
+}

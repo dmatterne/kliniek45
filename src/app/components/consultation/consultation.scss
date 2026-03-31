@@ -1,0 +1,51 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.consultation {
+  padding: $space-16 0;
+  background: $primary-green-pale;
+  text-align: center;
+}
+
+.consult-header {
+  max-width: 640px;
+  margin: 0 auto $space-12;
+
+  h2 {
+    font-family: $font-heading;
+    font-size: $h2-size;
+    color: $primary-green-dark;
+    margin-bottom: $space-4;
+  }
+
+  p { color: $text-secondary; font-size: $text-lg; line-height: 1.7; }
+}
+
+.consult-trust {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-8;
+  max-width: 800px;
+  margin: 0 auto $space-12;
+
+  @media (max-width: $breakpoint-md) { grid-template-columns: 1fr; }
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-2;
+
+  .trust-icon { font-size: 2.5rem; color: $gold; }
+  h4 { color: $primary-green-dark; font-size: $h4-size; margin: 0; }
+  p { color: $text-secondary; font-size: $text-sm; text-align: center; margin: 0; }
+}
+
+.consult-cta {
+  display: flex;
+  gap: $space-4;
+  justify-content: center;
+  flex-wrap: wrap;
+}

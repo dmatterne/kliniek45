@@ -1,0 +1,153 @@
+@use 'styles/colors' as *;
+@use 'styles/typography' as *;
+@use 'styles/spacing' as *;
+
+// CSS Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  color: $text-primary;
+  background: $bg-primary;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: $space-4;
+}
+
+h1 {
+  font-size: $h1-size;
+}
+
+h2 {
+  font-size: $h2-size;
+}
+
+h3 {
+  font-size: $h3-size;
+}
+
+h4 {
+  font-size: $h4-size;
+}
+
+h5 {
+  font-size: $h5-size;
+}
+
+h6 {
+  font-size: $h6-size;
+}
+
+p {
+  margin-bottom: $space-4;
+}
+
+a {
+  color: $primary-green;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $primary-green-dark;
+  }
+}
+
+button {
+  font-family: $font-body;
+  cursor: pointer;
+}
+
+// Container
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $space-6;
+
+  @media (max-width: 768px) {
+    padding: 0 $space-4;
+  }
+}
+
+// Section Titles
+.section-title {
+  text-align: center;
+  color: $primary-green-dark;
+  margin-bottom: $space-4;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: $text-secondary;
+  margin-bottom: $space-8;
+  font-size: $text-lg;
+}
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $space-3 $space-8;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: $text-base;
+  text-align: center;
+  transition: all 0.25s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &.btn-primary {
+    background: $primary-green;
+    color: $neutral-white;
+    border-color: $primary-green;
+    &:hover { background: $primary-green-dark; border-color: $primary-green-dark; color: $neutral-white; }
+  }
+
+  &.btn-secondary {
+    background: transparent;
+    color: $primary-green;
+    border-color: $primary-green;
+    &:hover { background: $primary-green; color: $neutral-white; }
+  }
+
+  &.btn-outline-white {
+    background: transparent;
+    color: $neutral-white;
+    border-color: $neutral-white;
+    &:hover { background: $neutral-white; color: $primary-green; }
+  }
+
+  &.btn-gold {
+    background: $gold;
+    color: $neutral-white;
+    border-color: $gold;
+    &:hover { background: $gold-dark; border-color: $gold-dark; color: $neutral-white; }
+  }
+
+  &.btn-outline-gold {
+    background: transparent;
+    color: $gold;
+    border-color: $gold;
+    &:hover { background: $gold; color: $neutral-white; }
+  }
+}

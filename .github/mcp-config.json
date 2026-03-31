@@ -1,0 +1,122 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/config.json",
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@context7/mcp-server"],
+      "libraries": [
+        "/angular/angular",
+        "/angular/components",
+        "/angular/cdk",
+        "/microsoft/playwright"
+      ],
+      "description": "Context7 MCP server for Angular and Playwright documentation",
+      "usage": {
+        "architect": "Query Angular architecture patterns and best practices",
+        "ux-dev": "Lookup component APIs, design patterns, accessibility guidelines",
+        "tester": "Research testing patterns, Playwright APIs"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp-server"],
+      "description": "Playwright MCP server for E2E testing and visual regression",
+      "usage": {
+        "tester": "Execute E2E tests, visual regression, accessibility validation",
+        "ux-dev": "Validate component interactions and visual behavior"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "description": "GitHub MCP server for issue and PR management",
+      "usage": {
+        "issue-creator": "Create and triage GitHub issues",
+        "architect": "Update issues with designs, create PRs for ADRs",
+        "ux-dev": "Create implementation PRs, update issue status",
+        "tester": "Create bug issues, approve/review PRs"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\IdeaProjects\\HaarKliniek45ComingSOon"
+      ],
+      "description": "FileSystem MCP server for codebase access",
+      "usage": {
+        "architect": "Analyze existing code structure and patterns",
+        "ux-dev": "Read design tokens, check existing components",
+        "tester": "Read test files, analyze coverage",
+        "issue-creator": "Parse requirement files, analyze codebase for context"
+      },
+      "allowedDirectories": [
+        "C:\\IdeaProjects\\HaarKliniek45ComingSOon"
+      ]
+    }
+  },
+  "settings": {
+    "agents": {
+      "issue-creator": {
+        "mcpServers": ["github", "filesystem"],
+        "triggerLabels": ["agent:issue-creator"],
+        "autoAssign": false
+      },
+      "architect": {
+        "mcpServers": ["context7", "github", "filesystem"],
+        "triggerLabels": ["needs:architecture", "agent:architect"],
+        "autoAssign": true
+      },
+      "ux-dev": {
+        "mcpServers": ["context7", "playwright", "github", "filesystem"],
+        "triggerLabels": ["needs:design", "needs:frontend", "agent:ux-dev"],
+        "autoAssign": true
+      },
+      "tester": {
+        "mcpServers": ["playwright", "context7", "github", "filesystem"],
+        "triggerLabels": ["needs:testing", "agent:tester"],
+        "autoAssign": true
+      }
+    },
+    "antiHallucination": {
+      "globalEnabled": true,
+      "requireSources": true,
+      "mcpValidation": true,
+      "humanCheckpoints": [
+        "critical-decisions",
+        "security-changes",
+        "performance-critical",
+        "design-system-changes"
+      ],
+      "temperature": 0.3,
+      "maxTokens": 4000
+    },
+    "learning": {
+      "enabled": true,
+      "lessonsFile": "lessons.md",
+      "updateOnComplete": true,
+      "shareAcrossAgents": true
+    }
+  },
+  "notes": {
+    "setup": [
+      "1. Install required MCP servers: npm install -g @context7/mcp-server @playwright/mcp-server @modelcontextprotocol/server-github @modelcontextprotocol/server-filesystem",
+      "2. Set GITHUB_TOKEN environment variable with GitHub Personal Access Token",
+      "3. Ensure Node.js and npm are installed",
+      "4. Verify Playwright browsers are installed: npx playwright install"
+    ],
+    "usage": [
+      "Agents will automatically connect to their designated MCP servers",
+      "Context7 requires internet connection for documentation queries",
+      "GitHub MCP requires valid authentication token",
+      "FileSystem MCP is restricted to project directory only"
+    ]
+  }
+}

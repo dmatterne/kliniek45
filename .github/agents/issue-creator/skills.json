@@ -1,0 +1,94 @@
+{
+  "agentName": "issue-creator",
+  "version": "1.0.0",
+  "mcpServers": ["github", "filesystem"],
+  "skills": [
+    {
+      "name": "parse-requirement",
+      "description": "Parse raw requirements into structured format",
+      "requiredContext": ["filesystem"],
+      "steps": [
+        "Read requirement text",
+        "Identify key components (feature, bug, enhancement)",
+        "Extract acceptance criteria",
+        "Identify affected components/modules",
+        "List dependencies"
+      ],
+      "antiHallucinationRules": [
+        "Only extract information explicitly stated",
+        "Flag ambiguous requirements for clarification",
+        "Do not infer technical implementation details"
+      ]
+    },
+    {
+      "name": "create-github-issue",
+      "description": "Create well-structured GitHub issue",
+      "requiredContext": ["github"],
+      "steps": [
+        "Format issue title (clear, concise, actionable)",
+        "Write issue description with context",
+        "Add acceptance criteria checklist",
+        "Assign labels based on type and priority",
+        "Add to appropriate milestone",
+        "Link related issues",
+        "Add to project board"
+      ],
+      "antiHallucinationRules": [
+        "Use standard issue templates",
+        "Include all required sections",
+        "Validate labels exist before assignment",
+        "Verify milestone exists"
+      ]
+    },
+    {
+      "name": "break-down-epic",
+      "description": "Break down large features into manageable tasks",
+      "requiredContext": ["github", "filesystem"],
+      "steps": [
+        "Identify epic scope and objectives",
+        "Divide into logical sub-tasks",
+        "Create parent tracking issue",
+        "Create child issues for each task",
+        "Establish dependency chain",
+        "Assign initial priorities"
+      ],
+      "antiHallucinationRules": [
+        "Each sub-task must be independently completable",
+        "Limit epic to max 10 sub-tasks (request refinement if larger)",
+        "Ensure no circular dependencies",
+        "Request human review for complex breakdowns"
+      ]
+    },
+    {
+      "name": "triage-issue",
+      "description": "Analyze and triage incoming issues",
+      "requiredContext": ["github", "filesystem"],
+      "steps": [
+        "Read issue content thoroughly",
+        "Validate issue is actionable",
+        "Assign type label",
+        "Assess priority",
+        "Identify which agent should handle it",
+        "Add needs: label to trigger agent",
+        "Update status to triaged"
+      ],
+      "antiHallucinationRules": [
+        "Do not close issues without human approval",
+        "Flag duplicates instead of auto-closing",
+        "Request clarification for vague issues",
+        "Escalate security/critical issues immediately"
+      ]
+    }
+  ],
+  "antiHallucinationRules": [
+    "Always cite source of requirements",
+    "Request clarification when uncertain",
+    "Do not invent acceptance criteria",
+    "Flag assumptions explicitly in issue description"
+  ],
+  "performanceMetrics": {
+    "averageTimeToTriage": "< 5 minutes",
+    "issueQualityScore": "> 80%",
+    "requiresClarification": "< 20%"
+  }
+}

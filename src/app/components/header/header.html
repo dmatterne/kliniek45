@@ -1,0 +1,103 @@
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="top-bar-contact">
+      <a href="tel:+3200000000" class="top-bar-link">
+        <span class="icon">📞</span> 00 000 0000
+      </a>
+      <span class="divider">|</span>
+      <a href="mailto:info@haarkliniek45.be" class="top-bar-link">
+        <span class="icon">✉</span> info&#64;haarkliniek45.be
+      </a>
+      <span class="divider">|</span>
+      <span class="top-bar-rating">
+        <span class="stars">★★★★★</span> 4,9 / 5,0
+      </span>
+    </div>
+    <div class="top-bar-flags">
+      <span class="flag" title="België">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="22" height="15" style="border-radius:2px;vertical-align:middle">
+          <rect width="1" height="2" x="0" fill="#000"/>
+          <rect width="1" height="2" x="1" fill="#FAE042"/>
+          <rect width="1" height="2" x="2" fill="#ED2939"/>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a routerLink="/" class="nav-logo">
+      <img src="assets/images/logoTransparant.png" alt="HaarKliniek 45" class="nav-logo-img">
+    </a>
+
+    <ul class="nav-links" [class.open]="mobileMenuOpen">
+
+      <!-- Behandelingen dropdown -->
+      <li class="nav-item has-dropdown">
+        <a routerLink="/behandelingen" routerLinkActive="active">
+          Behandelingen <span class="caret">▾</span>
+        </a>
+        <ul class="dropdown">
+          <li><a routerLink="/behandelingen/haartransplantatie-mannen" routerLinkActive="active">Haartransplantatie mannen</a></li>
+          <li><a routerLink="/behandelingen/haartransplantatie-vrouwen" routerLinkActive="active">Haartransplantatie vrouwen</a></li>
+          <li><a routerLink="/behandelingen/baardtransplantatie" routerLinkActive="active">Baardtransplantatie</a></li>
+          <li><a routerLink="/behandelingen/micro-haarpigmentatie" routerLinkActive="active">Micro haarpigmentatie</a></li>
+          <li class="dropdown-divider"></li>
+          <li class="dropdown-heading">Technieken</li>
+          <li><a routerLink="/behandelingen/dhi" routerLinkActive="active">DHI haartransplantatie</a></li>
+          <li><a routerLink="/behandelingen/fue-saffier" routerLinkActive="active">FUE Saffier techniek</a></li>
+        </ul>
+      </li>
+
+      <!-- Haargroei stimuleren dropdown -->
+      <li class="nav-item has-dropdown">
+        <a routerLink="/haargroei-stimuleren" routerLinkActive="active">
+          Haargroei stimuleren <span class="caret">▾</span>
+        </a>
+        <ul class="dropdown">
+          <li><a routerLink="/haargroei-stimuleren" routerLinkActive="active">PRP-behandeling</a></li>
+          <li><a routerLink="/haargroei-stimuleren" routerLinkActive="active">Haaruitval behandeling</a></li>
+        </ul>
+      </li>
+
+      <!-- Over ons dropdown -->
+      <li class="nav-item has-dropdown">
+        <a routerLink="/over-ons" routerLinkActive="active">
+          Over ons <span class="caret">▾</span>
+        </a>
+        <ul class="dropdown">
+          <li><a routerLink="/over-ons" routerLinkActive="active">Ons team</a></li>
+          <li><a routerLink="/werkwijze" routerLinkActive="active">Werkwijze</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a routerLink="/resultaten" routerLinkActive="active">Resultaten</a>
+      </li>
+
+      <!-- Kennis dropdown -->
+      <li class="nav-item has-dropdown">
+        <a routerLink="/faq" routerLinkActive="active">
+          Kennis <span class="caret">▾</span>
+        </a>
+        <ul class="dropdown">
+          <li><a routerLink="/faq" routerLinkActive="active">Veelgestelde vragen</a></li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <div class="nav-ctas">
+      <a routerLink="/contact" class="btn btn-secondary">Kosten berekenen</a>
+      <a routerLink="/contact" class="btn btn-gold">Afspraak maken</a>
+    </div>
+
+    <button class="hamburger" (click)="toggleMobileMenu()" [attr.aria-expanded]="mobileMenuOpen" aria-label="Menu openen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>

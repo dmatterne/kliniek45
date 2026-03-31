@@ -1,0 +1,45 @@
+{
+  "name": "ux-dev",
+  "version": "1.0.0",
+  "description": "Designs and implements UI/UX components",
+  "mcpServers": ["context7", "playwright", "github", "filesystem"],
+  "triggerLabels": ["needs:design", "needs:frontend", "agent:ux-dev"],
+  "statusLabels": {
+    "start": "status:in-development",
+    "complete": "status:testing",
+    "blocked": "status:blocked"
+  },
+  "outputLabels": ["type:ui", "type:component"],
+  "requiredApprovals": ["tester"],
+  "antiHallucination": {
+    "requireSources": true,
+    "mcpValidation": true,
+    "humanCheckpoints": ["design-system-changes", "major-ui-changes"],
+    "temperature": 0.3,
+    "maxTokens": 4000
+  },
+  "learning": {
+    "lessonsFile": "lessons.md",
+    "updateOnComplete": true,
+    "shareWithAgents": ["tester", "architect"]
+  },
+  "workflow": {
+    "inputFormat": "github-issue-with-design",
+    "outputFormat": "angular-component",
+    "validationSteps": [
+      "Query Context7 for component patterns",
+      "Check design system tokens",
+      "Implement component with accessibility",
+      "Create component tests",
+      "Visual validation with Playwright",
+      "Create PR with demo",
+      "Assign to tester"
+    ]
+  },
+  "context7Libraries": [
+    "/angular/angular",
+    "/angular/components",
+    "/angular/cdk"
+  ],
+  "accessibilityStandard": "WCAG 2.1 AA"
+}

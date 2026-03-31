@@ -1,0 +1,120 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.page-hero {
+  background-color: $primary-green;
+  color: $neutral-white;
+  padding: $space-16 0;
+
+  h1 {
+    font-family: $font-heading;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: $space-4;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-family: $font-body;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 640px;
+    line-height: 1.6;
+  }
+}
+
+.treatments-intro {
+  background-color: $neutral-cream;
+  padding: $space-12 0;
+
+  p {
+    font-family: $font-body;
+    font-size: 1.05rem;
+    color: $text-primary;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-bottom: $space-4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.treatments-section {
+  padding: $space-12 0;
+  background-color: $neutral-white;
+}
+
+.treatments-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.treatment-card {
+  background-color: $neutral-white;
+  border: 1px solid $neutral-light;
+  border-radius: 12px;
+  padding: $space-8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $text-primary;
+    margin-bottom: $space-3;
+  }
+
+  p {
+    font-family: $font-body;
+    font-size: 0.95rem;
+    color: $text-secondary;
+    line-height: 1.7;
+    flex-grow: 1;
+    margin-bottom: $space-4;
+  }
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: $space-4;
+  line-height: 1;
+}
+
+.card-link {
+  display: inline-block;
+  font-family: $font-body;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $primary-green;
+  text-decoration: none;
+  border: 2px solid $primary-green;
+  padding: $space-2 $space-4;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  align-self: flex-start;
+
+  &:hover {
+    background-color: $primary-green;
+    color: $neutral-white;
+  }
+}

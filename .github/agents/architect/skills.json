@@ -1,0 +1,134 @@
+{
+  "agentName": "architect",
+  "version": "1.0.0",
+  "mcpServers": ["context7", "github", "filesystem"],
+  "skills": [
+    {
+      "name": "design-angular-component",
+      "description": "Design Angular component architecture",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for Angular component patterns",
+        "Analyze existing components via filesystem",
+        "Define component interface and inputs/outputs",
+        "Design component state management",
+        "Plan child component composition",
+        "Document component API",
+        "Create architecture document"
+      ],
+      "antiHallucinationRules": [
+        "Always cite Context7 Angular documentation",
+        "Validate pattern exists in Angular style guide",
+        "Check for existing similar components before designing new",
+        "Use official Angular terminology"
+      ]
+    },
+    {
+      "name": "design-module-structure",
+      "description": "Design Angular module organization",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for module best practices",
+        "Analyze current module structure",
+        "Define module boundaries and responsibilities",
+        "Plan module dependencies",
+        "Design lazy loading strategy",
+        "Document module architecture"
+      ],
+      "antiHallucinationRules": [
+        "Follow Angular official module organization patterns",
+        "Avoid circular dependencies",
+        "Ensure single responsibility per module",
+        "Cite Angular documentation for decisions"
+      ]
+    },
+    {
+      "name": "design-service-architecture",
+      "description": "Design Angular service patterns",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for service patterns",
+        "Check existing services in codebase",
+        "Define service interface and methods",
+        "Design dependency injection strategy",
+        "Plan state management (if needed)",
+        "Document service API"
+      ],
+      "antiHallucinationRules": [
+        "Use Angular DI patterns from official docs",
+        "Check for duplicate service functionality",
+        "Cite Context7 sources for patterns",
+        "Request review for complex state management"
+      ]
+    },
+    {
+      "name": "create-adr",
+      "description": "Create Architecture Decision Record",
+      "requiredContext": ["filesystem"],
+      "steps": [
+        "Document context and problem",
+        "List considered options",
+        "Explain decision rationale",
+        "Document consequences",
+        "Add links to supporting resources",
+        "Save in docs/architecture/decisions/"
+      ],
+      "antiHallucinationRules": [
+        "Include date and status",
+        "List all viable alternatives considered",
+        "Cite technical documentation for choices",
+        "Be explicit about tradeoffs"
+      ]
+    },
+    {
+      "name": "review-code-architecture",
+      "description": "Review code for architectural consistency",
+      "requiredContext": ["context7:angular", "filesystem", "github"],
+      "steps": [
+        "Read PR code changes",
+        "Verify follows established patterns",
+        "Check module organization",
+        "Validate component composition",
+        "Review service usage",
+        "Provide architectural feedback"
+      ],
+      "antiHallucinationRules": [
+        "Only flag actual architectural issues",
+        "Cite specific patterns being violated",
+        "Suggest improvements with Context7 references",
+        "Focus on structure, not style"
+      ]
+    },
+    {
+      "name": "design-routing-structure",
+      "description": "Design Angular routing architecture",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for routing patterns",
+        "Analyze information architecture",
+        "Design route hierarchy",
+        "Plan lazy loading strategy",
+        "Define route guards if needed",
+        "Document routing structure"
+      ],
+      "antiHallucinationRules": [
+        "Follow Angular routing best practices",
+        "Ensure SEO-friendly route structure",
+        "Plan for future scalability",
+        "Cite Angular Router documentation"
+      ]
+    }
+  ],
+  "antiHallucinationRules": [
+    "Always query Context7 before designing",
+    "Cross-reference with existing codebase patterns",
+    "Cite all architectural decisions with sources",
+    "Request human review for critical decisions",
+    "Document assumptions explicitly in ADRs"
+  ],
+  "performanceMetrics": {
+    "designQuality": "Human review approval > 90%",
+    "context7Citations": "100% of designs cite sources",
+    "patternConsistency": "No conflicts with existing patterns"
+  }
+}

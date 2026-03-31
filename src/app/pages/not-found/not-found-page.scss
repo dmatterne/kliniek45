@@ -1,0 +1,49 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.not-found {
+  min-height: 80vh;
+  background: $neutral-cream;
+  display: flex;
+  align-items: center;
+  padding: $space-16 $space-4;
+
+  .container {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
+
+.error-code {
+  font-family: $font-heading;
+  font-size: 8rem;
+  font-weight: 700;
+  color: $primary-green;
+  line-height: 1;
+  margin: 0 0 $space-4;
+  letter-spacing: -4px;
+}
+
+h1 {
+  font-family: $font-heading;
+  font-size: 2rem;
+  color: $text-primary;
+  margin-bottom: $space-4;
+}
+
+.explanation {
+  font-family: $font-body;
+  font-size: 1.1rem;
+  color: $text-secondary;
+  margin-bottom: $space-8;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $space-4;
+}

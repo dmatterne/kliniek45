@@ -1,0 +1,111 @@
+@use "../../../styles/colors" as *;
+@use "../../../styles/typography" as *;
+@use "../../../styles/spacing" as *;
+
+.footer {
+  background: $primary-green-dark;
+  color: rgba($neutral-white, 0.82);
+}
+
+.footer-main {
+  padding: $space-16 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: $space-8;
+
+  @media (max-width: $breakpoint-lg) { grid-template-columns: 1fr 1fr; }
+  @media (max-width: $breakpoint-sm) { grid-template-columns: 1fr; }
+}
+
+.footer-brand {
+  .footer-logo {
+    margin-bottom: $space-4;
+
+    .footer-logo-img {
+      height: 52px;
+      width: auto;
+      display: block;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
+    }
+  }
+
+  p { font-size: $text-sm; line-height: 1.75; margin-bottom: $space-4; opacity: 0.8; }
+
+  .footer-social {
+    display: flex;
+    gap: $space-3;
+    a { font-size: 1.5rem; text-decoration: none; opacity: 0.7; transition: opacity 0.2s; &:hover { opacity: 1; } }
+  }
+}
+
+.footer-col {
+  h4 {
+    color: $gold;
+    font-size: 0.72rem;
+    font-weight: 700;
+    margin-bottom: $space-4;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: $space-3; }
+
+  a {
+    color: rgba($neutral-white, 0.72);
+    text-decoration: none;
+    font-size: $text-sm;
+    transition: color 0.2s;
+    &:hover { color: $gold; }
+  }
+
+  address { font-style: normal; font-size: $text-sm; line-height: 1.75; color: rgba($neutral-white, 0.72); }
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba($gold, 0.15);
+  padding: $space-4 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $space-4;
+  }
+
+  p { font-size: $text-sm; margin: 0; opacity: 0.5; }
+
+  nav {
+    display: flex;
+    gap: $space-6;
+    a { font-size: $text-sm; color: rgba($neutral-white, 0.5); text-decoration: none; transition: color 0.2s; &:hover { color: $gold; } }
+  }
+}
+
+.whatsapp-fab {
+  position: fixed;
+  bottom: $space-6;
+  right: $space-6;
+  background: #25d366;
+  color: white;
+  padding: $space-3 $space-6;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: $text-sm;
+  display: flex;
+  align-items: center;
+  gap: $space-2;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.28);
+  z-index: 999;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
+    color: white;
+  }
+}

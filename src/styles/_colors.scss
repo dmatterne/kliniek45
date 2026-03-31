@@ -1,0 +1,68 @@
+// Design System Color Tokens
+// Based on logoTransparant.png and medical/caring aesthetic
+
+// Primary Green Palette (extracted from logo + medical theme)
+$primary-green: #1a4d47;        // Deep medical green (main brand)
+$primary-green-dark: #0f3530;   // Darker variant
+$primary-green-light: #2d6b5f;  // Lighter variant
+$primary-green-pale: #e8f3f1;   // Very light tint for backgrounds
+
+// Secondary Green Palette
+$secondary-green: #3d7c6e;      // Softer medical green
+$accent-green: #5a9d8a;         // Fresh, caring accent
+$mint-accent: #7db5a3;          // Soft mint for highlights
+
+// Neutral Palette
+$neutral-white: #ffffff;        // Pure white
+$neutral-cream: #faf8f5;        // Warm background
+$neutral-light: #f5f3f0;        // Light background
+$neutral-gray-100: #e8e6e3;     // Very light gray
+$neutral-gray-200: #d1cfc9;     // Light gray
+$neutral-gray-300: #b8b5af;     // Medium-light gray
+$neutral-gray-400: #9f9c94;     // Medium gray
+$neutral-gray-500: #767369;     // Darker gray
+$neutral-gray-600: #5a574f;     // Dark gray
+$neutral-gray-700: #3d3b35;     // Very dark gray
+$neutral-black: #1a1916;        // Near black
+
+// Semantic Colors
+$color-success: #4caf50;        // Success green
+$color-warning: #ff9800;        // Warning orange
+$color-error: #f44336;          // Error red
+$color-info: #2196f3;           // Info blue
+
+// Text Colors
+$text-primary: $neutral-gray-700;
+$text-secondary: $neutral-gray-500;
+$text-light: $neutral-gray-400;
+$text-on-dark: $neutral-white;
+$text-on-primary: $neutral-white;
+
+// Background Colors
+$bg-primary: $neutral-white;
+$bg-secondary: $neutral-cream;
+$bg-tertiary: $neutral-light;
+$bg-primary-green: $primary-green;
+$bg-accent: $primary-green-pale;
+
+// Border Colors
+$border-light: $neutral-gray-200;
+$border-medium: $neutral-gray-300;
+$border-dark: $neutral-gray-400;
+$border-primary: $primary-green;
+
+// Component-Specific Colors
+$button-primary-bg: $primary-green;
+$button-primary-hover: $primary-green-dark;
+$button-primary-text: $neutral-white;
+
+$button-secondary-bg: $neutral-white;
+$button-secondary-hover: $neutral-light;
+$button-secondary-text: $primary-green;
+$button-secondary-border: $primary-green;
+
+// Luxury Gold Accent (from logo)
+$gold: #C9A84C;
+$gold-dark: #a88432;
+$gold-light: #dfc378;
+$gold-pale: #f8f0dc;

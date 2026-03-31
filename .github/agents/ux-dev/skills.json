@@ -1,0 +1,164 @@
+{
+  "agentName": "ux-dev",
+  "version": "1.0.0",
+  "mcpServers": ["context7", "playwright", "github", "filesystem"],
+  "skills": [
+    {
+      "name": "implement-angular-component",
+      "description": "Implement Angular component following design system",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for component API patterns",
+        "Read design system tokens from codebase",
+        "Generate component using Angular CLI patterns",
+        "Implement component logic",
+        "Apply design system styles",
+        "Add ARIA attributes for accessibility",
+        "Create component unit tests",
+        "Document component usage"
+      ],
+      "antiHallucinationRules": [
+        "Always use design tokens, never hard-coded values",
+        "Follow Angular component lifecycle from Context7 docs",
+        "Validate accessibility with ARIA best practices",
+        "Check for existing similar components first"
+      ]
+    },
+    {
+      "name": "implement-responsive-layout",
+      "description": "Create responsive layouts using mobile-first approach",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for layout patterns",
+        "Define breakpoints from design system",
+        "Implement mobile layout first",
+        "Add tablet responsive adjustments",
+        "Add desktop responsive adjustments",
+        "Test with Playwright at all breakpoints",
+        "Validate touch targets (44x44px minimum)"
+      ],
+      "antiHallucinationRules": [
+        "Use design system breakpoints only",
+        "Test all breakpoints before submitting",
+        "Ensure content readable at all sizes",
+        "Verify with actual device testing (Playwright)"
+      ]
+    },
+    {
+      "name": "implement-accessibility",
+      "description": "Implement WCAG 2.1 AA accessibility requirements",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Add semantic HTML elements",
+        "Implement ARIA labels and roles",
+        "Ensure keyboard navigation",
+        "Test color contrast (4.5:1 for text)",
+        "Add focus indicators",
+        "Test with screen reader (Playwright)",
+        "Validate with axe-core"
+      ],
+      "antiHallucinationRules": [
+        "All interactive elements must be keyboard accessible",
+        "Images must have alt text",
+        "Forms must have labels",
+        "Color contrast must meet WCAG AA",
+        "Cite WCAG guidelines for each implementation"
+      ]
+    },
+    {
+      "name": "implement-form-component",
+      "description": "Create form components with validation",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for Angular Forms patterns",
+        "Choose Reactive vs Template-driven approach",
+        "Implement form controls",
+        "Add validation rules",
+        "Implement error messages",
+        "Add accessibility attributes",
+        "Create form tests",
+        "Document validation rules"
+      ],
+      "antiHallucinationRules": [
+        "Follow Angular Forms best practices from Context7",
+        "All fields must have labels",
+        "Error messages must be clear and helpful",
+        "Validate both client and server-side (plan for it)",
+        "Cite Angular Forms documentation"
+      ]
+    },
+    {
+      "name": "implement-design-system-component",
+      "description": "Create reusable design system component",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Define component API (inputs/outputs)",
+        "Implement multiple variants/states",
+        "Use design tokens exclusively",
+        "Add comprehensive examples",
+        "Test all variants",
+        "Document in style guide",
+        "Create Storybook story (if applicable)"
+      ],
+      "antiHallucinationRules": [
+        "Component must be truly reusable",
+        "All variants must follow design system",
+        "No component-specific colors/spacing hardcoded",
+        "Document all props clearly"
+      ]
+    },
+    {
+      "name": "visual-regression-test",
+      "description": "Perform visual regression testing with Playwright",
+      "requiredContext": ["playwright", "filesystem"],
+      "steps": [
+        "Create Playwright test for component",
+        "Capture screenshots at different states",
+        "Test at multiple breakpoints",
+        "Test with different themes (if applicable)",
+        "Compare with baseline",
+        "Document visual changes",
+        "Update baselines if intentional"
+      ],
+      "antiHallucinationRules": [
+        "Always test mobile, tablet, desktop",
+        "Capture all component states",
+        "Document reason for baseline updates",
+        "Flag unintentional visual changes"
+      ]
+    },
+    {
+      "name": "optimize-performance",
+      "description": "Optimize component performance",
+      "requiredContext": ["context7:angular", "filesystem"],
+      "steps": [
+        "Query Context7 for optimization patterns",
+        "Implement OnPush change detection if applicable",
+        "Optimize bundle size",
+        "Lazy load images",
+        "Minimize re-renders",
+        "Profile with Angular DevTools",
+        "Document optimizations"
+      ],
+      "antiHallucinationRules": [
+        "Only optimize when necessary",
+        "Measure before and after",
+        "Cite Angular performance guides",
+        "Don't sacrifice readability for minor gains"
+      ]
+    }
+  ],
+  "antiHallucinationRules": [
+    "Always query Context7 for Angular patterns before implementation",
+    "Use design system tokens, never magic values",
+    "Test accessibility with Playwright before submitting",
+    "Cite sources for all patterns and practices",
+    "Request review for design system changes"
+  ],
+  "performanceMetrics": {
+    "accessibilityScore": "100% WCAG 2.1 AA compliance",
+    "visualRegressionCoverage": "> 80% of components",
+    "designTokenUsage": "100% (no hardcoded values)",
+    "responsiveTesting": "All breakpoints validated"
+  }
+}

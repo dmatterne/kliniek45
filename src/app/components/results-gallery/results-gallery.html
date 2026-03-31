@@ -1,0 +1,24 @@
+<section class="results-gallery">
+  <div class="container">
+    <h2 class="section-title">Resultaten</h2>
+    <p class="section-subtitle">Hieronder enkele resultaten van onze behandelingen</p>
+    <div class="results-grid">
+      @for (i of [1,2,3,4,5,6]; track i) {
+        <div class="result-card">
+          <div class="result-before">
+            <span class="result-label">Voor</span>
+            <div class="result-placeholder"></div>
+          </div>
+          <div class="result-after">
+            <span class="result-label after">Na</span>
+            <div class="result-placeholder after-img"></div>
+          </div>
+        </div>
+      }
+    </div>
+    <div class="results-cta">
+      <a href="#" class="btn btn-secondary">Bekijk alle resultaten</a>
+    </div>
+  </div>
+</section>
+

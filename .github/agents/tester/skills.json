@@ -1,0 +1,196 @@
+{
+  "agentName": "tester",
+  "version": "1.0.0",
+  "mcpServers": ["playwright", "context7", "github", "filesystem"],
+  "skills": [
+    {
+      "name": "write-unit-tests",
+      "description": "Write comprehensive unit tests for components/services",
+      "requiredContext": ["context7:testing", "filesystem"],
+      "steps": [
+        "Query Context7 for Angular testing patterns",
+        "Analyze component/service to test",
+        "Write tests for all public methods",
+        "Test all input/output scenarios",
+        "Test error conditions",
+        "Test edge cases",
+        "Verify test coverage meets 80% minimum",
+        "Document test cases"
+      ],
+      "antiHallucinationRules": [
+        "Test actual behavior, not implementation details",
+        "Use Angular testing utilities from Context7",
+        "Every test must have clear assertion",
+        "Don't test Angular framework itself",
+        "Cite testing best practices from Context7"
+      ]
+    },
+    {
+      "name": "write-e2e-tests",
+      "description": "Write end-to-end tests with Playwright",
+      "requiredContext": ["playwright", "context7", "filesystem"],
+      "steps": [
+        "Query Context7 for Playwright patterns",
+        "Identify user flows to test",
+        "Write Playwright test scenarios",
+        "Test happy path",
+        "Test error scenarios",
+        "Test edge cases",
+        "Run tests and verify passing",
+        "Document test scenarios"
+      ],
+      "antiHallucinationRules": [
+        "Test from user perspective, not developer",
+        "Use Playwright best practices",
+        "Include wait conditions for async operations",
+        "Test actual user interactions",
+        "Cite Playwright documentation"
+      ]
+    },
+    {
+      "name": "accessibility-audit",
+      "description": "Perform comprehensive accessibility testing",
+      "requiredContext": ["playwright", "filesystem"],
+      "steps": [
+        "Run axe-core automated tests",
+        "Test keyboard navigation",
+        "Test screen reader compatibility (Playwright)",
+        "Verify color contrast",
+        "Check focus indicators",
+        "Validate ARIA attributes",
+        "Test with different viewport sizes",
+        "Generate accessibility report"
+      ],
+      "antiHallucinationRules": [
+        "All issues must cite WCAG 2.1 guideline",
+        "Use automated tools + manual testing",
+        "Test real user scenarios",
+        "Document remediation steps",
+        "Require WCAG AA compliance minimum"
+      ]
+    },
+    {
+      "name": "visual-regression-testing",
+      "description": "Perform visual regression testing",
+      "requiredContext": ["playwright", "filesystem"],
+      "steps": [
+        "Create Playwright visual tests",
+        "Capture screenshots of components/pages",
+        "Test all component states",
+        "Test all breakpoints (mobile, tablet, desktop)",
+        "Compare with baseline screenshots",
+        "Flag visual differences",
+        "Document intentional vs unintentional changes",
+        "Update baselines after approval"
+      ],
+      "antiHallucinationRules": [
+        "Always test multiple breakpoints",
+        "Capture all component variants",
+        "Document reason for baseline changes",
+        "Flag unexpected visual changes as bugs",
+        "Use consistent viewport sizes"
+      ]
+    },
+    {
+      "name": "performance-testing",
+      "description": "Test application performance",
+      "requiredContext": ["playwright", "filesystem"],
+      "steps": [
+        "Run Lighthouse CI tests",
+        "Measure Core Web Vitals",
+        "Test load times on 3G network",
+        "Measure Time to Interactive",
+        "Check bundle sizes",
+        "Profile rendering performance",
+        "Generate performance report",
+        "Flag performance regressions"
+      ],
+      "antiHallucinationRules": [
+        "Test on realistic network conditions",
+        "Compare against baseline metrics",
+        "Only flag significant regressions (>10%)",
+        "Document performance budget",
+        "Cite Web Vitals thresholds"
+      ]
+    },
+    {
+      "name": "create-bug-report",
+      "description": "Create detailed bug report for test failures",
+      "requiredContext": ["github", "filesystem"],
+      "steps": [
+        "Document steps to reproduce",
+        "Capture error messages/screenshots",
+        "Identify expected vs actual behavior",
+        "Assess severity and priority",
+        "Create GitHub issue with bug label",
+        "Assign to appropriate agent",
+        "Link to related PR/issue",
+        "Add reproduction test case"
+      ],
+      "antiHallucinationRules": [
+        "Include exact reproduction steps",
+        "Provide actual error messages, not paraphrased",
+        "Screenshot/video for visual bugs",
+        "Be specific about expected behavior",
+        "Don't suggest fixes unless certain"
+      ]
+    },
+    {
+      "name": "test-coverage-analysis",
+      "description": "Analyze and report test coverage",
+      "requiredContext": ["filesystem"],
+      "steps": [
+        "Run coverage report",
+        "Identify uncovered code paths",
+        "Prioritize coverage gaps by criticality",
+        "Create issues for missing tests",
+        "Document coverage metrics",
+        "Track coverage trend over time",
+        "Flag coverage drops in PRs"
+      ],
+      "antiHallucinationRules": [
+        "Report actual coverage numbers from tools",
+        "Don't inflate coverage metrics",
+        "Prioritize meaningful coverage, not just %",
+        "Document untestable code explicitly",
+        "Cite coverage from actual test runs"
+      ]
+    },
+    {
+      "name": "cross-browser-testing",
+      "description": "Test across different browsers",
+      "requiredContext": ["playwright", "filesystem"],
+      "steps": [
+        "Configure Playwright for Chrome, Firefox, Safari",
+        "Run tests on all browsers",
+        "Identify browser-specific issues",
+        "Test on mobile browsers",
+        "Document browser compatibility",
+        "Create issues for browser bugs",
+        "Verify fixes across all browsers"
+      ],
+      "antiHallucinationRules": [
+        "Test on actual browsers, not just descriptions",
+        "Document specific browser versions",
+        "Provide browser-specific reproduction steps",
+        "Don't assume cross-browser compatibility",
+        "Use Playwright's browser testing capabilities"
+      ]
+    }
+  ],
+  "antiHallucinationRules": [
+    "All test failures must be reproducible",
+    "Use actual testing tools (Playwright, Vitest), not mock results",
+    "Cite WCAG guidelines for accessibility issues",
+    "Report actual numbers from coverage/performance tools",
+    "Create issues with reproduction steps, not just descriptions",
+    "Request human review when tests fail unexpectedly"
+  ],
+  "performanceMetrics": {
+    "testCoverage": "> 80% overall",
+    "e2eCoverage": "100% critical paths",
+    "accessibilityScore": "0 WCAG 2.1 AA violations",
+    "visualRegressionAccuracy": "> 95%",
+    "bugDetectionRate": "Measured and tracked"
+  }
+}

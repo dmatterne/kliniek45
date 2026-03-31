@@ -1,0 +1,38 @@
+{
+  "name": "issue-creator",
+  "version": "1.0.0",
+  "description": "Analyzes requirements and creates structured GitHub issues",
+  "mcpServers": ["github", "filesystem"],
+  "triggerLabels": ["agent:issue-creator"],
+  "statusLabels": {
+    "start": "status:triaged",
+    "complete": "status:done",
+    "blocked": "status:blocked"
+  },
+  "outputLabels": ["status:new"],
+  "requiredApprovals": [],
+  "antiHallucination": {
+    "requireSources": true,
+    "mcpValidation": true,
+    "humanCheckpoints": ["epic-breakdown"],
+    "temperature": 0.3,
+    "maxTokens": 4000
+  },
+  "learning": {
+    "lessonsFile": "lessons.md",
+    "updateOnComplete": true,
+    "shareWithAgents": ["architect", "ux-dev", "tester"]
+  },
+  "workflow": {
+    "inputFormat": "raw-requirement",
+    "outputFormat": "github-issue",
+    "validationSteps": [
+      "Parse requirement into structured format",
+      "Identify issue type and priority",
+      "Break down into sub-tasks if needed",
+      "Assign appropriate labels",
+      "Link dependencies",
+      "Add to project board"
+    ]
+  }
+}

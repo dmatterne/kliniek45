@@ -1,0 +1,50 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "Ensures quality through comprehensive testing",
+  "mcpServers": ["playwright", "context7", "github", "filesystem"],
+  "triggerLabels": ["needs:testing", "agent:tester"],
+  "statusLabels": {
+    "start": "status:testing",
+    "complete": "status:review",
+    "blocked": "status:blocked"
+  },
+  "outputLabels": ["type:test"],
+  "requiredApprovals": ["human"],
+  "antiHallucination": {
+    "requireSources": true,
+    "mcpValidation": true,
+    "humanCheckpoints": ["test-failures", "coverage-gaps"],
+    "temperature": 0.3,
+    "maxTokens": 4000
+  },
+  "learning": {
+    "lessonsFile": "lessons.md",
+    "updateOnComplete": true,
+    "shareWithAgents": ["ux-dev", "architect"]
+  },
+  "workflow": {
+    "inputFormat": "github-pr-or-issue",
+    "outputFormat": "test-suite",
+    "validationSteps": [
+      "Query Context7 for testing patterns",
+      "Analyze feature/component to test",
+      "Write unit tests",
+      "Write E2E tests with Playwright",
+      "Run accessibility tests",
+      "Run visual regression tests",
+      "Generate coverage report",
+      "Create bug issues if tests fail",
+      "Update issue with results"
+    ]
+  },
+  "context7Libraries": [
+    "/microsoft/playwright"
+  ],
+  "testingStandards": {
+    "unitCoverage": "80%",
+    "e2eCriticalPaths": "100%",
+    "accessibility": "WCAG 2.1 AA",
+    "visualRegression": "All components"
+  }
+}

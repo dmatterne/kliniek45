@@ -1,0 +1,40 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.why-choose {
+  padding: $space-16 0;
+  background: $neutral-cream;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-8;
+  margin-top: $space-8;
+
+  @media (max-width: $breakpoint-md) { grid-template-columns: 1fr; }
+}
+
+.why-item {
+  text-align: center;
+  padding: $space-8;
+  border-radius: 16px;
+  background: $neutral-white;
+  border: 1px solid $neutral-gray-100;
+
+  .why-icon {
+    font-size: 2.5rem;
+    margin-bottom: $space-4;
+    display: block;
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $h4-size;
+    color: $primary-green-dark;
+    margin-bottom: $space-3;
+  }
+
+  p { color: $text-secondary; line-height: 1.7; font-size: $text-sm; margin: 0; }
+}

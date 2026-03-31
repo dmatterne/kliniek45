@@ -1,0 +1,202 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.hero {
+  background: $primary-green;
+  color: $neutral-white;
+  padding: $space-16 $space-4;
+  text-align: center;
+
+  h1 {
+    font-family: $font-heading;
+    font-size: 2.4rem;
+    margin-bottom: $space-4;
+  }
+
+  .subtitle {
+    font-family: $font-body;
+    font-size: 1.15rem;
+    opacity: 0.88;
+  }
+}
+
+.intro {
+  padding: $space-12 $space-4;
+  background: $neutral-cream;
+  text-align: center;
+
+  .intro-text {
+    font-family: $font-body;
+    color: $text-secondary;
+    max-width: 680px;
+    margin: 0 auto $space-8;
+    line-height: 1.7;
+  }
+}
+
+.rating-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-2;
+  background: $neutral-white;
+  border: 2px solid $primary-green-light;
+  border-radius: 16px;
+  padding: $space-6 $space-12;
+  margin: 0 auto;
+
+  .rating-score {
+    font-family: $font-heading;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-green;
+    line-height: 1;
+  }
+
+  .stars {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .rating-label {
+    font-family: $font-body;
+    font-size: 0.9rem;
+    color: $text-secondary;
+  }
+}
+
+.voor-na {
+  padding: $space-16 $space-4;
+  background: $neutral-white;
+
+  h2 {
+    font-family: $font-heading;
+    font-size: 1.9rem;
+    color: $text-primary;
+    text-align: center;
+    margin-bottom: $space-8;
+  }
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.ba-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background: $neutral-white;
+}
+
+.ba-images {
+  display: flex;
+  height: 180px;
+}
+
+.ba-block {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: $space-3;
+}
+
+.ba-voor {
+  background: #d0c8c0;
+
+  .ba-label {
+    color: $neutral-white;
+    font-family: $font-body;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 2px $space-3;
+    border-radius: 4px;
+  }
+}
+
+.ba-na {
+  background: $primary-green-pale;
+
+  .ba-label {
+    color: $primary-green-dark;
+    font-family: $font-body;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.65);
+    padding: 2px $space-3;
+    border-radius: 4px;
+  }
+}
+
+.ba-meta {
+  font-family: $font-body;
+  font-size: 0.85rem;
+  color: $text-secondary;
+  padding: $space-3 $space-4;
+  text-align: center;
+  border-top: 1px solid $neutral-light;
+}
+
+.testimonials {
+  padding: $space-16 $space-4;
+  background: $primary-green-pale;
+
+  h2 {
+    font-family: $font-heading;
+    font-size: 1.9rem;
+    color: $text-primary;
+    text-align: center;
+    margin-bottom: $space-8;
+  }
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.quote-card {
+  background: $neutral-white;
+  border-left: 4px solid $primary-green;
+  border-radius: 0 12px 12px 0;
+  padding: $space-6;
+  margin: 0;
+
+  p {
+    font-family: $font-body;
+    color: $text-primary;
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: $space-4;
+  }
+
+  footer {
+    font-family: $font-body;
+    font-size: 0.85rem;
+    color: $primary-green;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
