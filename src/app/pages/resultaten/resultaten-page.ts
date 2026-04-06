@@ -20,12 +20,6 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           Wij geloven in volledige transparantie: alle foto's zijn authentiek en onbewerkt, gemaakt door onze eigen kliniek.
           Elk resultaat weerspiegelt de toewijding van ons team en het vertrouwen van onze patiënten.
         </p>
-
-        <div class="rating-badge">
-          <div class="rating-score">4.9 / 5</div>
-          <div class="stars">⭐⭐⭐⭐⭐</div>
-          <div class="rating-label">Gebaseerd op 200+ recensies</div>
-        </div>
       </div>
     </section>
 
@@ -50,20 +44,6 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
-    <section class="testimonials">
-      <div class="container">
-        <h2>Wat onze patiënten zeggen</h2>
-        <div class="quotes-grid">
-          @for (t of testimonials; track t.author) {
-            <blockquote class="quote-card">
-              <p>"{{ t.text }}"</p>
-              <footer>— {{ t.author }} · {{ t.treatment }}</footer>
-            </blockquote>
-          }
-        </div>
-      </div>
-    </section>
-
     <app-consultation />
   `,
 })
@@ -75,23 +55,5 @@ export class ResultatenPageComponent {
     { label: 'Haartransplantatie vrouw · 1600 grafts · 18 maanden' },
     { label: 'Baardtransplantatie · 1200 grafts · 10 maanden' },
     { label: 'FUE Saffier · 2600 grafts · 15 maanden' },
-  ];
-
-  testimonials = [
-    {
-      text: 'Na jaren van onzekerheid over mijn haar ben ik eindelijk tevreden. Het team stond altijd voor mij klaar en het resultaat overtreft mijn verwachtingen.',
-      author: 'Thomas',
-      treatment: 'FUE Saffier',
-    },
-    {
-      text: 'De begeleiding van voor tot na de ingreep was uitstekend. Ik voel me weer mezelf en zou het iedereen aanraden.',
-      author: 'Nathalie',
-      treatment: 'Haartransplantatie vrouw',
-    },
-    {
-      text: 'Professioneel, vriendelijk en eerlijk. Geen valse beloftes — gewoon prachtig resultaat na twaalf maanden.',
-      author: 'Karim',
-      treatment: 'DHI techniek',
-    },
   ];
 }

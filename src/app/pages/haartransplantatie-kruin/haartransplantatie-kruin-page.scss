@@ -1,0 +1,101 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.page-hero {
+  background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
+  color: $neutral-white;
+  padding: $space-16 0;
+
+  h1 {
+    font-family: $font-heading;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    margin-bottom: $space-4;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-family: $font-body;
+    font-size: 1.15rem;
+    opacity: 0.9;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+.content-section {
+  padding: $space-12 0;
+  background-color: $neutral-white;
+
+  &.alt-bg { background-color: $neutral-cream; }
+
+  h2 {
+    font-family: $font-heading;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: $primary-green;
+    margin-bottom: $space-6;
+  }
+
+  p {
+    font-family: $font-body;
+    font-size: 1rem;
+    color: $text-primary;
+    line-height: 1.8;
+    max-width: 820px;
+    margin-bottom: $space-4;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.styled-list {
+  list-style: none;
+  padding: 0;
+  margin: $space-4 0 0;
+
+  li {
+    font-family: $font-body;
+    font-size: 1rem;
+    color: $text-primary;
+    line-height: 1.7;
+    padding: $space-4 $space-4 $space-4 $space-8;
+    margin-bottom: $space-3;
+    border-left: 4px solid $primary-green-light;
+    background-color: $neutral-white;
+    border-radius: 0 6px 6px 0;
+    strong { color: $primary-green-dark; }
+  }
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+  margin-top: $space-4;
+  @media (min-width: $breakpoint-md) { grid-template-columns: repeat(3, 1fr); }
+}
+
+.benefit-card {
+  background-color: $primary-green-pale;
+  border-radius: 12px;
+  padding: $space-8;
+  text-align: center;
+  .benefit-icon { font-size: 2.2rem; margin-bottom: $space-4; }
+  h3 { font-family: $font-heading; font-size: 1.1rem; font-weight: 700; color: $primary-green-dark; margin-bottom: $space-3; }
+  p { font-family: $font-body; font-size: 0.95rem; color: $text-secondary; line-height: 1.7; margin: 0; max-width: 100%; }
+}
+
+.faq-list { display: flex; flex-direction: column; gap: $space-4; }
+
+.faq-item {
+  border: 1px solid $neutral-light;
+  border-radius: 10px;
+  padding: $space-6 $space-8;
+  background-color: $neutral-white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+  .faq-question { font-family: $font-heading; font-size: 1.05rem; font-weight: 600; color: $primary-green; margin-bottom: $space-3; }
+  .faq-answer { font-family: $font-body; font-size: 0.97rem; color: $text-secondary; line-height: 1.75; margin: 0; max-width: 100%; }
+}

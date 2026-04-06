@@ -3,6 +3,10 @@ import { HomePageComponent } from './pages/home/home';
 import { BehandelingenPageComponent } from './pages/behandelingen/behandelingen-page';
 import { HaartransplantatieMannenPageComponent } from './pages/haartransplantatie-mannen/haartransplantatie-mannen-page';
 import { HaartransplantatieVrouwenPageComponent } from './pages/haartransplantatie-vrouwen/haartransplantatie-vrouwen-page';
+import { HaartransplantatieInhammenPageComponent } from './pages/haartransplantatie-inhammen/haartransplantatie-inhammen-page';
+import { HaartransplantatieKruinPageComponent } from './pages/haartransplantatie-kruin/haartransplantatie-kruin-page';
+import { LongHairHaartransplantatiePageComponent } from './pages/long-hair-haartransplantatie/long-hair-haartransplantatie-page';
+import { HaartransplantatieKostenPageComponent } from './pages/haartransplantatie-kosten/haartransplantatie-kosten-page';
 import { BaardtransplantatiePageComponent } from './pages/baardtransplantatie/baardtransplantatie-page';
 import { MicroHaarpigmentatiePageComponent } from './pages/micro-haarpigmentatie/micro-haarpigmentatie-page';
 import { DhiPageComponent } from './pages/dhi/dhi-page';
@@ -13,6 +17,11 @@ import { ResultatenPageComponent } from './pages/resultaten/resultaten-page';
 import { FaqPageComponent } from './pages/faq/faq-page';
 import { ContactPageComponent } from './pages/contact/contact-page';
 import { HaargroeiPageComponent } from './pages/haargroei/haargroei-page';
+import { HairegenPageComponent } from './pages/hairegen/hairegen-page';
+import { RegeneraActivaPageComponent } from './pages/regenera-activa/regenera-activa-page';
+import { DnaTestHaaruitvalPageComponent } from './pages/dna-test-haaruitval/dna-test-haaruitval-page';
+import { NazorgPageComponent } from './pages/nazorg/nazorg-page';
+import { HaaruitvalPageComponent } from './pages/haaruitval/haaruitval-page';
 import { NotFoundPageComponent } from './pages/not-found/not-found-page';
 
 export const routes: Routes = [
@@ -20,6 +29,10 @@ export const routes: Routes = [
   { path: 'behandelingen', component: BehandelingenPageComponent },
   { path: 'behandelingen/haartransplantatie-mannen', component: HaartransplantatieMannenPageComponent },
   { path: 'behandelingen/haartransplantatie-vrouwen', component: HaartransplantatieVrouwenPageComponent },
+  { path: 'behandelingen/haartransplantatie-inhammen', component: HaartransplantatieInhammenPageComponent },
+  { path: 'behandelingen/haartransplantatie-kruin', component: HaartransplantatieKruinPageComponent },
+  { path: 'behandelingen/long-hair-haartransplantatie', component: LongHairHaartransplantatiePageComponent },
+  { path: 'behandelingen/haartransplantatie-kosten', component: HaartransplantatieKostenPageComponent },
   { path: 'behandelingen/baardtransplantatie', component: BaardtransplantatiePageComponent },
   { path: 'behandelingen/micro-haarpigmentatie', component: MicroHaarpigmentatiePageComponent },
   { path: 'behandelingen/dhi', component: DhiPageComponent },
@@ -30,5 +43,10 @@ export const routes: Routes = [
   { path: 'faq', component: FaqPageComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'haargroei-stimuleren', component: HaargroeiPageComponent },
+  { path: 'haargroei-stimuleren/hairegen', component: HairegenPageComponent },
+  { path: 'haargroei-stimuleren/regenera-activa', component: RegeneraActivaPageComponent },
+  { path: 'haargroei-stimuleren/dna-test-haaruitval', component: DnaTestHaaruitvalPageComponent },
+  { path: 'nazorg', component: NazorgPageComponent },
+  { path: 'haaruitval', component: HaaruitvalPageComponent },
   { path: '**', component: NotFoundPageComponent },
 ];

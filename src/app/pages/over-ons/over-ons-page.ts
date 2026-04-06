@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { ReviewsComponent } from '../../components/reviews/reviews';
 
 @Component({
   selector: 'app-over-ons-page',
   standalone: true,
-  imports: [ReviewsComponent],
+  imports: [],
   styleUrl: './over-ons-page.scss',
   template: `
     <section class="hero">
@@ -139,8 +138,6 @@ import { ReviewsComponent } from '../../components/reviews/reviews';
         </div>
       </div>
     </section>
-
-    <app-reviews />
   `,
 })
 export class OverOnsPageComponent {}
