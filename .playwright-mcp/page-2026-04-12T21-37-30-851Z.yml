@@ -1,0 +1,276 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "076 204 5512" [ref=e7] [cursor=pointer]:
+          - /url: tel:076 204 5512
+          - img [ref=e8]
+          - text: 076 204 5512
+        - link "info@haarkliniek45.be" [ref=e10] [cursor=pointer]:
+          - /url: mailto:info@haarkliniek45.be
+          - img [ref=e11]
+          - text: info@haarkliniek45.be
+      - link "★★★★★ 4,9 / 5,0 via Google Reviews" [ref=e14] [cursor=pointer]:
+        - /url: https://www.google.com/maps
+        - generic [ref=e15]: ★★★★★
+        - generic [ref=e16]: 4,9 / 5,0 via Google Reviews
+    - navigation [ref=e17]:
+      - generic [ref=e18]:
+        - link "HaarKliniek 45" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "HaarKliniek 45" [ref=e20]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Behandelingen ▾" [ref=e23] [cursor=pointer]:
+              - /url: /behandelingen
+              - text: Behandelingen
+              - generic [ref=e24]: ▾
+          - listitem [ref=e25]:
+            - link "Haargroei stimuleren ▾" [ref=e26] [cursor=pointer]:
+              - /url: /haargroei-stimuleren
+              - text: Haargroei stimuleren
+              - generic [ref=e27]: ▾
+          - listitem [ref=e28]:
+            - link "Over ons ▾" [ref=e29] [cursor=pointer]:
+              - /url: /over-ons
+              - text: Over ons
+              - generic [ref=e30]: ▾
+          - listitem [ref=e31]:
+            - link "Resultaten" [ref=e32] [cursor=pointer]:
+              - /url: /resultaten
+          - listitem [ref=e33]:
+            - link "Kennis ▾" [ref=e34] [cursor=pointer]:
+              - /url: /faq
+              - text: Kennis
+              - generic [ref=e35]: ▾
+        - generic [ref=e36]:
+          - link "Kosten berekenen" [ref=e37] [cursor=pointer]:
+            - /url: /contact
+          - link "Afspraak maken" [ref=e38] [cursor=pointer]:
+            - /url: /contact
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "DHI haartransplantatie" [level=1] [ref=e42]
+      - paragraph [ref=e43]: Direct Hair Implantation — de meest nauwkeurige techniek voor maximale haardichtheid en minimale herstelperiode.
+    - generic [ref=e45]:
+      - heading "Wat is de DHI-techniek?" [level=2] [ref=e46]
+      - paragraph [ref=e47]: DHI (Direct Hair Implantation) is een verfijning van de klassieke FUE-methode. Bij DHI worden geëxtraheerde haarfollikels direct geïmplanteerd via een speciale Choi-implantatiepen, zonder dat er eerst incisies worden gemaakt. Dit verkort de tijd dat de follikels buiten het lichaam zijn, wat de overlevingskans aanzienlijk verhoogt.
+      - paragraph [ref=e48]: Het resultaat is een hogere haardichtheid, minder trauma voor de hoofdhuid en een snellere genezing. DHI is bijzonder geschikt voor patiënten die extra dichtheid wensen of bij wie bestaande haargroei niet volledig mag worden onderbroken.
+    - generic [ref=e50]:
+      - heading "DHI vs. klassieke FUE" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - strong [ref=e56]: DHI
+          - strong [ref=e58]: FUE klassiek
+        - generic [ref=e59]:
+          - generic [ref=e60]: Incisies vooraf
+          - generic [ref=e61]: ❌ Niet nodig
+          - generic [ref=e62]: ✅ Vereist
+        - generic [ref=e63]:
+          - generic [ref=e64]: Haardichtheid
+          - generic [ref=e65]: ⭐⭐⭐⭐⭐ Maximaal
+          - generic [ref=e66]: ⭐⭐⭐⭐ Hoog
+        - generic [ref=e67]:
+          - generic [ref=e68]: Herstelperiode
+          - generic [ref=e69]: ✅ Korter
+          - generic [ref=e70]: ➡️ Standaard
+        - generic [ref=e71]:
+          - generic [ref=e72]: Bestaand haar gespaard
+          - generic [ref=e73]: ✅ Ja
+          - generic [ref=e74]: ⚠️ Beperkt
+        - generic [ref=e75]:
+          - generic [ref=e76]: Precisie hoek/richting
+          - generic [ref=e77]: ⭐⭐⭐⭐⭐ Uitmuntend
+          - generic [ref=e78]: ⭐⭐⭐⭐ Goed
+    - generic [ref=e80]:
+      - heading "Hoe verloopt een DHI-behandeling?" [level=2] [ref=e81]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: "1"
+          - generic [ref=e85]:
+            - heading "Consult en planning" [level=4] [ref=e86]
+            - paragraph [ref=e87]: Analyse van het donorgebied en bepaling van het benodigde aantal follikels.
+        - generic [ref=e88]:
+          - generic [ref=e89]: "2"
+          - generic [ref=e90]:
+            - heading "Lokale verdoving" [level=4] [ref=e91]
+            - paragraph [ref=e92]: Verdoving van zowel het donor- als het ontvangend gebied. De ingreep is volledig pijnloos.
+        - generic [ref=e93]:
+          - generic [ref=e94]: "3"
+          - generic [ref=e95]:
+            - heading "Extractie via FUE" [level=4] [ref=e96]
+            - paragraph [ref=e97]: Follikels worden geoogst uit het donorgebied met een micromotor van 0,7–0,9 mm.
+        - generic [ref=e98]:
+          - generic [ref=e99]: "4"
+          - generic [ref=e100]:
+            - heading "Directe implantatie via Choi-pen" [level=4] [ref=e101]
+            - paragraph [ref=e102]: Follikels worden onmiddellijk geplaatst op de juiste hoek, richting en diepte.
+        - generic [ref=e103]:
+          - generic [ref=e104]: "5"
+          - generic [ref=e105]:
+            - heading "Nazorg en opvolging" [level=4] [ref=e106]
+            - paragraph [ref=e107]: U ontvangt een gedetailleerd verzorgingsschema en opvolgafspraken.
+    - generic [ref=e109]:
+      - heading "Voordelen van DHI" [level=2] [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: 🎯
+          - heading "Maximale precisie" [level=3] [ref=e114]
+          - paragraph [ref=e115]: De Choi-pen biedt ongekende controle over hoek en richting van elke follikel.
+        - generic [ref=e116]:
+          - generic [ref=e117]: ⚡
+          - heading "Hogere overlevingskans" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Directe implantatie vergroot de overlevingskans van follikels aanzienlijk.
+        - generic [ref=e120]:
+          - generic [ref=e121]: 🌿
+          - heading "Minder beschadiging" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Geen voorafgaande incisies betekent minder trauma en sneller herstel.
+    - generic [ref=e125]:
+      - heading "Veelgestelde vragen" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Is DHI geschikt voor iedereen?" [level=4] [ref=e129]
+          - paragraph [ref=e130]: DHI is ideaal voor patiënten met beginnende tot gevorderde haaruitval. Uw specialist bepaalt tijdens het consult de beste aanpak.
+        - generic [ref=e131]:
+          - heading "Hoeveel follikels per sessie?" [level=4] [ref=e132]
+          - paragraph [ref=e133]: Afhankelijk van het donorgebied kunnen 1.500 tot 3.000 follikels per sessie worden geïmplanteerd.
+        - generic [ref=e134]:
+          - heading "Wanneer is het resultaat zichtbaar?" [level=4] [ref=e135]
+          - paragraph [ref=e136]: Na 3–4 maanden start de zichtbare groei. Het definitieve resultaat is na 12 maanden volledig zichtbaar.
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - heading "Gratis consult met onze specialist" [level=2] [ref=e141]
+        - paragraph [ref=e142]: Twijfel je nog of heb je nog onbeantwoorde vragen? Bekijk direct de agenda van onze consulent en maak gratis en vrijblijvend een afspraak. Je zit nergens aan vast.
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: 🎁
+          - heading "Gratis & vrijblijvend" [level=4] [ref=e146]
+          - paragraph [ref=e147]: Het consult is gratis en volledig vrijblijvend. Je zit nergens aan vast.
+        - generic [ref=e148]:
+          - generic [ref=e149]: 🏆
+          - heading "100% expertise" [level=4] [ref=e150]
+          - paragraph [ref=e151]: Je kunt direct vragen stellen aan onze specialist waarop je uitgebreid antwoord ontvangt.
+        - generic [ref=e152]:
+          - generic [ref=e153]: 🛡️
+          - heading "Discreet & betrouwbaar" [level=4] [ref=e154]
+          - paragraph [ref=e155]: Wij gaan discreet om met jouw gegevens en bieden volledige transparantie over kosten.
+      - generic [ref=e156]:
+        - link "Plan je gratis consult" [ref=e157] [cursor=pointer]:
+          - /url: /contact
+        - 'link "📞 Bel ons: 076 204 5512" [ref=e158] [cursor=pointer]':
+          - /url: tel:076 204 5512
+      - generic [ref=e159]:
+        - generic [ref=e160]: ★★★★★
+        - generic [ref=e161]:
+          - text: Klanten geven ons gemiddeld een
+          - strong [ref=e162]: 4,9 / 5
+          - text: via Google Reviews
+  - generic [ref=e163]:
+    - contentinfo [ref=e164]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - img "HaarKliniek 45" [ref=e170]
+          - paragraph [ref=e171]: Uw Belgische specialist in haartransplantatie. Kwaliteit, transparantie en persoonlijke begeleiding van A tot Z.
+          - generic [ref=e172]:
+            - generic [ref=e173]: ★★★★★
+            - generic [ref=e174]: 4,9 / 5,0 via Google Reviews
+          - generic [ref=e175]:
+            - link "Instagram" [ref=e176] [cursor=pointer]:
+              - /url: https://instagram.com
+              - img [ref=e177]
+            - link "Facebook" [ref=e179] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e180]
+            - link "WhatsApp" [ref=e182] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e183]
+        - generic [ref=e185]:
+          - heading "Behandelingen" [level=4] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "Haartransplantatie mannen" [ref=e189] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-mannen
+            - listitem [ref=e190]:
+              - link "Haartransplantatie vrouwen" [ref=e191] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-vrouwen
+            - listitem [ref=e192]:
+              - link "Haartransplantatie inhammen" [ref=e193] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-inhammen
+            - listitem [ref=e194]:
+              - link "Haartransplantatie kruin" [ref=e195] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kruin
+            - listitem [ref=e196]:
+              - link "Baardtransplantatie" [ref=e197] [cursor=pointer]:
+                - /url: /behandelingen/baardtransplantatie
+            - listitem [ref=e198]:
+              - link "Micro haarpigmentatie" [ref=e199] [cursor=pointer]:
+                - /url: /behandelingen/micro-haarpigmentatie
+            - listitem [ref=e200]:
+              - link "DHI techniek" [ref=e201] [cursor=pointer]:
+                - /url: /behandelingen/dhi
+            - listitem [ref=e202]:
+              - link "FUE Saffier techniek" [ref=e203] [cursor=pointer]:
+                - /url: /behandelingen/fue-saffier
+            - listitem [ref=e204]:
+              - link "Kosten haartransplantatie" [ref=e205] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kosten
+        - generic [ref=e206]:
+          - heading "Informatie" [level=4] [ref=e207]
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - link "Over ons & team" [ref=e210] [cursor=pointer]:
+                - /url: /over-ons
+            - listitem [ref=e211]:
+              - link "Onze werkwijze" [ref=e212] [cursor=pointer]:
+                - /url: /werkwijze
+            - listitem [ref=e213]:
+              - link "Resultaten & ervaringen" [ref=e214] [cursor=pointer]:
+                - /url: /resultaten
+            - listitem [ref=e215]:
+              - link "Veelgestelde vragen" [ref=e216] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e217]:
+              - link "Haaruitval — oorzaken" [ref=e218] [cursor=pointer]:
+                - /url: /haaruitval
+            - listitem [ref=e219]:
+              - link "Nazorg haartransplantatie" [ref=e220] [cursor=pointer]:
+                - /url: /nazorg
+            - listitem [ref=e221]:
+              - link "Haargroei stimuleren" [ref=e222] [cursor=pointer]:
+                - /url: /haargroei-stimuleren
+            - listitem [ref=e223]:
+              - link "Contact & afspraak" [ref=e224] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e225]:
+          - heading "Locatie & Contact" [level=4] [ref=e226]
+          - generic [ref=e228]:
+            - img [ref=e229]
+            - generic [ref=e231]:
+              - text: HaarKliniek 45
+              - text: België
+          - generic [ref=e232]:
+            - link "076 204 5512" [ref=e233] [cursor=pointer]:
+              - /url: tel:076 204 5512
+              - img [ref=e234]
+              - text: 076 204 5512
+            - link "info@haarkliniek45.be" [ref=e236] [cursor=pointer]:
+              - /url: mailto:info@haarkliniek45.be
+              - img [ref=e237]
+              - text: info@haarkliniek45.be
+            - link "WhatsApp" [ref=e239] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e240]
+              - text: WhatsApp
+      - generic [ref=e243]:
+        - paragraph [ref=e244]: © 2025 HaarKliniek 45. Alle rechten voorbehouden.
+        - navigation [ref=e245]:
+          - link "Privacybeleid" [ref=e246] [cursor=pointer]:
+            - /url: /contact
+          - link "Cookiebeleid" [ref=e247] [cursor=pointer]:
+            - /url: /contact
+          - link "Algemene voorwaarden" [ref=e248] [cursor=pointer]:
+            - /url: /contact
+    - link "Chat via WhatsApp" [ref=e249] [cursor=pointer]:
+      - /url: https://wa.me/32476000000
+      - img [ref=e250]
+      - generic [ref=e252]: Hoe kan ik je helpen?

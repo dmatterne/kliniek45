@@ -48,4 +48,17 @@
   gap: $space-4;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: $space-6;
+}
+
+.consult-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-3;
+  color: $text-secondary;
+  font-size: $text-sm;
+
+  .rating-stars { color: $gold; font-size: 1rem; letter-spacing: 2px; }
+  strong { color: $primary-green-dark; }
 }

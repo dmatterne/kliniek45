@@ -1,24 +1,99 @@
 <section class="results-gallery">
   <div class="container">
-    <h2 class="section-title">Resultaten</h2>
-    <p class="section-subtitle">Hieronder enkele resultaten van onze behandelingen</p>
+    <p class="section-eyebrow">Echte resultaten</p>
+    <h2 class="section-title">Voor &amp; Na</h2>
+    <p class="section-subtitle">Hieronder een selectie van onze behandelresultaten — echte patiënten, echte transformaties</p>
     <div class="results-grid">
-      @for (i of [1,2,3,4,5,6]; track i) {
-        <div class="result-card">
-          <div class="result-before">
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
             <span class="result-label">Voor</span>
-            <div class="result-placeholder"></div>
+            <div class="result-placeholder">
+              <span class="placeholder-icon">📷</span>
+            </div>
           </div>
-          <div class="result-after">
-            <span class="result-label after">Na</span>
-            <div class="result-placeholder after-img"></div>
+          <div class="result-divider">
+            <span>→</span>
+          </div>
+          <div class="result-img after">
+            <span class="result-label">Na</span>
+            <div class="result-placeholder after-style">
+              <span class="placeholder-icon">✨</span>
+            </div>
           </div>
         </div>
-      }
+        <div class="result-info">
+          <strong>Haartransplantatie mannen</strong>
+          <span>FUE Saffier · 3.200 grafts · 14 maanden na behandeling</span>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
+            <span class="result-label">Voor</span>
+            <div class="result-placeholder">
+              <span class="placeholder-icon">📷</span>
+            </div>
+          </div>
+          <div class="result-divider">
+            <span>→</span>
+          </div>
+          <div class="result-img after">
+            <span class="result-label">Na</span>
+            <div class="result-placeholder after-style">
+              <span class="placeholder-icon">✨</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-info">
+          <strong>Haartransplantatie inhammen</strong>
+          <span>DHI · 2.100 grafts · 12 maanden na behandeling</span>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
+            <span class="result-label">Voor</span>
+            <div class="result-placeholder">
+              <span class="placeholder-icon">📷</span>
+            </div>
+          </div>
+          <div class="result-divider">
+            <span>→</span>
+          </div>
+          <div class="result-img after">
+            <span class="result-label">Na</span>
+            <div class="result-placeholder after-style">
+              <span class="placeholder-icon">✨</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-info">
+          <strong>Haartransplantatie vrouwen</strong>
+          <span>FUE · 1.800 grafts · 18 maanden na behandeling</span>
+        </div>
+      </div>
     </div>
+
+    <div class="results-stats">
+      <div class="stat">
+        <strong>500+</strong>
+        <span>Tevreden patiënten</span>
+      </div>
+      <div class="stat">
+        <strong>4,9/5</strong>
+        <span>Gemiddelde beoordeling</span>
+      </div>
+      <div class="stat">
+        <strong>10+</strong>
+        <span>Jaar ervaring</span>
+      </div>
+    </div>
+
     <div class="results-cta">
-      <a href="#" class="btn btn-secondary">Bekijk alle resultaten</a>
+      <a routerLink="/resultaten" class="btn btn-primary">Bekijk alle resultaten</a>
     </div>
   </div>
 </section>
-

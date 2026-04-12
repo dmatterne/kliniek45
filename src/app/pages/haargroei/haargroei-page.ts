@@ -1,77 +1,146 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-haargroei-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [ConsultationComponent, RouterLink],
   styleUrls: ['./haargroei-page.scss'],
   template: `
     <section class="page-hero">
       <div class="container">
+        <p class="hero-eyebrow">Niet-chirurgische oplossingen</p>
         <h1>Haargroei stimuleren</h1>
-        <p>Niet-chirurgische behandelingen die haaruitval afremmen en nieuwe haargroei activeren — wetenschappelijk bewezen en schonend voor uw lichaam.</p>
+        <p class="hero-subtitle">Wetenschappelijk bewezen behandelingen die haaruitval afremmen en nieuwe haargroei activeren — zonder ingreep, met bewezen resultaat.</p>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="intro-section">
       <div class="container">
-        <h2>PRP-behandeling voor haargroei</h2>
-        <p>PRP (Platelet-Rich Plasma) is een geavanceerde behandeling waarbij uw eigen bloedplasma — verrijkt met groeifactoren — wordt geïnjecteerd in de hoofdhuid. Deze groeifactoren stimuleren slapende haarfollikels en versterken bestaande haartjes.</p>
-        <p>De behandeling is volledig natuurlijk: er worden geen vreemde stoffen gebruikt. Uw eigen bloed wordt gecentrifugeerd om de trombocytenrijke fractie te isoleren, die vervolgens nauwkeurig wordt geïnjecteerd op de plaatsen waar haargroei gestimuleerd moet worden.</p>
-      </div>
-    </section>
-
-    <section class="page-section bg-light">
-      <div class="container">
-        <h2>Hoe werkt PRP stap voor stap?</h2>
-        <div class="steps-list">
-          <div class="step-item"><div class="step-num">1</div><div class="step-body"><h4>Bloedafname</h4><p>Een kleine hoeveelheid bloed (20–30 ml) wordt afgenomen via een standaard bloedafname.</p></div></div>
-          <div class="step-item"><div class="step-num">2</div><div class="step-body"><h4>Centrifugering</h4><p>Het bloed wordt gecentrifugeerd om het trombocytenrijke plasma te scheiden van de rode bloedcellen.</p></div></div>
-          <div class="step-item"><div class="step-num">3</div><div class="step-body"><h4>Activering</h4><p>Het PRP wordt geactiveerd om de groeifactoren vrij te maken die haarfollikels stimuleren.</p></div></div>
-          <div class="step-item"><div class="step-num">4</div><div class="step-body"><h4>Injectie in de hoofdhuid</h4><p>Het PRP wordt met fijne naalden op de juiste diepte in de hoofdhuid geïnjecteerd.</p></div></div>
-          <div class="step-item"><div class="step-num">5</div><div class="step-body"><h4>Herhaling en opvolging</h4><p>Voor optimaal resultaat zijn 3–4 sessies aanbevolen met tussenpozen van 4–6 weken.</p></div></div>
+        <div class="intro-grid">
+          <div class="intro-text">
+            <h2>Wanneer is haargroei stimuleren de juiste keuze?</h2>
+            <p>
+              Niet iedereen is klaar voor of in aanmerking voor een chirurgische haartransplantatie.
+              Soms is het beter om eerst haargroei te stimuleren — hetzij als preventieve aanpak,
+              hetzij als aanvulling op een eerder uitgevoerde transplantatie.
+            </p>
+            <p>
+              Onze haargroeibehandelingen zijn gebaseerd op recente wetenschappelijke inzichten.
+              Ze bevorderen de activiteit van slapende haarfollikels, verminderen haaruitval en
+              verbeteren de kwaliteit en dichtheid van bestaand haar.
+            </p>
+          </div>
+          <div class="intro-checkpoints">
+            <div class="checkpoint">
+              <span class="check">✓</span>
+              <div>
+                <strong>Beginnende haaruitval</strong>
+                <p>Vroeg ingrijpen geeft de beste resultaten. Stimuleer follikels voordat ze permanent inactief worden.</p>
+              </div>
+            </div>
+            <div class="checkpoint">
+              <span class="check">✓</span>
+              <div>
+                <strong>Na een haartransplantatie</strong>
+                <p>PRP en Regenera versnellen de ingroei van getransplanteerde follikels en verbeteren het eindresultaat.</p>
+              </div>
+            </div>
+            <div class="checkpoint">
+              <span class="check">✓</span>
+              <div>
+                <strong>Preventief onderhoud</strong>
+                <p>Wie haaruitval wil voorkomen, kan haargroeibehandelingen als reguliere onderhoudsbehandeling inzetten.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="treatments-overview">
       <div class="container">
-        <h2>Wie heeft baat bij PRP?</h2>
-        <div class="suited-grid">
-          <div class="suited-item"><span class="suited-icon">✅</span><div><h4>Beginnende haaruitval</h4><p>PRP is het meest effectief in een vroeg stadium van haaruitval wanneer follikels nog actief zijn.</p></div></div>
-          <div class="suited-item"><span class="suited-icon">✅</span><div><h4>Vrouwen met diffuse haaruitval</h4><p>Vrouwen met verspreide haaruitval of dunner wordend haar reageren bijzonder goed op PRP.</p></div></div>
-          <div class="suited-item"><span class="suited-icon">✅</span><div><h4>Na een haartransplantatie</h4><p>PRP versnelt het herstel na een transplantatie en bevordert de ingroei van de nieuwe follikels.</p></div></div>
-          <div class="suited-item"><span class="suited-icon">✅</span><div><h4>Preventieve behandeling</h4><p>Wie haaruitval wil voorkomen of vertragen, kan PRP inzetten als onderhoudsprogramma.</p></div></div>
+        <h2 class="section-title">Onze haargroeibehandelingen</h2>
+        <div class="treatment-cards-grid">
+          <div class="treatment-overview-card">
+            <div class="treatment-ov-icon">🧬</div>
+            <h3>Hairegen</h3>
+            <p>
+              Hairegen is een innovatieve behandeling die de regeneratie van haarfollikels stimuleert via
+              gerichte injectie van groeifactoren. Bewezen effectief voor zowel mannen als vrouwen.
+            </p>
+            <ul class="treatment-benefits">
+              <li>Stimuleert slapende haarfollikels</li>
+              <li>Verbetert haardichtheid zichtbaar</li>
+              <li>Geen herstelperiode vereist</li>
+            </ul>
+            <a routerLink="/haargroei-stimuleren/hairegen" class="btn btn-secondary">Meer over Hairegen</a>
+          </div>
+
+          <div class="treatment-overview-card featured">
+            <div class="treatment-ov-badge">Populairste keuze</div>
+            <div class="treatment-ov-icon">🔬</div>
+            <h3>Regenera Activa</h3>
+            <p>
+              Regenera Activa is een geavanceerde éénmalige behandeling die haaruitval binnen 30 dagen
+              significant vertraagt. Gebruik van uw eigen cellen garandeert maximale biologische compatibiliteit.
+            </p>
+            <ul class="treatment-benefits">
+              <li>Éénmalige behandeling volstaat vaak</li>
+              <li>Aantoonbaar resultaat binnen 30 dagen</li>
+              <li>Volledig autoloog (eigen cellen)</li>
+            </ul>
+            <a routerLink="/haargroei-stimuleren/regenera-activa" class="btn btn-primary">Meer over Regenera Activa</a>
+          </div>
+
+          <div class="treatment-overview-card">
+            <div class="treatment-ov-icon">🧪</div>
+            <h3>TrichoTest™ DNA-test</h3>
+            <p>
+              De TrichoTest™ is een unieke DNA-test die op basis van uw genetisch profiel bepaalt welke
+              medicatie en supplementen het meest effectief zijn voor uw persoonlijke situatie.
+            </p>
+            <ul class="treatment-benefits">
+              <li>Gepersonaliseerd behandeladvies</li>
+              <li>Gebaseerd op DNA-analyse</li>
+              <li>Maximale effectiviteit van medicatie</li>
+            </ul>
+            <a routerLink="/haargroei-stimuleren/dna-test-haaruitval" class="btn btn-secondary">Meer over TrichoTest™</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section bg-light">
+    <section class="why-stimulate">
       <div class="container">
-        <h2>Haaruitval behandeling</h2>
-        <p>Naast PRP biedt HaarKliniek 45 ook medische adviezen en aanvullende behandelingen voor haaruitval. Haaruitval kent vele oorzaken: genetisch, hormonaal, door stress, voedingstekorten of auto-immuunziekten. Een correcte diagnose is de basis van een effectieve behandeling.</p>
-        <div class="treatment-types">
-          <div class="treatment-type"><h4>🔬 Haaranalyse en diagnose</h4><p>Via een uitgebreide haaranalyse bepalen wij de oorzaak van uw haaruitval en stellen een persoonlijk behandelplan op.</p></div>
-          <div class="treatment-type"><h4>💊 Medische begeleiding</h4><p>Waar nodig verwijzen wij naar een dermatoloog of schrijven wij medisch verantwoorde producten voor die haaruitval afremmen.</p></div>
-          <div class="treatment-type"><h4>🌿 Combinatietherapie</h4><p>De beste resultaten worden bereikt met een combinatie van PRP, medische behandeling en indien nodig haartransplantatie.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Is PRP pijnlijk?</h4><p>De injecties kunnen een lichte prik veroorzaken. Op aanvraag kan een verdovingscrème worden aangebracht om het comfort te verhogen.</p></div>
-          <div class="faq-item"><h4>Wanneer zie ik resultaat van PRP?</h4><p>De eerste resultaten zijn na 2–3 maanden zichtbaar. Na 6 maanden is er een duidelijke verbetering in haardichtheid en -kwaliteit.</p></div>
-          <div class="faq-item"><h4>Hoe lang houdt het PRP-effect stand?</h4><p>Het effect van PRP houdt 12–18 maanden aan. Daarna worden onderhoudssessies aanbevolen.</p></div>
-          <div class="faq-item"><h4>Kan PRP gecombineerd worden met een haartransplantatie?</h4><p>Absoluut. PRP wordt vaak toegepast tijdens of na een transplantatie om de hersteltijd te verkorten en de resultaten te verbeteren.</p></div>
+        <h2 class="section-title">Waarom haargroei stimuleren bij HaarKliniek 45?</h2>
+        <div class="why-grid">
+          <div class="why-item">
+            <div class="why-icon">🏥</div>
+            <h3>Medisch verantwoord</h3>
+            <p>Al onze behandelingen zijn wetenschappelijk onderbouwd en uitgevoerd door getrainde specialisten.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">🎯</div>
+            <h3>Persoonlijk advies</h3>
+            <p>Op basis van uw haaranalyse en situatie adviseren wij de meest geschikte behandeling voor u.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">⚡</div>
+            <h3>Snelle resultaten</h3>
+            <p>Veel patiënten merken al na 4–8 weken een verbetering in haardichtheid en haarverlies.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">🔄</div>
+            <h3>Gecombineerd met transplantatie</h3>
+            <p>Combineer haargroeibehandelingen met een haartransplantatie voor het beste eindresultaat.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <app-consultation />
-  `
+  `,
 })
 export class HaargroeiPageComponent {}

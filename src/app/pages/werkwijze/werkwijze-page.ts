@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-werkwijze-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [ConsultationComponent, RouterLink],
   styleUrl: './werkwijze-page.scss',
   template: `
     <section class="hero">
@@ -14,8 +15,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h1 class="hero__title">Onze Werkwijze</h1>
           <p class="hero__subtitle">Van eerste contact tot volledig herstel</p>
           <div class="hero__actions">
-            <a href="/contact" class="btn btn-primary">Start uw traject</a>
-            <a href="/fue-saffier" class="btn btn-secondary">Onze technieken</a>
+            <a routerLink="/contact" class="btn btn-primary">Start uw traject</a>
+            <a routerLink="/behandelingen/fue-saffier" class="btn btn-secondary">Onze technieken</a>
           </div>
         </div>
       </div>
@@ -274,3 +275,4 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `,
 })
 export class WerkwijzePageComponent {}
+

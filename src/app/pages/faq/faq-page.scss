@@ -121,3 +121,16 @@
     margin-bottom: $space-8;
   }
 }
+
+.faq-category {
+  margin-bottom: $space-12;
+}
+
+.category-title {
+  font-family: $font-heading;
+  font-size: 1.5rem;
+  color: $primary-green;
+  margin-bottom: $space-6;
+  padding-bottom: $space-3;
+  border-bottom: 2px solid $primary-green-pale;
+}

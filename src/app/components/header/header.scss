@@ -2,6 +2,52 @@
 @use "../../../styles/typography" as *;
 @use "../../../styles/spacing" as *;
 
+.top-bar {
+  background: #0f2e2b;
+  border-bottom: 1px solid rgba($gold, 0.2);
+  padding: $space-2 0;
+
+  .top-bar-inner {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $space-4;
+    flex-wrap: wrap;
+  }
+
+  .top-bar-left {
+    display: flex;
+    gap: $space-6;
+  }
+
+  .top-bar-link {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    color: rgba($neutral-white, 0.8);
+    text-decoration: none;
+    font-size: $text-sm;
+    transition: color 0.2s;
+    &:hover { color: $gold; }
+    svg { flex-shrink: 0; opacity: 0.7; }
+  }
+
+  .top-bar-rating {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    &:hover { opacity: 0.8; }
+    .rating-stars { color: $gold; font-size: $text-sm; letter-spacing: 1px; }
+    .rating-text { color: rgba($neutral-white, 0.75); font-size: $text-sm; }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    display: none;
+  }
+}
 
 .main-nav {
   background: $primary-green;

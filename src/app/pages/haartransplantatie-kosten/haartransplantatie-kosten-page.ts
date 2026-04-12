@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-haartransplantatie-kosten-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [ConsultationComponent, RouterLink],
   styleUrls: ['./haartransplantatie-kosten-page.scss'],
   template: `
     <section class="page-hero">
@@ -108,6 +109,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <p>Plan een gratis en vrijblijvend consult. Onze specialist berekent het exacte aantal grafts
           en bezorgt u een transparante offerte op maat.</p>
         </div>
+          <a routerLink="/contact" class="btn btn-primary" style="margin-top:1rem">Plan gratis consult</a>
       </div>
     </section>
 
@@ -115,3 +117,4 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `
 })
 export class HaartransplantatieKostenPageComponent {}
+

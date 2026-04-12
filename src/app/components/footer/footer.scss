@@ -37,7 +37,29 @@
   .footer-social {
     display: flex;
     gap: $space-3;
-    a { font-size: 1.5rem; text-decoration: none; opacity: 0.7; transition: opacity 0.2s; &:hover { opacity: 1; } }
+
+    .social-link {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba($neutral-white, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba($neutral-white, 0.7);
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+      &:hover { background: $gold; color: $neutral-white; }
+    }
+  }
+
+  .footer-rating {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    margin-bottom: $space-5;
+    .rating-stars { color: $gold; font-size: 0.9rem; letter-spacing: 2px; }
+    span:last-child { font-size: $text-sm; opacity: 0.7; }
   }
 }
 
@@ -62,6 +84,34 @@
   }
 
   address { font-style: normal; font-size: $text-sm; line-height: 1.75; color: rgba($neutral-white, 0.72); }
+
+  .footer-address {
+    display: flex;
+    gap: $space-2;
+    align-items: flex-start;
+    color: rgba($neutral-white, 0.72);
+    font-size: $text-sm;
+    svg { flex-shrink: 0; margin-top: 3px; opacity: 0.6; }
+  }
+
+  .footer-contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: $space-3;
+    margin-top: $space-4;
+  }
+
+  .footer-contact-link {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    color: rgba($neutral-white, 0.72);
+    text-decoration: none;
+    font-size: $text-sm;
+    transition: color 0.2s;
+    svg { opacity: 0.6; flex-shrink: 0; }
+    &:hover { color: $gold; svg { opacity: 1; } }
+  }
 }
 
 .footer-bottom {

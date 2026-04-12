@@ -1,0 +1,265 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "076 204 5512" [ref=e7] [cursor=pointer]:
+          - /url: tel:076 204 5512
+          - img [ref=e8]
+          - text: 076 204 5512
+        - link "info@haarkliniek45.be" [ref=e10] [cursor=pointer]:
+          - /url: mailto:info@haarkliniek45.be
+          - img [ref=e11]
+          - text: info@haarkliniek45.be
+      - link "★★★★★ 4,9 / 5,0 via Google Reviews" [ref=e14] [cursor=pointer]:
+        - /url: https://www.google.com/maps
+        - generic [ref=e15]: ★★★★★
+        - generic [ref=e16]: 4,9 / 5,0 via Google Reviews
+    - navigation [ref=e17]:
+      - generic [ref=e18]:
+        - link "HaarKliniek 45" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "HaarKliniek 45" [ref=e20]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Behandelingen ▾" [ref=e23] [cursor=pointer]:
+              - /url: /behandelingen
+              - text: Behandelingen
+              - generic [ref=e24]: ▾
+          - listitem [ref=e25]:
+            - link "Haargroei stimuleren ▾" [ref=e26] [cursor=pointer]:
+              - /url: /haargroei-stimuleren
+              - text: Haargroei stimuleren
+              - generic [ref=e27]: ▾
+          - listitem [ref=e28]:
+            - link "Over ons ▾" [ref=e29] [cursor=pointer]:
+              - /url: /over-ons
+              - text: Over ons
+              - generic [ref=e30]: ▾
+          - listitem [ref=e31]:
+            - link "Resultaten" [ref=e32] [cursor=pointer]:
+              - /url: /resultaten
+          - listitem [ref=e33]:
+            - link "Kennis ▾" [ref=e34] [cursor=pointer]:
+              - /url: /faq
+              - text: Kennis
+              - generic [ref=e35]: ▾
+        - generic [ref=e36]:
+          - link "Kosten berekenen" [ref=e37] [cursor=pointer]:
+            - /url: /contact
+          - link "Afspraak maken" [ref=e38] [cursor=pointer]:
+            - /url: /contact
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - generic [ref=e43]: Uw Belgische haarkliniek
+      - heading "Wij zijn HaarKliniek 45" [level=1] [ref=e44]
+      - paragraph [ref=e45]: Een toegewijde Belgische haarkliniek waar uw vertrouwen en zelfzekerheid centraal staan
+      - link "Maak kennis met ons" [ref=e47] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e49]:
+      - heading "Onze missie" [level=2] [ref=e51]
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: "Bij HaarKliniek 45 geloven wij dat iedereen het recht heeft om zich goed in zijn of haar vel te voelen. Haaruitval kan een enorme impact hebben op het zelfvertrouwen en de levenskwaliteit — en precies daar willen wij een verschil maken. Onze missie is eenvoudig: elke patiënt een eerlijk, persoonlijk advies geven en, indien gewenst, een haarbehandeling op maat uitvoeren die voldoet aan de hoogste Belgische en Europese medische normen."
+        - paragraph [ref=e55]: "Wij werken uitsluitend met de modernste technieken — waaronder FUE Saffier, DHI en PRP-therapie — en hechten evenveel waarde aan de menselijke kant van ons vak als aan het medisch-technische aspect. Dat betekent: geen verkooppraatjes, geen onrealistische beloften en geen verborgen kosten. Alleen eerlijke communicatie, gecertificeerde expertise en een persoonlijke begeleiding van het eerste gesprek tot lang na de behandeling."
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "Onze waarden" [level=2] [ref=e59]
+        - paragraph [ref=e61]: Drie kernwaarden vormen de basis van alles wat wij doen bij HaarKliniek 45.
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 🔍
+          - heading "Transparantie" [level=3] [ref=e65]
+          - list [ref=e66]:
+            - listitem [ref=e67]: ✓ Eerlijke informatie over verwachte resultaten
+            - listitem [ref=e68]: ✓ Geen verborgen kosten of onaangename verrassingen
+            - listitem [ref=e69]: ✓ Duidelijke communicatie in uw eigen taal
+            - listitem [ref=e70]: ✓ Openheid over risicos en beperkingen
+        - generic [ref=e71]:
+          - generic [ref=e72]: 🏆
+          - heading "Kwaliteit" [level=3] [ref=e73]
+          - list [ref=e74]:
+            - listitem [ref=e75]: ✓ Gecertificeerde haarspecialisten en dermatologen
+            - listitem [ref=e76]: ✓ Internationale behandelprotocollen gevolgd
+            - listitem [ref=e77]: ✓ Premium saffieren instrumenten en materialen
+            - listitem [ref=e78]: ✓ Permanente bijscholing en kennisupdate
+        - generic [ref=e79]:
+          - generic [ref=e80]: 💚
+          - heading "Persoonlijk" [level=3] [ref=e81]
+          - list [ref=e82]:
+            - listitem [ref=e83]: ✓ Elke behandeling volledig op maat gemaakt
+            - listitem [ref=e84]: ✓ Individuele begeleiding gedurende het gehele traject
+            - listitem [ref=e85]: ✓ Uitgebreide nazorg en follow-up
+            - listitem [ref=e86]: ✓ Altijd bereikbaar voor uw vragen
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading "Ons team" [level=2] [ref=e92]
+        - paragraph [ref=e94]: HaarKliniek 45 werkt met een hecht team van gecertificeerde haarspecialisten en dermatologen die allen gepassioneerd zijn door hun vakgebied. Elk teamlid beschikt over een gedegen opleiding in de haartransplantatiechirurgie en volgt regelmatig internationale opleidingen en congressen om op de hoogte te blijven van de nieuwste ontwikkelingen in de sector.
+        - paragraph [ref=e95]: Onze specialisten combineren technische precisie met een warme, mensgerichte aanpak. Zij nemen de tijd voor elk gesprek, luisteren naar uw wensen en stellen een behandelplan op dat echt bij u past — zonder u iets aan te praten wat niet nodig is. U bent bij ons in veilige handen, van het eerste contact tot de afsluitende controle.
+        - link "Maak een afspraak" [ref=e97] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e99]:
+        - generic [ref=e100]: 👨‍⚕️
+        - generic [ref=e101]: Ons Team
+        - generic [ref=e102]: Gecertificeerde haarspecialisten
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - heading "Waarom België?" [level=2] [ref=e106]
+          - paragraph [ref=e108]: Topkwaliteit haartransplantatie zonder de noodzaak om ver te reizen.
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: 🇪🇺
+              - heading "Europese medische normen" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Belgische klinieken zijn gebonden aan strikte Europese regelgeving en kwaliteitsnormen. U profiteert van dezelfde hoge medische standaarden als in de meest gerenommeerde Europese haartransplantatieklinieken, met volledige wettelijke bescherming als patiënt.
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: 📍
+              - heading "Toegankelijke ligging" [level=3] [ref=e118]
+            - paragraph [ref=e119]: Geen lange vluchten of dure hotelverblijven nodig. HaarKliniek 45 is vlot bereikbaar vanuit heel België en de buurlanden. U kunt na de behandeling comfortabel naar huis en de nazorg opvolgen vanuit uw vertrouwde omgeving.
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e122]: 🗣️
+              - heading "Nederlandstalige service" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Behandeld worden in uw eigen taal maakt een wereld van verschil. Bij HaarKliniek 45 verloopt alles van consultatie tot nazorgbrieven in het Nederlands. Geen misverstanden door taalbarrières, maar heldere en vertrouwde communicatie.
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: 💶
+              - heading "Competitieve prijzen" [level=3] [ref=e128]
+            - paragraph [ref=e129]: Topkwaliteit hoeft niet altijd een topprijs te betekenen. Vergeleken met klinieken in Londen of Parijs biedt HaarKliniek 45 uitstekende waarde voor uw investering. Transparante prijsstelling, zonder verborgen kosten of last-minute surprises.
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "Gratis consult met onze specialist" [level=2] [ref=e134]
+          - paragraph [ref=e135]: Twijfel je nog of heb je nog onbeantwoorde vragen? Bekijk direct de agenda van onze consulent en maak gratis en vrijblijvend een afspraak. Je zit nergens aan vast.
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: 🎁
+            - heading "Gratis & vrijblijvend" [level=4] [ref=e139]
+            - paragraph [ref=e140]: Het consult is gratis en volledig vrijblijvend. Je zit nergens aan vast.
+          - generic [ref=e141]:
+            - generic [ref=e142]: 🏆
+            - heading "100% expertise" [level=4] [ref=e143]
+            - paragraph [ref=e144]: Je kunt direct vragen stellen aan onze specialist waarop je uitgebreid antwoord ontvangt.
+          - generic [ref=e145]:
+            - generic [ref=e146]: 🛡️
+            - heading "Discreet & betrouwbaar" [level=4] [ref=e147]
+            - paragraph [ref=e148]: Wij gaan discreet om met jouw gegevens en bieden volledige transparantie over kosten.
+        - generic [ref=e149]:
+          - link "Plan je gratis consult" [ref=e150] [cursor=pointer]:
+            - /url: /contact
+          - 'link "📞 Bel ons: 076 204 5512" [ref=e151] [cursor=pointer]':
+            - /url: tel:076 204 5512
+        - generic [ref=e152]:
+          - generic [ref=e153]: ★★★★★
+          - generic [ref=e154]:
+            - text: Klanten geven ons gemiddeld een
+            - strong [ref=e155]: 4,9 / 5
+            - text: via Google Reviews
+  - generic [ref=e156]:
+    - contentinfo [ref=e157]:
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - img "HaarKliniek 45" [ref=e163]
+          - paragraph [ref=e164]: Uw Belgische specialist in haartransplantatie. Kwaliteit, transparantie en persoonlijke begeleiding van A tot Z.
+          - generic [ref=e165]:
+            - generic [ref=e166]: ★★★★★
+            - generic [ref=e167]: 4,9 / 5,0 via Google Reviews
+          - generic [ref=e168]:
+            - link "Instagram" [ref=e169] [cursor=pointer]:
+              - /url: https://instagram.com
+              - img [ref=e170]
+            - link "Facebook" [ref=e172] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e173]
+            - link "WhatsApp" [ref=e175] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e176]
+        - generic [ref=e178]:
+          - heading "Behandelingen" [level=4] [ref=e179]
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "Haartransplantatie mannen" [ref=e182] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-mannen
+            - listitem [ref=e183]:
+              - link "Haartransplantatie vrouwen" [ref=e184] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-vrouwen
+            - listitem [ref=e185]:
+              - link "Haartransplantatie inhammen" [ref=e186] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-inhammen
+            - listitem [ref=e187]:
+              - link "Haartransplantatie kruin" [ref=e188] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kruin
+            - listitem [ref=e189]:
+              - link "Baardtransplantatie" [ref=e190] [cursor=pointer]:
+                - /url: /behandelingen/baardtransplantatie
+            - listitem [ref=e191]:
+              - link "Micro haarpigmentatie" [ref=e192] [cursor=pointer]:
+                - /url: /behandelingen/micro-haarpigmentatie
+            - listitem [ref=e193]:
+              - link "DHI techniek" [ref=e194] [cursor=pointer]:
+                - /url: /behandelingen/dhi
+            - listitem [ref=e195]:
+              - link "FUE Saffier techniek" [ref=e196] [cursor=pointer]:
+                - /url: /behandelingen/fue-saffier
+            - listitem [ref=e197]:
+              - link "Kosten haartransplantatie" [ref=e198] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kosten
+        - generic [ref=e199]:
+          - heading "Informatie" [level=4] [ref=e200]
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - link "Over ons & team" [ref=e203] [cursor=pointer]:
+                - /url: /over-ons
+            - listitem [ref=e204]:
+              - link "Onze werkwijze" [ref=e205] [cursor=pointer]:
+                - /url: /werkwijze
+            - listitem [ref=e206]:
+              - link "Resultaten & ervaringen" [ref=e207] [cursor=pointer]:
+                - /url: /resultaten
+            - listitem [ref=e208]:
+              - link "Veelgestelde vragen" [ref=e209] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e210]:
+              - link "Haaruitval — oorzaken" [ref=e211] [cursor=pointer]:
+                - /url: /haaruitval
+            - listitem [ref=e212]:
+              - link "Nazorg haartransplantatie" [ref=e213] [cursor=pointer]:
+                - /url: /nazorg
+            - listitem [ref=e214]:
+              - link "Haargroei stimuleren" [ref=e215] [cursor=pointer]:
+                - /url: /haargroei-stimuleren
+            - listitem [ref=e216]:
+              - link "Contact & afspraak" [ref=e217] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e218]:
+          - heading "Locatie & Contact" [level=4] [ref=e219]
+          - generic [ref=e221]:
+            - img [ref=e222]
+            - generic [ref=e224]:
+              - text: HaarKliniek 45
+              - text: België
+          - generic [ref=e225]:
+            - link "076 204 5512" [ref=e226] [cursor=pointer]:
+              - /url: tel:076 204 5512
+              - img [ref=e227]
+              - text: 076 204 5512
+            - link "info@haarkliniek45.be" [ref=e229] [cursor=pointer]:
+              - /url: mailto:info@haarkliniek45.be
+              - img [ref=e230]
+              - text: info@haarkliniek45.be
+            - link "WhatsApp" [ref=e232] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e233]
+              - text: WhatsApp
+      - generic [ref=e236]:
+        - paragraph [ref=e237]: © 2025 HaarKliniek 45. Alle rechten voorbehouden.
+        - navigation [ref=e238]:
+          - link "Privacybeleid" [ref=e239] [cursor=pointer]:
+            - /url: /contact
+          - link "Cookiebeleid" [ref=e240] [cursor=pointer]:
+            - /url: /contact
+          - link "Algemene voorwaarden" [ref=e241] [cursor=pointer]:
+            - /url: /contact
+    - link "Chat via WhatsApp" [ref=e242] [cursor=pointer]:
+      - /url: https://wa.me/32476000000
+      - img [ref=e243]
+      - generic [ref=e245]: Hoe kan ik je helpen?

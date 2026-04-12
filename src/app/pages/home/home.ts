@@ -5,6 +5,7 @@ import { AboutSectionComponent } from '../../components/about-section/about-sect
 import { TreatmentsComponent } from '../../components/treatments/treatments';
 import { ProcessTimelineComponent } from '../../components/process-timeline/process-timeline';
 import { ResultsGalleryComponent } from '../../components/results-gallery/results-gallery';
+import { ReviewsComponent } from '../../components/reviews/reviews';
 import { WhyChooseComponent } from '../../components/why-choose/why-choose';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
@@ -19,6 +20,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     TreatmentsComponent,
     ProcessTimelineComponent,
     ResultsGalleryComponent,
+    ReviewsComponent,
     WhyChooseComponent,
     ConsultationComponent,
   ],

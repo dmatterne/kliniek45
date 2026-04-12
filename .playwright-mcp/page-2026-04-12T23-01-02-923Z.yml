@@ -1,0 +1,275 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "076 204 5512" [ref=e7] [cursor=pointer]:
+          - /url: tel:0762045512
+          - img [ref=e8]
+          - text: 076 204 5512
+        - link "info@haarkliniek45.be" [ref=e10] [cursor=pointer]:
+          - /url: mailto:info@haarkliniek45.be
+          - img [ref=e11]
+          - text: info@haarkliniek45.be
+      - link "★★★★★ 4,9 / 5,0 via Google Reviews" [ref=e14] [cursor=pointer]:
+        - /url: https://www.google.com/maps
+        - generic [ref=e15]: ★★★★★
+        - generic [ref=e16]: 4,9 / 5,0 via Google Reviews
+    - navigation [ref=e17]:
+      - generic [ref=e18]:
+        - link "HaarKliniek 45" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "HaarKliniek 45" [ref=e20]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Behandelingen ▾" [ref=e23] [cursor=pointer]:
+              - /url: /behandelingen
+              - text: Behandelingen
+              - generic [ref=e24]: ▾
+          - listitem [ref=e25]:
+            - link "Haargroei stimuleren ▾" [ref=e26] [cursor=pointer]:
+              - /url: /haargroei-stimuleren
+              - text: Haargroei stimuleren
+              - generic [ref=e27]: ▾
+          - listitem [ref=e28]:
+            - link "Over ons ▾" [ref=e29] [cursor=pointer]:
+              - /url: /over-ons
+              - text: Over ons
+              - generic [ref=e30]: ▾
+          - listitem [ref=e31]:
+            - link "Resultaten" [ref=e32] [cursor=pointer]:
+              - /url: /resultaten
+          - listitem [ref=e33]:
+            - link "Kennis ▾" [ref=e34] [cursor=pointer]:
+              - /url: /faq
+              - text: Kennis
+              - generic [ref=e35]: ▾
+        - generic [ref=e36]:
+          - link "Kosten berekenen" [ref=e37] [cursor=pointer]:
+            - /url: /behandelingen/haartransplantatie-kosten
+          - link "Afspraak maken" [ref=e38] [cursor=pointer]:
+            - /url: /contact
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e42]: Haargroei stimuleren
+      - heading "PRP-behandeling" [level=1] [ref=e43]
+      - paragraph [ref=e44]: Activeer uw haargroei met uw eigen bloedplaatjes — een volledig natuurlijke en minimaal invasieve behandeling.
+    - generic [ref=e46]:
+      - heading "Wat is PRP?" [level=2] [ref=e47]
+      - paragraph [ref=e48]: PRP staat voor Platelet Rich Plasma — bloedplaatjesrijk plasma gewonnen uit uw eigen bloed. Bloedplaatjes bevatten een hoge concentratie aan groeifactoren die de celregeneratie en weefselherstel stimuleren. Bij een PRP-behandeling voor haaruitval worden deze groeifactoren rechtstreeks in de hoofdhuid geïnjecteerd, waar ze de haarzakjes activeren en de bloedcirculatie verbeteren.
+      - paragraph [ref=e49]: De behandeling is volledig autoloog — dit betekent dat er uitsluitend met uw eigen lichaamsmateriaal wordt gewerkt. Er zijn geen synthetische stoffen, geen allergierisico's en geen lange herstelperiode. PRP is erkend in de medische wereld als een effectieve aanvullende behandeling bij androgenetische alopecia en kan zowel zelfstandig als in combinatie met een haartransplantatie worden ingezet.
+      - paragraph [ref=e50]: Bij HaarKliniek 45 gebruiken wij een gecertificeerde centrifuge om het plasma optimaal te concentreren. Zo garanderen wij een hoge concentratie aan groeifactoren voor maximaal effect.
+    - generic [ref=e52]:
+      - heading "Hoe verloopt de behandeling?" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]: "1"
+          - generic [ref=e57]:
+            - heading "Bloedafname" [level=4] [ref=e58]
+            - paragraph [ref=e59]: Ongeveer 20–30 ml bloed wordt afgenomen uit uw arm, vergelijkbaar met een standaard bloedafname bij de arts.
+        - generic [ref=e60]:
+          - generic [ref=e61]: "2"
+          - generic [ref=e62]:
+            - heading "Centrifugeren" [level=4] [ref=e63]
+            - paragraph [ref=e64]: "Het bloed wordt gecentrifrugeerd om de bloedplaatjes te concentreren en te scheiden van de rode bloedcellen. Dit levert een gouden vloeistof op: het PRP."
+        - generic [ref=e65]:
+          - generic [ref=e66]: "3"
+          - generic [ref=e67]:
+            - heading "Micro-injecties in de hoofdhuid" [level=4] [ref=e68]
+            - paragraph [ref=e69]: Het geconcentrieerde PRP wordt via kleine injecties toegediend in de gebieden met haaruitval. Een verdovingscrème zorgt voor maximaal comfort.
+        - generic [ref=e70]:
+          - generic [ref=e71]: "4"
+          - generic [ref=e72]:
+            - heading "Opvolging & herhaalsessies" [level=4] [ref=e73]
+            - paragraph [ref=e74]: Voor optimaal resultaat zijn gemiddeld 3 sessies nodig met een tussenperiode van 4–6 weken. Daarna is een onderhoudssessie per jaar aanbevolen.
+    - generic [ref=e76]:
+      - heading "Voordelen van PRP" [level=2] [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: 🩸
+          - heading "Volledig natuurlijk" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Uitsluitend uw eigen bloed — geen synthetische stoffen, geen allergierisico's.
+        - generic [ref=e83]:
+          - generic [ref=e84]: ⚡
+          - heading "Minimaal invasief" [level=3] [ref=e85]
+          - paragraph [ref=e86]: Geen operatie, geen littekens. U kunt dezelfde dag nog gewone activiteiten hervatten.
+        - generic [ref=e87]:
+          - generic [ref=e88]: 🔄
+          - heading "Synergetisch effect" [level=3] [ref=e89]
+          - paragraph [ref=e90]: PRP versterkt haartransplantaties en werkt uitstekend samen met Hairegen en Regenera Activa.
+    - generic [ref=e92]:
+      - heading "Voor wie is PRP geschikt?" [level=2] [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: ✔
+          - generic [ref=e97]:
+            - heading "Haaruitval in beginstadium" [level=4] [ref=e98]
+            - paragraph [ref=e99]: PRP is het meest effectief bij dunner wordend haar en vroege haaruitval.
+        - generic [ref=e100]:
+          - generic [ref=e101]: ✔
+          - generic [ref=e102]:
+            - heading "Na een haartransplantatie" [level=4] [ref=e103]
+            - paragraph [ref=e104]: PRP versnelt het aanslaan van grafts en stimuleert snellere haargroei na de ingreep.
+        - generic [ref=e105]:
+          - generic [ref=e106]: ✔
+          - generic [ref=e107]:
+            - heading "Diffuse haaruitval bij vrouwen" [level=4] [ref=e108]
+            - paragraph [ref=e109]: Vrouwen met verspreide haaruitval door hormonen of stress reageren goed op PRP.
+        - generic [ref=e110]:
+          - generic [ref=e111]: ✔
+          - generic [ref=e112]:
+            - heading "Onderhoud na transplantatie" [level=4] [ref=e113]
+            - paragraph [ref=e114]: PRP als onderhoudssessie houdt de haargroei op peil en vertraagt verdere haaruitval.
+    - generic [ref=e116]:
+      - heading "Veelgestelde vragen" [level=2] [ref=e117]
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - heading "Hoeveel sessies zijn nodig?" [level=4] [ref=e120]
+          - paragraph [ref=e121]: Voor optimaal resultaat worden 3 sessies aanbevolen met een interval van 4–6 weken. Daarna is een jaarlijkse onderhoudssessie ideaal.
+        - generic [ref=e122]:
+          - heading "Is PRP pijnlijk?" [level=4] [ref=e123]
+          - paragraph [ref=e124]: De injecties zijn kort en mild. We brengen vooraf een verdovingscrème aan zodat de behandeling zo comfortabel mogelijk verloopt.
+        - generic [ref=e125]:
+          - heading "Wanneer zie ik resultaat?" [level=4] [ref=e126]
+          - paragraph [ref=e127]: De eerste tekenen van verdikkend haar zijn zichtbaar na 3–6 maanden. Maximaal resultaat wordt bereikt na alle 3 sessies plus 6 maanden groeitijd.
+    - generic [ref=e129]:
+      - heading "Klaar voor een gezonder haarbeeld?" [level=2] [ref=e130]
+      - paragraph [ref=e131]: Plan een gratis consult en ontdek of PRP de juiste behandeling is voor u.
+      - link "Gratis consult aanvragen" [ref=e132] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - heading "Gratis consult met onze specialist" [level=2] [ref=e137]
+        - paragraph [ref=e138]: Twijfel je nog of heb je nog onbeantwoorde vragen? Bekijk direct de agenda van onze consulent en maak gratis en vrijblijvend een afspraak. Je zit nergens aan vast.
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: 🎁
+          - heading "Gratis & vrijblijvend" [level=4] [ref=e142]
+          - paragraph [ref=e143]: Het consult is gratis en volledig vrijblijvend. Je zit nergens aan vast.
+        - generic [ref=e144]:
+          - generic [ref=e145]: 🏆
+          - heading "100% expertise" [level=4] [ref=e146]
+          - paragraph [ref=e147]: Je kunt direct vragen stellen aan onze specialist waarop je uitgebreid antwoord ontvangt.
+        - generic [ref=e148]:
+          - generic [ref=e149]: 🛡️
+          - heading "Discreet & betrouwbaar" [level=4] [ref=e150]
+          - paragraph [ref=e151]: Wij gaan discreet om met jouw gegevens en bieden volledige transparantie over kosten.
+      - generic [ref=e152]:
+        - link "Plan je gratis consult" [ref=e153] [cursor=pointer]:
+          - /url: /contact
+        - 'link "📞 Bel ons: 076 204 5512" [ref=e154] [cursor=pointer]':
+          - /url: tel:076 204 5512
+      - generic [ref=e155]:
+        - generic [ref=e156]: ★★★★★
+        - generic [ref=e157]:
+          - text: Klanten geven ons gemiddeld een
+          - strong [ref=e158]: 4,9 / 5
+          - text: via Google Reviews
+  - generic [ref=e159]:
+    - contentinfo [ref=e160]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - img "HaarKliniek 45" [ref=e166]
+          - paragraph [ref=e167]: Uw Belgische specialist in haartransplantatie. Kwaliteit, transparantie en persoonlijke begeleiding van A tot Z.
+          - generic [ref=e168]:
+            - generic [ref=e169]: ★★★★★
+            - generic [ref=e170]: 4,9 / 5,0 via Google Reviews
+          - generic [ref=e171]:
+            - link "Instagram" [ref=e172] [cursor=pointer]:
+              - /url: https://instagram.com
+              - img [ref=e173]
+            - link "Facebook" [ref=e175] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e176]
+            - link "WhatsApp" [ref=e178] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e179]
+        - generic [ref=e181]:
+          - heading "Behandelingen" [level=4] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "Haartransplantatie mannen" [ref=e185] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-mannen
+            - listitem [ref=e186]:
+              - link "Haartransplantatie vrouwen" [ref=e187] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-vrouwen
+            - listitem [ref=e188]:
+              - link "Haartransplantatie inhammen" [ref=e189] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-inhammen
+            - listitem [ref=e190]:
+              - link "Haartransplantatie kruin" [ref=e191] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kruin
+            - listitem [ref=e192]:
+              - link "Baardtransplantatie" [ref=e193] [cursor=pointer]:
+                - /url: /behandelingen/baardtransplantatie
+            - listitem [ref=e194]:
+              - link "Micro haarpigmentatie" [ref=e195] [cursor=pointer]:
+                - /url: /behandelingen/micro-haarpigmentatie
+            - listitem [ref=e196]:
+              - link "DHI techniek" [ref=e197] [cursor=pointer]:
+                - /url: /behandelingen/dhi
+            - listitem [ref=e198]:
+              - link "FUE Saffier techniek" [ref=e199] [cursor=pointer]:
+                - /url: /behandelingen/fue-saffier
+            - listitem [ref=e200]:
+              - link "Kosten haartransplantatie" [ref=e201] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kosten
+        - generic [ref=e202]:
+          - heading "Informatie" [level=4] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Over ons & team" [ref=e206] [cursor=pointer]:
+                - /url: /over-ons
+            - listitem [ref=e207]:
+              - link "Onze werkwijze" [ref=e208] [cursor=pointer]:
+                - /url: /werkwijze
+            - listitem [ref=e209]:
+              - link "Resultaten & ervaringen" [ref=e210] [cursor=pointer]:
+                - /url: /resultaten
+            - listitem [ref=e211]:
+              - link "Veelgestelde vragen" [ref=e212] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e213]:
+              - link "Haaruitval — oorzaken" [ref=e214] [cursor=pointer]:
+                - /url: /haaruitval
+            - listitem [ref=e215]:
+              - link "Nazorg haartransplantatie" [ref=e216] [cursor=pointer]:
+                - /url: /nazorg
+            - listitem [ref=e217]:
+              - link "Haargroei stimuleren" [ref=e218] [cursor=pointer]:
+                - /url: /haargroei-stimuleren
+            - listitem [ref=e219]:
+              - link "Contact & afspraak" [ref=e220] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e221]:
+          - heading "Locatie & Contact" [level=4] [ref=e222]
+          - generic [ref=e224]:
+            - img [ref=e225]
+            - generic [ref=e227]:
+              - text: HaarKliniek 45
+              - text: België
+          - generic [ref=e228]:
+            - link "076 204 5512" [ref=e229] [cursor=pointer]:
+              - /url: tel:076 204 5512
+              - img [ref=e230]
+              - text: 076 204 5512
+            - link "info@haarkliniek45.be" [ref=e232] [cursor=pointer]:
+              - /url: mailto:info@haarkliniek45.be
+              - img [ref=e233]
+              - text: info@haarkliniek45.be
+            - link "WhatsApp" [ref=e235] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e236]
+              - text: WhatsApp
+      - generic [ref=e239]:
+        - paragraph [ref=e240]: © 2025 HaarKliniek 45. Alle rechten voorbehouden.
+        - navigation [ref=e241]:
+          - link "Privacybeleid" [ref=e242] [cursor=pointer]:
+            - /url: /contact
+          - link "Cookiebeleid" [ref=e243] [cursor=pointer]:
+            - /url: /contact
+          - link "Algemene voorwaarden" [ref=e244] [cursor=pointer]:
+            - /url: /contact
+    - link "Chat via WhatsApp" [ref=e245] [cursor=pointer]:
+      - /url: https://wa.me/32476000000
+      - img [ref=e246]
+      - generic [ref=e248]: Hoe kan ik je helpen?

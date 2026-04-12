@@ -8,7 +8,6 @@
 }
 
 .about-grid {
-  @include container;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: $space-16;
@@ -21,24 +20,66 @@
 }
 
 .about-image {
-  border-radius: 16px;
-  overflow: hidden;
-  aspect-ratio: 4/3;
-  background: $neutral-light;
+  position: relative;
 
-  .placeholder-svg {
+  .about-img-frame {
+    position: relative;
+    border-radius: 16px;
+    overflow: visible;
+  }
+
+  .about-img-placeholder {
     width: 100%;
-    height: 100%;
-    display: block;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, $primary-green 0%, $secondary-green 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $space-4;
+    color: rgba($neutral-white, 0.7);
+
+    .about-team-icon { font-size: 4rem; }
+    span { font-size: $text-lg; font-weight: 500; }
+  }
+
+  .about-badge {
+    position: absolute;
+    bottom: -$space-5;
+    right: -$space-5;
+    background: $neutral-white;
+    border-radius: 12px;
+    padding: $space-3 $space-5;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $space-1;
+    min-width: 100px;
+
+    .badge-stars { color: $gold; font-size: 1rem; letter-spacing: 2px; }
+    span:last-child { font-size: $text-sm; font-weight: 700; color: $primary-green-dark; }
   }
 }
 
 .about-content {
+  .about-eyebrow {
+    font-size: $text-sm;
+    font-weight: 700;
+    color: $gold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: $space-3;
+    display: block;
+  }
+
   h2 {
     font-family: $font-heading;
     font-size: $h2-size;
     color: $primary-green-dark;
     margin-bottom: $space-2;
+    line-height: 1.2;
   }
 
   h3 {
@@ -50,30 +91,27 @@
     margin-bottom: $space-6;
   }
 
-  p { color: $text-secondary; line-height: 1.8; }
+  > p { color: $text-secondary; line-height: 1.8; margin-bottom: $space-6; }
 
   .benefits-list {
     list-style: none;
     padding: 0;
-    margin: $space-6 0;
+    margin: $space-6 0 $space-8;
     display: flex;
     flex-direction: column;
-    gap: $space-4;
+    gap: $space-5;
 
     li {
       display: flex;
-      gap: $space-3;
+      gap: $space-4;
       align-items: flex-start;
-      color: $text-primary;
-      line-height: 1.6;
 
-      &::before {
-        content: '✓';
+      .check-icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        min-width: 24px;
-        height: 24px;
+        min-width: 26px;
+        height: 26px;
         background: $primary-green;
         color: $neutral-white;
         border-radius: 50%;
@@ -82,6 +120,9 @@
         flex-shrink: 0;
         margin-top: 2px;
       }
+
+      strong { display: block; color: $text-primary; margin-bottom: $space-1; }
+      p { color: $text-secondary; font-size: $text-sm; line-height: 1.6; margin: 0; }
     }
   }
 }

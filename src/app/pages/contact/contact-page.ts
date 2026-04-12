@@ -21,7 +21,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <div class="info-card">
             <span class="info-icon">📞</span>
             <h3>Telefoon</h3>
-            <p>+32 (0)X XXX XX XX</p>
+            <p>076 204 5512</p>
           </div>
           <div class="info-card">
             <span class="info-icon">✉️</span>
@@ -31,7 +31,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <div class="info-card">
             <span class="info-icon">📍</span>
             <h3>Adres</h3>
-            <p>Kliniekstraat 45<br>1000 Brussel, België</p>
+            <p>HaarKliniek 45<br>België</p>
           </div>
           <div class="info-card">
             <span class="info-icon">🕐</span>
@@ -63,7 +63,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </div>
             <div class="form-group">
               <label for="telefoon">Telefoonnummer</label>
-              <input id="telefoon" type="tel" placeholder="+32 (0)X XXX XX XX" />
+              <input id="telefoon" type="tel" placeholder="076 204 5512" />
             </div>
           </div>
           <div class="form-group">
@@ -93,3 +93,4 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `,
 })
 export class ContactPageComponent {}
+

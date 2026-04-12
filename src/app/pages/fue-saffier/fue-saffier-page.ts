@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-fue-saffier-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [ConsultationComponent, RouterLink],
   styleUrl: './fue-saffier-page.scss',
   template: `
     <section class="hero">
@@ -14,8 +15,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h1 class="hero__title">FUE Saffier Techniek</h1>
           <p class="hero__subtitle">De gouden standaard in haartransplantatie met saffieren mesjes</p>
           <div class="hero__actions">
-            <a href="/contact" class="btn btn-primary">Gratis Consult Aanvragen</a>
-            <a href="/werkwijze" class="btn btn-secondary">Hoe het werkt</a>
+            <a routerLink="/contact" class="btn btn-primary">Gratis Consult Aanvragen</a>
+            <a routerLink="/werkwijze" class="btn btn-secondary">Hoe het werkt</a>
           </div>
         </div>
       </div>
@@ -166,3 +167,4 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `,
 })
 export class FueSaffierPageComponent {}
+

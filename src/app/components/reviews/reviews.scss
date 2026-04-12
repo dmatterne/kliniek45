@@ -7,11 +7,22 @@
   background: $primary-green;
 }
 
+.reviews-eyebrow {
+  font-size: $text-sm;
+  font-weight: 700;
+  color: $gold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: $space-2;
+  display: block;
+}
+
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: $space-6;
-  margin-bottom: $space-8;
+  margin-bottom: $space-10;
 
   @media (max-width: $breakpoint-lg) { grid-template-columns: 1fr; }
 }
@@ -24,34 +35,78 @@
   display: flex;
   flex-direction: column;
   gap: $space-4;
+  transition: background 0.2s, border-color 0.2s;
 
-  .review-stars { color: $gold; font-size: $text-xl; letter-spacing: 2px; }
-
-  .review-quote {
-    color: rgba($neutral-white, 0.9);
-    font-style: italic;
-    line-height: 1.7;
-    flex: 1;
-    margin: 0;
-    font-size: $text-sm;
+  &:hover {
+    background: rgba($neutral-white, 0.13);
+    border-color: rgba($gold, 0.4);
   }
+}
 
-  .review-author {
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+
+  .review-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: $gold;
+    color: $primary-green-dark;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    strong { color: $neutral-white; font-size: $text-sm; }
-    span { color: rgba($neutral-white, 0.6); font-size: $text-sm; }
+    justify-content: center;
+    font-weight: 700;
+    font-size: $text-lg;
+    flex-shrink: 0;
   }
+
+  .review-meta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    strong { color: $neutral-white; font-size: $text-sm; }
+    span { color: rgba($neutral-white, 0.55); font-size: 0.7rem; }
+  }
+
+  .review-google { margin-left: auto; opacity: 0.8; }
+}
+
+.review-stars { color: $gold; font-size: $text-base; letter-spacing: 2px; }
+
+.review-quote {
+  color: rgba($neutral-white, 0.88);
+  font-style: italic;
+  line-height: 1.75;
+  flex: 1;
+  margin: 0;
+  font-size: $text-sm;
 }
 
 .reviews-badge {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: $space-4;
+  gap: $space-3;
+  text-align: center;
 
-  .badge-stars { color: $gold; font-size: $text-2xl; }
-  .badge-score { color: $neutral-white; font-size: $h3-size; font-weight: 700; font-family: $font-heading; }
-  .badge-label { color: rgba($neutral-white, 0.7); font-size: $text-sm; }
+  .badge-score {
+    display: flex;
+    align-items: baseline;
+    gap: $space-2;
+
+    .badge-stars { color: $gold; font-size: $text-2xl; letter-spacing: 3px; }
+    .badge-number { color: $neutral-white; font-size: 3rem; font-weight: 700; font-family: $font-heading; line-height: 1; }
+    .badge-max { color: rgba($neutral-white, 0.5); font-size: $h4-size; font-weight: 400; }
+  }
+
+  .badge-label { color: rgba($neutral-white, 0.7); font-size: $text-sm; margin-bottom: $space-2; }
+
+  .btn-secondary {
+    background: transparent;
+    border-color: rgba($neutral-white, 0.4);
+    color: rgba($neutral-white, 0.8);
+    &:hover { border-color: $gold; color: $gold; }
+  }
 }

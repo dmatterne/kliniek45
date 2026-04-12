@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-over-ons-page',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, ConsultationComponent],
   styleUrl: './over-ons-page.scss',
   template: `
     <section class="hero">
@@ -13,7 +15,7 @@ import { Component } from '@angular/core';
           <h1 class="hero__title">Wij zijn HaarKliniek 45</h1>
           <p class="hero__subtitle">Een toegewijde Belgische haarkliniek waar uw vertrouwen en zelfzekerheid centraal staan</p>
           <div class="hero__actions">
-            <a href="/contact" class="btn btn-primary">Maak kennis met ons</a>
+            <a routerLink="/contact" class="btn btn-primary">Maak kennis met ons</a>
           </div>
         </div>
       </div>
@@ -85,7 +87,7 @@ import { Component } from '@angular/core';
             <p>HaarKliniek 45 werkt met een hecht team van gecertificeerde haarspecialisten en dermatologen die allen gepassioneerd zijn door hun vakgebied. Elk teamlid beschikt over een gedegen opleiding in de haartransplantatiechirurgie en volgt regelmatig internationale opleidingen en congressen om op de hoogte te blijven van de nieuwste ontwikkelingen in de sector.</p>
             <p>Onze specialisten combineren technische precisie met een warme, mensgerichte aanpak. Zij nemen de tijd voor elk gesprek, luisteren naar uw wensen en stellen een behandelplan op dat echt bij u past — zonder u iets aan te praten wat niet nodig is. U bent bij ons in veilige handen, van het eerste contact tot de afsluitende controle.</p>
             <div class="team-section__cta">
-              <a href="/contact" class="btn btn-primary">Maak een afspraak</a>
+              <a routerLink="/contact" class="btn btn-primary">Maak een afspraak</a>
             </div>
           </div>
           <div class="team-section__photo">
@@ -137,7 +139,10 @@ import { Component } from '@angular/core';
           </div>
         </div>
       </div>
-    </section>
+    
+    <app-consultation />
   `,
 })
 export class OverOnsPageComponent {}
+
+

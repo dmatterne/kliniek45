@@ -21,25 +21,24 @@
   overflow: hidden;
   border: 1px solid $neutral-gray-100;
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 32px rgba($primary-green, 0.14);
+    .treatment-icon { background: $primary-green; color: $gold; }
   }
 }
 
-.treatment-img-placeholder {
-  height: 200px;
+.treatment-icon {
+  height: 100px;
   background: linear-gradient(135deg, $primary-green-pale 0%, rgba($gold-pale, 0.6) 100%);
-  position: relative;
-  overflow: hidden;
-
-  &::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent 60%, rgba($primary-green, 0.08) 100%);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  transition: background 0.25s, color 0.25s;
 }
 
 .treatment-body {
@@ -62,3 +61,10 @@
   text-decoration: none;
   &:hover { color: $gold-dark; }
 }
+
+.treatments-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: $space-10;
+}
+

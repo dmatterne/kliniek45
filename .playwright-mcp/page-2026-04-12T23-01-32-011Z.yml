@@ -1,0 +1,288 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "076 204 5512" [ref=e7] [cursor=pointer]:
+          - /url: tel:0762045512
+          - img [ref=e8]
+          - text: 076 204 5512
+        - link "info@haarkliniek45.be" [ref=e10] [cursor=pointer]:
+          - /url: mailto:info@haarkliniek45.be
+          - img [ref=e11]
+          - text: info@haarkliniek45.be
+      - link "★★★★★ 4,9 / 5,0 via Google Reviews" [ref=e14] [cursor=pointer]:
+        - /url: https://www.google.com/maps
+        - generic [ref=e15]: ★★★★★
+        - generic [ref=e16]: 4,9 / 5,0 via Google Reviews
+    - navigation [ref=e17]:
+      - generic [ref=e18]:
+        - link "HaarKliniek 45" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "HaarKliniek 45" [ref=e20]
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Behandelingen ▾" [ref=e23] [cursor=pointer]:
+              - /url: /behandelingen
+              - text: Behandelingen
+              - generic [ref=e24]: ▾
+          - listitem [ref=e25]:
+            - link "Haargroei stimuleren ▾" [ref=e26] [cursor=pointer]:
+              - /url: /haargroei-stimuleren
+              - text: Haargroei stimuleren
+              - generic [ref=e27]: ▾
+          - listitem [ref=e28]:
+            - link "Over ons ▾" [ref=e29] [cursor=pointer]:
+              - /url: /over-ons
+              - text: Over ons
+              - generic [ref=e30]: ▾
+          - listitem [ref=e31]:
+            - link "Resultaten" [ref=e32] [cursor=pointer]:
+              - /url: /resultaten
+          - listitem [ref=e33]:
+            - link "Kennis ▾" [ref=e34] [cursor=pointer]:
+              - /url: /faq
+              - text: Kennis
+              - generic [ref=e35]: ▾
+        - generic [ref=e36]:
+          - link "Kosten berekenen" [ref=e37] [cursor=pointer]:
+            - /url: /behandelingen/haartransplantatie-kosten
+          - link "Afspraak maken" [ref=e38] [cursor=pointer]:
+            - /url: /contact
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e42]: Haaruitval
+      - heading "Haaruitval bij mannen" [level=1] [ref=e43]
+      - paragraph [ref=e44]: Androgenetische alopecia begrijpen — oorzaken, patronen en behandelingsmogelijkheden.
+    - generic [ref=e46]:
+      - heading "Androgenetische alopecia bij mannen" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Mannelijke kaalheid — ook wel androgenetische alopecia of male pattern baldness (MPB) — is de meest voorkomende vorm van haaruitval bij mannen. Naar schatting heeft meer dan 50% van de mannen boven de 50 er in meer of mindere mate last van. De oorzaak ligt in een combinatie van genetische aanleg en de werking van het hormoon DHT (dihydrotestosteron).
+      - paragraph [ref=e49]: "DHT is een bijproduct van testosteron dat bindt aan receptoren in de haarzakjes. Bij genetisch gevoelige haarzakjes veroorzaakt DHT een verkorting van de groeicyclus: haartjes worden dunner, korter en vallen uiteindelijk voortijdig uit. Omdat de haarzakjes aan de achterkant van het hoofd niet gevoelig zijn voor DHT, blijven die gebieden bewaard — en zijn ze geschikt als donorzone voor haartransplantatie."
+      - paragraph [ref=e50]: Haaruitval bij mannen volgt doorgaans een voorspelbaar patroon dat wordt beschreven door de Norwood-schaal.
+    - generic [ref=e52]:
+      - heading "De Norwood-schaal" [level=2] [ref=e53]
+      - paragraph [ref=e54]: "De Norwood-schaal classificeert mannelijke haaruitval in 7 stadia:"
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: I
+          - generic [ref=e58]:
+            - strong [ref=e59]: Geen of minimale haaruitval
+            - text: — Volledige haardekking, eventueel lichte terugtrekking van de haarlijn aan de slapen.
+        - generic [ref=e60]:
+          - generic [ref=e61]: II
+          - generic [ref=e62]:
+            - strong [ref=e63]: Lichte terugtrekking
+            - text: — De haarlijn trekt terug aan de slapen, maar de kruin is nog volledig bedekt.
+        - generic [ref=e64]:
+          - generic [ref=e65]: III
+          - generic [ref=e66]:
+            - strong [ref=e67]: Duidelijke inhammen
+            - text: — Significante terugtrekking aan de slapen; mogelijk beginnen van kaalheid op kruin (III Vertex).
+        - generic [ref=e68]:
+          - generic [ref=e69]: IV
+          - generic [ref=e70]:
+            - strong [ref=e71]: Haarlijn en kruin
+            - text: — Verdere terugtrekking van de haarlijn met een kale zone op de kruin. Een band haar scheidt beide gebieden.
+        - generic [ref=e72]:
+          - generic [ref=e73]: V
+          - generic [ref=e74]:
+            - strong [ref=e75]: Band versmalt
+            - text: — De haarband tussen haarlijn en kruin wordt smaller. Beide kale zones groeien naar elkaar toe.
+        - generic [ref=e76]:
+          - generic [ref=e77]: VI
+          - generic [ref=e78]:
+            - strong [ref=e79]: Samengevoegde kaalheid
+            - text: — Haarlijn en kruin zijn volledig samengesmolten. Alleen haar aan zijkanten en achterhoofd blijft over.
+        - generic [ref=e80]:
+          - generic [ref=e81]: VII
+          - generic [ref=e82]:
+            - strong [ref=e83]: Uitgebreide kaalheid
+            - text: — Enkel nog een smalle band haar aan de zijkanten en achterkant van het hoofd. Meest gevorderd stadium.
+    - generic [ref=e85]:
+      - heading "Oorzaken van haaruitval bij mannen" [level=2] [ref=e86]
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: 🧬
+          - heading "Genetica" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Aanleg voor DHT-gevoelige haarzakjes wordt via zowel moeder als vader overgeërfd.
+        - generic [ref=e92]:
+          - generic [ref=e93]: ⚗️
+          - heading "DHT hormoon" [level=3] [ref=e94]
+          - paragraph [ref=e95]: Dihydrotestosteron miniatuuriseert haarzakjes en verkort de groeicyclus progressief.
+        - generic [ref=e96]:
+          - generic [ref=e97]: 📅
+          - heading "Leeftijd" [level=3] [ref=e98]
+          - paragraph [ref=e99]: DHT-invloed accumuleert met de leeftijd. Haaruitval verergert vaak na de 30 en 40.
+        - generic [ref=e100]:
+          - generic [ref=e101]: 🧠
+          - heading "Stress & leefstijl" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Chronische stress, slaaptekort en voedingstekorten (zink, biotine, ijzer) versnellen haaruitval.
+    - generic [ref=e105]:
+      - heading "Behandelingsmogelijkheden" [level=2] [ref=e106]
+      - generic [ref=e107]:
+        - link "💇‍♂️ Haartransplantatie Permanente oplossing via FUE Saffier of DHI — getransplanteerde haarzakjes groeien levenslang. →" [ref=e108] [cursor=pointer]:
+          - /url: /behandelingen/haartransplantatie-mannen
+          - generic [ref=e109]: 💇‍♂️
+          - heading "Haartransplantatie" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Permanente oplossing via FUE Saffier of DHI — getransplanteerde haarzakjes groeien levenslang.
+          - text: →
+        - link "🌱 Haargroei stimuleren PRP, Hairegen en Regenera Activa vertragen haaruitval en versterken bestaande haarzakjes. →" [ref=e112] [cursor=pointer]:
+          - /url: /haargroei-stimuleren
+          - generic [ref=e113]: 🌱
+          - heading "Haargroei stimuleren" [level=3] [ref=e114]
+          - paragraph [ref=e115]: PRP, Hairegen en Regenera Activa vertragen haaruitval en versterken bestaande haarzakjes.
+          - text: →
+        - link "🧬 TrichoTest™ DNA-test Een gepersonaliseerd behandelplan op basis van uw DNA-profiel en medicatiegevoeligheid. →" [ref=e116] [cursor=pointer]:
+          - /url: /haargroei-stimuleren/dna-test-haaruitval
+          - generic [ref=e117]: 🧬
+          - heading "TrichoTest™ DNA-test" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Een gepersonaliseerd behandelplan op basis van uw DNA-profiel en medicatiegevoeligheid.
+          - text: →
+    - generic [ref=e121]:
+      - heading "Veelgestelde vragen" [level=2] [ref=e122]
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - heading "Vanaf welke leeftijd kan ik een haartransplantatie overwegen?" [level=4] [ref=e125]
+          - paragraph [ref=e126]: We raden aan te wachten tot de haaruitval gestabiliseerd is, doorgaans na de leeftijd van 25 jaar. Een vroeg consult is altijd zinvol om het juiste moment te bepalen.
+        - generic [ref=e127]:
+          - heading "Stopt haaruitval na een transplantatie?" [level=4] [ref=e128]
+          - paragraph [ref=e129]: Getransplanteerde haarzakjes zijn DHT-resistent en vallen niet meer uit. Het omringend niet-getransplanteerd haar kan echter verder uitvallen. Ondersteunende behandelingen helpen dit te vertragen.
+        - generic [ref=e130]:
+          - heading "Moet ik medicatie nemen?" [level=4] [ref=e131]
+          - paragraph [ref=e132]: Medicatie zoals finasteride kan haaruitval vertragen maar heeft bijwerkingen. Onze specialist bespreekt alle opties — inclusief niet-chirurgische alternatieven — tijdens uw gratis consult.
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - heading "Gratis consult met onze specialist" [level=2] [ref=e137]
+        - paragraph [ref=e138]: Twijfel je nog of heb je nog onbeantwoorde vragen? Bekijk direct de agenda van onze consulent en maak gratis en vrijblijvend een afspraak. Je zit nergens aan vast.
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: 🎁
+          - heading "Gratis & vrijblijvend" [level=4] [ref=e142]
+          - paragraph [ref=e143]: Het consult is gratis en volledig vrijblijvend. Je zit nergens aan vast.
+        - generic [ref=e144]:
+          - generic [ref=e145]: 🏆
+          - heading "100% expertise" [level=4] [ref=e146]
+          - paragraph [ref=e147]: Je kunt direct vragen stellen aan onze specialist waarop je uitgebreid antwoord ontvangt.
+        - generic [ref=e148]:
+          - generic [ref=e149]: 🛡️
+          - heading "Discreet & betrouwbaar" [level=4] [ref=e150]
+          - paragraph [ref=e151]: Wij gaan discreet om met jouw gegevens en bieden volledige transparantie over kosten.
+      - generic [ref=e152]:
+        - link "Plan je gratis consult" [ref=e153] [cursor=pointer]:
+          - /url: /contact
+        - 'link "📞 Bel ons: 076 204 5512" [ref=e154] [cursor=pointer]':
+          - /url: tel:076 204 5512
+      - generic [ref=e155]:
+        - generic [ref=e156]: ★★★★★
+        - generic [ref=e157]:
+          - text: Klanten geven ons gemiddeld een
+          - strong [ref=e158]: 4,9 / 5
+          - text: via Google Reviews
+  - generic [ref=e159]:
+    - contentinfo [ref=e160]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - img "HaarKliniek 45" [ref=e166]
+          - paragraph [ref=e167]: Uw Belgische specialist in haartransplantatie. Kwaliteit, transparantie en persoonlijke begeleiding van A tot Z.
+          - generic [ref=e168]:
+            - generic [ref=e169]: ★★★★★
+            - generic [ref=e170]: 4,9 / 5,0 via Google Reviews
+          - generic [ref=e171]:
+            - link "Instagram" [ref=e172] [cursor=pointer]:
+              - /url: https://instagram.com
+              - img [ref=e173]
+            - link "Facebook" [ref=e175] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e176]
+            - link "WhatsApp" [ref=e178] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e179]
+        - generic [ref=e181]:
+          - heading "Behandelingen" [level=4] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "Haartransplantatie mannen" [ref=e185] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-mannen
+            - listitem [ref=e186]:
+              - link "Haartransplantatie vrouwen" [ref=e187] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-vrouwen
+            - listitem [ref=e188]:
+              - link "Haartransplantatie inhammen" [ref=e189] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-inhammen
+            - listitem [ref=e190]:
+              - link "Haartransplantatie kruin" [ref=e191] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kruin
+            - listitem [ref=e192]:
+              - link "Baardtransplantatie" [ref=e193] [cursor=pointer]:
+                - /url: /behandelingen/baardtransplantatie
+            - listitem [ref=e194]:
+              - link "Micro haarpigmentatie" [ref=e195] [cursor=pointer]:
+                - /url: /behandelingen/micro-haarpigmentatie
+            - listitem [ref=e196]:
+              - link "DHI techniek" [ref=e197] [cursor=pointer]:
+                - /url: /behandelingen/dhi
+            - listitem [ref=e198]:
+              - link "FUE Saffier techniek" [ref=e199] [cursor=pointer]:
+                - /url: /behandelingen/fue-saffier
+            - listitem [ref=e200]:
+              - link "Kosten haartransplantatie" [ref=e201] [cursor=pointer]:
+                - /url: /behandelingen/haartransplantatie-kosten
+        - generic [ref=e202]:
+          - heading "Informatie" [level=4] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Over ons & team" [ref=e206] [cursor=pointer]:
+                - /url: /over-ons
+            - listitem [ref=e207]:
+              - link "Onze werkwijze" [ref=e208] [cursor=pointer]:
+                - /url: /werkwijze
+            - listitem [ref=e209]:
+              - link "Resultaten & ervaringen" [ref=e210] [cursor=pointer]:
+                - /url: /resultaten
+            - listitem [ref=e211]:
+              - link "Veelgestelde vragen" [ref=e212] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e213]:
+              - link "Haaruitval — oorzaken" [ref=e214] [cursor=pointer]:
+                - /url: /haaruitval
+            - listitem [ref=e215]:
+              - link "Nazorg haartransplantatie" [ref=e216] [cursor=pointer]:
+                - /url: /nazorg
+            - listitem [ref=e217]:
+              - link "Haargroei stimuleren" [ref=e218] [cursor=pointer]:
+                - /url: /haargroei-stimuleren
+            - listitem [ref=e219]:
+              - link "Contact & afspraak" [ref=e220] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e221]:
+          - heading "Locatie & Contact" [level=4] [ref=e222]
+          - generic [ref=e224]:
+            - img [ref=e225]
+            - generic [ref=e227]:
+              - text: HaarKliniek 45
+              - text: België
+          - generic [ref=e228]:
+            - link "076 204 5512" [ref=e229] [cursor=pointer]:
+              - /url: tel:076 204 5512
+              - img [ref=e230]
+              - text: 076 204 5512
+            - link "info@haarkliniek45.be" [ref=e232] [cursor=pointer]:
+              - /url: mailto:info@haarkliniek45.be
+              - img [ref=e233]
+              - text: info@haarkliniek45.be
+            - link "WhatsApp" [ref=e235] [cursor=pointer]:
+              - /url: https://wa.me/32476000000
+              - img [ref=e236]
+              - text: WhatsApp
+      - generic [ref=e239]:
+        - paragraph [ref=e240]: © 2025 HaarKliniek 45. Alle rechten voorbehouden.
+        - navigation [ref=e241]:
+          - link "Privacybeleid" [ref=e242] [cursor=pointer]:
+            - /url: /contact
+          - link "Cookiebeleid" [ref=e243] [cursor=pointer]:
+            - /url: /contact
+          - link "Algemene voorwaarden" [ref=e244] [cursor=pointer]:
+            - /url: /contact
+    - link "Chat via WhatsApp" [ref=e245] [cursor=pointer]:
+      - /url: https://wa.me/32476000000
+      - img [ref=e246]
+      - generic [ref=e248]: Hoe kan ik je helpen?
