@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e11]:
+          - link "076 204 5512" [ref=e12] [cursor=pointer]:
+            - /url: tel:0762045512
+          - text: "|"
+          - link "info@hairclinicwolf.be" [ref=e13] [cursor=pointer]:
+            - /url: mailto:info@hairclinicwolf.be
+          - text: "|"
+          - link "4,9 / 5,0" [ref=e14] [cursor=pointer]:
+            - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - text: "|"
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://hairclinicwolf.nl/
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://hairclinicwolf.com/
+        - generic [ref=e21]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/
+          - generic [ref=e25]:
+            - navigation [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - link "Behandelingen 3" [ref=e30] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/behandelingen/
+                - listitem [ref=e31]:
+                  - link "Haargroei stimuleren 3" [ref=e32] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haargroei-stimuleren/
+                - listitem [ref=e33]:
+                  - link "Over ons 3" [ref=e34] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/over-ons/
+                - listitem [ref=e35]:
+                  - link "Resultaten" [ref=e36] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/ervaringen/
+                - listitem [ref=e37]:
+                  - generic [ref=e38]: Kennis 3
+                - listitem [ref=e39]:
+                  - link "Kosten berekenen" [ref=e40] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+                - listitem [ref=e41]:
+                  - link "Afspraak maken" [ref=e42] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/afspraak-maken/
+            - text: a 33 33 33 33
+    - generic [ref=e43]:
+      - generic [ref=e46]:
+        - generic [ref=e52]:
+          - heading "Micro haarpigmentatie" [level=1] [ref=e55]
+          - generic [ref=e57]:
+            - paragraph [ref=e58]:
+              - text: Bij Hair Clinic Wolf begrijpen we hoe belangrijk je haar is voor je zelfvertrouwen en uitstraling. Daarom bieden we innovatieve oplossingen om jouw natuurlijke schoonheid te versterken. Naast
+              - link "haartransplantaties" [ref=e59] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/behandelingen/
+              - text: "bieden we nu een nieuwe behandeling aan: micro haarpigmentatie (MHP). Met deze behandeling creëren we met behulp van tatoeage inkt een haar-illusie door kleine haarfollikels na te bootsen."
+            - paragraph [ref=e60]: Met onze handige online kostencalculator bereken je direct of jij geschikt bent voor haarpigmentatie en wat de kosten zijn.
+          - link "Lees verder" [ref=e61] [cursor=pointer]:
+            - /url: "#lees-verder-01"
+          - link "Bereken de kosten 5" [ref=e63] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/kosten-micro-haarpigmentatie/
+        - generic [ref=e71]:
+          - heading "Wat is micro haarpigmentatie?" [level=2] [ref=e72]
+          - paragraph [ref=e73]: Micro haarpigmentatie, ook wel bekend als scalp micropigmentation, is een niet-chirurgische cosmetische tatoeage die haarfollikels nabootst. Door natuurlijke pigmenten op je hoofdhuid aan te brengen, creëren we de illusie van een buzz-cut of korte haarstoppels. Met een flinterdunne naald en inkt in natuurlijke kleuren worden de haarzakjes nagebootst. Deze techniek is perfect om dunner wordend haar, kale plekken of littekens te camoufleren.
+          - paragraph [ref=e74]: Deze behandeling vraagt om precisie, hygiëne en vakmanschap. Daarom werken we bij Hair Clinic Wolf uitsluitend volgens strenge hygiënerichtlijnen en beschikken we over een officiële GGD-vergunning.
+          - paragraph [ref=e75]:
+            - text: Bij Hair Clinic Wolf kunnen we je niet alleen helpen met micro haarpigmentatie, maar ook met een
+            - link "haartransplantatie" [ref=e76] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/behandelingen/
+            - text: . Bekijk onze mogelijkheden.
+        - generic [ref=e77]:
+          - generic [ref=e84]:
+            - heading "Haarpigmentatie voor en na" [level=2] [ref=e85]
+            - paragraph [ref=e86]: Benieuwd naar de resultaten van haarpigmentatie? Bekijk hier onze voor- en na foto’s.
+          - generic [ref=e88]:
+            - img "img1" [ref=e92]
+            - img "img1" [ref=e96]
+            - img "img1" [ref=e100]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - heading "Micro haarpigmentatie voor mannen" [level=2] [ref=e106]
+            - paragraph [ref=e107]: Voor mannen kan haarverlies een deuk in het zelfvertrouwen betekenen. MHP biedt een natuurlijke en langdurige oplossing. Of je nu last hebt van mannelijke kaalheid, dunner wordend haar of littekens, onze behandeling kan je helpen. We creëren een look die past bij jouw haartype, haar- en huidskleur, waardoor je er weer fris en jong uitziet.
+          - link "Lees verder" [ref=e108] [cursor=pointer]:
+            - /url: "#lees-verder-02"
+          - link "Contact opnemen 5" [ref=e110] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/contact/
+        - generic [ref=e119]:
+          - heading "Micro haarpigmentatie voor vrouwen" [level=2] [ref=e120]
+          - paragraph [ref=e121]: Haarverlies is niet alleen een probleem voor mannen; veel vrouwen hebben er ook mee te maken. Voor vrouwen kan het verlies van volume en haardichtheid bijzonder vervelend zijn. Micro haarpigmentatie biedt dan een goede oplossing om dunner wordend haar te verbergen en je natuurlijke schoonheid te herstellen. Onze specialisten zorgen ervoor dat de pigmentatie perfect aansluit bij jouw natuurlijke haarkleur, zodat het resultaat subtiel en natuurlijk is.
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - heading "Plan nu een consult in via de telefoon, videoafspraak of bij ons op kantoor!" [level=2] [ref=e127]
+            - link "Bereken de kosten" [ref=e129] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/kosten-micro-haarpigmentatie/
+            - link "Plan een consult 5" [ref=e131] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/afspraak-maken/
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - paragraph [ref=e137]
+              - heading "1. De consultatie" [level=4] [ref=e138]
+              - paragraph [ref=e139]: Tijdens het consultatiegesprek bespreken we al je wensen en heb je alle gelegenheid om vragen te stellen. Dit kan telefonisch, via een videoafspraak, bij ons op kantoor in Kaatsheuvel of bij je thuis.
+            - generic [ref=e141]:
+              - paragraph [ref=e142]
+              - heading "2. Start behandeling" [level=4] [ref=e143]
+              - paragraph [ref=e144]: De behandeling duurt 4 – 5 uur per sessie. Om het beste resultaat te bereiken, zijn doorgaans 3 tot 4 sessies nodig. Deze plannen we binnen drie weken na de behandeling in. Voor een optimaal en langdurig resultaat raden we aan om ongeveer eens per 12 tot 18 maanden een kleine nabehandeling te ondergaan.
+            - generic [ref=e146]:
+              - paragraph [ref=e147]
+              - heading "3. Nazorg" [level=4] [ref=e148]
+              - paragraph [ref=e149]: Voor een mooi resultaat mag de hoofdhuid de eerste vijf dagen na de behandeling niet nat worden. Vermijd de eerste twee weken na elke behandeling chloor, sauna en zout water. Blootstelling aan zonlicht en het gebruik van de zonnebank worden de eerste vier weken na de behandeling afgeraden. Het dragen van hoofddeksels is na drie dagen weer mogelijk, zorg er dan voor dat deze niet broeien.
+            - generic: "5"
+        - generic [ref=e150]:
+          - generic [ref=e155]:
+            - heading [level=2] [ref=e156]
+            - heading "De mogelijkheden met micro haarpigmentatie" [level=2] [ref=e157]
+            - paragraph [ref=e158]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - img "icon-zorg" [ref=e164]
+              - generic [ref=e166]:
+                - heading "Haardichtheid vergroten" [level=3] [ref=e167]
+                - paragraph [ref=e168]: Laat je bestaande haardos voller lijken.
+            - generic [ref=e169]:
+              - img "icon-zorg" [ref=e172]
+              - generic [ref=e174]:
+                - heading "Litteken(s) camoufleren" [level=3] [ref=e175]
+                - paragraph [ref=e176]: Verberg littekens van verwondingen of een haartransplantatie.
+            - generic [ref=e177]:
+              - img "icon-zorg" [ref=e180]
+              - generic [ref=e182]:
+                - heading "Kaalgeschoren look" [level=3] [ref=e183]
+                - paragraph [ref=e184]: Creëer de uitstraling van een natuurlijk kortgeschoren kapsel.
+            - generic [ref=e185]:
+              - img "icon-zorg" [ref=e188]
+              - generic [ref=e190]:
+                - heading "Alopecia areata" [level=3] [ref=e191]
+                - paragraph [ref=e192]: Camoufleer kale plekken veroorzaakt door alopecia areata.
+          - link "Maak een afspraak 5" [ref=e196] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e198]:
+          - generic [ref=e201]:
+            - paragraph [ref=e202]:
+              - img "Man ondergaat micro haarpigmentatie behandeling." [ref=e203]
+            - heading "Hoeveel behandelingen heb ik nodig?" [level=2] [ref=e204]
+            - paragraph [ref=e205]: Het aantal behandelingen dat je nodig hebt is afhankelijk van je specifieke situatie en gewenste resultaten. Meestal zijn drie tot vier sessies nodig om het beste resultaat te bereiken. Tijdens je eerste consult bespreken we je wensen en beoordelen we de conditie van je hoofdhuid en haar.
+            - paragraph [ref=e206]: Elke sessie duurt meestal een paar uur, waarbij we zorgvuldig de pigmenten aanbrengen om een natuurlijke look te creëren. Tussen de sessies door laten we voldoende tijd om de huid te laten genezen.
+          - generic [ref=e209]:
+            - paragraph [ref=e210]:
+              - img "Man op intake voor tarieven micro haarpigmentatie." [ref=e211]
+            - heading "De tarieven" [level=2] [ref=e212]
+            - paragraph [ref=e213]: Iedere schedel en vorm van kaalheid is anders, daarom is micro haarpigmentatie maatwerk. Dit geldt ook voor de prijsbepaling. De kosten voor een complete ingreep, verspreid over 3-4 behandelingen, kunnen oplopen tot €2.500,-. De gemiddelde prijs ligt tussen de €1.500,- en €2.500,-, afhankelijk van de te behandelen oppervlakte.
+            - paragraph [ref=e214]: Wil je een prijsindicatie ontvangen? Gebruik dan onze kosten calculatietool onderaan de pagina voor een op maat gemaakte prijsopgave.
+        - link "5-sterren-reviews-hairclinicwolf" [ref=e219] [cursor=pointer]:
+          - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - img "5-sterren-reviews-hairclinicwolf" [ref=e221]
+        - generic [ref=e225]:
+          - generic [ref=e227]:
+            - heading "Echt super!" [level=2] [ref=e228]
+            - paragraph [ref=e229]: “In het begin was ik sceptisch over de haarpigmentatie behandeling. Maar ik ben zo blij dat ik het toch heb gedaan. Ik ben namelijk enorm tevreden met het resultaat. Vanaf het eerste consult voelde ik me op mijn gemak dankzij de professionaliteit en vriendelijkheid van het personeel. Ze namen de tijd om al mijn vragen te beantwoorden en stelden mij volledig op mijn gemak.
+            - paragraph [ref=e230]: De behandeling zelf viel alles mee en het resultaat is super. Het ziet er heel natuurlijk uit en het heeft mijn zelfvertrouwen een enorme boost gegeven. De aandacht voor detail en de zorgvuldigheid waarmee de behandeling werd uitgevoerd, zijn echt fantastisch.
+            - paragraph [ref=e231]: Ik kan het zeker aanraden om deze behandeling door Hair Clinic Wolf te laten doen. Hun expertise en toewijding zorgen ervoor dat je in goede handen bent.
+            - paragraph [ref=e232]: Dank jullie wel voor alles! — Anoniem
+          - link "Bekijk alle ervaringen 5" [ref=e234] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/ervaringen/
+        - paragraph [ref=e240] [cursor=pointer]: Wij ontvangen gemiddeld een 4,9 van de 5 via Google Reviews!
+        - generic [ref=e241]:
+          - heading "Waarom een behandeling bij Hair Clinic Wolf?" [level=2] [ref=e246]
+          - generic [ref=e253]:
+            - heading "Gratis consult" [level=4] [ref=e260]
+            - heading "Betrouwbaar" [level=4] [ref=e267]
+            - heading "Geen cash betaling" [level=4] [ref=e274]
+            - heading "Nazorg in Nederland" [level=4] [ref=e281]
+            - heading "GGD-vergunning" [level=4] [ref=e288]
+            - heading "Gediplomeerd" [level=4] [ref=e295]
+            - heading "10+ jaar ervaring" [level=4] [ref=e302]
+            - heading "Garantiecertificaat" [level=4] [ref=e309]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e316]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e323]
+            - heading "100% Expertise" [level=4] [ref=e330]
+            - heading "Gratis consult" [level=4] [ref=e337]
+            - heading "Betrouwbaar" [level=4] [ref=e344]
+            - heading "Geen cash betaling" [level=4] [ref=e351]
+            - heading "Nazorg in Nederland" [level=4] [ref=e358]
+            - heading "GGD-vergunning" [level=4] [ref=e365]
+            - heading "Gediplomeerd" [level=4] [ref=e372]
+            - heading "10+ jaar ervaring" [level=4] [ref=e379]
+            - heading "Garantiecertificaat" [level=4] [ref=e386]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e393]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e400]
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e408]:
+              - heading "ONZE CALCULATIETOOL" [level=4] [ref=e409]
+              - heading "Bereken de kosten online" [level=2] [ref=e410]
+              - paragraph [ref=e411]: Benieuwd wat een micro haarpigmentatie je gaat kosten? Met behulp van onze quick scan bereken je dit gratis en snel.
+              - paragraph [ref=e412]:
+                - strong [ref=e413]: Kosten op maat
+                - text: Je ontvangt een prijsopgave op maat.
+              - paragraph [ref=e414]:
+                - strong [ref=e415]: Direct antwoord
+                - text: Je ontvangt direct een mail, bekijk hiervoor ook even je spam box.
+              - paragraph [ref=e416]:
+                - strong [ref=e417]: Ben je geschikt?
+                - text: Aan de hand van jouw antwoorden ontvang je jouw mate van geschiktheid.
+              - paragraph [ref=e418]:
+                - strong [ref=e419]: Gratis brochure
+                - text: "Je ontvangt gratis onze brochure: “Alles over haartransplantaties”."
+            - link "Start nu! 5" [ref=e421] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/kosten-micro-haarpigmentatie/
+          - link "kosten-berekenen-micro-haarpigmentatie" [ref=e424] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/kosten-micro-haarpigmentatie/
+            - img "kosten-berekenen-micro-haarpigmentatie" [ref=e426]
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - img "icon-faq" [ref=e432]
+            - heading "Veelgestelde vragen" [level=2] [ref=e435]:
+              - text: Veelgestelde
+              - text: vragen
+          - generic [ref=e436]:
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - heading "Hoe lang blijft de micro haarpigmentatie zitten?" [level=5] [ref=e445] [cursor=pointer]
+                - paragraph [ref=e447]: Micro haarpigmentatie is semi-permanent en kan 4-6 jaar meegaan, afhankelijk van huidtype en nazorg. Regelmatige touch-ups kunnen de levensduur verlengen.
+              - heading "\" Is micro haarpigmentatie pijnlijk?" [level=5] [ref=e449] [cursor=pointer]
+              - heading "\" Wat kost micro haarpigmentatie?" [level=5] [ref=e451] [cursor=pointer]
+              - heading "\" Hoe werkt micro haarpigmentatie?" [level=5] [ref=e453] [cursor=pointer]
+              - heading "\" Wat zijn de bijwerkingen van micro haarpigmentatie?" [level=5] [ref=e455] [cursor=pointer]
+              - heading "\" Hoeveel behandelingen zijn nodig voor micro haarpigmentatie?" [level=5] [ref=e457] [cursor=pointer]
+              - heading "\" Kan micro haarpigmentatie worden verwijderd?" [level=5] [ref=e459] [cursor=pointer]
+              - heading "\" Wat is het verschil tussen micro haarpigmentatie en een haartransplantatie?" [level=5] [ref=e461] [cursor=pointer]
+              - heading "\" Is micro haar pigmentatie geschikt voor vrouwen?" [level=5] [ref=e463] [cursor=pointer]
+              - heading "\" Is Hair Clinic Wolf GGD-goedgekeurd voor micro haarpigmentatie?" [level=5] [ref=e465] [cursor=pointer]
+            - link "Kenniscentrum" [ref=e466] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/veelgestelde-vragen/
+            - link "Bereken de kosten 5" [ref=e468] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+      - contentinfo [ref=e469]:
+        - generic [ref=e470]:
+          - generic [ref=e472]:
+            - generic [ref=e473]:
+              - img "logo-wit-hairclinicwolf" [ref=e476]
+              - paragraph [ref=e479] [cursor=pointer]:
+                - text: Markt 24
+                - text: 4841 AC, Prinsenbeek
+                - text: Nederland
+              - paragraph [ref=e482] [cursor=pointer]:
+                - text: Meilegemstraat 26
+                - text: 9630, Zwalm
+                - text: België
+            - generic [ref=e485]:
+              - heading "Locaties" [level=3] [ref=e486]
+              - paragraph [ref=e487]:
+                - link "Haartransplantatie Turkije" [ref=e488] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije
+                - link "Haartransplantatie Istanbul" [ref=e489] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul
+                - link "Haartransplantatie België" [ref=e490] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-belgie
+                - link "Haartransplantatie Nederland" [ref=e491] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland
+              - paragraph [ref=e492]
+            - generic [ref=e495]:
+              - heading "Contact" [level=3] [ref=e496]
+              - paragraph [ref=e497]:
+                - 'link "Tel: 076 204 5512" [ref=e498] [cursor=pointer]':
+                  - /url: tel:0762045512
+                - 'link "Tel: 06 29440919" [ref=e499] [cursor=pointer]':
+                  - /url: tel:06 29440919
+                - 'link "E-mail: info@hairclinicwolf.be" [ref=e500] [cursor=pointer]':
+                  - /url: mailto:info@hairclinicwolf.be
+              - paragraph [ref=e501]:
+                - link [ref=e502] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hairclinicwolfhaartransplantatie
+                - link [ref=e503] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hairclinicwolf/
+          - img "icon-hair-wave-wit" [ref=e509]
+          - generic [ref=e511]:
+            - generic [ref=e514]: "© 2026 HairClinicWolf | KvK: 76458490 | BTW: NL860630122B01"
+            - paragraph [ref=e518]:
+              - link "Algemene voorwaarden" [ref=e519] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/algemene-voorwaarden
+              - text: "|"
+              - link "Privacy- & Cookiebeleid" [ref=e520] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/privacy-cookiebeleid
+  - button " Hoe kan ik je helpen?" [ref=e521] [cursor=pointer]:
+    - generic [ref=e522]: 
+    - generic [ref=e523]: Hoe kan ik je helpen?
+  - text: "2"
+  - dialog "Cookie consent button" [ref=e524] [cursor=pointer]:
+    - img [ref=e526]
+    - generic: Cookie-instellingen

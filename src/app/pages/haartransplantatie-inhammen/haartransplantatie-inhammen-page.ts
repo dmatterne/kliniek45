@@ -287,7 +287,6 @@ export class HaartransplantatieInhammenPageComponent {
     'Belgische kliniek',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
-    '10+ jaar ervaring',
     'Geen verborgen kosten',
     'Garantiecertificaat',
     '100% expertise',

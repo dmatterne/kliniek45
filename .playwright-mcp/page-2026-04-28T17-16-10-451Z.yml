@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e11]:
+          - link "076 204 5512" [ref=e12] [cursor=pointer]:
+            - /url: tel:0762045512
+          - text: "|"
+          - link "info@hairclinicwolf.be" [ref=e13] [cursor=pointer]:
+            - /url: mailto:info@hairclinicwolf.be
+          - text: "|"
+          - link "4,9 / 5,0" [ref=e14] [cursor=pointer]:
+            - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - text: "|"
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://hairclinicwolf.nl/
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://hairclinicwolf.com/
+        - generic [ref=e21]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/
+          - generic [ref=e25]:
+            - navigation [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - link "Behandelingen 3" [ref=e30] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/behandelingen/
+                - listitem [ref=e31]:
+                  - link "Haargroei stimuleren 3" [ref=e32] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haargroei-stimuleren/
+                - listitem [ref=e33]:
+                  - link "Over ons 3" [ref=e34] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/over-ons/
+                - listitem [ref=e35]:
+                  - link "Resultaten" [ref=e36] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/ervaringen/
+                - listitem [ref=e37]:
+                  - generic [ref=e38]: Kennis 3
+                - listitem [ref=e39]:
+                  - link "Kosten berekenen" [ref=e40] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+                - listitem [ref=e41]:
+                  - link "Afspraak maken" [ref=e42] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/afspraak-maken/
+            - text: a 33 33 33 33
+    - generic [ref=e43]:
+      - article [ref=e45]:
+        - generic [ref=e48]:
+          - generic [ref=e54]:
+            - heading "Werkwijze" [level=1] [ref=e57]
+            - heading "Turkije" [level=1] [ref=e60]
+          - generic [ref=e66]:
+            - heading "Welke stappen doorloop je bij Hair Clinic Wolf?" [level=2] [ref=e67]
+            - paragraph [ref=e68]: Bij Hair Clinic Wolf begeleiden we je van A tot Z. Hieronder lees je hoe jouw traject in Istanbul eruitziet – van het eerste consult tot de nazorg.
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - heading "Stap" [level=3] [ref=e75]
+                - heading "1" [level=1] [ref=e78]
+              - generic [ref=e81]:
+                - heading "De consultatie" [level=3] [ref=e82]
+                - paragraph [ref=e83]: Tijdens de consultatie bespreek je met een van onze adviseurs jouw wensen en verwachtingen. Dit kan telefonisch, op onze locatie in Zwalm (België) of in onze kliniek in Prinsenbeek. We kijken zorgvuldig naar welke behandeling het beste past bij jouw situatie. Het is daarbij belangrijk dat je ons informeert over eerdere behandelingen, medicijngebruik en je medische achtergrond. Zo zorgen we samen voor een veilig en persoonlijk behandelplan.
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - heading "Stap" [level=3] [ref=e89]
+                - heading "2" [level=1] [ref=e92]
+              - generic [ref=e95]:
+                - heading "Foto’s maken" [level=3] [ref=e96]
+                - paragraph [ref=e97]: Om een goed beeld te krijgen van jouw situatie maken we foto’s vanuit verschillende perspectieven. Dit gesprek kan plaatsvinden in onze locatie in Zwalm, in onze kliniek in Prinsenbeek of telefonisch – net wat jij prettig vindt. Vind de consultatie telefonisch plaats? Dan informeren we je over hoe je de foto’s bij ons kunt aanleveren. Zo kan de specialist precies zien hoe het haarverlies zich ontwikkelt en welke behandeling het meest geschikt is.
+                - paragraph [ref=e98]: Deze foto’s worden samen met jouw dossier doorgestuurd naar het medische team in Turkije. Ze zijn uitsluitend voor intern gebruik en worden nooit gedeeld met derden.
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - heading "Stap" [level=3] [ref=e104]
+                - heading "3" [level=1] [ref=e107]
+              - generic [ref=e110]:
+                - heading "Vaststellen behandeling" [level=3] [ref=e111]
+                - paragraph [ref=e112]: De behandelend medisch specialist beoordeelt of jouw donorgebied en haarstructuur geschikt zijn voor een haartransplantatie. Ook wordt er gekeken naar de kale of dunner wordende zones en bepaald hoeveel grafts er ongeveer nodig zijn om een natuurlijk resultaat te bereiken.
+                - paragraph [ref=e113]: Op basis hiervan krijg je een inschatting van het verwachte resultaat en bespreken we samen eventuele aandachtspunten of alternatieven. Zo weet je precies wat je kunt verwachten voordat de behandeling wordt ingepland.
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - heading "Stap" [level=3] [ref=e119]
+                - heading "4" [level=1] [ref=e122]
+              - generic [ref=e125]:
+                - heading "Voorbereiding en reis" [level=3] [ref=e126]
+                - paragraph [ref=e127]: Ben je akkoord met het behandelplan en het verwachte resultaat? Dan plannen we samen de behandeling in. Je ontvangt duidelijke informatie over de richtlijnen vóór en na de ingreep, het dagprogramma en praktische zaken zoals het hotel en vervoer. Deze informatie ontvang je ook per mail, zodat je alles rustig kunt nalezen.
+                - paragraph [ref=e128]:
+                  - text: Een dag voor de behandeling vlieg je naar Istanbul. Je komt aan op
+                  - strong [ref=e129]: Sabiha Gökçen Airport,
+                  - text: waar onze Engelssprekende begeleider je opvangt. Deze zal je begeleiden naar de chauffeur die je veilig naar het hotel brengt. Zo kun je ontspannen aankomen en je voorbereiden op de behandelingsdag.
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - heading "Stap" [level=3] [ref=e135]
+                - heading "5" [level=1] [ref=e138]
+              - generic [ref=e141]:
+                - heading "De behandeling" [level=3] [ref=e142]
+                - paragraph [ref=e143]: De dag na aankomst is de behandeldag. Na het ontbijt word je opgehaald bij het hotel en naar de kliniek gebracht. Het is belangrijk om comfortabele kleding te dragen die je niet over het hoofd hoeft uit te trekken, zodat de getransplanteerde grafts na afloop niet worden aangeraakt.
+                - paragraph [ref=e144]: Bij aankomst in de kliniek ontvang je uitleg van de arts en het team over het verloop van de dag. In het eerste deel van de behandeling worden de haarzakjes (grafts) geoogst uit het donorgebied. In het tweede deel worden ze zorgvuldig geïmplanteerd in de kalende of dunner wordende zones.
+                - paragraph [ref=e145]: Na de behandeling ontvang je medicatie en duidelijke instructies voor het gebruik. Vervolgens word je weer teruggebracht naar het hotel, waar je in alle rust kunt bijkomen.
+                - paragraph [ref=e146]: "*Let op: deze informatie geldt niet wanneer je een haartransplantatie in Nederland laat uitvoeren. Hierover geven we je graag meer informatie."
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Stap" [level=3] [ref=e152]
+                - heading "6" [level=1] [ref=e155]
+              - generic [ref=e158]:
+                - heading "Wassing, controlemoment & terugreis" [level=3] [ref=e159]
+                - paragraph [ref=e160]: Op de derde dag staat na het ontbijt onze chauffeur weer voor je klaar. Op deze dag wordt het verband verwijderd, vindt de eerste wassing plaatst en heb je de laatste controle bij jou behandelend arts. Je krijgt vervolgens aanvullende informatie over de te gebruiken producten en de wassing. Na de eindcontrole is het tijd om naar het vliegveld terug te worden gebracht door de chauffeur.
+                - paragraph [ref=e161]: "*Let op: deze informatie geldt niet als je een haartransplantatie in Nederland laat uitvoeren. We informeren je graag over hoe de behandeling dan in zijn werk gaat."
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - heading "Stap" [level=3] [ref=e167]
+                - heading "7" [level=1] [ref=e170]
+              - generic [ref=e173]:
+                - heading "Nazorg in België" [level=3] [ref=e174]
+                - paragraph [ref=e175]:
+                  - text: Wanneer je weer thuis bent, stopt onze begeleiding niet. Je kunt ervoor kiezen om de eerste wassing te laten uitvoeren door een gespecialiseerde kapper. We breiden ons netwerk van partners steeds verder uit. Kijk naar een van onze
+                  - link "samenwerkende kappers" [ref=e176] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/nazorg-haartransplantatie/kapsalons/
+                  - text: bij jou in de buurt.
+                - paragraph [ref=e177]: Het eerste controlemoment plannen we rond dag 10 na de behandeling. Op dat moment controleren we de genezing en geven we je aanvullende instructies voor de wassingen. Zo zorgen we samen voor het beste resultaat.
+                - paragraph [ref=e178]: Daarna ontvangen we graag maandelijks foto’s om de voortgang te volgen. Uiteraard ben je altijd welkom om persoonlijk langs te komen op onze locatie in Zwalm of in onze kliniek in Prinsenbeek, zodat we de resultaten in het echt kunnen beoordelen.
+                - paragraph [ref=e179]: Heb je tussendoor vragen of twijfel je ergens over? Dan kun je ons altijd bereiken – telefonisch, via WhatsApp of per e-mail. Ons Nederlandse én Turkse team staan voor je klaar.
+          - generic [ref=e181]:
+            - generic [ref=e187]:
+              - heading "Resultaten" [level=2] [ref=e188]
+              - paragraph [ref=e189]:
+                - text: Hieronder enkele resultaten van onze behandelingen of
+                - link "bekijk alle ervaringen." [ref=e190] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/ervaringen/
+            - generic [ref=e191]:
+              - img "Voor en na foto geslaagde haartransplantatie van de inhammen." [ref=e195]
+              - img "Haartransplantatie vrouw voor en na foto's." [ref=e199]
+              - img "Haartransplantatie man voor en na foto's." [ref=e203]
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - img "icon-faq" [ref=e209]
+              - heading "Veelgestelde vragen" [level=2] [ref=e212]:
+                - text: Veelgestelde
+                - text: vragen
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - heading "Hoe verloopt een haartransplantatie in Nederland bij Hair Clinic Wolf?" [level=5] [ref=e216] [cursor=pointer]
+                  - paragraph [ref=e218]: "Alles vindt plaats in onze kliniek in Prinsenbeek: van het eerste consult tot de nazorg. Tijdens de behandeling hoef je niet te reizen of te overnachten – je slaapt na afloop gewoon in je eigen bed."
+                - heading "\" Hoe lang duurt het traject van een haartransplantatie in Nederland?" [level=5] [ref=e220] [cursor=pointer]
+                - heading "\" Wat kost een haartransplantatie in Nederland?" [level=5] [ref=e222] [cursor=pointer]
+                - heading "\" Welke technieken worden gebruikt in Nederland?" [level=5] [ref=e224] [cursor=pointer]
+                - heading "\" Hoe ziet de nazorg eruit als ik weer in België ben?" [level=5] [ref=e226] [cursor=pointer]
+                - heading "\" Kan ik altijd contact opnemen na mijn haartransplantatie?" [level=5] [ref=e228] [cursor=pointer]
+                - heading "\" Hoe snel kan ik behandeld worden in Nederland?" [level=5] [ref=e230] [cursor=pointer]
+                - heading "\" Is de haartransplantatie pijnlijk?" [level=5] [ref=e232] [cursor=pointer]
+                - heading "\" Hoe weet ik of ik geschikt ben voor een haartransplantatie in Nederland?" [level=5] [ref=e234] [cursor=pointer]
+              - link "Bereken de kosten" [ref=e235] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+              - link "Afspraak maken 5" [ref=e237] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/afspraak-maken/
+      - contentinfo [ref=e238]:
+        - generic [ref=e239]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - img "logo-wit-hairclinicwolf" [ref=e245]
+              - paragraph [ref=e248] [cursor=pointer]:
+                - text: Markt 24
+                - text: 4841 AC, Prinsenbeek
+                - text: Nederland
+              - paragraph [ref=e251] [cursor=pointer]:
+                - text: Meilegemstraat 26
+                - text: 9630, Zwalm
+                - text: België
+            - generic [ref=e254]:
+              - heading "Locaties" [level=3] [ref=e255]
+              - paragraph [ref=e256]:
+                - link "Haartransplantatie Turkije" [ref=e257] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije
+                - link "Haartransplantatie Istanbul" [ref=e258] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul
+                - link "Haartransplantatie België" [ref=e259] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-belgie
+                - link "Haartransplantatie Nederland" [ref=e260] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland
+              - paragraph [ref=e261]
+            - generic [ref=e264]:
+              - heading "Contact" [level=3] [ref=e265]
+              - paragraph [ref=e266]:
+                - 'link "Tel: 076 204 5512" [ref=e267] [cursor=pointer]':
+                  - /url: tel:0762045512
+                - 'link "Tel: 06 29440919" [ref=e268] [cursor=pointer]':
+                  - /url: tel:06 29440919
+                - 'link "E-mail: info@hairclinicwolf.be" [ref=e269] [cursor=pointer]':
+                  - /url: mailto:info@hairclinicwolf.be
+              - paragraph [ref=e270]:
+                - link [ref=e271] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hairclinicwolfhaartransplantatie
+                - link [ref=e272] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hairclinicwolf/
+          - img "icon-hair-wave-wit" [ref=e278]
+          - generic [ref=e280]:
+            - generic [ref=e283]: "© 2026 HairClinicWolf | KvK: 76458490 | BTW: NL860630122B01"
+            - paragraph [ref=e287]:
+              - link "Algemene voorwaarden" [ref=e288] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/algemene-voorwaarden
+              - text: "|"
+              - link "Privacy- & Cookiebeleid" [ref=e289] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/privacy-cookiebeleid
+  - button " Hoe kan ik je helpen?" [ref=e290] [cursor=pointer]:
+    - generic [ref=e291]: 
+    - generic [ref=e292]: Hoe kan ik je helpen?
+  - text: "2"
+  - dialog "Cookie consent button" [ref=e293] [cursor=pointer]:
+    - img [ref=e295]
+    - generic: Cookie-instellingen

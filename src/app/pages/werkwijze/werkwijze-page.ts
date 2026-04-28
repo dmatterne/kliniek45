@@ -11,10 +11,10 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="hero">
       <div class="container">
         <span class="hero__badge">Uw behandeltraject</span>
-        <h1 class="hero__title">Hoe werkt een haartransplantatie bij HaarKliniek 45?</h1>
+        <h1 class="hero__title">Ons behandeltraject bij HaarKliniek 45</h1>
         <p class="hero__subtitle">
-          Van eerste consultatie tot definitief resultaat — transparant, persoonlijk en
-          professioneel in Grazen, Belgie.
+          Van het eerste gratis consult in Grazen tot nazorg na uw behandeling — transparant,
+          persoonlijk en professioneel.
         </p>
         <div class="hero__actions">
           <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -26,7 +26,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--white">
       <div class="container">
         <div class="section__header">
-          <h2>Uw behandeltraject in 7 stappen</h2>
+          <h2>Uw behandeltraject in 6 stappen</h2>
           <div class="section__divider"></div>
           <p class="section__lead">
             Wij begeleiden u van A tot Z. Hieronder leest u precies wat u kunt verwachten — zodat u
@@ -188,7 +188,6 @@ export class WerkwijzePageComponent {
     'Belgische kliniek',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
-    '10+ jaar ervaring',
     'Geen verborgen kosten',
     'Garantiecertificaat',
     '100% expertise',
@@ -200,51 +199,44 @@ export class WerkwijzePageComponent {
     {
       number: 1,
       icon: '💬',
-      title: 'De Consultatie',
-      desc: 'Alles begint met een gratis consult — telefonisch of persoonlijk in onze kliniek in Grazen. U bespreekt uw situatie, wensen en verwachtingen vrijblijvend met een specialist. Informeer ons over eerdere behandelingen en medicijngebruik voor een zo volledig mogelijk beeld.',
-      tags: ['Gratis', 'Vrijblijvend', 'Telefonisch of persoonlijk'],
+      title: 'Gratis consult',
+      desc: 'Plan een gratis en vrijblijvend kennismakingsgesprek bij ons in Grazen. Jens Vandenreijt bespreekt uw situatie, uw wensen en beantwoordt al uw vragen.',
+      tags: ['Gratis', 'Vrijblijvend', 'Bij ons in Grazen'],
     },
     {
       number: 2,
       icon: '📸',
-      title: "Foto's maken",
-      desc: "Voor een nauwkeurige beoordeling worden foto's genomen vanuit verschillende hoeken. Bij een persoonlijk consult gebeurt dit in de kliniek. Deze foto's vormen de basis van uw persoonlijk dossier en zijn strikt vertrouwelijk.",
-      tags: ['Meerdere hoeken', 'Vertrouwelijk dossier', 'Precisieanalyse'],
+      title: 'Intake & haaranalyse',
+      desc: "Tijdens de intake maken we gedetailleerde foto's en analyseren we uw haaruitvalpatroon. Op basis hiervan stellen we een persoonlijk behandelplan op.",
+      tags: ['Haaranalyse', 'Vertrouwelijk dossier', 'Persoonlijk plan'],
     },
     {
       number: 3,
-      icon: '🔬',
-      title: 'Vaststellen van de behandeling',
-      desc: 'Onze specialist beoordeelt het donorgebied, de haarstructuur en de mate van haaruitval nauwkeurig. Op basis hiervan wordt het benodigde aantal grafts bepaald en een realistisch resultaatoverzicht opgesteld.',
-      tags: ['Donoranalyse', 'Grafts bepalen', 'Resultaatprognose'],
+      icon: '📋',
+      title: 'Behandelplan & advies',
+      desc: 'U ontvangt een helder behandelplan met advies over non-chirurgische behandelingen (PRP, Hairegen, MHP, etc.) en — indien van toepassing — een verwijzing naar onze partner Hair Clinic Wolf voor een haartransplantatie.',
+      tags: ['Eerlijk advies', 'Non-chirurgische opties', 'Doorverwijzing indien nodig'],
     },
     {
       number: 4,
-      icon: '📋',
-      title: 'Behandelplan en Voorbereiding',
-      desc: 'Na akkoord over het behandelplan plannen wij de ingreep in. U ontvangt heldere richtlijnen voor voor- en nabehandeling. Voorbereiding: geen alcohol 5 dagen voor de ingreep, stop met bloedverdunners in overleg met de arts, was uw haar de ochtend van de ingreep.',
-      tags: ['Geen alcohol 5 dagen voor', 'Haar wassen ochtend van ingreep', 'Heldere instructies'],
+      icon: '💚',
+      title: 'Non-chirurgische behandeling (optioneel)',
+      desc: 'Indien u kiest voor non-chirurgische behandelingen, voeren we deze uit in onze kliniek in Grazen. Denk aan PRP-therapie, Hairegen, Micro Haarpigmentatie of Regenera Activa.',
+      tags: ['PRP', 'Hairegen', 'MHP', 'Regenera Activa'],
     },
     {
       number: 5,
       icon: '✂️',
-      title: 'De Behandeling',
-      desc: 'Op de behandeldag verwelkomen wij u in HaarKliniek 45 in Grazen. Draag comfortabele kleding die niet over het hoofd getrokken moet worden. Onze arts en team leggen alles stap voor stap uit. Het eerste deel: oogsten van grafts uit het donorgebied. Daarna worden de grafts zorgvuldig geimplanteerd in de dunner wordende of kale zones. Na afloop ontvangt u medicatie en gedetailleerde instructies mee.',
-      tags: ['Lokale verdoving', 'Dagbehandeling', 'FUE Saffier of DHI', 'Medicatie achteraf'],
+      title: 'Haartransplantatie bij Hair Clinic Wolf (optioneel)',
+      desc: 'Kiest u voor een haartransplantatie? Dan verwijzen wij u door naar Hair Clinic Wolf in Nederland of Turkije. Zij zijn onze vaste partner en bieden FUE Saffier, DHI en baardtransplantaties aan met jarenlange ervaring.',
+      tags: ['FUE Saffier', 'DHI', 'Via Hair Clinic Wolf'],
     },
     {
       number: 6,
-      icon: '🚿',
-      title: 'Wassing en Eerste controle',
-      desc: 'De eerste wassing vindt plaats 1 a 2 dagen na de behandeling en wordt door ons begeleid. Het verband wordt verwijderd en de eerste reiniging uitgevoerd. U krijgt productadvies en de juiste wastechniek uitgelegd voor thuis.',
-      tags: ['Dag 1-2 na ingreep', 'Begeleid door team', 'Juiste wastechniek'],
-    },
-    {
-      number: 7,
       icon: '🌱',
-      title: 'Nazorg en Opvolging',
-      desc: 'Onze begeleiding stopt niet wanneer u de kliniek verlaat. Dag 10 voorzien wij een controleafspraak. Maandelijks worden foto-updates gemaakt om de voortgang te volgen. Ons team is altijd bereikbaar via telefoon, WhatsApp of e-mail voor al uw vragen.',
-      tags: ['Controle dag 10', 'Maandelijkse foto-updates', 'Telefoon en WhatsApp support'],
+      title: 'Nazorg in België',
+      desc: 'Na uw behandeling — of dat nu bij ons of bij Hair Clinic Wolf was — staat HaarKliniek 45 klaar voor uw nazorg. We volgen uw herstel op en zijn uw Belgische aanspreekpunt voor al uw vragen.',
+      tags: ['Nazorg in Grazen', 'Belgisch aanspreekpunt', 'Opvolging herstel'],
     },
   ];
 

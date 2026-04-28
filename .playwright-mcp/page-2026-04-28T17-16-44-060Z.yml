@@ -1,0 +1,326 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e11]:
+          - link "076 204 5512" [ref=e12] [cursor=pointer]:
+            - /url: tel:0762045512
+          - text: "|"
+          - link "info@hairclinicwolf.be" [ref=e13] [cursor=pointer]:
+            - /url: mailto:info@hairclinicwolf.be
+          - text: "|"
+          - link "4,9 / 5,0" [ref=e14] [cursor=pointer]:
+            - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - text: "|"
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://hairclinicwolf.nl/
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://hairclinicwolf.com/
+        - generic [ref=e21]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/
+          - generic [ref=e25]:
+            - navigation [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - link "Behandelingen 3" [ref=e30] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/behandelingen/
+                - listitem [ref=e31]:
+                  - link "Haargroei stimuleren 3" [ref=e32] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haargroei-stimuleren/
+                - listitem [ref=e33]:
+                  - link "Over ons 3" [ref=e34] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/over-ons/
+                - listitem [ref=e35]:
+                  - link "Resultaten" [ref=e36] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/ervaringen/
+                - listitem [ref=e37]:
+                  - generic [ref=e38]: Kennis 3
+                - listitem [ref=e39]:
+                  - link "Kosten berekenen" [ref=e40] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+                - listitem [ref=e41]:
+                  - link "Afspraak maken" [ref=e42] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/afspraak-maken/
+            - text: a 33 33 33 33
+    - generic [ref=e43]:
+      - generic [ref=e46]:
+        - generic [ref=e52]:
+          - heading "DHI haartransplantatie" [level=1] [ref=e55]
+          - paragraph [ref=e58]: DHI (Direct Hair Implantation) is de nieuwste manier om haartransplantaties uit te voeren. Met deze geavanceerde methode herstelt je haargroei snel en nauwkeurig. In tegenstelling tot traditionele methoden maakt DHI geen incisies en wordt het haar direct geïmplanteerd met een speciale DHI-pen. Ben je benieuwd of de DHI-behandelmethode ook geschikt is voor jou? Kom alles te weten over deze innovatieve techniek.
+          - link "Lees verder" [ref=e59] [cursor=pointer]:
+            - /url: "#lees-verder-01"
+          - link "Afspraak maken 5" [ref=e61] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e69]:
+          - heading "Wat is een DHI haartransplantatie?" [level=2] [ref=e70]
+          - paragraph [ref=e71]:
+            - text: DHI, ofwel Direct Hair Implantation, is een moderne en effectieve haartransplantatietechniek. De resultaten zijn natuurlijk en langdurig. De grafts worden geoogst zoals bij FUE, maar met DHI worden ze direct met Choi pennen in de hoofdhuid geplaatst. Geen littekens en minder bloedingen zijn grote voordelen. De Choi pen zorgt voor een nauwkeurige plaatsing van haarzakjes, wat leidt tot een natuurlijk resultaat. Andere methodieken waarmee haartransplantaties gedaan worden zijn FUE en
+            - link "FUE Saffier" [ref=e72] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/technieken/fue-saffier-haartransplantatie/
+            - text: .
+          - paragraph [ref=e73]: Wist je dat we mislukte haartransplantaties ook goed kunnen herstellen door middel van de DHI-techniek?
+        - generic [ref=e74]:
+          - generic [ref=e79]:
+            - heading [level=2] [ref=e80]
+            - heading "Hoe werkt DHI?" [level=2] [ref=e81]
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - img "Infographic incisies maken rondom de haarzakjes." [ref=e87]
+              - generic [ref=e89]:
+                - heading "Incisies grafts" [level=3] [ref=e90]
+                - paragraph [ref=e91]: Eerst maken we kleine incisies rondom de haarzakjes
+            - generic [ref=e92]:
+              - img "Infographic verzamelen van de haarzakjes uit het donorgebied." [ref=e95]
+              - generic [ref=e97]:
+                - heading "Extracties grafts" [level=3] [ref=e98]
+                - paragraph [ref=e99]: We verzamelen haarzakjes uit het donorgebied
+            - generic [ref=e100]:
+              - img "Infographic bewaren grafts in een speciale vloeistof." [ref=e103]
+              - generic [ref=e105]:
+                - heading "Bewaren grafts" [level=3] [ref=e106]
+                - paragraph [ref=e107]: De grafts worden in een speciale vloeistof geplaatst
+            - generic [ref=e108]:
+              - img "Infographic implanteren grafts met de Choi pen." [ref=e111]
+              - generic [ref=e113]:
+                - heading "Implanteren grafts" [level=3] [ref=e114]
+                - paragraph [ref=e115]: Met de Choi pen worden de grafts direct in je huid geïmplanteerd
+          - link "Maak een afspraak 5" [ref=e119] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e122]:
+          - generic [ref=e124]:
+            - heading "Gratis consult met onze specialist" [level=2] [ref=e125]
+            - paragraph [ref=e126]:
+              - text: Overweeg jij een haartransplantatie met de DHI-behandelmethode? Twijfel je nog of heb je vragen? Maak dan gratis en vrijblijvend een
+              - link "afspraak" [ref=e127] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/afspraak-maken/
+              - text: met onze consulent. Ontdek of DHI de juiste keuze voor jou is en herwin zelfvertrouwen in jouw natuurlijke haargroei.
+          - link "Lees verder" [ref=e128] [cursor=pointer]:
+            - /url: "#lees-verder-02"
+          - link "Contact opnemen 5" [ref=e130] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/contact/
+        - generic [ref=e139]:
+          - heading "Onze werkwijze" [level=2] [ref=e140]
+          - paragraph [ref=e141]: Bij een DHI haartransplantatie combineren we zowel precisie als effectiviteit. Deze techniek begint met een grondige analyse van het haar en de hoofdhuid, waarna de haarzakjes zorgvuldig worden geoogst uit het donorgebied, meestal aan de achterkant van het hoofd.
+          - paragraph [ref=e142]: Met behulp van een special Choi-implanter worden de haarzakjes vervolgens één voor één getransplanteerd naar de kalende of dunner wordende gebieden op de hoofdhuid. Wat deze methode onderscheidt, is de nauwkeurigheid waarmee de haarzakjes worden geplaatst, wat resulteert in een sneller herstel en natuurlijke groei. DHI biedt daarom een efficiënte en minimale invasie oplossing voor mensen die op zoek zijn naar haarherstel met optimale resultaten.
+          - paragraph [ref=e143]:
+            - text: Bij Hair Clinic Wolf nemen we je volledig mee in het proces van de DHI-behandelmethode. Voor meer informatie over hoe wij te werk gaan kun je
+            - link "contact opnemen" [ref=e144] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/contact/
+            - text: ", of hier alvast"
+            - link "onze werkwijze" [ref=e145] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/over-ons/werkwijze/
+            - text: bekijken.
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - heading "Plan nu een consult in via de telefoon of bij ons in de kliniek!" [level=2] [ref=e151]
+            - link "Bereken de kosten" [ref=e153] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+            - link "Plan een consult 5" [ref=e155] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/afspraak-maken/
+          - generic [ref=e158]:
+            - generic [ref=e160]:
+              - paragraph [ref=e161]
+              - heading "1. De consultatie" [level=4] [ref=e162]
+              - paragraph [ref=e163]: Tijdens het consultatiegesprek bespreken we al je wensen en heb je alle gelegenheid om vragen te stellen. Dit kan telefonisch, in Zwalm of in onze kliniek in Prinsenbeek.
+            - generic [ref=e165]:
+              - paragraph [ref=e166]
+              - heading "2. Start behandeling" [level=4] [ref=e167]
+              - paragraph [ref=e168]: Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten verlopen. De behandeling vindt plaats in Istanbul of Nederland.
+            - generic [ref=e170]:
+              - paragraph [ref=e171]
+              - heading "3. Nazorg" [level=4] [ref=e172]
+              - paragraph [ref=e173]: Wij blijven je adviseren na de behandeling. Je ontvangt o.a. advies over producten, wassing en eventuele vervolgbehandelingen.
+            - generic: "5"
+        - generic [ref=e174]:
+          - generic [ref=e179]:
+            - heading [level=2] [ref=e180]
+            - heading "De voordelen van de DHI-behandelmethode" [level=2] [ref=e181]
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - 'img "Voordelen DHI: directe implantatie en minder bloedingen." [ref=e187]'
+              - generic [ref=e189]:
+                - heading "Directe implementatie en minder bloedingen" [level=3] [ref=e190]
+                - paragraph [ref=e191]: Geen incisies in de ontvangstzone, dus minder bloedingen
+            - generic [ref=e192]:
+              - 'img "Voordelen DHI: hogere graftdichtheid per vierkante centimeter mogelijk." [ref=e195]'
+              - generic [ref=e197]:
+                - heading "Maximale dichtheid" [level=3] [ref=e198]
+                - paragraph [ref=e199]: Hogere graftsdichtheid per vierkante centimeter mogelijk
+            - generic [ref=e200]:
+              - 'img "Voordelen DHI: alleen scheren in het donorgebied." [ref=e203]'
+              - generic [ref=e205]:
+                - heading "Alleen scheren in het donorgebied" [level=3] [ref=e206]
+                - paragraph [ref=e207]: In tegenstelling tot FUE hoef je niet je hele hoofd te scheren
+            - generic [ref=e208]:
+              - 'img "Voordelen DHI: kortere herstelperiode" [ref=e211]'
+              - generic [ref=e213]:
+                - heading "Kortere herstelperiode" [level=3] [ref=e214]
+                - paragraph [ref=e215]: Minder schade aan de huid, dus sneller herstel
+          - link "Maak een afspraak 5" [ref=e219] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e220]:
+          - generic [ref=e226]:
+            - heading "DHI voor en na" [level=2] [ref=e227]
+            - paragraph [ref=e228]:
+              - text: Benieuwd naar de resultaten van een haartransplantatie met de DHI-methode? Bekijk hieronder een aantal resultaten of
+              - link "bekijk alle ervaringen." [ref=e229] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/ervaringen/
+          - generic [ref=e230]:
+            - img "img1" [ref=e234]
+            - img "img1" [ref=e238]
+            - img "img1" [ref=e242]
+        - generic [ref=e244]:
+          - generic [ref=e247]:
+            - paragraph [ref=e248]:
+              - img "Lieselotte maakt foto's van man met grijs kapsel voor dhi-haartransplantatie" [ref=e249]
+            - heading "Voor de behandeling" [level=2] [ref=e250]
+            - paragraph [ref=e251]:
+              - text: Bij Hair Clinic Wolf gaan we graag eerst persoonlijk met je in gesprek. We geven je advies over welke behandelmethode de beste keuze is voor jouw haartransplantatie. Wij behandelen voornamelijk met de DHI-behandelmethode omdat we hier de mooiste resultaten mee boeken. We plannen de behandeling graag met je in. Afhankelijk van jouw wensen kan dit in
+              - link "Istanbul" [ref=e252] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul/
+              - text: ","
+              - link "Turkije" [ref=e253] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije/
+              - text: of in
+              - link "Nederland." [ref=e254] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland/
+          - generic [ref=e257]:
+            - paragraph [ref=e258]:
+              - img "Lieselotte met cliënt na succesvolle DHI-haartransplantatie." [ref=e259]
+            - heading "Nazorg" [level=2] [ref=e260]
+            - paragraph [ref=e261]: Na de haartransplantatie ontvang je van ons gedetailleerde instructies over hoe je je hoofdhuid moet verzorgen. Zo krijg je van ons een shampoo, speciaal ontworpen voor de verzorging van het getransplanteerde haar. Na de behandeling blijven we je adviseren. We zien je graag na een tijdje terug om te zien hoe goed de getransplanteerde haren groeien. Al binnen enkele maanden beginnen de nieuwe haren te groeien, en na ongeveer een jaar tot 14 maanden is het definitieve resultaat zichtbaar.
+        - link "5-sterren-reviews-hairclinicwolf" [ref=e266] [cursor=pointer]:
+          - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - img "5-sterren-reviews-hairclinicwolf" [ref=e268]
+        - generic [ref=e272]:
+          - generic [ref=e274]:
+            - heading "Een haartransplantatie, lang over nagedacht en getwijfeld!" [level=2] [ref=e275]
+            - paragraph [ref=e276]: “Uiteindelijk contact gehad met de adviseur van Hair Clinic Wolf en een adviesgesprek was snel gepland. Het gehele proces werd door een terzake kundige consultant duidelijk beschreven en toegelicht met foto’s en filmpjes. Als er nog twijfel bestond werd die weggenomen. Een zeer concurrerende offerte volgde en de keuze voor Hair Clinic Wolf werd gemaakt.
+            - generic [ref=e278]:
+              - paragraph [ref=e279]: Het gehele traject werd prima georganiseerd en verzorgd, van het afhalen op en terugbrengen naar de luchthaven tot de begeleiding van het uitstekende hotel naar de kliniek en terug.
+              - paragraph [ref=e280]: Het medisch team onder leiding van Dr. Taner Karahan is zeer kundig. Men stelt je direct na binnenkomst op je gemak en geeft nog eens een zeer duidelijke uitleg van wat er allemaal staat te gebeuren. De verdoving werd zo goed als pijnloos gegeven en ook tijdens en na de behandeling heb ik nauwelijks pijn ervaren.
+            - paragraph [ref=e283]: De dag van nacontrole verloopt ook soepel en tenslotte wordt een eerste haarwassing verzorgd. En het resultaat…..Geweldig!!!” — Twan
+          - link "Bekijk alle ervaringen 5" [ref=e285] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/ervaringen/
+        - paragraph [ref=e291] [cursor=pointer]: Wij ontvangen gemiddeld een 4,9 van de 5 via Google Reviews!
+        - generic [ref=e292]:
+          - heading "Waarom een behandeling bij Hair Clinic Wolf?" [level=2] [ref=e297]
+          - generic [ref=e304]:
+            - heading "Gratis consult" [level=4] [ref=e311]
+            - heading "Betrouwbaar" [level=4] [ref=e318]
+            - heading "Geen cash betaling" [level=4] [ref=e325]
+            - heading "Nazorg in Nederland" [level=4] [ref=e332]
+            - heading "GGD-vergunning" [level=4] [ref=e339]
+            - heading "Gediplomeerd" [level=4] [ref=e346]
+            - heading "10+ jaar ervaring" [level=4] [ref=e353]
+            - heading "Garantiecertificaat" [level=4] [ref=e360]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e367]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e374]
+            - heading "100% Expertise" [level=4] [ref=e381]
+            - heading "Gratis consult" [level=4] [ref=e388]
+            - heading "Betrouwbaar" [level=4] [ref=e395]
+            - heading "Geen cash betaling" [level=4] [ref=e402]
+            - heading "Nazorg in Nederland" [level=4] [ref=e409]
+            - heading "GGD-vergunning" [level=4] [ref=e416]
+            - heading "Gediplomeerd" [level=4] [ref=e423]
+            - heading "10+ jaar ervaring" [level=4] [ref=e430]
+            - heading "Garantiecertificaat" [level=4] [ref=e437]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e444]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e451]
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - generic [ref=e459]:
+              - heading "ONZE CALCULATIETOOL" [level=4] [ref=e460]
+              - heading "Bereken de kosten online" [level=2] [ref=e461]
+              - paragraph [ref=e462]: Benieuwd wat een haartransplantatie je gaat kosten? Met behulp van onze quick scan bereken je dit gratis en snel.
+              - paragraph [ref=e463]:
+                - strong [ref=e464]: Kosten op maat
+                - text: Je ontvangt een prijsopgave op maat.
+              - paragraph [ref=e465]:
+                - strong [ref=e466]: Direct antwoord
+                - text: Je ontvangt direct een mail, bekijk hiervoor ook even je spam box.
+              - paragraph [ref=e467]:
+                - strong [ref=e468]: Ben je geschikt?
+                - text: Aan de hand van jouw antwoorden ontvang je jouw mate van geschiktheid.
+              - paragraph [ref=e469]:
+                - strong [ref=e470]: Gratis brochure
+                - text: "Je ontvangt gratis onze brochure: “Alles over haartransplantaties”."
+            - link "Start nu! 5" [ref=e472] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+          - link "telefoon-kosten-berekenen" [ref=e475] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+            - img "telefoon-kosten-berekenen" [ref=e477]
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - img "icon-faq" [ref=e483]
+            - heading "Veelgestelde vragen" [level=2] [ref=e486]:
+              - text: Veelgestelde
+              - text: vragen
+          - generic [ref=e487]:
+            - generic [ref=e494]:
+              - generic [ref=e495]:
+                - heading "Wat is DHI en hoe werkt het?" [level=5] [ref=e496] [cursor=pointer]
+                - paragraph [ref=e498]: DHI staat voor Direct Hair Implantation. Hierbij gebruiken we Choi pennen om haarzakjes direct in je hoofdhuid te plaatsen. Eerst halen we met een klein boortje haarzakjes uit het donorgebied, en dan plaatsen we deze direct met de Choi pen.
+              - heading "\" Wat zijn de voordelen van DHI?" [level=5] [ref=e500] [cursor=pointer]
+              - heading "\" Wat is het verschil met FUE?" [level=5] [ref=e502] [cursor=pointer]
+              - heading "\" Wat zijn de nadelen van DHI?" [level=5] [ref=e504] [cursor=pointer]
+            - link "Kenniscentrum" [ref=e505] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/veelgestelde-vragen/
+            - link "Bereken de kosten 5" [ref=e507] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+      - contentinfo [ref=e508]:
+        - generic [ref=e509]:
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - img "logo-wit-hairclinicwolf" [ref=e515]
+              - paragraph [ref=e518] [cursor=pointer]:
+                - text: Markt 24
+                - text: 4841 AC, Prinsenbeek
+                - text: Nederland
+              - paragraph [ref=e521] [cursor=pointer]:
+                - text: Meilegemstraat 26
+                - text: 9630, Zwalm
+                - text: België
+            - generic [ref=e524]:
+              - heading "Locaties" [level=3] [ref=e525]
+              - paragraph [ref=e526]:
+                - link "Haartransplantatie Turkije" [ref=e527] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije
+                - link "Haartransplantatie Istanbul" [ref=e528] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul
+                - link "Haartransplantatie België" [ref=e529] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-belgie
+                - link "Haartransplantatie Nederland" [ref=e530] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland
+              - paragraph [ref=e531]
+            - generic [ref=e534]:
+              - heading "Contact" [level=3] [ref=e535]
+              - paragraph [ref=e536]:
+                - 'link "Tel: 076 204 5512" [ref=e537] [cursor=pointer]':
+                  - /url: tel:0762045512
+                - 'link "Tel: 06 29440919" [ref=e538] [cursor=pointer]':
+                  - /url: tel:06 29440919
+                - 'link "E-mail: info@hairclinicwolf.be" [ref=e539] [cursor=pointer]':
+                  - /url: mailto:info@hairclinicwolf.be
+              - paragraph [ref=e540]:
+                - link [ref=e541] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hairclinicwolfhaartransplantatie
+                - link [ref=e542] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hairclinicwolf/
+          - img "icon-hair-wave-wit" [ref=e548]
+          - generic [ref=e550]:
+            - generic [ref=e553]: "© 2026 HairClinicWolf | KvK: 76458490 | BTW: NL860630122B01"
+            - paragraph [ref=e557]:
+              - link "Algemene voorwaarden" [ref=e558] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/algemene-voorwaarden
+              - text: "|"
+              - link "Privacy- & Cookiebeleid" [ref=e559] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/privacy-cookiebeleid
+  - button " Hoe kan ik je helpen?" [ref=e560] [cursor=pointer]:
+    - generic [ref=e561]: 
+    - generic [ref=e562]: Hoe kan ik je helpen?
+  - text: "2"
+  - dialog "Cookie consent button" [ref=e563] [cursor=pointer]:
+    - img [ref=e565]
+    - generic: Cookie-instellingen

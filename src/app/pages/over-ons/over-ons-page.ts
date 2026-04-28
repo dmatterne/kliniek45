@@ -14,12 +14,17 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p class="hero-eyebrow">Over ons</p>
         <h1>Over HaarKliniek 45</h1>
         <p class="hero-subtitle">
-          Gespecialiseerde haarkliniek in Grazen, België. Wij brengen wereldklasse haarherstel naar
-          Belgische patiënten — met eerlijkheid, vakmanschap en persoonlijke zorg als pijlers.
+          Uw vertrouwde haarspecialist in België — partner van Hair Clinic Wolf
         </p>
         <div class="hero-actions">
-          <a routerLink="/consult" class="btn btn-primary">Gratis consult aanvragen</a>
-          <a routerLink="/resultaten" class="btn btn-outline btn-light">Bekijk resultaten</a>
+          <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
+          <a
+            href="https://www.hairclinicwolf.be"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-outline btn-light"
+            >Bekijk Hair Clinic Wolf</a
+          >
         </div>
       </div>
     </section>
@@ -31,40 +36,22 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <div class="col">
             <h2 class="section-title">Onze missie</h2>
             <p>
-              HaarKliniek 45 is een gespecialiseerde kliniek voor haartransplantatie en
-              haarrestauratie, gevestigd in Grazen, België. Wij zijn opgericht met één duidelijk
-              doel: Belgische patiënten toegang geven tot de hoogste kwaliteit van haarherstel —
-              zonder het land te verlaten.
-            </p>
-            <p>
-              Met meer dan 10 jaar ervaring en gecertificeerde specialisten leveren wij resultaten
-              die spreken voor zich. Van de eerste consultatie tot de laatste nazorgafspraak: u bent
-              in veilige handen.
+              HaarKliniek 45 is een nieuwe haarkliniek gevestigd in Grazen (Geetbets), België. Wij
+              zijn partner van Hair Clinic Wolf — een toonaangevende haartransplantatiepraktijk in
+              Nederland. Samen bieden wij een volledig traject aan: van het eerste gratis consult en
+              non-chirurgische behandelingen bij ons in België, tot een eventuele haartransplantatie
+              uitgevoerd door het ervaren team van Hair Clinic Wolf.
             </p>
             <p>
               Onze aanpak is altijd individueel. Geen standaardpakketten, geen onrealistische
               beloften — alleen een eerlijk advies op basis van uw unieke situatie.
             </p>
-            <div class="mission-stats">
-              <div class="stat">
-                <span class="stat-number">10+</span>
-                <span class="stat-label">Jaar ervaring</span>
-              </div>
-              <div class="stat">
-                <span class="stat-number">100%</span>
-                <span class="stat-label">Gecertificeerd</span>
-              </div>
-              <div class="stat">
-                <span class="stat-number">🇧🇪</span>
-                <span class="stat-label">Belgische kliniek</span>
-              </div>
-            </div>
           </div>
           <div class="col">
             <div class="mission-image-block">
               <img
                 src="assets/images/logoTransp.png"
-                alt="HaarKliniek 45 — Haartransplantatie in Grazen, België"
+                alt="HaarKliniek 45 — Haarspecialist in Grazen, België"
                 class="mission-logo"
               />
               <div class="mission-quote">
@@ -80,165 +67,98 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
-    <!-- Drie pijlers -->
+    <!-- Aanpak / wat wij doen -->
     <section class="content-section pillars-section">
       <div class="container">
-        <h2 class="section-title">Onze drie pijlers</h2>
+        <h2 class="section-title">Wat wij voor u doen</h2>
         <p class="section-subtitle">
-          Alles wat wij doen, is gebouwd op drie fundamenten die wij nooit uit het oog verliezen.
+          Van het eerste consult tot de nazorg na uw behandeling — wij begeleiden u op elke stap.
         </p>
         <div class="pillars-grid">
           <div class="pillar-card">
-            <div class="pillar-icon">🤝</div>
-            <h3>Transparantie &amp; Eerlijkheid</h3>
+            <div class="pillar-icon">💬</div>
+            <h3>Intake &amp; Consult</h3>
             <p>
-              Wij geven u altijd een eerlijk advies — ook als dat betekent dat een transplantatie op
-              dit moment niet de beste keuze is. U weet op voorhand precies wat u kunt verwachten:
-              het verloop van de ingreep, de hersteltijd, de kosten en een realistisch beeld van het
-              eindresultaat.
+              Gratis kennismakingsgesprek bij ons in Grazen. Jens Vandenreijt analyseert uw
+              haaruitval en stelt een persoonlijk behandelplan op.
             </p>
-            <ul class="pillar-list">
-              <li>Geen verborgen kosten</li>
-              <li>Realistische resultaatsverwachtingen</li>
-              <li>Volledige info vóór elke beslissing</li>
-            </ul>
           </div>
-
-          <div class="pillar-card">
-            <div class="pillar-icon">🎯</div>
-            <h3>Vakmanschap &amp; Precisie</h3>
-            <p>
-              Onze specialisten werken uitsluitend met de meest geavanceerde technieken: FUE
-              Saffier, DHI met Choi Implanter Pen en micro-haarpigmentatie. Permanente bijscholing
-              en certificering garanderen dat wij altijd op de hoogte zijn van de nieuwste
-              ontwikkelingen in de sector.
-            </p>
-            <ul class="pillar-list">
-              <li>State-of-the-art apparatuur</li>
-              <li>Gecertificeerde chirurgen &amp; specialisten</li>
-              <li>Aanhoudende nascholing</li>
-            </ul>
-          </div>
-
           <div class="pillar-card">
             <div class="pillar-icon">💚</div>
-            <h3>Persoonlijke Zorg &amp; Nazorg</h3>
+            <h3>Non-chirurgische behandelingen</h3>
             <p>
-              Vanaf het eerste consult tot uw laatste nazorgafspraak werkt u steeds met hetzelfde
-              vertrouwde team. Wij zijn bereikbaar voor al uw vragen — voor, tijdens en na de
-              behandeling. Uw tevredenheid op lange termijn is ons uiteindelijke doel.
+              PRP, Hairegen, Micro Haarpigmentatie, Regenera Activa, TrichoTest en meer — allemaal
+              uitgevoerd bij HaarKliniek 45 in België.
             </p>
-            <ul class="pillar-list">
-              <li>Vast aanspreekpunt gedurende het hele traject</li>
-              <li>Uitgebreid nazorgprotocol</li>
-              <li>Altijd bereikbaar voor vragen</li>
-            </ul>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">🤝</div>
+            <h3>Haartransplantatie via Hair Clinic Wolf</h3>
+            <p>
+              Indien een transplantatie de beste optie is, verwijzen wij u door naar onze partner
+              Hair Clinic Wolf. U behoudt uw Belgische aanspreekpunt voor de voor- en nazorg.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Onze aanpak -->
-    <section class="content-section approach-section">
+    <!-- Team -->
+    <section class="content-section team-section">
       <div class="container">
-        <h2 class="section-title">Onze aanpak</h2>
-        <p class="section-subtitle">
-          Van eerste contact tot definitief resultaat — wij begeleiden u stap voor stap door het
-          volledige traject.
-        </p>
-        <div class="approach-steps">
-          <div class="step">
-            <div class="step-number">01</div>
-            <div class="step-content">
-              <h3>Gratis consultatie</h3>
-              <p>
-                Alles begint met een uitgebreide, gratis en vrijblijvende consultatie. Onze
-                specialist analyseert uw hoofd­huid en donorgebied, bespreekt uw medische
-                voorgeschiedenis en beantwoordt al uw vragen.
-              </p>
+        <h2 class="section-title">Ons team</h2>
+        <p class="section-subtitle">Uw vaste aanspreekpunt van begin tot einde.</p>
+        <div class="team-grid team-grid--single">
+          <div class="team-card">
+            <div class="team-photo-wrap">
+              <img
+                src="assets/images/team/jens-vandenreijt.jpg"
+                alt="Jens Vandenreijt — Oprichter &amp; Haarspecialist"
+                class="team-photo"
+                loading="lazy"
+              />
             </div>
-          </div>
-          <div class="step">
-            <div class="step-number">02</div>
-            <div class="step-content">
-              <h3>Gepersonaliseerd behandelplan</h3>
-              <p>
-                Op basis van de consultatie stellen wij een volledig individueel plan op: welke
-                techniek (FUE, DHI, Saffier), hoeveel grafts, de prijs, de planning en de verwachte
-                resultaten. Geen standaardpakketten.
-              </p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-number">03</div>
-            <div class="step-content">
-              <h3>De behandeling</h3>
-              <p>
-                De ingreep wordt uitgevoerd onder lokale verdoving in onze moderne kliniek in
-                Grazen. U bent dezelfde dag terug thuis. Het team staat de hele dag naast u en legt
-                elke stap uit.
-              </p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-number">04</div>
-            <div class="step-content">
-              <h3>Nazorg &amp; opvolging</h3>
-              <p>
-                Nazorg is minstens even belangrijk als de ingreep. Wij voorzien een gedetailleerd
-                nazorgprotocol, opvolgafspraken en zijn steeds bereikbaar voor vragen. Resultaten
-                worden gefotografeerd en vergeleken bij elke follow-up.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="approach-treatments">
-          <h3>Beschikbare behandelingen</h3>
-          <div class="treatment-tags">
-            <span class="tag">FUE Saffier</span>
-            <span class="tag">DHI</span>
-            <span class="tag">Micro-haarpigmentatie</span>
-            <span class="tag">PRP</span>
-            <span class="tag">Hairegen</span>
-            <span class="tag">Regenera Activa</span>
-            <span class="tag">TrichoTest</span>
+            <h3>Jens Vandenreijt</h3>
+            <p class="team-role">Oprichter &amp; Haarspecialist</p>
+            <p>
+              Jens is de oprichter van HaarKliniek 45 en uw eerste aanspreekpunt voor alles wat met
+              haaruitval te maken heeft. Met een passie voor haarrestauratie en een sterke
+              samenwerking met Hair Clinic Wolf begeleidt hij u van het eerste consult tot het
+              eindresultaat.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Waarom België vs buitenland -->
-    <section class="content-section belgium-section">
+    <!-- Onze waarden -->
+    <section class="content-section pillars-section">
       <div class="container">
-        <h2 class="section-title">Waarom behandeling in België?</h2>
-        <p class="section-subtitle">
-          Steeds meer mensen laten zich verleiden door goedkope behandelingen in het buitenland. Wij
-          leggen u eerlijk uit waarom dat risico&rsquo;s met zich meebrengt.
-        </p>
-        <div class="comparison-grid">
-          <div class="comparison-card comparison-card--pro">
-            <h3>✅ HaarKliniek 45 in België</h3>
-            <ul>
-              <li>Geen dure vluchten, hotels of tijdverlies</li>
-              <li>Belgische medische normen en wetgeving</li>
-              <li>Volledige nazorg in eigen taal en nabijheid</li>
-              <li>Transparante, all-in prijzen zonder verrassingen</li>
-              <li>Complicaties kunnen onmiddellijk worden behandeld</li>
-              <li>Opvolgafspraken zonder extra reiskosten</li>
-              <li>Volledige medische dossieropbouw in België</li>
-            </ul>
+        <h2 class="section-title">Onze waarden</h2>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon">🤝</div>
+            <h3>Persoonlijk contact</h3>
+            <p>
+              U werkt altijd met Jens — geen wisselende gezichten, maar een vast aanspreekpunt
+              gedurende uw hele traject.
+            </p>
           </div>
-          <div class="comparison-card comparison-card--con">
-            <h3>⚠️ Behandeling in het buitenland</h3>
-            <ul>
-              <li>Vlieg- en hotelkosten verminderen de besparing</li>
-              <li>Communicatie en nazorg op afstand zijn beperkt</li>
-              <li>Andere medische normen en regelgeving</li>
-              <li>Bij complicaties bent u op uzelf aangewezen</li>
-              <li>Opvolging is duur of onmogelijk</li>
-              <li>Stressvol herstel ver van huis</li>
-              <li>Moeilijk verhaal bij klachten of teleurstelling</li>
-            </ul>
+          <div class="pillar-card">
+            <div class="pillar-icon">🎯</div>
+            <h3>Transparantie</h3>
+            <p>
+              Eerlijk advies, geen overbodige behandelingen. U weet op voorhand precies wat u kunt
+              verwachten.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">💚</div>
+            <h3>Partnerschap</h3>
+            <p>
+              Toegang tot het netwerk en de expertise van Hair Clinic Wolf — de beste van twee
+              werelden.
+            </p>
           </div>
         </div>
       </div>
@@ -255,105 +175,43 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <span class="location-icon">📍</span>
                 <div>
                   <strong>Adres</strong>
-                  <p>Verdaelstraat 45<br />3450 Grazen, België</p>
+                  <p>Verdaelstraat 45<br />3450 Grazen (Geetbets), België</p>
+                </div>
+              </div>
+              <div class="location-item">
+                <span class="location-icon">📞</span>
+                <div>
+                  <strong>Telefoon</strong>
+                  <p><a href="tel:+32485593302">+32 485 593 302</a></p>
+                </div>
+              </div>
+              <div class="location-item">
+                <span class="location-icon">✉️</span>
+                <div>
+                  <strong>E-mail</strong>
+                  <p><a href="mailto:info@haarkliniek45.be">info&#64;haarkliniek45.be</a></p>
                 </div>
               </div>
               <div class="location-item">
                 <span class="location-icon">🕐</span>
                 <div>
                   <strong>Openingsuren</strong>
-                  <p>Maandag–vrijdag: 9u–18u<br />Consultaties op afspraak</p>
-                </div>
-              </div>
-              <div class="location-item">
-                <span class="location-icon">🚗</span>
-                <div>
-                  <strong>Bereikbaarheid</strong>
-                  <p>Gratis parking aanwezig<br />Bereikbaar vanuit heel België</p>
+                  <p>Consultaties op afspraak</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="location-highlights">
-              <h3>Een groene, rustige omgeving</h3>
+              <h3>Een rustige omgeving in het Hageland</h3>
               <p>
-                Onze kliniek is gevestigd in een rustige, groene omgeving in Grazen. U kunt rekenen
-                op een serene sfeer die bijdraagt aan een ontspannen behandelervaring — ver van de
-                drukte van de stad.
+                HaarKliniek 45 opent haar deuren in 2026 in Grazen (Geetbets), in een rustige en
+                groene omgeving in het Belgische Hageland. Wij zorgen voor een serene sfeer die
+                bijdraagt aan een ontspannen behandelervaring.
               </p>
-              <p>
-                De kliniek is modern ingericht met state-of-the-art medische apparatuur en voldoet
-                aan alle Belgische normen voor medische faciliteiten. Gratis parking direct bij de
-                ingang.
-              </p>
-              <a routerLink="/consult" class="btn btn-primary">Maak een afspraak</a>
+              <a routerLink="/contact" class="btn btn-primary">Maak een afspraak</a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section class="content-section team-section">
-      <div class="container">
-        <h2 class="section-title">Ons team</h2>
-        <p class="section-subtitle">
-          Een multidisciplinair team van gecertificeerde professionals staat voor u klaar. Elke
-          specialist is volledig toegewijd aan uw traject van begin tot einde.
-        </p>
-        <div class="team-grid">
-          <div class="team-card">
-            <div class="team-avatar">👨‍⚕️</div>
-            <h3>Hoofdchirurg Haartransplantatie</h3>
-            <p>
-              Gecertificeerd haartransplantatiechirurg met meer dan 10 jaar ervaring in FUE, DHI en
-              Saffier-technieken. Lid van de internationale haartransplantatie vereniging (ISHRS).
-            </p>
-          </div>
-          <div class="team-card">
-            <div class="team-avatar">🩺</div>
-            <h3>Haarrestauratie Specialist</h3>
-            <p>
-              Specialist in non-chirurgische haargroeibehandelingen: PRP, Regenera Activa, Hairegen
-              en TrichoTest. Begeleidt patiënten bij preventie en nazorg.
-            </p>
-          </div>
-          <div class="team-card">
-            <div class="team-avatar">💼</div>
-            <h3>Patiëntbegeleider</h3>
-            <p>
-              Uw eerste en vaste aanspreekpunt gedurende het hele traject. Coördineert afspraken,
-              beantwoordt vragen en zorgt dat u zich te allen tijde goed geïnformeerd en ondersteund
-              voelt.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Navigatie links -->
-    <section class="content-section nav-links-section">
-      <div class="container">
-        <div class="nav-links-grid">
-          <a routerLink="/werkwijze" class="nav-link-card">
-            <span class="nav-link-icon">📋</span>
-            <h3>Onze werkwijze</h3>
-            <p>Hoe verloopt een behandeling bij HaarKliniek 45 stap voor stap?</p>
-            <span class="nav-link-arrow">→</span>
-          </a>
-          <a routerLink="/resultaten" class="nav-link-card">
-            <span class="nav-link-icon">📸</span>
-            <h3>Resultaten</h3>
-            <p>Bekijk echte voor-en-na-foto&rsquo;s van onze patiënten.</p>
-            <span class="nav-link-arrow">→</span>
-          </a>
-          <a routerLink="/partners-trainingen" class="nav-link-card">
-            <span class="nav-link-icon">🤝</span>
-            <h3>Partners &amp; Trainingen</h3>
-            <p>Samenwerken met HaarKliniek 45 als kapper of barber.</p>
-            <span class="nav-link-arrow">→</span>
-          </a>
         </div>
       </div>
     </section>
@@ -375,6 +233,32 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
+    <!-- Nav links -->
+    <section class="content-section nav-links-section">
+      <div class="container">
+        <div class="nav-links-grid">
+          <a routerLink="/werkwijze" class="nav-link-card">
+            <span class="nav-link-icon">📋</span>
+            <h3>Onze werkwijze</h3>
+            <p>Hoe verloopt een behandeling bij HaarKliniek 45 stap voor stap?</p>
+            <span class="nav-link-arrow">→</span>
+          </a>
+          <a routerLink="/resultaten" class="nav-link-card">
+            <span class="nav-link-icon">📸</span>
+            <h3>Resultaten</h3>
+            <p>Binnenkort: echte voor-en-na-foto&rsquo;s van onze cliënten.</p>
+            <span class="nav-link-arrow">→</span>
+          </a>
+          <a routerLink="/contact" class="nav-link-card">
+            <span class="nav-link-icon">✉️</span>
+            <h3>Contact &amp; afspraak</h3>
+            <p>Plan vandaag nog uw gratis en vrijblijvend consult.</p>
+            <span class="nav-link-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <app-consultation />
   `,
 })
@@ -383,13 +267,11 @@ export class OverOnsPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgische kliniek',
-    'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
-    '10+ jaar ervaring',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Haarspecialist',
+    'Partner van Hair Clinic Wolf',
+    'Eerlijk advies',
+    'Transparant',
   ];
 }

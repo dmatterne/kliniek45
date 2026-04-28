@@ -124,3 +124,36 @@
 .results-cta {
   text-align: center;
 }
+
+.results-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $space-16 $space-8;
+  text-align: center;
+  background: $neutral-white;
+  border-radius: 16px;
+  border: 2px dashed $neutral-gray-100;
+  margin-top: $space-8;
+}
+
+.placeholder-icon {
+  font-size: 3.5rem;
+  margin-bottom: $space-4;
+  line-height: 1;
+}
+
+.placeholder-text {
+  font-family: $font-heading;
+  font-size: $h3-size;
+  color: $primary-green;
+  font-weight: 700;
+  margin-bottom: $space-2;
+}
+
+.placeholder-subtext {
+  font-size: $text-sm;
+  color: $text-secondary;
+  max-width: 480px;
+}

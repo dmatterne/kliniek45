@@ -13,7 +13,6 @@ import { DhiPageComponent } from './pages/dhi/dhi-page';
 import { FueSaffierPageComponent } from './pages/fue-saffier/fue-saffier-page';
 import { WerkwijzePageComponent } from './pages/werkwijze/werkwijze-page';
 import { OverOnsPageComponent } from './pages/over-ons/over-ons-page';
-import { PartnersTrainingenPageComponent } from './pages/partners-trainingen/partners-trainingen-page';
 import { ResultatenPageComponent } from './pages/resultaten/resultaten-page';
 import { FaqPageComponent } from './pages/faq/faq-page';
 import { ContactPageComponent } from './pages/contact/contact-page';
@@ -79,7 +78,6 @@ export const routes: Routes = [
 
   // Over ons
   { path: 'over-ons', component: OverOnsPageComponent },
-  { path: 'over-ons/partners-trainingen', component: PartnersTrainingenPageComponent },
 
   // Resultaten
   { path: 'resultaten', component: ResultatenPageComponent },
