@@ -5,87 +5,198 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 @Component({
   selector: 'app-haaruitval-man-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./haaruitval-man-page.scss'],
   template: `
-    <section class="page-hero">
+    <section class="hero">
       <div class="container">
-        <span class="eyebrow">Haaruitval</span>
-        <h1>Haaruitval bij mannen</h1>
-        <p class="subtitle">Androgenetische alopecia begrijpen — oorzaken, patronen en behandelingsmogelijkheden.</p>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <h2>Androgenetische alopecia bij mannen</h2>
-        <p>Mannelijke kaalheid — ook wel androgenetische alopecia of male pattern baldness (MPB) — is de meest voorkomende vorm van haaruitval bij mannen. Naar schatting heeft meer dan 50% van de mannen boven de 50 er in meer of mindere mate last van. De oorzaak ligt in een combinatie van genetische aanleg en de werking van het hormoon DHT (dihydrotestosteron).</p>
-        <p>DHT is een bijproduct van testosteron dat bindt aan receptoren in de haarzakjes. Bij genetisch gevoelige haarzakjes veroorzaakt DHT een verkorting van de groeicyclus: haartjes worden dunner, korter en vallen uiteindelijk voortijdig uit. Omdat de haarzakjes aan de achterkant van het hoofd niet gevoelig zijn voor DHT, blijven die gebieden bewaard — en zijn ze geschikt als donorzone voor haartransplantatie.</p>
-        <p>Haaruitval bij mannen volgt doorgaans een voorspelbaar patroon dat wordt beschreven door de Norwood-schaal.</p>
-      </div>
-    </section>
-
-    <section class="page-section bg-light">
-      <div class="container">
-        <h2>De Norwood-schaal</h2>
-        <p>De Norwood-schaal classificeert mannelijke haaruitval in 7 stadia:</p>
-        <div class="norwood-list">
-          <div class="norwood-item"><span class="norwood-num">I</span><div><strong>Geen of minimale haaruitval</strong> — Volledige haardekking, eventueel lichte terugtrekking van de haarlijn aan de slapen.</div></div>
-          <div class="norwood-item"><span class="norwood-num">II</span><div><strong>Lichte terugtrekking</strong> — De haarlijn trekt terug aan de slapen, maar de kruin is nog volledig bedekt.</div></div>
-          <div class="norwood-item"><span class="norwood-num">III</span><div><strong>Duidelijke inhammen</strong> — Significante terugtrekking aan de slapen; mogelijk beginnen van kaalheid op kruin (III Vertex).</div></div>
-          <div class="norwood-item"><span class="norwood-num">IV</span><div><strong>Haarlijn en kruin</strong> — Verdere terugtrekking van de haarlijn met een kale zone op de kruin. Een band haar scheidt beide gebieden.</div></div>
-          <div class="norwood-item"><span class="norwood-num">V</span><div><strong>Band versmalt</strong> — De haarband tussen haarlijn en kruin wordt smaller. Beide kale zones groeien naar elkaar toe.</div></div>
-          <div class="norwood-item"><span class="norwood-num">VI</span><div><strong>Samengevoegde kaalheid</strong> — Haarlijn en kruin zijn volledig samengesmolten. Alleen haar aan zijkanten en achterhoofd blijft over.</div></div>
-          <div class="norwood-item"><span class="norwood-num">VII</span><div><strong>Uitgebreide kaalheid</strong> — Enkel nog een smalle band haar aan de zijkanten en achterkant van het hoofd. Meest gevorderd stadium.</div></div>
+        <span class="hero-badge">Kenniscentrum</span>
+        <h1 class="hero-title">Haaruitval bij Mannen</h1>
+        <p class="hero-subtitle">
+          Alles over de oorzaken, symptomen, de Norwood-schaal en de behandelopties voor mannelijke
+          haaruitval bij HaarKliniek 45 in Grazen, Belgie.
+        </p>
+        <div class="hero-actions">
+          <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
+          <a routerLink="/behandelingen" class="btn btn-outline">Behandelingen bekijken</a>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="intro-section">
       <div class="container">
-        <h2>Oorzaken van haaruitval bij mannen</h2>
-        <div class="benefits-grid">
-          <div class="benefit-card"><span class="benefit-icon">🧬</span><h3>Genetica</h3><p>Aanleg voor DHT-gevoelige haarzakjes wordt via zowel moeder als vader overgeërfd.</p></div>
-          <div class="benefit-card"><span class="benefit-icon">⚗️</span><h3>DHT hormoon</h3><p>Dihydrotestosteron miniatuuriseert haarzakjes en verkort de groeicyclus progressief.</p></div>
-          <div class="benefit-card"><span class="benefit-icon">📅</span><h3>Leeftijd</h3><p>DHT-invloed accumuleert met de leeftijd. Haaruitval verergert vaak na de 30 en 40.</p></div>
-          <div class="benefit-card"><span class="benefit-icon">🧠</span><h3>Stress &amp; leefstijl</h3><p>Chronische stress, slaaptekort en voedingstekorten (zink, biotine, ijzer) versnellen haaruitval.</p></div>
+        <div class="intro-grid">
+          <div class="intro-content">
+            <h2>Androgenetische alopecia: de meest voorkomende oorzaak</h2>
+            <p>
+              95% van alle haaruitval bij mannen is androgenetische alopecia, ook wel mannelijke
+              kaalheid of patroonkaalheid. De oorzaak ligt in een genetische gevoeligheid voor DHT
+              (dihydrotestosteron), een bijproduct dat vrijkomt bij de omzetting van testosteron.
+            </p>
+            <p>
+              DHT bindt zich aan receptoren in de haarfollikels en veroorzaakt miniaturisatie: de
+              follikels worden geleidelijk kleiner en produceren steeds fijnere, kortere haren — tot
+              ze uiteindelijk helemaal stoppen met groeien.
+            </p>
+            <p>
+              De genetische gevoeligheid voor DHT kan van beide kanten van de familie overgedragen
+              worden. Een vroege start van haaruitval duidt doorgaans op een sterkere genetische
+              aanleg.
+            </p>
+          </div>
+          <div class="intro-stats">
+            <div class="stat-box">
+              <span class="stat-big">95%</span>
+              <span class="stat-text">van haaruitval bij mannen is erfelijk</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-big">50%</span>
+              <span class="stat-text">van de mannen heeft haaruitval op 50-jarige leeftijd</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-big">20j</span>
+              <span class="stat-text">haaruitval kan al voor het 20e levensjaar beginnen</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section bg-light">
+    <section class="symptoms-section">
       <div class="container">
-        <h2>Behandelingsmogelijkheden</h2>
+        <h2 class="section-title">Herken de symptomen</h2>
+        <p class="section-subtitle">
+          Haaruitval bij mannen heeft herkenbare vroege signalen — hoe vroeger u actie onderneemt,
+          hoe meer opties beschikbaar zijn
+        </p>
+        <div class="symptoms-grid">
+          @for (symptom of symptoms; track symptom.title) {
+            <div class="symptom-card">
+              <div class="symptom-icon">{{ symptom.icon }}</div>
+              <h3>{{ symptom.title }}</h3>
+              <p>{{ symptom.desc }}</p>
+            </div>
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="norwood-section">
+      <div class="container">
+        <h2 class="section-title">De Norwood-schaal</h2>
+        <p class="section-subtitle">
+          De internationale standaard om mannelijke kaalheid in 7 fasen te classificeren
+        </p>
+        <div class="norwood-table">
+          @for (phase of norwoodScale; track phase.phase) {
+            <div class="norwood-row" [class.norwood-row--highlight]="phase.highlight">
+              <div class="norwood-phase-badge">{{ phase.phase }}</div>
+              <div class="norwood-content">
+                <h3 class="norwood-title">{{ phase.title }}</h3>
+                <p class="norwood-desc">{{ phase.desc }}</p>
+              </div>
+              @if (phase.transplantSuitable) {
+                <span class="norwood-suitable-badge">Transplantatie mogelijk</span>
+              }
+            </div>
+          }
+        </div>
+        <p class="norwood-note">
+          Vanaf fase III is een haartransplantatie doorgaans een geschikte optie, mits de haaruitval
+          gestabiliseerd is en er voldoende donormateriaal aanwezig is.
+        </p>
+      </div>
+    </section>
+
+    <section class="prevention-section">
+      <div class="container">
+        <h2 class="section-title">Preventie tips voor mannen</h2>
+        <p class="section-subtitle">
+          Hoewel erfelijke haaruitval niet volledig te voorkomen is, kunt u de progressie vertragen
+        </p>
+        <div class="prevention-grid">
+          @for (tip of preventionTips; track tip.title) {
+            <div class="prevention-card">
+              <div class="prevention-icon">{{ tip.icon }}</div>
+              <h3>{{ tip.title }}</h3>
+              <p>{{ tip.desc }}</p>
+            </div>
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments-section">
+      <div class="container">
+        <h2 class="section-title">Behandelopties bij HaarKliniek 45</h2>
+        <p class="section-subtitle">
+          Van niet-chirurgische behandelingen tot permanente haartransplantatie
+        </p>
         <div class="treatments-grid">
-          <a routerLink="/behandelingen/haartransplantatie-mannen" class="treatment-link-card">
-            <span class="tl-icon">💇‍♂️</span>
-            <h3>Haartransplantatie</h3>
-            <p>Permanente oplossing via FUE Saffier of DHI — getransplanteerde haarzakjes groeien levenslang.</p>
-            <span class="tl-arrow">→</span>
-          </a>
-          <a routerLink="/haargroei-stimuleren" class="treatment-link-card">
-            <span class="tl-icon">🌱</span>
-            <h3>Haargroei stimuleren</h3>
-            <p>PRP, Hairegen en Regenera Activa vertragen haaruitval en versterken bestaande haarzakjes.</p>
-            <span class="tl-arrow">→</span>
-          </a>
-          <a routerLink="/haargroei-stimuleren/dna-test-haaruitval" class="treatment-link-card">
-            <span class="tl-icon">🧬</span>
-            <h3>TrichoTest™ DNA-test</h3>
-            <p>Een gepersonaliseerd behandelplan op basis van uw DNA-profiel en medicatiegevoeligheid.</p>
-            <span class="tl-arrow">→</span>
-          </a>
+          @for (treatment of treatments; track treatment.title) {
+            <a [routerLink]="treatment.link" class="treatment-card">
+              <div class="treatment-icon">{{ treatment.icon }}</div>
+              <h3 class="treatment-title">{{ treatment.title }}</h3>
+              <p class="treatment-desc">{{ treatment.desc }}</p>
+              <span class="treatment-type treatment-type--{{ treatment.type }}">{{
+                treatment.typeLabel
+              }}</span>
+              <span class="treatment-cta">Meer info &rarr;</span>
+            </a>
+          }
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="suitability-section">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Vanaf welke leeftijd kan ik een haartransplantatie overwegen?</h4><p>We raden aan te wachten tot de haaruitval gestabiliseerd is, doorgaans na de leeftijd van 25 jaar. Een vroeg consult is altijd zinvol om het juiste moment te bepalen.</p></div>
-          <div class="faq-item"><h4>Stopt haaruitval na een transplantatie?</h4><p>Getransplanteerde haarzakjes zijn DHT-resistent en vallen niet meer uit. Het omringend niet-getransplanteerd haar kan echter verder uitvallen. Ondersteunende behandelingen helpen dit te vertragen.</p></div>
-          <div class="faq-item"><h4>Moet ik medicatie nemen?</h4><p>Medicatie zoals finasteride kan haaruitval vertragen maar heeft bijwerkingen. Onze specialist bespreekt alle opties — inclusief niet-chirurgische alternatieven — tijdens uw gratis consult.</p></div>
+        <div class="suitability-box">
+          <h2>Wanneer is een haartransplantatie geschikt?</h2>
+          <p>
+            Een haartransplantatie bij mannen is het meest effectief wanneer aan een aantal
+            voorwaarden is voldaan. Onze specialist beoordeelt dit grondig tijdens het gratis
+            consult.
+          </p>
+          <ul class="suitability-list">
+            @for (crit of suitabilityCriteria; track crit) {
+              <li class="suitability-item">
+                <span class="suitability-check">✓</span>
+                <span>{{ crit }}</span>
+              </li>
+            }
+          </ul>
+          <a routerLink="/contact" class="btn btn-primary">Gratis geschiktheidsbeoordeling</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tips-cta-section">
+      <div class="container">
+        <div class="tips-cta-box">
+          <h2>Praktische tips tegen haaruitval</h2>
+          <p>
+            Naast een behandeling zijn er ook levensstijl- en verzorgingstips die het
+            haaruitvalproces kunnen vertragen. Lees onze 9 bewezen tips.
+          </p>
+          <a routerLink="/kenniscentrum/tips-haaruitval" class="btn btn-outline"
+            >9 Tips tegen haaruitval</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>
@@ -93,4 +204,183 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <app-consultation />
   `,
 })
-export class HaaruitvalManPageComponent {}
+export class HaaruitvalManPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+
+  symptoms = [
+    {
+      icon: '↩️',
+      title: 'Terugwijkende haarlijn',
+      desc: 'De haarlijn trekt zich terug aan de slapen en het voorhoofd, wat een M-vormig patroon creëert.',
+    },
+    {
+      icon: '🔍',
+      title: 'Verdunning op de kruin',
+      desc: 'Het haar op de bovenkant van het hoofd wordt dunner en de hoofdhuid wordt steeds meer zichtbaar.',
+    },
+    {
+      icon: 'M',
+      title: 'M-, U- of V-vormige haarlijn',
+      desc: 'Een typisch mannelijk patroon waarbij de haarlijn een karakteristieke M-, U- of V-vorm aanneemt.',
+    },
+    {
+      icon: '⏰',
+      title: 'Vroeg begin mogelijk',
+      desc: 'Mannelijke kaalheid kan al voor het 20e levensjaar beginnen. Vroege actie leidt tot betere resultaten.',
+    },
+  ];
+
+  norwoodScale = [
+    {
+      phase: 'Fase 1',
+      title: 'Geen significante haaruitval',
+      desc: 'De haarlijn is volledig intact, geen zichtbare recessie of verdunning.',
+      highlight: false,
+      transplantSuitable: false,
+    },
+    {
+      phase: 'Fase 2',
+      title: 'Lichte recessie aan de slapen',
+      desc: 'Een lichte terugtrekking van de haarlijn aan de slapen, maar nog geen echte kaalheid.',
+      highlight: false,
+      transplantSuitable: false,
+    },
+    {
+      phase: 'Fase 3',
+      title: 'Diepere recessie — eerste zichtbare kaalheid',
+      desc: 'Diepere recessie aan beide slapen, M-, U- of V-vormige haarlijn. Dit is de minimumdrempel voor een haartransplantatie.',
+      highlight: true,
+      transplantSuitable: true,
+    },
+    {
+      phase: 'Fase 3V',
+      title: 'Verlies op de kruin',
+      desc: 'Naast de recessie aan de haarlijn ook verlies op de top van de hoofdhuid.',
+      highlight: true,
+      transplantSuitable: true,
+    },
+    {
+      phase: 'Fase 4',
+      title: 'Ernstigere recessie en kale kruin',
+      desc: 'Verdere terugwijking van de haarlijn gecombineerd met weinig of geen haar op de kruin. Een smalle haarband scheidt beide zones.',
+      highlight: true,
+      transplantSuitable: true,
+    },
+    {
+      phase: 'Fase 5',
+      title: 'Grotere kale zones',
+      desc: 'De kale zones aan haarlijn en kruin zijn groter geworden. De verbindende haarband is smaller geworden.',
+      highlight: true,
+      transplantSuitable: true,
+    },
+    {
+      phase: 'Fase 6',
+      title: 'Slapen en kruin smelten samen',
+      desc: 'De kale zones aan de slapen en de kruin vloeien samen. Alleen een haarband aan de zijkanten en achterkant blijft over.',
+      highlight: true,
+      transplantSuitable: true,
+    },
+    {
+      phase: 'Fase 7',
+      title: 'Uitgebreide kaalheid',
+      desc: 'Alleen een smalle haarband aan de zijkanten en achterkant van het hoofd blijft over. De meest uitgebreide vorm van mannelijke kaalheid.',
+      highlight: false,
+      transplantSuitable: true,
+    },
+  ];
+
+  preventionTips = [
+    {
+      icon: '🚭',
+      title: 'Stop met roken',
+      desc: 'Roken vermindert de bloeddoorstroming naar de hoofdhuid en ontneemt de follikels van zuurstof en voedingsstoffen.',
+    },
+    {
+      icon: '🧘',
+      title: 'Verminder stress',
+      desc: 'Chronische stress verstoort de hormonale balans en kan haaruitval versnellen. Meditatie, sport en voldoende slaap helpen.',
+    },
+    {
+      icon: '🥩',
+      title: 'Voeding rijk aan proteinen en ijzer',
+      desc: 'Een dieet rijk aan proteinen (vlees, vis, eieren, peulvruchten), ijzer en vitaminen B en D ondersteunt gezonde haargroei.',
+    },
+    {
+      icon: '💊',
+      title: 'Bespreek uw medicatie',
+      desc: 'Sommige medicijnen versnellen haaruitval. Overleg met uw arts of er alternatieven zijn. Stop nooit eigenhandig met medicatie.',
+    },
+  ];
+
+  treatments = [
+    {
+      icon: '✂️',
+      title: 'Haartransplantatie voor mannen',
+      desc: 'Permanente oplossing voor gevorderde haaruitval. Eigen haar, eigen donorzone, levenslang resultaat.',
+      link: '/behandelingen/haartransplantatie-mannen',
+      type: 'surgical',
+      typeLabel: 'Chirurgisch',
+    },
+    {
+      icon: '💎',
+      title: 'FUE Saffier',
+      desc: 'Geavanceerde FUE-techniek met saffieren blad voor maximale precisie en sneller herstel.',
+      link: '/behandelingen/fue-saffier',
+      type: 'surgical',
+      typeLabel: 'Chirurgisch',
+    },
+    {
+      icon: '🖊️',
+      title: 'DHI',
+      desc: 'Direct Hair Implantation met Choi-pen voor maximale dichtheid en precisie. Minder trauma aan het donorgebied.',
+      link: '/behandelingen/dhi',
+      type: 'surgical',
+      typeLabel: 'Chirurgisch',
+    },
+    {
+      icon: '🎨',
+      title: 'Micro Haarpigmentatie',
+      desc: 'Niet-chirurgische oplossing die de optische illusie van een geschoren hoofd of meer dichtheid creëert.',
+      link: '/behandelingen/micro-haarpigmentatie',
+      type: 'nonsurgical',
+      typeLabel: 'Niet-chirurgisch',
+    },
+    {
+      icon: '🩸',
+      title: 'PRP-behandeling',
+      desc: 'Platelet-rich plasma stimuleert de haarfollikels en vertraagt haaruitval. Ideaal als preventie of aanvulling.',
+      link: '/behandelingen/prp-behandeling',
+      type: 'nonsurgical',
+      typeLabel: 'Niet-chirurgisch',
+    },
+    {
+      icon: '🌿',
+      title: 'Regenera Activa',
+      desc: 'Innovatieve behandeling met biologische groeifactoren die haargroei stimuleren en miniaturisering afremmen.',
+      link: '/behandelingen/regenera-activa',
+      type: 'nonsurgical',
+      typeLabel: 'Niet-chirurgisch',
+    },
+  ];
+
+  suitabilityCriteria = [
+    'Norwood fase 3 of hoger (zichtbare haaruitval)',
+    'Stabiele haaruitval (geen actief snel progressief verlies)',
+    'Voldoende donordichtheid aan achterhoofd en zijkanten',
+    'Minimumleeftijd van 23 a 25 jaar',
+    'Realistische verwachtingen over het resultaat',
+    'Goede algemene gezondheid zonder contra-indicaties',
+  ];
+}

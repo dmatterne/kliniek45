@@ -3,16 +3,25 @@
 @use '../../../styles/spacing' as *;
 
 .info-cards {
-  padding: $space-16 0;
+  padding: $space-12 0;
+
+  @media (min-width: $breakpoint-md) {
+    padding: $space-20 0;
+  }
+
   background: $neutral-white;
 }
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: $space-8;
 
-  @media (max-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: $breakpoint-sm) {
     grid-template-columns: 1fr;
   }
 }
@@ -27,17 +36,27 @@
   gap: $space-4;
   transition: box-shadow 0.2s;
 
-  &:hover { box-shadow: 0 8px 32px rgba($primary-green, 0.12); }
+  &:hover {
+    box-shadow: 0 8px 32px rgba($primary-green, 0.12);
+    border-color: rgba($primary-green, 0.25);
+    transform: translateY(-2px);
+  }
 
   .card-icon {
-    font-size: 2.5rem;
-    width: 64px;
-    height: 64px;
+    width: 72px;
+    height: 72px;
     background: $gold-pale;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
+
+    img {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+    }
   }
 
   h3 {
@@ -47,5 +66,10 @@
     margin: 0;
   }
 
-  p { color: $text-secondary; line-height: 1.7; margin: 0; flex: 1; }
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+    margin: 0;
+    flex: 1;
+  }
 }

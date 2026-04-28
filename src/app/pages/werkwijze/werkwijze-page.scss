@@ -52,8 +52,12 @@
 .section {
   padding: $space-16 0;
 
-  &--white { background: $neutral-white; }
-  &--cream { background: $neutral-cream; }
+  &--white {
+    background: $neutral-white;
+  }
+  &--cream {
+    background: $neutral-cream;
+  }
 
   &--green {
     background: $primary-green;
@@ -64,8 +68,12 @@
     text-align: center;
     margin-bottom: $space-12;
 
-    &--left { text-align: left; }
-    &--light { color: $neutral-white; }
+    &--left {
+      text-align: left;
+    }
+    &--light {
+      color: $neutral-white;
+    }
 
     h2 {
       font-family: $font-heading;
@@ -82,10 +90,14 @@
     margin: 0 auto $space-6;
     border-radius: 2px;
 
-    &--light { background: rgba(255, 255, 255, 0.6); }
+    &--light {
+      background: rgba(255, 255, 255, 0.6);
+    }
   }
 
-  &__header--left &__divider { margin: 0 0 $space-6; }
+  &__header--left &__divider {
+    margin: 0 0 $space-6;
+  }
 
   &__lead {
     font-family: $font-body;
@@ -95,7 +107,9 @@
     margin: 0 auto;
     line-height: 1.7;
 
-    &--light { color: rgba(255, 255, 255, 0.85); }
+    &--light {
+      color: rgba(255, 255, 255, 0.85);
+    }
   }
 }
 
@@ -302,9 +316,13 @@
     font-family: $font-heading;
     font-size: 1.2rem;
 
-    h3 { margin: 0; }
+    h3 {
+      margin: 0;
+    }
 
-    &__icon { font-size: 1.5rem; }
+    &__icon {
+      font-size: 1.5rem;
+    }
   }
 
   &__list {
@@ -344,7 +362,9 @@
     color: $primary-green-dark;
   }
 
-  &__list { background: $neutral-white; }
+  &__list {
+    background: $neutral-white;
+  }
 
   &__check {
     flex-shrink: 0;
@@ -368,7 +388,9 @@
     color: #9b1c1c;
   }
 
-  &__list { background: $neutral-white; }
+  &__list {
+    background: $neutral-white;
+  }
 
   &__cross {
     flex-shrink: 0;

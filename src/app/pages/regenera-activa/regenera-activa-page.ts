@@ -1,91 +1,51 @@
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-regenera-activa-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [NgFor, RouterLink, ConsultationComponent],
   styleUrls: ['./regenera-activa-page.scss'],
   template: `
     <section class="page-hero">
       <div class="container">
         <h1>Regenera Activa</h1>
-        <p class="hero-subtitle">Biologische haartherapie met uw eigen stamcellen — wetenschappelijk bewezen en minimaal invasief.</p>
+        <p class="hero-subtitle">
+          Innovatieve haaruitvalbehandeling op basis van stamceltechnologie. Regenera Activa maakt
+          je haar sterker en gezonder bij HaarKliniek 45 in Grazen, Belgie.
+        </p>
       </div>
     </section>
 
     <section class="content-section">
       <div class="container">
-        <h2>Wat is Regenera Activa?</h2>
-        <p>
-          Regenera Activa is een gepatenteerde, minimaal invasieve behandeling waarbij een kleine hoeveelheid
-          haarzakjes van uw eigen hoofdhuid worden gebruikt om een concentraat van stamcellen en groeifactoren
-          te bereiden. Dit concentraat wordt vervolgens in de aangetaste zones geïnjecteerd om de
-          haarfollikels te regenereren en haaruitval te stoppen.
-        </p>
-        <p>
-          In tegenstelling tot PRP-therapie (platelet-rich plasma) maakt Regenera Activa gebruik van
-          progenitor-cellen uit uw eigen haarfollikels — de meest doelgerichte biologische stimuli voor
-          haarregeneratie die momenteel beschikbaar zijn. Klinische studies tonen aan dat de behandeling
-          zowel de haardichtheid verhoogt als de haaruitval significant remt bij androgenetische alopecia.
-        </p>
-      </div>
-    </section>
-
-    <section class="content-section alt-bg">
-      <div class="container">
-        <h2>Verloop van de behandeling</h2>
-        <ol class="steps-list">
-          <li class="step-item">
-            <span class="step-num">1</span>
-            <div class="step-body">
-              <h3>Microbiopsie</h3>
-              <p>Onder lokale verdoving worden 3 tot 5 minuscule ponsjes (1,5 mm) genomen uit een zone achter op de hoofdhuid. Dit laat nauwelijks zichtbare sporen na.</p>
-            </div>
-          </li>
-          <li class="step-item">
-            <span class="step-num">2</span>
-            <div class="step-body">
-              <h3>Centrifugatie en filtratie</h3>
-              <p>De weefselstukjes worden verwerkt in een speciale centrifuge waarmee het concentraat van stamcellen en groeifactoren wordt bereid. Dit duurt ongeveer 15 minuten.</p>
-            </div>
-          </li>
-          <li class="step-item">
-            <span class="step-num">3</span>
-            <div class="step-body">
-              <h3>Injectie in de behandelzone</h3>
-              <p>Het concentraat wordt met microinjecties ingebracht in de zones met haaruitval. De injecties stimuleren de aanwezige haarzakjes direct op cellulair niveau.</p>
-            </div>
-          </li>
-          <li class="step-item">
-            <span class="step-num">4</span>
-            <div class="step-body">
-              <h3>Herstel en opvolging</h3>
-              <p>Na de behandeling kunt u onmiddellijk naar huis. Er is geen hersteltijd vereist. Na 6 maanden evalueert uw specialist de resultaten en bespreekt verdere opties.</p>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="container">
-        <h2>Voordelen</h2>
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <div class="benefit-icon">🧬</div>
-            <h3>100% autoloog</h3>
-            <p>Uitsluitend uw eigen cellen worden gebruikt — geen risico op afstoting of bijwerkingen.</p>
+        <div class="two-col">
+          <div>
+            <h2>Wat is Regenera Activa?</h2>
+            <p>
+              Hebben verschillende haarverliesbehandelingen niet het gewenste effect gehad? Wij
+              hebben de oplossing – een Regenera Activa-behandeling. Regenera Activa is de
+              behandeling die je haar sterker en gezonder maakt.
+            </p>
+            <p>
+              Regenera Activa is een innovatieve behandeling, ontwikkeld om haaruitval bij mannen en
+              vrouwen tegen te gaan. Het maakt gebruik van geavanceerde capillaire regeneratieve
+              technologie gericht op androgenetische alopecia.
+            </p>
+            <p>
+              De Regenera Activa-behandeling maakt gebruik van het eigen haar dat cellen bevat die
+              helpen bij het activeren van de follikels rond het gebied van haaruitval. Met andere
+              woorden, het gebruikt het vermogen van jouw eigen lichaam om nieuw haar te produceren
+              door een haarregeneratieproces te stimuleren.
+            </p>
           </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">⚡</div>
-            <h3>Eén sessie volstaat</h3>
-            <p>In tegenstelling tot PRP of Hairegen is doorgaans één behandelsessie voldoende voor een aantoonbaar resultaat.</p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">📈</div>
-            <h3>Klinisch bewezen</h3>
-            <p>Wetenschappelijke studies tonen significante verbetering in haardichtheid en remming van haaruitval na 6–12 maanden.</p>
+          <div class="image-block">
+            <img
+              src="assets/images/voor-na-mannen.png"
+              alt="Regenera Activa behandeling resultaat"
+            />
           </div>
         </div>
       </div>
@@ -93,37 +53,257 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="content-section alt-bg">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item">
-            <h3 class="faq-question">Is Regenera Activa een alternatief voor een haartransplantatie?</h3>
-            <p class="faq-answer">
-              Regenera Activa is geen vervanging voor een chirurgische haartransplantatie, maar een aanvulling.
-              De behandeling is het meest effectief in vroege stadia van haaruitval (Norwood 1–3). Bij
-              gevorderde kaalheid is een transplantatie de aangewezen optie.
+        <h2>Gratis consult met onze specialist</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">&#127908;</div>
+            <h3>Gratis consult</h3>
+            <p>
+              Het eerste consult is gratis en geheel vrijblijvend. Ontdek of Regenera Activa de
+              juiste keuze is voor jou.
             </p>
           </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Hoe lang houden de resultaten aan?</h3>
-            <p class="faq-answer">
-              Klinische opvolgstudies tonen resultaten die tot 2 jaar aantoonbaar blijven. Na verloop van
-              tijd kan een herhalingssessie worden aanbevolen afhankelijk van de progressie van de haaruitval.
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128300;</div>
+            <h3>100% Expertise</h3>
+            <p>
+              Je kunt direct vragen stellen aan onze specialist in Grazen. Wij beantwoorden al je
+              vragen over de behandeling.
             </p>
           </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Verschilt Regenera Activa van PRP?</h3>
-            <p class="faq-answer">
-              Ja. PRP werkt via groeifactoren uit bloedplaatjes. Regenera Activa maakt gebruik van
-              progenitor-cellen uit de haarfollikels zelf, wat een meer gerichte werking heeft op
-              haarregeneratie. Regenera Activa heeft ook een sterker wetenschappelijk onderbouwd
-              bewijs dan klassieke PRP.
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128274;</div>
+            <h3>Betrouwbaar</h3>
+            <p>
+              Wij gaan discreet om met je gegevens. Jouw privacy staat bij HaarKliniek 45 altijd
+              voorop.
             </p>
           </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128269;</div>
+            <h3>Hoofd- en haaranalyse</h3>
+            <p>
+              We voeren een gratis hoofd- en haaranalyse uit om de beste behandeloptie voor jou te
+              bepalen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Hoe werkt een Regenera Activa-behandeling?</h2>
+        <p>
+          Regenera Activa is een innovatieve behandeling waarbij de hoofdhuid wordt geinjjecteerd
+          met een speciale suspensie die stamcellen, groeifactoren en voorlopercellen bevat met
+          extreem krachtige eigenschappen. De behandeling stimuleert de haargroei, haarverdikking en
+          remming van haaruitval.
+        </p>
+        <p>
+          In tegenstelling tot veel andere haarverliesbehandelingen is Regenera Activa goedgekeurd
+          door de Food and Drugs Administration (FDA). De FDA richt strenge controles uit op het
+          gebied van gezondheidszorg. Dit betekent dat de stamcelmethode uitvoerig is getest op
+          werking en veiligheid.
+        </p>
+        <p>
+          De behandeling duurt elk ongeveer 20-25 minuten. De resultaten kunnen meer dan 3 jaar
+          aanhouden, waardoor het een duurzame oplossing is voor haaruitval.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>Plan een consult bij HaarKliniek 45 in Grazen</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>De consultatie</h3>
+            <p>
+              Tijdens het consultatiegesprek bespreken we al je wensen en heb je alle gelegenheid om
+              vragen te stellen. Dit kan telefonisch of persoonlijk in onze kliniek in Grazen,
+              Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Start behandeling</h3>
+            <p>
+              Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
+              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Nazorg</h3>
+            <p>
+              Wij blijven je adviseren na de behandeling. Je ontvangt advies over producten en
+              eventuele vervolgbehandelingen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>De voordelen van Regenera Activa</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">&#127807;</div>
+            <h3>Stimuleren van de groei van nieuw haar</h3>
+            <p>
+              De behandeling is ontworpen om de groei van nieuw haar te stimuleren, waardoor een
+              vollere en dikkere haardos ontstaat.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128170;</div>
+            <h3>Haarverdikking</h3>
+            <p>
+              Regenera Activa heeft als doel de haarstructuur te verbeteren, wat resulteert in
+              merkbare verdikking van het haar.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128737;</div>
+            <h3>Preventie haaruitval</h3>
+            <p>
+              Het behandelingsproces is gericht op het verminderen van haaruitval, waardoor het haar
+              langer behouden blijft.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#128260;</div>
+            <h3>Stimuleren regeneratieproces</h3>
+            <p>
+              Regenera Activa stimuleert het regeneratieproces, wat gunstig is voor het herstel van
+              beschadigde haarzakjes.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#9989;</div>
+            <h3>FDA-goedgekeurd</h3>
+            <p>
+              De behandeling is goedgekeurd door de FDA en uitvoerig getest op werking en veiligheid
+              voor jouw gemoedsrust.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#9200;</div>
+            <h3>Snelle behandeling</h3>
+            <p>
+              Elke sessie duurt slechts 20-25 minuten en de resultaten kunnen meer dan 3 jaar
+              aanhouden.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>De effecten van een Regenera Activa-behandeling</h2>
+        <p>Een Regenera Activa-behandeling heeft verschillende positieve effecten op het haar:</p>
+        <ul class="styled-list">
+          <li>
+            <strong>Stimulering van de groei van nieuw haar:</strong> De behandeling is ontworpen om
+            de groei van nieuw haar te stimuleren, waardoor een vollere en dikkere haardos ontstaat.
+          </li>
+          <li>
+            <strong>Haarverdikking:</strong> Regenera Activa heeft als doel de haarstructuur te
+            verbeteren, wat kan resulteren in merkbare verdikking van het haar.
+          </li>
+          <li>
+            <strong>Remming van haaruitval:</strong> Het behandelingsproces is gericht op het
+            verminderen van haaruitval, waardoor het haar langer behouden blijft.
+          </li>
+          <li>
+            <strong>Stimulatie van regeneratieprocessen:</strong> Regenera Activa stimuleert het
+            regeneratieproces, wat gunstig is voor het herstel van beschadigde haarzakjes.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Wanneer is een Regenera Activa-behandeling geschikt?</h2>
+        <p>Een Regenera Activa-behandeling is een geschikte behandeling in de volgende gevallen:</p>
+        <ul class="styled-list">
+          <li>
+            <strong>Alopecia Androgenetica bij mannen:</strong> Voor mannen die last hebben van
+            erfelijke haaruitval kan een Regenera Activa-behandeling een effectieve oplossing zijn
+            om de haargroei te bevorderen en haarverlies tegen te gaan.
+          </li>
+          <li>
+            <strong>Alopecia Androgenetica bij vrouwen:</strong> Vrouwen die kampen met erfelijke
+            haaruitval, specifiek Alopecia Androgenetica, kunnen baat hebben bij een Regenera
+            Activa-behandeling. Deze behandeling richt zich op het stimuleren van de haargroei en
+            het verminderen van haarverdunning.
+          </li>
+          <li>
+            <strong>Algemene haaruitval:</strong> Personen die te maken hebben met algemene
+            haaruitval, ongeacht de oorzaak, kunnen overwegen om een Regenera Activa-behandeling te
+            ondergaan. Het doel is het stimuleren van regeneratieprocessen en het verbeteren van de
+            algehele conditie van het haar.
+          </li>
+        </ul>
+        <p>
+          De behandeling is geschikt voor zowel mannen als vrouwen. De vorm van haaruitval moet mild
+          zijn. Is de mate van haaruitval heftig? Dan kunnen we andere behandelingen aanbevelen
+          tijdens het gratis consult.
+        </p>
+        <div class="two-col" style="margin-top: 2rem;">
+          <div class="image-block">
+            <img src="assets/images/voor-na-mannen.png" alt="Regenera Activa voor en na mannen" />
+          </div>
+          <div class="image-block">
+            <img src="assets/images/voor-na-vrouwen.png" alt="Regenera Activa voor en na vrouwen" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-link-section">
+      <div class="container">
+        <p>
+          Heb je vragen over de Regenera Activa-behandeling, de werking, veiligheid of wanneer de
+          behandeling geschikt is? Bekijk onze veelgestelde vragen voor uitgebreide antwoorden.
+        </p>
+        <a routerLink="/faq">Bekijk alle veelgestelde vragen &#8594;</a>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          <ng-container *ngFor="let _ of [1, 2]">
+            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
+          </ng-container>
         </div>
       </div>
     </section>
 
     <app-consultation />
-  `
+  `,
 })
-export class RegeneraActivaPageComponent {}
+export class RegeneraActivaPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

@@ -1,98 +1,264 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-resultaten-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./resultaten-page.scss'],
   template: `
+    <!-- Hero -->
     <section class="page-hero">
       <div class="container">
-        <p class="hero-eyebrow">Echte resultaten</p>
-        <h1>Ervaringen &amp; resultaten van onze klanten</h1>
-        <p class="hero-subtitle">Alle resultaten zijn authentiek — echte patiënten, onbewerkte foto's, eerlijke verhalen.</p>
-        <div class="hero-rating">
-          <span class="rating-stars">★★★★★</span>
-          <span><strong>4,9 / 5,0</strong> — gebaseerd op 150+ Google Reviews</span>
+        <p class="hero-eyebrow">Resultaten</p>
+        <h1>Resultaten</h1>
+        <p class="hero-subtitle">
+          Eerlijke, onbewerkte voor-en-na-foto&rsquo;s van echte patiënten van HaarKliniek 45 in
+          Grazen, België. Geen filters, geen Photoshop — enkel authentieke resultaten.
+        </p>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="content-section results-intro">
+      <div class="container">
+        <div class="intro-notice">
+          <span class="notice-icon">📸</span>
+          <p>
+            Alle getoonde resultaten zijn afkomstig van echte patiënten van HaarKliniek 45 die hun
+            foto&rsquo;s ter beschikking hebben gesteld. De foto&rsquo;s zijn niet bewerkt of
+            gefilterd. Individuele resultaten kunnen variëren afhankelijk van de mate van
+            haaruitval, de gebruikte techniek en de nazorg.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="voor-na-section">
+    <!-- Filter buttons (visueel, geen JS) -->
+    <section class="content-section filter-section">
       <div class="container">
-        <h2 class="section-title">Voor &amp; Na</h2>
-        <p class="section-subtitle">Een selectie van onze behandelresultaten — een jaar na de ingreep</p>
-        <div class="cards-grid">
-          @for (card of cards; track card.label) {
-            <div class="ba-card">
-              <div class="ba-images">
-                <div class="ba-block ba-voor">
-                  <span class="ba-label">Voor</span>
-                  <div class="ba-placeholder before-img">
-                    <span class="ba-icon">📷</span>
-                  </div>
-                </div>
-                <div class="ba-divider">→</div>
-                <div class="ba-block ba-na">
-                  <span class="ba-label after">Na</span>
-                  <div class="ba-placeholder after-img">
-                    <span class="ba-icon">✨</span>
-                  </div>
-                </div>
-              </div>
-              <div class="ba-meta">
-                <strong>{{ card.label }}</strong>
-                <span>{{ card.detail }}</span>
-              </div>
+        <div class="filter-bar">
+          <button class="filter-btn filter-btn--active" type="button">Alle resultaten</button>
+          <button class="filter-btn" type="button">Mannen</button>
+          <button class="filter-btn" type="button">Vrouwen</button>
+          <button class="filter-btn" type="button">Inhammen</button>
+          <button class="filter-btn" type="button">Kruin</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galerie grid -->
+    <section class="content-section gallery-section">
+      <div class="container">
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/voor-na-mannen.png"
+                alt="Voor en na haartransplantatie mannen — HaarKliniek 45"
+                loading="lazy"
+              />
             </div>
-          }
-        </div>
-      </div>
-    </section>
-
-    <section class="testimonials-section">
-      <div class="container">
-        <h2 class="section-title" style="color:white">Wat klanten vinden?</h2>
-        <p class="section-subtitle" style="color:rgba(255,255,255,0.75)">Lees de ervaringen van onze patiënten</p>
-        <div class="testimonials-grid">
-          @for (t of testimonials; track t.name) {
-            <div class="testimonial-card">
-              <div class="t-header">
-                <div class="t-avatar">{{ t.initial }}</div>
-                <div class="t-meta">
-                  <strong>{{ t.name }}</strong>
-                  <span>{{ t.date }}</span>
-                </div>
-                <div class="t-stars">★★★★★</div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Mannen</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">2800 grafts</span>
+                <span class="meta-tag">FUE Saffier</span>
               </div>
-              <p class="t-quote">"{{ t.quote }}"</p>
-              <div class="t-treatment">{{ t.treatment }}</div>
+              <p>
+                Herstel van haarlijn en kruin. Volledige bedekking van het frontale gebied met een
+                natuurlijk, leeftijdsadequaat resultaat.
+              </p>
             </div>
-          }
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/mannen-voor-na-1.png"
+                alt="Voor en na haartransplantatie mannen DHI — HaarKliniek 45"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Mannen</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">2400 grafts</span>
+                <span class="meta-tag">DHI</span>
+              </div>
+              <p>
+                DHI-techniek voor hoge haardichtheid en een volledige natuurlijke haarlijn. Minimaal
+                donorgebied gebruikt.
+              </p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/mannen-voor-na-2.png"
+                alt="Voor en na haartransplantatie mannen FUE — HaarKliniek 45"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Mannen</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">3200 grafts</span>
+                <span class="meta-tag">FUE Saffier</span>
+              </div>
+              <p>
+                Uitgebreid geval van mannelijke kaalheid, volledig behandeld via FUE Saffier in één
+                sessie. Indrukwekkende transformatie.
+              </p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/mannen-voor-na-3.png"
+                alt="Voor en na haartransplantatie kruin — HaarKliniek 45"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Kruin</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">2000 grafts</span>
+                <span class="meta-tag">DHI</span>
+              </div>
+              <p>
+                Gerichte behandeling van kaalheid op de kruin. DHI zorgt voor maximale dichtheid in
+                de kruinzone met een wervelend, natuurlijk patroon.
+              </p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/voor-na-vrouwen.png"
+                alt="Voor en na haartransplantatie vrouwen — HaarKliniek 45"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Vrouwen</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">1600 grafts</span>
+                <span class="meta-tag">DHI</span>
+              </div>
+              <p>
+                Vrouwelijke haartransplantatie voor diffuse verdunning. DHI-techniek voor subtiele
+                volumeverhoging met behoud van de bestaande haarlijn.
+              </p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-img-wrap">
+              <img
+                src="assets/images/voor-na-inhammen.png"
+                alt="Voor en na haartransplantatie inhammen — HaarKliniek 45"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-info">
+              <h3>Haartransplantatie Inhammen</h3>
+              <div class="gallery-meta">
+                <span class="meta-tag">1200 grafts</span>
+                <span class="meta-tag">FUE Saffier</span>
+              </div>
+              <p>
+                Herstel van de inhammen voor een symmetrische, jeugdige haarlijn. Nauwkeurig
+                ontworpen op basis van de gezichtscontouren van de patiënt.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="stats-section">
+    <!-- Belangrijke mededeling -->
+    <section class="content-section disclaimer-section">
       <div class="container">
-        <div class="stats-grid">
-          <div class="stat">
-            <strong>500+</strong>
-            <span>Tevreden patiënten</span>
+        <div class="disclaimer-box">
+          <h2>Wat u moet weten over resultaten</h2>
+          <div class="disclaimer-grid">
+            <div class="disclaimer-item">
+              <span class="d-icon">⏳</span>
+              <h3>Zichtbaar resultaat na 12–18 maanden</h3>
+              <p>
+                Een haartransplantatie vergt geduld. De getransplanteerde grafts groeien
+                geleidelijk. Na 3–4 maanden ziet u de eerste groei; het definitieve, volledige
+                resultaat is zichtbaar na 12 tot 18 maanden.
+              </p>
+            </div>
+            <div class="disclaimer-item">
+              <span class="d-icon">🔬</span>
+              <h3>Individuele resultaten variëren</h3>
+              <p>
+                Het eindresultaat hangt af van factoren zoals de kwaliteit van uw donorgebied, uw
+                haartype, de genetica, de nauwkeurigheid van de techniek en de kwaliteit van uw
+                nazorg.
+              </p>
+            </div>
+            <div class="disclaimer-item">
+              <span class="d-icon">🌱</span>
+              <h3>Wat bepaalt een goed resultaat?</h3>
+              <p>
+                Graftoverleving wordt bepaald door de extractiemethode, de opslagtijd en de
+                implantatieprecisie. De nazorg thuis speelt een even grote rol. Onze specialisten
+                bereiden u grondig voor.
+              </p>
+            </div>
+            <div class="disclaimer-item">
+              <span class="d-icon">💚</span>
+              <h3>Eerlijkheid boven alles</h3>
+              <p>
+                Wij tonen u alleen echte resultaten. Geen gemanipuleerde foto&rsquo;s, geen
+                misleidende belichting. Wat u hier ziet, is wat u bij HaarKliniek 45 in Grazen,
+                België kunt verwachten.
+              </p>
+            </div>
           </div>
-          <div class="stat">
-            <strong>4,9/5</strong>
-            <span>Gemiddelde Google beoordeling</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="content-section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Wil je weten wat wij voor jou kunnen doen?</h2>
+          <p>
+            Tijdens een gratis en volledig vrijblijvend consult analyseren onze specialisten uw
+            haaruitval, het donorgebied en uw verwachtingen. Zo ontvangt u een eerlijk en
+            gepersonaliseerd advies — zonder verplichtingen.
+          </p>
+          <div class="cta-actions">
+            <a routerLink="/consult" class="btn btn-primary">Gratis consult aanvragen</a>
+            <a routerLink="/behandelingen" class="btn btn-outline">Alle behandelingen</a>
           </div>
-          <div class="stat">
-            <strong>98%</strong>
-            <span>Slaagpercentage behandelingen</span>
-          </div>
-          <div class="stat">
-            <strong>10+</strong>
-            <span>Jaar ervaring in haartransplantatie</span>
-          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>
@@ -101,58 +267,17 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `,
 })
 export class ResultatenPageComponent {
-  cards = [
-    { label: 'Haartransplantatie mannen', detail: 'FUE Saffier · 3.200 grafts · 16 maanden' },
-    { label: 'Haartransplantatie inhammen', detail: 'DHI · 2.100 grafts · 12 maanden' },
-    { label: 'Haartransplantatie vrouwen', detail: 'FUE · 1.800 grafts · 18 maanden' },
-    { label: 'Haartransplantatie kruin', detail: 'FUE Saffier · 2.800 grafts · 14 maanden' },
-    { label: 'Baardtransplantatie', detail: 'DHI · 1.200 grafts · 10 maanden' },
-    { label: 'Long Hair transplantatie', detail: 'FUE · 2.600 grafts · 15 maanden' },
-  ];
-
-  testimonials = [
-    {
-      initial: 'T',
-      name: 'Thomas V.',
-      date: '6 maanden geleden',
-      quote: 'Al jaren leed ik onder haaruitval, wat mijn zelfvertrouwen enorm aantastte. Bij HaarKliniek 45 voelde ik me meteen begrepen. De begeleiding was uitstekend en het resultaat na 12 maanden is indrukwekkend.',
-      treatment: 'FUE Saffier · 3.200 grafts',
-    },
-    {
-      initial: 'R',
-      name: 'Rik M.',
-      date: '4 maanden geleden',
-      quote: 'Een perfecte organisatie! Professioneel team, duidelijke communicatie en een geweldig eindresultaat. Van het eerste consult tot de nazorg — alles verliep vlekkeloos.',
-      treatment: 'DHI · 2.100 grafts',
-    },
-    {
-      initial: 'S',
-      name: 'Sander K.',
-      date: '3 maanden geleden',
-      quote: 'Van A tot Z perfect begeleid. Elk stadium van het proces werd uitgelegd. Ik ben enorm tevreden met zowel de aanpak als het eindresultaat.',
-      treatment: 'FUE · 1.800 grafts',
-    },
-    {
-      initial: 'A',
-      name: 'An L.',
-      date: '8 maanden geleden',
-      quote: 'Als vrouw met diffuse haaruitval was ik aanvankelijk sceptisch. HaarKliniek 45 heeft mijn verwachtingen overtroffen. Mijn haar is duidelijk dikker geworden en ik voel me eindelijk weer mezelf.',
-      treatment: 'FUE · 1.600 grafts',
-    },
-    {
-      initial: 'M',
-      name: 'Mathias D.',
-      date: '1 jaar geleden',
-      quote: 'Ik had al 15 jaar last van kaalheid aan de kruin. Na de ingreep bij HaarKliniek 45 heb ik eindelijk de haarlijn van mijn twintigste terug. Absoluut de beste investering in mijn leven.',
-      treatment: 'FUE Saffier · 2.800 grafts',
-    },
-    {
-      initial: 'J',
-      name: 'Jonas P.',
-      date: '5 maanden geleden',
-      quote: 'De baardtransplantatie heeft mijn uitstraling volledig getransformeerd. Het team is vakkundig en vriendelijk. Ik zou het aan iedereen aanbevelen die dit overweegt.',
-      treatment: 'Baardtransplantatie · DHI',
-    },
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
   ];
 }
-

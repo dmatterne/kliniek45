@@ -24,7 +24,7 @@ import { DnaTestHaaruitvalPageComponent } from './pages/dna-test-haaruitval/dna-
 import { PrpBehandelingPageComponent } from './pages/prp-behandeling/prp-behandeling-page';
 import { NazorgPageComponent } from './pages/nazorg/nazorg-page';
 import { NazorgKorstjesPageComponent } from './pages/nazorg-korstjes/nazorg-korstjes-page';
-import { NazorgHerstellPageComponent } from './pages/nazorg-herstel/nazorg-herstel-page';
+import { NazorgHerstelPageComponent } from './pages/nazorg-herstel/nazorg-herstel-page';
 import { NazorgSlapenPageComponent } from './pages/nazorg-slapen/nazorg-slapen-page';
 import { HaaruitvalPageComponent } from './pages/haaruitval/haaruitval-page';
 import { HaaruitvalManPageComponent } from './pages/haaruitval-man/haaruitval-man-page';
@@ -36,13 +36,35 @@ export const routes: Routes = [
 
   // Behandelingen
   { path: 'behandelingen', component: BehandelingenPageComponent },
-  { path: 'behandelingen/haartransplantatie-mannen', component: HaartransplantatieMannenPageComponent },
-  { path: 'behandelingen/haartransplantatie-vrouwen', component: HaartransplantatieVrouwenPageComponent },
-  { path: 'behandelingen/haartransplantatie-inhammen', component: HaartransplantatieInhammenPageComponent },
-  { path: 'behandelingen/haartransplantatie-kruin', component: HaartransplantatieKruinPageComponent },
-  { path: 'behandelingen/long-hair-haartransplantatie', component: LongHairHaartransplantatiePageComponent },
-  { path: 'behandelingen/haartransplantatie-kosten', component: HaartransplantatieKostenPageComponent },
-  { path: 'behandelingen/haartransplantatie-resultaat', redirectTo: '/resultaten', pathMatch: 'full' },
+  {
+    path: 'behandelingen/haartransplantatie-mannen',
+    component: HaartransplantatieMannenPageComponent,
+  },
+  {
+    path: 'behandelingen/haartransplantatie-vrouwen',
+    component: HaartransplantatieVrouwenPageComponent,
+  },
+  {
+    path: 'behandelingen/haartransplantatie-inhammen',
+    component: HaartransplantatieInhammenPageComponent,
+  },
+  {
+    path: 'behandelingen/haartransplantatie-kruin',
+    component: HaartransplantatieKruinPageComponent,
+  },
+  {
+    path: 'behandelingen/long-hair-haartransplantatie',
+    component: LongHairHaartransplantatiePageComponent,
+  },
+  {
+    path: 'behandelingen/haartransplantatie-kosten',
+    component: HaartransplantatieKostenPageComponent,
+  },
+  {
+    path: 'behandelingen/haartransplantatie-resultaat',
+    redirectTo: '/resultaten',
+    pathMatch: 'full',
+  },
   { path: 'behandelingen/baardtransplantatie', component: BaardtransplantatiePageComponent },
   { path: 'behandelingen/micro-haarpigmentatie', component: MicroHaarpigmentatiePageComponent },
   { path: 'behandelingen/dhi', component: DhiPageComponent },
@@ -69,7 +91,7 @@ export const routes: Routes = [
   { path: 'haaruitval/tips-tegen-haaruitval', component: TipsHaaruitvalPageComponent },
   { path: 'nazorg', component: NazorgPageComponent },
   { path: 'nazorg/korstjes-na-haartransplantatie', component: NazorgKorstjesPageComponent },
-  { path: 'nazorg/herstel-na-haartransplantatie', component: NazorgHerstellPageComponent },
+  { path: 'nazorg/herstel-na-haartransplantatie', component: NazorgHerstelPageComponent },
   { path: 'nazorg/slapen-na-haartransplantatie', component: NazorgSlapenPageComponent },
 
   // Werkwijze & Contact

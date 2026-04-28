@@ -1,265 +1,539 @@
+@use 'sass:color';
 @use '../../../styles/colors' as *;
 @use '../../../styles/typography' as *;
 @use '../../../styles/spacing' as *;
 
-.hero {
-  background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
+// ── Hero ──────────────────────────────────────────────────────────────────
+
+.page-hero {
+  background: linear-gradient(135deg, $primary-green-dark 0%, $primary-green 100%);
   color: $neutral-white;
-  padding: $space-24 0;
-  text-align: center;
+  padding: $space-20 0 $space-16;
 
-  &__badge {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.15);
-    color: $neutral-white;
-    font-family: $font-body;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: $space-2 $space-4;
-    border-radius: 20px;
-    margin-bottom: $space-4;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-  }
-
-  &__title {
-    font-family: $font-heading;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+  .hero-eyebrow {
+    font-size: $text-sm;
     font-weight: 700;
-    color: $neutral-white;
-    margin: 0 0 $space-4;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba($neutral-white, 0.7);
+    margin-bottom: $space-3;
+  }
+
+  h1 {
+    font-family: $font-heading;
+    font-size: $h1-size;
+    font-weight: 700;
+    margin-bottom: $space-5;
     line-height: 1.15;
-  }
 
-  &__subtitle {
-    font-family: $font-body;
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
-    color: rgba(255, 255, 255, 0.88);
-    max-width: 640px;
-    margin: 0 auto $space-8;
-    line-height: 1.6;
-  }
-
-  &__actions {
-    display: flex;
-    gap: $space-3;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-.section {
-  padding: $space-16 0;
-
-  &--white { background: $neutral-white; }
-  &--cream { background: $neutral-cream; }
-
-  &--green {
-    background: $primary-green;
-    color: $neutral-white;
-  }
-
-  &__header {
-    text-align: center;
-    margin-bottom: $space-12;
-
-    &--left { text-align: left; }
-    &--light { color: $neutral-white; }
-
-    h2 {
-      font-family: $font-heading;
-      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
-      color: $text-primary;
-      margin: 0 0 $space-3;
+    @media (max-width: $breakpoint-md) {
+      font-size: $text-4xl;
     }
   }
 
-  &__divider {
-    width: 60px;
-    height: 3px;
-    background: $primary-green;
-    margin: 0 auto $space-6;
-    border-radius: 2px;
-
-    &--light { background: rgba(255, 255, 255, 0.6); }
+  .hero-subtitle {
+    font-size: $text-lg;
+    opacity: 0.9;
+    max-width: 640px;
+    line-height: 1.7;
   }
 
-  &__header--left &__divider { margin: 0 0 $space-6; }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-4;
+    margin-top: $space-8;
+  }
 
-  &__lead {
-    font-family: $font-body;
-    font-size: 1.1rem;
-    color: $text-secondary;
-    max-width: 680px;
-    margin: 0 auto;
-    line-height: 1.7;
-
-    &--light { color: rgba(255, 255, 255, 0.85); }
+  .btn-light {
+    border-color: rgba($neutral-white, 0.6);
+    color: $neutral-white;
+    &:hover {
+      background: rgba($neutral-white, 0.15);
+      border-color: $neutral-white;
+    }
   }
 }
 
-.text-block {
-  max-width: 800px;
-  margin: 0 auto;
+// ── Mission ───────────────────────────────────────────────────────────────
+
+.mission-section {
+  background: $neutral-white;
+}
+
+.mission-stats {
+  display: flex;
+  gap: $space-8;
+  margin-top: $space-8;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-1;
+
+  .stat-number {
+    font-family: $font-heading;
+    font-size: $text-3xl;
+    font-weight: 700;
+    color: $primary-green;
+  }
+
+  .stat-label {
+    font-size: $text-sm;
+    color: $text-secondary;
+    text-align: center;
+  }
+}
+
+.mission-image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-6;
+  padding: $space-8;
+  background: $neutral-cream;
+  border-radius: 16px;
+  border: 1px solid $neutral-light;
+}
+
+.mission-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.mission-quote {
+  background: $primary-green-pale;
+  border-left: 4px solid $primary-green;
+  border-radius: 0 8px 8px 0;
+  padding: $space-5 $space-6;
 
   p {
-    font-family: $font-body;
-    font-size: 1.05rem;
-    color: $text-primary;
-    line-height: 1.8;
-    margin: 0 0 $space-4;
-
-    &:last-child { margin-bottom: 0; }
+    font-family: $font-heading;
+    font-style: italic;
+    color: $primary-green-dark;
+    font-size: $text-base;
+    line-height: 1.7;
+    margin: 0;
   }
 }
 
-.values-grid {
+// ── Pillars ───────────────────────────────────────────────────────────────
+
+.pillars-section {
+  background: $neutral-cream;
+}
+
+.pillars-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: $space-6;
+  margin-top: $space-8;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pillar-card {
+  background: $neutral-white;
+  border-radius: 16px;
+  padding: $space-8;
+  border: 1px solid $neutral-light;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+
+  .pillar-icon {
+    font-size: 2.5rem;
+    margin-bottom: $space-4;
+    display: block;
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-xl;
+    color: $primary-green-dark;
+    margin-bottom: $space-3;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+    margin-bottom: $space-4;
+    font-size: $text-base;
+  }
+}
+
+.pillar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: $space-1 0 $space-1 $space-5;
+    position: relative;
+    font-size: $text-sm;
+    color: $text-secondary;
+
+    &::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: $primary-green;
+      font-weight: 700;
+    }
+  }
+}
+
+// ── Approach ──────────────────────────────────────────────────────────────
+
+.approach-section {
+  background: $neutral-white;
+}
+
+.approach-steps {
+  display: flex;
+  flex-direction: column;
+  gap: $space-6;
+  margin: $space-8 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 28px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient($primary-green-pale, $primary-green-pale);
+
+    @media (max-width: $breakpoint-md) {
+      display: none;
+    }
+  }
+}
+
+.step {
+  display: flex;
+  gap: $space-6;
+  align-items: flex-start;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  background: $primary-green;
+  color: $neutral-white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-heading;
+  font-size: $text-lg;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.step-content {
+  padding-top: $space-3;
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-xl;
+    color: $primary-green-dark;
+    margin-bottom: $space-2;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+}
+
+.approach-treatments {
+  background: $neutral-cream;
+  border-radius: 12px;
+  padding: $space-6 $space-8;
+  margin-top: $space-6;
+
+  h3 {
+    font-family: $font-heading;
+    color: $primary-green-dark;
+    margin-bottom: $space-4;
+  }
+}
+
+.treatment-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+}
+
+.tag {
+  display: inline-block;
+  padding: $space-2 $space-4;
+  background: $primary-green-pale;
+  color: $primary-green-dark;
+  border-radius: 100px;
+  font-size: $text-sm;
+  font-weight: 600;
+  border: 1px solid rgba($primary-green, 0.2);
+}
+
+// ── Belgium comparison ────────────────────────────────────────────────────
+
+.belgium-section {
+  background: $neutral-cream;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+  margin-top: $space-8;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.comparison-card {
+  border-radius: 12px;
+  padding: $space-8;
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-xl;
+    margin-bottom: $space-5;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: $space-2 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      font-size: $text-sm;
+      line-height: 1.6;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &--pro {
+    background: $primary-green-pale;
+    border: 1px solid rgba($primary-green, 0.25);
+
+    h3 {
+      color: $primary-green-dark;
+    }
+    li {
+      color: color.adjust($primary-green-dark, $lightness: -5%);
+    }
+  }
+
+  &--con {
+    background: $neutral-white;
+    border: 1px solid $neutral-light;
+
+    h3 {
+      color: $neutral-gray-600;
+    }
+    li {
+      color: $text-secondary;
+    }
+  }
+}
+
+// ── Location ──────────────────────────────────────────────────────────────
+
+.location-section {
+  background: $neutral-white;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  gap: $space-5;
+  margin-top: $space-5;
+}
+
+.location-item {
+  display: flex;
+  gap: $space-4;
+  align-items: flex-start;
+
+  .location-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  strong {
+    display: block;
+    color: $primary-green-dark;
+    font-weight: 700;
+    margin-bottom: $space-1;
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-sm;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+.location-highlights {
+  background: $neutral-cream;
+  border-radius: 12px;
+  padding: $space-8;
+  height: 100%;
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-xl;
+    color: $primary-green-dark;
+    margin-bottom: $space-4;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+    margin-bottom: $space-4;
+  }
+}
+
+// ── Team ──────────────────────────────────────────────────────────────────
+
+.team-section {
+  background: $neutral-cream;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+  margin-top: $space-8;
 
   @media (min-width: $breakpoint-md) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.value-card {
+.team-card {
   background: $neutral-white;
-  border-radius: 12px;
-  padding: $space-8;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
-
-  &__icon {
-    font-size: 2.2rem;
-    display: block;
-    margin-bottom: $space-4;
-  }
-
-  &__title {
-    font-family: $font-heading;
-    font-size: 1.2rem;
-    color: $primary-green;
-    margin: 0 0 $space-4;
-  }
-
-  &__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      font-family: $font-body;
-      font-size: 0.9rem;
-      color: $text-primary;
-      padding: $space-2 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-      line-height: 1.5;
-
-      &:last-child { border-bottom: none; }
-
-      &::before {
-        content: '✓ ';
-        color: $primary-green;
-        font-weight: 700;
-      }
-    }
-  }
-}
-
-.team-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: $space-12;
-  align-items: center;
-
-  @media (min-width: $breakpoint-lg) {
-    grid-template-columns: 3fr 2fr;
-  }
-
-  &__content {
-    p {
-      font-family: $font-body;
-      font-size: 1rem;
-      color: $text-primary;
-      line-height: 1.8;
-      margin: 0 0 $space-4;
-    }
-  }
-
-  &__cta {
-    margin-top: $space-6;
-  }
-}
-
-.team-photo-placeholder {
-  background: $primary-green;
   border-radius: 16px;
-  aspect-ratio: 4 / 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: $space-3;
-  color: $neutral-white;
-
-  &__icon {
-    font-size: 3.5rem;
-  }
-
-  &__text {
-    font-family: $font-heading;
-    font-size: 1.4rem;
-    font-weight: 700;
-  }
-
-  &__sub {
-    font-family: $font-body;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.75);
-  }
-}
-
-.reasons-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: $space-6;
-
-  @media (min-width: $breakpoint-md) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.reason-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
   padding: $space-8;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  border: 1px solid $neutral-light;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 
-  &__header {
-    display: flex;
-    align-items: center;
-    gap: $space-3;
+  .team-avatar {
+    font-size: 3rem;
     margin-bottom: $space-4;
+    display: block;
   }
 
-  &__icon {
-    font-size: 1.8rem;
-    flex-shrink: 0;
-  }
-
-  &__title {
+  h3 {
     font-family: $font-heading;
-    font-size: 1.1rem;
-    color: $neutral-white;
-    margin: 0;
+    font-size: $text-lg;
+    color: $primary-green-dark;
+    margin-bottom: $space-3;
   }
 
   p {
-    font-family: $font-body;
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: $text-secondary;
+    font-size: $text-sm;
     line-height: 1.7;
     margin: 0;
   }
 }
+
+// ── Nav links ─────────────────────────────────────────────────────────────
+
+.nav-links-section {
+  background: $neutral-white;
+}
+
+.nav-links-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-5;
+  margin-top: $space-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.nav-link-card {
+  display: block;
+  background: $neutral-cream;
+  border: 1px solid $neutral-light;
+  border-radius: 12px;
+  padding: $space-6 $space-8;
+  text-decoration: none;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease,
+    border-color 0.2s ease;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    border-color: $primary-green;
+  }
+
+  .nav-link-icon {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: $space-3;
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-lg;
+    color: $primary-green-dark;
+    margin-bottom: $space-2;
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-sm;
+    line-height: 1.6;
+    margin: 0;
+    padding-right: $space-6;
+  }
+
+  .nav-link-arrow {
+    position: absolute;
+    bottom: $space-6;
+    right: $space-6;
+    color: $primary-green;
+    font-size: $text-lg;
+    font-weight: 700;
+  }
+}
+
+// ── Trust Badges ──────────────────────────────────────────────────────────

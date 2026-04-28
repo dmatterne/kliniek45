@@ -5,73 +5,398 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 @Component({
   selector: 'app-nazorg-slapen-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./nazorg-slapen-page.scss'],
   template: `
-    <section class="page-hero">
+    <section class="hero">
       <div class="container">
-        <span class="eyebrow">Nazorg</span>
-        <h1>Slapen na haartransplantatie</h1>
-        <p class="subtitle">Hoe u de eerste weken het best slaapt na uw haartransplantatie om uw grafts optimaal te beschermen.</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a routerLink="/">Home</a>
+          <span aria-hidden="true">›</span>
+          <a routerLink="/nazorg">Nazorg</a>
+          <span aria-hidden="true">›</span>
+          <span>Slapen</span>
+        </nav>
+        <h1 class="hero-title">Slapen na Haartransplantatie</h1>
+        <p class="hero-subtitle">
+          Uw slaaphouding heeft een directe invloed op het herstel van de grafts. De juiste positie
+          beschermt de getransplanteerde haarfollikels, vermindert zwelling en zorgt voor een
+          optimaal genezingsverloop.
+        </p>
+        <a routerLink="/contact" class="btn btn-primary">Stel uw vraag</a>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="why-section">
       <div class="container">
-        <h2>Waarom is slaaphouding belangrijk?</h2>
-        <p>De eerste 7 tot 10 dagen na een haartransplantatie zijn de pas geplaatste grafts nog kwetsbaar. Wrijving of druk op het behandelde gebied kan grafts losrukken of beschadigen, wat het eindresultaat negatief beïnvloedt. De juiste slaaphouding is daarom één van de belangrijkste aspecten van de nazorg.</p>
-        <p>Naast het beschermen van de grafts is het ook belangrijk om zwelling van het voorhoofd te beperken. Een verhoogd hoofdeinde de eerste nachten helpt vocht af te voeren en de zwelling te minimaliseren.</p>
-      </div>
-    </section>
-
-    <section class="page-section bg-light">
-      <div class="container">
-        <h2>Slaaptips voor de eerste weken</h2>
-        <div class="steps-list">
-          <div class="step-item"><div class="step-num">1</div><div class="step-body"><h4>Slaap op uw rug</h4><p>Vermijd alle druk op het behandelde gebied. Slaap de eerste 2 weken uitsluitend op uw rug.</p></div></div>
-          <div class="step-item"><div class="step-num">2</div><div class="step-body"><h4>Gebruik een nekrol of steunkussen</h4><p>Een U-vormig reiskussen of nekrol voorkomt dat uw hoofd ongemerkt naar de zijkant rolt tijdens het slapen.</p></div></div>
-          <div class="step-item"><div class="step-num">3</div><div class="step-body"><h4>Verhoog uw hoofdeinde de eerste week</h4><p>Leg extra kussens onder uw matras of gebruik een verstelbaar hoofdeinde. Dit beperkt zwelling van het voorhoofd.</p></div></div>
-          <div class="step-item"><div class="step-num">4</div><div class="step-body"><h4>Wissel kussensloop dagelijks</h4><p>Een schone kussensloop elke nacht minimaliseert het risico op bacteriële infectie in de kwetsbare genezingsperiode.</p></div></div>
-          <div class="step-item"><div class="step-num">5</div><div class="step-body"><h4>Vermijd zijdelings slapen de eerste week</h4><p>Zijdelings slapen oefent druk uit op de zijkanten van het hoofd en de donorzone. Wacht minstens 10-14 dagen.</p></div></div>
-          <div class="step-item"><div class="step-num">6</div><div class="step-body"><h4>Meld slaapproblemen bij uw specialist</h4><p>Heeft u moeite met slapen door ongemak? Neem contact op. We kunnen indien nodig een mild slaapondersteunend middel voorschrijven.</p></div></div>
+        <h2 class="section-title">Waarom is slaaphouding zo belangrijk?</h2>
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon">🩸</div>
+            <h3>Beschermen van de grafts</h3>
+            <p>
+              De eerste dagen zijn de grafts nog niet volledig verankerd in de huid. Druk op het
+              getransplanteerde gebied — door een kussen of een onhandige houding — kan een graft
+              letterlijk dislokeren. Dit leidt tot graft-verlies en een minder dicht eindresultaat.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">💧</div>
+            <h3>Zwelling verminderen</h3>
+            <p>
+              Na de ingreep treedt zwelling op rondom het voorhoofd en de behandelde zone. Een
+              verhoogd hoofd tijdens het slapen verbetert de bloed- en lymfedrainage en beperkt de
+              zwelling aanzienlijk. Hoe lager het hoofd hangt, hoe meer vocht zich ophoopt.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">😴</div>
+            <h3>Zijligging en buikligging vermijden</h3>
+            <p>
+              Op uw zij of buik slapen brengt het hoofd in contact met het kussen. Dit creëert
+              wrijving en druk op de korstjes en grafts, wat beschadiging kan veroorzaken — zelfs
+              zonder dat u het merkt.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="positions-section">
       <div class="container">
-        <h2>Wanneer kunt u weer normaal slapen?</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Na 1 week</h4><p>Voorzichtig zijdelings slapen is mogelijk als het behandelde gebied geen pijn meer geeft en de korstjes steviger zijn.</p></div>
-          <div class="faq-item"><h4>Na 2 weken</h4><p>De meeste beperkingen zijn opgeheven. U kunt in een comfortabelere houding slapen, maar vermijd nog druk op het ontvangende gebied.</p></div>
-          <div class="faq-item"><h4>Na 1 maand</h4><p>Volledig vrij slapen is toegestaan. De grafts zijn stevig verankerd en zijn bestand tegen normale slaapdruk.</p></div>
+        <h2 class="section-title">Aanbevolen slaapposities</h2>
+        <p class="section-subtitle">Drie opties — van ideaal tot aanvaardbaar</p>
+        <div class="positions-grid">
+          <div class="position-card position-best">
+            <div class="position-badge">⭐ Beste keuze</div>
+            <div class="position-icon">🛏️</div>
+            <h3>Op de rug met nekkussen</h3>
+            <p>
+              Slapen op de rug met een nekkussen (reiskussen) is de ideale positie. Het nekkussen
+              zorgt ervoor dat u niet wegdraait naar uw zij en houdt uw hoofd stabiel en licht
+              verhoogd. Geen enkel deel van het getransplanteerde gebied komt in contact met het
+              beddengoed.
+            </p>
+            <ul class="position-benefits">
+              <li>Geen contact met het kussen op de grafts</li>
+              <li>Hoofd stabiel — kunt niet ongemerkt omdraaien</li>
+              <li>Nekkussen houdt hoofd comfortabel verhoogd</li>
+              <li>Vermindert zwelling optimaal</li>
+            </ul>
+          </div>
+          <div class="position-card position-ok">
+            <div class="position-badge position-badge-ok">👍 Aanvaardbaar</div>
+            <div class="position-icon">🪑</div>
+            <h3>Halfzittend slapen</h3>
+            <p>
+              Slapen in een halfzittende positie — in een fauteuil of met heel veel kussens in de
+              rug — houdt het hoofd maximaal verhoogd. Dit is iets minder comfortabel maar biedt
+              uitstekende bescherming voor de grafts.
+            </p>
+            <ul class="position-benefits">
+              <li>Maximale hoogte vermindert zwelling sterk</li>
+              <li>Geen hoofdkussencontact</li>
+              <li>Minder comfortabel voor langere periodes</li>
+            </ul>
+          </div>
+          <div class="position-card position-avoid">
+            <div class="position-badge position-badge-avoid">🚫 Vermijden</div>
+            <div class="position-icon">⚠️</div>
+            <h3>Posities om te vermijden</h3>
+            <p>
+              Bepaalde slaapposities zijn gevaarlijk in de herstelfase en moeten absoluut vermeden
+              worden gedurende de eerste tien dagen.
+            </p>
+            <ul class="position-avoid-list">
+              <li>Op de buik slapen — directe druk op grafts</li>
+              <li>Op de zij slapen op het getransplanteerde gebied</li>
+              <li>Plat op het hoofd liggen zonder verhoging</li>
+              <li>Op een ruw of oud kussen slapen</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section bg-light">
+    <section class="angle-section">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Wat als ik toch op mijn zij ben gevallen tijdens het slapen?</h4><p>Geen paniek. Controleer of de grafts nog op hun plaats zitten. Bij twijfel of bij bloeding neemt u contact op met uw specialist.</p></div>
-          <div class="faq-item"><h4>Mag ik een gewone muts dragen tijdens het slapen?</h4><p>Alleen de speciale beschermkap die wij meegeven is toegelaten de eerste week. Gewone mutsen of petjes mogen pas na 10-14 dagen.</p></div>
-          <div class="faq-item"><h4>Hoe lang duurt de pijn 's nachts?</h4><p>Meeste patiënten hebben de eerste 2-3 nachten licht ongemak. Pijnstillers die wij voorschrijven helpen dit te beheersen.</p></div>
+        <h2 class="section-title">Hoe hoog moet het hoofd liggen?</h2>
+        <div class="angle-grid">
+          <div class="angle-card">
+            <div class="angle-value">45°</div>
+            <div class="angle-label">Dag 1–3</div>
+            <p>
+              De eerste drie dagen is een hoek van minimaal 45 graden aanbevolen. Dit is het meest
+              kritieke venster voor graft-bescherming en zwellingreductie. Gebruik extra kussens of
+              slaap in een fauteuil.
+            </p>
+          </div>
+          <div class="angle-card">
+            <div class="angle-value">30°</div>
+            <div class="angle-label">Dag 4–7</div>
+            <p>
+              Vanaf dag vier mag de hoek geleidelijk worden verminderd naar circa 30 graden. De
+              grafts zijn nu beter verankerd, maar voorzichtigheid blijft geboden. Het nekkussen is
+              nog steeds aan te raden.
+            </p>
+          </div>
+          <div class="angle-card">
+            <div class="angle-value">Normaal</div>
+            <div class="angle-label">Dag 10+</div>
+            <p>
+              Vanaf dag tien tot veertien zijn de grafts volledig ingegroeid. U kunt geleidelijk
+              terugkeren naar uw normale slaaphouding. Wees de eerste weken daarna nog steeds
+              voorzichtig met ruw beddengoed.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    
-    <section class="cta-section">
+    <section class="duration-section">
       <div class="container">
-        <h2>Nog vragen over de eerste nachten?</h2>
-        <p>Neem gerust contact op — ons team is bereikbaar voor al uw nazorgvragen.</p>
-        <a routerLink="/contact" class="btn btn-gold">Contacteer ons</a>
-        <a routerLink="/nazorg" class="btn btn-secondary" style="margin-left:1rem">Terug naar nazorg</a>
+        <div class="duration-card">
+          <h2>Hoe lang moet u dit volhouden?</h2>
+          <p>
+            De eerste <strong>drie tot tien nachten</strong> zijn het meest kritiek. De eerste drie
+            nachten zijn absoluut essentieel — verzuim dit niet. Hoe langer u de aanbevolen
+            slaaphouding aanhoudt, hoe beter uw resultaat.
+          </p>
+          <div class="duration-timeline">
+            <div class="dur-step">
+              <div class="dur-dot dur-critical"></div>
+              <div class="dur-label">Nacht 1–3</div>
+              <div class="dur-desc">
+                Absoluut kritiek — 45° positie, nekkussen, geen uitzonderingen
+              </div>
+            </div>
+            <div class="dur-step">
+              <div class="dur-dot dur-important"></div>
+              <div class="dur-label">Nacht 4–7</div>
+              <div class="dur-desc">Zeer belangrijk — nekkussen aanhouden, 30° positie</div>
+            </div>
+            <div class="dur-step">
+              <div class="dur-dot dur-normal"></div>
+              <div class="dur-label">Nacht 8–14</div>
+              <div class="dur-desc">
+                Aanbevolen — nekkussen indien mogelijk, rustig terugkeren naar normaal
+              </div>
+            </div>
+            <div class="dur-step">
+              <div class="dur-dot dur-free"></div>
+              <div class="dur-label">Na dag 14</div>
+              <div class="dur-desc">Normale slaaphouding toegestaan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="practical-section">
+      <div class="container">
+        <h2 class="section-title">Praktische slaaptips</h2>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <span class="tip-icon">🛏️</span>
+            <h3>Gebruik een nekkussen</h3>
+            <p>
+              Een reiskussen (U-vormig) is uw beste hulpmiddel. Het voorkomt omdraaien en houdt het
+              hoofd comfortabel verhoogd zonder contact op de grafts.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🏔️</span>
+            <h3>Extra kussens in de rug</h3>
+            <p>
+              Stapel twee tot drie kussens onder uw hoofd en rug om de aanbevolen hoek te bereiken.
+              Een kussen onder de knieën geeft extra comfort bij rugligging.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🧺</span>
+            <h3>Handdoek op het kussen</h3>
+            <p>
+              Leg dagelijks een schone handdoek over uw kussen. Dit absorbeert wondvocht en houdt
+              het slaapoppervlak hygiënisch. Vervang elke ochtend.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🌬️</span>
+            <h3>Koele slaapkamer</h3>
+            <p>
+              Slaap in een goed geventileerde, koele kamer. Warmte bevordert zwelling en jeuk. Een
+              temperatuur van 17–19°C is ideaal voor herstel.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🧴</span>
+            <h3>Beddengoed niet aanraken</h3>
+            <p>
+              Zorg dat het beddengoed het getransplanteerde gebied niet direct raakt. Dit is precies
+              waarom het nekkussen zo waardevol is.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">📵</span>
+            <h3>Scherm vermijden voor het slapengaan</h3>
+            <p>
+              Blauw licht houdt u wakker. Leg uw gsm 30 minuten voor het slapen weg. Goede
+              slaapkwaliteit bevordert de aanmaak van groeihormonen die het herstel ondersteunen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="swelling-section">
+      <div class="container">
+        <h2 class="section-title">Zwelling na de ingreep</h2>
+        <div class="swelling-content">
+          <div class="swelling-info">
+            <p>
+              Zwelling is een normaal bijverschijnsel in de eerste drie tot vijf dagen na de
+              ingreep. Bij grotere transplantaties kan de zwelling zich uitbreiden naar het
+              voorhoofd en zelfs rondom de ogen. Dit ziet er soms alarmerend uit maar is volledig
+              verwacht en tijdelijk.
+            </p>
+            <p>
+              De zwelling trekt gewoonlijk weg tussen dag drie en vijf. Een verhoogde slaaphouding
+              is de meest effectieve manier om de zwelling te beperken.
+            </p>
+            <div class="swelling-tips">
+              <div class="swelling-tip ok">
+                <span>✓</span>
+                <p>Verhoogd slapen vermindert zwelling effectief</p>
+              </div>
+              <div class="swelling-tip ok">
+                <span>✓</span>
+                <p>Koude doek naast (niet op) het gebied kan helpen</p>
+              </div>
+              <div class="swelling-tip nok">
+                <span>✗</span>
+                <p>Zout eten verhoogt vochtretentie en verergert zwelling</p>
+              </div>
+              <div class="swelling-tip nok">
+                <span>✗</span>
+                <p>Ijs direct op de grafts aanbrengen is verboden</p>
+              </div>
+            </div>
+          </div>
+          <div class="swelling-timeline-card">
+            <h3>Verwacht verloop van de zwelling</h3>
+            <div class="swell-day">
+              <span class="swell-marker">Dag 1–2</span>
+              <div class="swell-bar swell-low"></div>
+              <span class="swell-note">Lichte zwelling rond behandeld gebied</span>
+            </div>
+            <div class="swell-day">
+              <span class="swell-marker">Dag 3–4</span>
+              <div class="swell-bar swell-high"></div>
+              <span class="swell-note">Piek — eventueel rondom ogen</span>
+            </div>
+            <div class="swell-day">
+              <span class="swell-marker">Dag 5–7</span>
+              <div class="swell-bar swell-mid"></div>
+              <span class="swell-note">Zwelling trekt weg</span>
+            </div>
+            <div class="swell-day">
+              <span class="swell-marker">Dag 10</span>
+              <div class="swell-bar swell-gone"></div>
+              <span class="swell-note">Vrijwel verdwenen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sleep-tips-section">
+      <div class="container">
+        <h2 class="section-title">Tips voor een betere nachtrust</h2>
+        <p class="section-subtitle">
+          De eerste nachten zijn ongewoon maar tijdelijk. Houd het einddoel voor ogen: prachtig,
+          permanent haar. Dit ongemak is de investering waard.
+        </p>
+        <div class="mental-tips">
+          <div class="mental-tip">
+            <span class="mental-icon">🎯</span>
+            <div>
+              <strong>Focus op het resultaat</strong>
+              <p>
+                Dit is slechts tien nachten van ongemak voor een leven lang resultaat. Visualiseer
+                het eindresultaat.
+              </p>
+            </div>
+          </div>
+          <div class="mental-tip">
+            <span class="mental-icon">🍵</span>
+            <div>
+              <strong>Lichte maaltijd voor het slapengaan</strong>
+              <p>
+                Zware maaltijden voor het slapen verstoren de nachtrust. Eet licht en niet te laat.
+              </p>
+            </div>
+          </div>
+          <div class="mental-tip">
+            <span class="mental-icon">📚</span>
+            <div>
+              <strong>Rustgevende routine</strong>
+              <p>
+                Een vast slaapschema helpt. Lees een boek, luister naar ontspannende muziek of doe
+                een korte meditatie.
+              </p>
+            </div>
+          </div>
+          <div class="mental-tip">
+            <span class="mental-icon">📞</span>
+            <div>
+              <strong>Bel ons bij twijfel</strong>
+              <p>
+                Maakt u zich zorgen of heeft u pijn die u hindert bij het slapen? Bel ons op +32 485
+                593 302.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a routerLink="/nazorg" class="nav-link">← Terug naar Nazorg</a>
+          <a routerLink="/nazorg/herstel-na-haartransplantatie" class="nav-link"
+            >Herstel na Haartransplantatie →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+        </div>
       </div>
     </section>
 
     <app-consultation />
   `,
 })
-export class NazorgSlapenPageComponent {}
-
+export class NazorgSlapenPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

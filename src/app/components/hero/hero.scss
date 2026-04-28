@@ -1,6 +1,6 @@
-@use "../../../styles/colors" as *;
-@use "../../../styles/typography" as *;
-@use "../../../styles/spacing" as *;
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
 
 .hero {
   position: relative;
@@ -61,7 +61,9 @@
     line-height: 1.12;
     margin-bottom: $space-6;
 
-    .accent { color: $gold; }
+    .accent {
+      color: $gold;
+    }
   }
 
   .hero-subtitle {
@@ -78,7 +80,9 @@
     gap: $space-4;
     flex-wrap: wrap;
 
-    .hero-cta { cursor: pointer; }
+    .hero-cta {
+      cursor: pointer;
+    }
   }
 
   .hero-trust {
@@ -92,8 +96,15 @@
     border: 1px solid rgba($gold, 0.25);
     width: fit-content;
 
-    .trust-stars { color: $gold; font-size: $text-xl; letter-spacing: 2px; }
-    .trust-text { font-size: $text-sm; color: rgba($neutral-white, 0.9); }
+    .trust-stars {
+      color: $gold;
+      font-size: $text-xl;
+      letter-spacing: 2px;
+    }
+    .trust-text {
+      font-size: $text-sm;
+      color: rgba($neutral-white, 0.9);
+    }
   }
 }
 
@@ -104,8 +115,8 @@
   justify-content: center;
 
   .hero-logo-img {
-    width: 320px;
-    max-width: 34vw;
+    width: 640px;
+    max-width: 68vw;
     opacity: 0.85;
     filter: drop-shadow(0 0 50px rgba($gold, 0.3)) drop-shadow(0 0 100px rgba($gold, 0.1));
     animation: logoFloat 7s ease-in-out infinite;
@@ -113,16 +124,29 @@
 }
 
 @keyframes logoFloat {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-14px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
 }
 
 @media (max-width: $breakpoint-lg) {
-  .hero-logo-col { display: none; }
-  .hero-content { justify-content: center; }
+  .hero-logo-col {
+    display: none;
+  }
+  .hero-content {
+    justify-content: center;
+  }
 }
 
 @media (max-width: $breakpoint-md) {
-  .hero { min-height: 75vh; }
-  .hero-text { padding: $space-12 0; }
+  .hero {
+    min-height: 75vh;
+  }
+  .hero-text {
+    padding: $space-12 0;
+  }
 }

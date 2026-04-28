@@ -2,302 +2,271 @@
 @use '../../../styles/typography' as *;
 @use '../../../styles/spacing' as *;
 
-.page-hero {
+.hero {
   background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
   color: $neutral-white;
-  padding: $space-16 $space-4;
+  padding: $space-24 0;
   text-align: center;
 
-  .eyebrow {
+  &-badge {
     display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: $gold;
-    margin-bottom: $space-3;
+    background: rgba(255, 255, 255, 0.15);
+    color: $neutral-white;
     font-family: $font-body;
+    font-size: $text-xs;
     font-weight: 600;
-  }
-
-  h1 {
-    font-family: $font-heading;
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
-    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: $space-2 $space-4;
+    border-radius: 20px;
     margin-bottom: $space-4;
+    border: 1px solid rgba(255, 255, 255, 0.25);
   }
 
-  .subtitle {
-    font-size: 1.1rem;
-    opacity: 0.9;
-    max-width: 620px;
-    margin: 0 auto;
+  &-title {
+    font-family: $font-heading;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: $neutral-white;
+    margin: 0 0 $space-4;
+    line-height: 1.15;
+  }
+
+  &-subtitle {
     font-family: $font-body;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 700px;
+    margin: 0 auto $space-8;
+    line-height: 1.6;
+  }
+
+  &-actions {
+    display: flex;
+    gap: $space-3;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
-.page-section {
-  padding: $space-16 $space-4;
+.intro-section {
+  padding: $space-12 0;
+  background: $neutral-cream;
+}
 
-  &.bg-light { background: $neutral-cream; }
-
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
+.intro-box {
+  max-width: 800px;
+  margin: 0 auto;
+  background: $neutral-white;
+  border-radius: 12px;
+  padding: $space-8;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
 
   h2 {
     font-family: $font-heading;
-    font-size: 1.9rem;
-    color: $primary-green;
-    margin-bottom: $space-6;
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    color: $text-primary;
+    margin: 0 0 $space-5;
   }
 
-  p { font-family: $font-body; color: $text-secondary; line-height: 1.75; margin-bottom: $space-4; }
-}
+  p {
+    font-family: $font-body;
+    color: $text-secondary;
+    line-height: 1.8;
+    margin-bottom: $space-4;
 
-.intro-text {
-  font-size: 1.1rem;
-  color: $text-secondary;
-  font-family: $font-body;
-  line-height: 1.8;
-  margin-bottom: $space-10;
-  max-width: 760px;
-}
-
-.steps-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-6;
-
-  .step-item {
-    display: flex;
-    gap: $space-4;
-    align-items: flex-start;
-
-    .step-num {
-      flex-shrink: 0;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 50%;
-      background: $primary-green;
-      color: $neutral-white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-family: $font-body;
-    }
-
-    .step-body {
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; }
-      p { margin: 0; font-family: $font-body; color: $text-secondary; line-height: 1.65; }
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
 
-.benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: $space-6;
-
-  .benefit-card {
-    background: $neutral-white;
-    border-radius: 12px;
-    padding: $space-6;
-    text-align: center;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-
-    .benefit-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; font-size: 0.95rem; line-height: 1.6; }
-  }
-}
-
-.faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .faq-item {
-    background: $neutral-white;
-    border: 1px solid $neutral-light;
-    border-radius: 10px;
-    padding: $space-5 $space-6;
-
-    h4 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.05rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.7; }
-  }
-}
-
-.candidates-grid {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .candidate-item {
-    display: flex;
-    gap: $space-4;
-    align-items: flex-start;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .cand-icon { color: $primary-green; font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
-    h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-1; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; }
-  }
-}
-
-.treatments-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: $space-6;
-}
-
-.treatment-link-card {
-  display: block;
+.tips-section {
+  padding: $space-16 0;
   background: $neutral-white;
-  border: 2px solid $neutral-light;
-  border-radius: 14px;
-  padding: $space-6;
-  text-decoration: none;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
-
-  &:hover {
-    border-color: $primary-green;
-    box-shadow: 0 4px 20px rgba(26,77,71,0.12);
-    transform: translateY(-3px);
-  }
-
-  .tl-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-  h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; }
-  p { font-family: $font-body; color: $text-secondary; margin: 0 0 $space-4; font-size: 0.95rem; line-height: 1.6; }
-  .tl-arrow { color: $primary-green; font-weight: 700; font-size: 1.1rem; }
-}
-
-.norwood-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .norwood-item {
-    display: flex;
-    gap: $space-4;
-    align-items: baseline;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .norwood-num {
-      flex-shrink: 0;
-      font-family: $font-heading;
-      font-size: 1.3rem;
-      color: $primary-green;
-      font-weight: 700;
-      min-width: 1.5rem;
-    }
-
-    div { font-family: $font-body; color: $text-secondary; line-height: 1.65; }
-    strong { color: $text-primary; }
-  }
-}
-
-.tips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: $space-6;
-
-  .tip-card {
-    background: $neutral-white;
-    border-radius: 14px;
-    padding: $space-6;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    border-top: 3px solid $primary-green;
-
-    .tip-num {
-      font-family: $font-heading;
-      font-size: 2rem;
-      color: $primary-green-pale;
-      font-weight: 700;
-      margin-bottom: $space-2;
-    }
-
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-3; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
-  }
-}
-
-.timeline {
   display: flex;
   flex-direction: column;
   gap: 0;
-  position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: 4.5rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: $primary-green-pale;
-  }
-
-  .timeline-item {
+  .container {
     display: flex;
-    gap: $space-6;
-    align-items: flex-start;
-    padding: $space-5 0;
-    position: relative;
-
-    .timeline-day {
-      flex-shrink: 0;
-      width: 4rem;
-      font-family: $font-body;
-      font-weight: 700;
-      font-size: 0.8rem;
-      color: $primary-green;
-      text-align: right;
-      padding-top: 0.2rem;
-    }
-
-    .timeline-body {
-      background: $neutral-white;
-      border-radius: 10px;
-      padding: $space-4 $space-5;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      flex: 1;
-
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; font-size: 1rem; }
-      p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
-    }
+    flex-direction: column;
+    gap: $space-8;
   }
 }
 
-.dos-donts {
+.tip-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $space-8;
+  grid-template-columns: 64px 1fr;
+  gap: $space-6;
+  background: $neutral-cream;
+  border-radius: 14px;
+  padding: $space-8;
+  border: 1px solid $neutral-light;
+  align-items: start;
+  transition: box-shadow 0.2s ease;
 
-  @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+  &:hover {
+    box-shadow: 0 4px 20px rgba(26, 77, 71, 0.1);
   }
 
-  ul { padding-left: $space-5; list-style: disc; }
-  li { font-family: $font-body; color: $text-secondary; margin-bottom: $space-3; line-height: 1.6; }
+  &--featured {
+    background: $primary-green-pale;
+    border-color: rgba($primary-green, 0.25);
+    border-left: 4px solid $primary-green;
 
-  .dos-title { color: #2d7a72; font-family: $font-heading; margin-bottom: $space-4; }
-  .dont-title { color: #b83232; font-family: $font-heading; margin-bottom: $space-4; }
+    .tip-number {
+      background: $primary-green;
+      color: $neutral-white;
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tip-number {
+  width: 56px;
+  height: 56px;
+  background: $neutral-white;
+  border: 2px solid $primary-green-light;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-heading;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $primary-green;
+  flex-shrink: 0;
+
+  @media (max-width: $breakpoint-sm) {
+    width: 44px;
+    height: 44px;
+    font-size: 1rem;
+  }
+}
+
+.tip-content {
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.tip-header {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  flex-wrap: wrap;
+}
+
+.tip-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.tip-title {
+  font-family: $font-heading;
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: $text-primary;
+  margin: 0;
+}
+
+.tip-intro {
+  font-family: $font-body;
+  font-size: 1rem;
+  color: $text-primary;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tip-detail {
+  font-family: $font-body;
+  font-size: 0.95rem;
+  color: $text-secondary;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.tip-link {
+  display: inline-block;
+  font-family: $font-body;
+  font-size: $text-sm;
+  font-weight: 700;
+  color: $primary-green;
+  text-decoration: none;
+  padding: $space-2 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tip-bullets {
+  list-style: none;
+  padding: 0;
+  margin: $space-2 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+
+  li {
+    font-family: $font-body;
+    font-size: $text-sm;
+    color: $text-secondary;
+    padding-left: $space-5;
+    position: relative;
+    line-height: 1.5;
+
+    &::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: $primary-green;
+      font-weight: 700;
+    }
+  }
 }
 
 .cta-section {
+  padding: $space-16 0;
   background: $primary-green;
-  color: $neutral-white;
-  padding: $space-12 $space-4;
+}
+
+.cta-box {
+  max-width: 680px;
+  margin: 0 auto;
   text-align: center;
 
-  h2 { font-family: $font-heading; font-size: 1.8rem; margin-bottom: $space-4; }
-  p { font-family: $font-body; opacity: 0.9; margin-bottom: $space-6; }
+  h2 {
+    font-family: $font-heading;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: $neutral-white;
+    margin: 0 0 $space-4;
+  }
+
+  p {
+    font-family: $font-body;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    margin-bottom: $space-4;
+  }
+}
+
+.cta-actions {
+  display: flex;
+  gap: $space-3;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: $space-6;
+  margin-bottom: $space-4;
+}
+
+.cta-address {
+  font-family: $font-body;
+  font-size: $text-sm;
+  color: rgba(255, 255, 255, 0.7);
+  margin: $space-4 0 0;
 }

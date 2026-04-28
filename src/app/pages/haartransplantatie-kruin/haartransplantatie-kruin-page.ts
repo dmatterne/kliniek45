@@ -1,79 +1,125 @@
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-haartransplantatie-kruin-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [NgFor, RouterLink, ConsultationComponent],
   styleUrls: ['./haartransplantatie-kruin-page.scss'],
   template: `
     <section class="page-hero">
       <div class="container">
-        <h1>Haartransplantatie kruin</h1>
-        <p class="hero-subtitle">Herstel de haardichtheid op uw kruin met een permanente en natuurlijk uitziende behandeling.</p>
+        <h1>Haartransplantatie Kruin</h1>
+        <p class="hero-subtitle">
+          Wordt het haar op uw kruin dunner? Bij HaarKliniek 45 in Grazen bieden we een nauwkeurige,
+          permanente oplossing voor haarverlies op de kruin.
+        </p>
       </div>
     </section>
 
     <section class="content-section">
       <div class="container">
-        <h2>Kruin kaalheid — een veelvoorkomend probleem</h2>
-        <p>
-          Kaalheid op de kruin — ook wel vertex-kaalheid of "monk's spot" — is een van de meest voorkomende
-          vormen van androgenetische alopecia. Bij mannen begint dit vaak als een kleine kale plek op de
-          achterkant van de kruin die geleidelijk uitbreidt. Bij vrouwen uit het zich als een algehele
-          verdunning op de kruinzone.
-        </p>
-        <p>
-          Een kruin-haartransplantatie vereist bijzondere aandacht voor de zogenaamde "wervel" (whorling
-          pattern): het natuurlijke draaipatroon van het haar op de kruin. Bij HaarKliniek 45 plaatsen
-          onze specialisten elke follikel zorgvuldig met de juiste hoek en richting, zodat het
-          eindresultaat volledig naadloos aansluit bij uw bestaande haar.
-        </p>
+        <div class="two-col">
+          <div>
+            <h2>Haargroei voor de kruin</h2>
+            <p>
+              Merkt u haarverlies op de kruin? Een haartransplantatie kan dan een goede oplossing
+              zijn. Het verschilt per persoon hoe het haarverlies verloopt - bij sommige gaat dit
+              snel terwijl het bij anderen langzamer gaat. Dit geldt ook voor haarverlies van de
+              kruin, dat kan variëren in grootte en patroon.
+            </p>
+            <p>
+              De haartransplantatie voor de kruin is vaak wat complexer dan bij inhammen, en dit
+              komt door de specifieke groeirichting en doorbloeding in dit gebied. Onze medisch
+              specialisten bij HaarKliniek 45 in Grazen zorgen echter voor een prachtig en
+              natuurlijk resultaat. De behandeling gebeurt nauwkeurig, onder plaatselijke verdoving,
+              zodat u geen tot nauwelijks pijn ervaart tijdens en na de behandeling.
+            </p>
+          </div>
+          <div class="image-block">
+            <img
+              src="assets/images/mannen-voor-na-1.png"
+              alt="Haartransplantatie kruin voor en na - HaarKliniek 45"
+            />
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="content-section alt-bg">
       <div class="container">
-        <h2>Specifieke aandachtspunten bij kruin-behandeling</h2>
+        <h2>Haargroei op de kruin na een haartransplantatie</h2>
+        <p>
+          Bij een haartransplantatie voor haargroei op de kruin gebruiken we donormateriaal vanuit
+          uw achterhoofd. We verplaatsen de haarzakjes naar het behandelgebied op de kruin. Deze
+          haarzakjes zijn meestal immuun tegen haarverlies en zullen daarom haar blijven produceren
+          op uw kruin - voor de rest van uw leven.
+        </p>
+        <p>
+          Samen met de arts bepaalt u de beste transplantatiemethode. Afhankelijk van de omvang van
+          het behandelgebied, uw haarstructuur en uw persoonlijke wensen, adviseren wij u over de
+          meest geschikte aanpak. Bij HaarKliniek 45 staat een eerlijk en persoonlijk advies altijd
+          voorop.
+        </p>
         <ul class="styled-list">
           <li>
-            <strong>Wervelpatroon</strong> — Haarfollikels op de kruin groeien radiaal rondom een centraal
-            punt. Correcte hoekplaatsing is cruciaal voor een naturel resultaat.
+            <strong>Permanente oplossing:</strong> De getransplanteerde haarzakjes blijven haar
+            produceren voor het leven
           </li>
           <li>
-            <strong>Grote oppervlakte</strong> — De kruinzone vereist doorgaans meer grafts dan de haarlijn.
-            We plannen de behandeling zorgvuldig om donor- en ontvangstzone optimaal te benutten.
+            <strong>Immuun tegen haarverlies:</strong> Donormateriaal uit het achterhoofd is
+            resistent tegen androgene alopecia
           </li>
           <li>
-            <strong>Progressie van haaruitval</strong> — Bij jongere patiënten houden we rekening met
-            verdere haaruitval en reserveren we donor-haar voor eventuele toekomstige behandelingen.
+            <strong>Natuurlijk resultaat:</strong> Na 12-14 maanden is het definitieve, volledig
+            natuurlijke resultaat zichtbaar
           </li>
-          <li>
-            <strong>Donorzone-capaciteit</strong> — Een grondige analyse van uw donorzone is essentieel
-            om de haalbaarheid en dichtheid van de behandeling in kaart te brengen.
-          </li>
+          <li><strong>Plaatselijke verdoving:</strong> U ervaart geen pijn tijdens de ingreep</li>
         </ul>
       </div>
     </section>
 
     <section class="content-section">
       <div class="container">
-        <h2>Voordelen</h2>
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <div class="benefit-icon">🔄</div>
-            <h3>Naturel wervelpatroon</h3>
-            <p>Follikels worden geplaatst met oog voor het natuurlijke wervelpatroon van de kruin.</p>
+        <h2>Hoe verloopt de genezing na een kruintransplantatie?</h2>
+        <p>
+          Na de haartransplantatie kunnen er korstjes en jeuk ontstaan. Het is cruciaal om hier niet
+          aan te krabben om infecties en schade aan de haarzakjes te voorkomen. Volg de
+          nazorginstructies van onze specialisten nauwkeurig op voor het beste resultaat.
+        </p>
+        <p>
+          Ongeveer twee maanden na de behandeling vallen de haren op de kruin tijdelijk uit. Geen
+          zorgen: dit is een normaal en verwacht onderdeel van het herstelproces. De haarzakjes
+          blijven intact en er zullen nieuwe, sterkere haren uit groeien. Het eindresultaat is pas
+          na 12 tot 14 maanden volledig zichtbaar - maar het is het wachten waard, want het
+          resultaat blijft u een leven lang.
+        </p>
+        <div class="steps-grid" style="margin-top: 2rem;">
+          <div class="step-card">
+            <div class="step-number">1-2w</div>
+            <h3>Eerste weken</h3>
+            <p>
+              Korstjes vormen zich in het behandelgebied. Volg de wassinstructies nauwkeurig op.
+              Vermijd sporten en zonlicht.
+            </p>
           </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">✅</div>
-            <h3>Permanente dichtheid</h3>
-            <p>Getransplanteerde haren zijn DHT-resistent en blijven levenslang groeien op de kruin.</p>
+          <div class="step-card">
+            <div class="step-number">2-3m</div>
+            <h3>Tijdelijke uitval</h3>
+            <p>
+              De getransplanteerde haren vallen tijdelijk uit (shock fall). Dit is normaal - de
+              haarzakjes blijven intact en beginnen nieuwe haren te produceren.
+            </p>
           </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">🌿</div>
-            <h3>Onzichtbaar resultaat</h3>
-            <p>Het behandelde gebied is na volledige groei niet te onderscheiden van het omliggende haar.</p>
+          <div class="step-card">
+            <div class="step-number">12-14m</div>
+            <h3>Eindresultaat</h3>
+            <p>
+              Na 12 tot 14 maanden is het definitieve resultaat volledig zichtbaar. Een volle,
+              natuurlijke kruin die een leven lang meegaat.
+            </p>
           </div>
         </div>
       </div>
@@ -81,36 +127,147 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="content-section alt-bg">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item">
-            <h3 class="faq-question">Hoeveel grafts zijn nodig voor de kruin?</h3>
-            <p class="faq-answer">
-              Voor een volledige kruinbehandeling zijn gemiddeld 1.500 tot 3.500 grafts nodig, afhankelijk
-              van de omvang van de kale zone en de gewenste haardichtheid. In sommige gevallen worden
-              meerdere sessies aanbevolen.
+        <h2>Hoe verloopt het traject bij HaarKliniek 45?</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3>De consultatie</h3>
+            <p>
+              Tijdens het gratis consultatiegesprek bespreken we al uw wensen en heeft u alle
+              gelegenheid om vragen te stellen. De consultatie vindt plaats in onze kliniek in
+              Grazen, Belgie.
             </p>
           </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Is de kruin moeilijker te behandelen dan de haarlijn?</h3>
-            <p class="faq-answer">
-              De kruin vereist meer technische expertise door het complexe wervelpatroon. Onze specialisten
-              zijn hierin gespecialiseerd en gebruiken de DHI- of FUE Saffier-techniek voor maximale
-              precisie bij de plaatsing.
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3>Start behandeling</h3>
+            <p>
+              U ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
+              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
             </p>
           </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Kan ik haarlijn én kruin tegelijk laten behandelen?</h3>
-            <p class="faq-answer">
-              In veel gevallen is dit mogelijk in één sessie. Dit hangt af van het aantal benodigde grafts
-              en de capaciteit van uw donorzone. Uw specialist bespreekt de opties tijdens het consult.
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3>Nazorg</h3>
+            <p>
+              Wij blijven u adviseren na de behandeling. U ontvangt advies over producten, wassing
+              en eventuele vervolgbehandelingen. Persoonlijke begeleiding staat centraal.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="content-section">
+      <div class="container">
+        <h2>Waarom de DHI-methode voor de kruin?</h2>
+        <p>
+          Bij HaarKliniek 45 bieden we de DHI-methode aan voor een haartransplantatie van de kruin
+          vanwege de volgende voordelen:
+        </p>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">💉</div>
+            <h3>Directe haarimplantatie</h3>
+            <p>
+              Met DHI worden haarzakjes rechtstreeks in het gewenste gebied geplaatst, zonder de
+              noodzaak voor incisies. Dit zorgt voor nauwkeurige en zorgvuldige implantatie op de
+              kruin.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🩸</div>
+            <h3>Minder bloeding en schade</h3>
+            <p>
+              Omdat er geen incisies zijn, is er bijna geen bloeding tijdens de procedure en wordt
+              de huid minimaal beschadigd. Dit zorgt voor meer comfort en minder complicaties.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Sneller herstel</h3>
+            <p>
+              Door minimale schade en minder risico op bloedingen is de hersteltijd na een
+              DHI-transplantatie korter. U kunt sneller genieten van uw volle kruin.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🎯</div>
+            <h3>Precisie en veiligheid</h3>
+            <p>
+              De DHI-implanter biedt de chirurg volledige controle over de richting, hoek en diepte.
+              Dit is bijzonder belangrijk bij de kruin, vanwege de complexe groeirichtingen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>Kosten haartransplantatie kruin</h2>
+        <p>
+          Wat kost een haartransplantatie van de kruin bij HaarKliniek 45? Onze prijzen zijn altijd
+          op maat, afhankelijk van de omvang van het behandelgebied en uw persoonlijke situatie. Er
+          zijn geen verborgen kosten of financiele verrassingen achteraf.
+        </p>
+        <p>
+          Helaas vergoeden verzekeringen deze behandeling doorgaans niet. Wilt u weten wat een
+          haartransplantatie bij u zou kosten? Vraag vandaag nog een gratis en vrijblijvend consult
+          aan in Grazen. Wij geven u altijd een eerlijk en persoonlijk advies.
+        </p>
+        <h3>Ben ik geschikt voor een kruintransplantatie?</h3>
+        <p>
+          Niet iedereen is geschikt voor een haartransplantatie. We gaan dan ook graag met u in
+          gesprek om de mogelijkheden te bespreken. Bij HaarKliniek 45 behandelen we geen personen
+          met tijdelijk haarverlies van de kruin. Het kan ook zo zijn dat er in het donorgebied
+          onvoldoende haarzakjes aanwezig zijn om het gewenste resultaat te behalen.
+        </p>
+        <p>
+          Heeft u momenteel last van hart- en vaatziekten, diabetes of hematologische aandoeningen?
+          Dan zullen onze medisch specialisten beoordelen of u geschikt bent voor de behandeling.
+        </p>
+      </div>
+    </section>
+
+    <section class="faq-link-section">
+      <div class="container">
+        <p>
+          Heeft u nog vragen over haartransplantatie voor de kruin? Bekijk onze veelgestelde vragen
+          voor antwoorden over het benodigde aantal grafts, de beste methode, kosten en meer.
+        </p>
+        <a [routerLink]="['/faq']">Bekijk alle veelgestelde vragen &rarr;</a>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          <ng-container *ngFor="let _ of [1, 2]">
+            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
+          </ng-container>
+        </div>
+      </div>
+    </section>
+
     <app-consultation />
-  `
+  `,
 })
-export class HaartransplantatieKruinPageComponent {}
+export class HaartransplantatieKruinPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

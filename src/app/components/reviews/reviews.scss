@@ -24,7 +24,9 @@
   gap: $space-6;
   margin-bottom: $space-10;
 
-  @media (max-width: $breakpoint-lg) { grid-template-columns: 1fr; }
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .review-card {
@@ -35,7 +37,9 @@
   display: flex;
   flex-direction: column;
   gap: $space-4;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 
   &:hover {
     background: rgba($neutral-white, 0.13);
@@ -66,14 +70,27 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    strong { color: $neutral-white; font-size: $text-sm; }
-    span { color: rgba($neutral-white, 0.55); font-size: 0.7rem; }
+    strong {
+      color: $neutral-white;
+      font-size: $text-sm;
+    }
+    span {
+      color: rgba($neutral-white, 0.55);
+      font-size: 0.7rem;
+    }
   }
 
-  .review-google { margin-left: auto; opacity: 0.8; }
+  .review-google {
+    margin-left: auto;
+    opacity: 0.8;
+  }
 }
 
-.review-stars { color: $gold; font-size: $text-base; letter-spacing: 2px; }
+.review-stars {
+  color: $gold;
+  font-size: $text-base;
+  letter-spacing: 2px;
+}
 
 .review-quote {
   color: rgba($neutral-white, 0.88);
@@ -96,17 +113,38 @@
     align-items: baseline;
     gap: $space-2;
 
-    .badge-stars { color: $gold; font-size: $text-2xl; letter-spacing: 3px; }
-    .badge-number { color: $neutral-white; font-size: 3rem; font-weight: 700; font-family: $font-heading; line-height: 1; }
-    .badge-max { color: rgba($neutral-white, 0.5); font-size: $h4-size; font-weight: 400; }
+    .badge-stars {
+      color: $gold;
+      font-size: $text-2xl;
+      letter-spacing: 3px;
+    }
+    .badge-number {
+      color: $neutral-white;
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: $font-heading;
+      line-height: 1;
+    }
+    .badge-max {
+      color: rgba($neutral-white, 0.5);
+      font-size: $h4-size;
+      font-weight: 400;
+    }
   }
 
-  .badge-label { color: rgba($neutral-white, 0.7); font-size: $text-sm; margin-bottom: $space-2; }
+  .badge-label {
+    color: rgba($neutral-white, 0.7);
+    font-size: $text-sm;
+    margin-bottom: $space-2;
+  }
 
   .btn-secondary {
     background: transparent;
     border-color: rgba($neutral-white, 0.4);
     color: rgba($neutral-white, 0.8);
-    &:hover { border-color: $gold; color: $gold; }
+    &:hover {
+      border-color: $gold;
+      color: $gold;
+    }
   }
 }

@@ -5,22 +5,52 @@
 .page-hero {
   background-color: $primary-green;
   color: $neutral-white;
-  padding: $space-16 0;
+  padding: $space-20 0;
+
+  @media (min-width: $breakpoint-md) {
+    padding: $space-24 0;
+  }
 
   h1 {
     font-family: $font-heading;
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 700;
     margin-bottom: $space-4;
     line-height: 1.2;
   }
 
   .hero-subtitle {
-    font-family: $font-body;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     opacity: 0.9;
-    max-width: 600px;
-    line-height: 1.6;
+    max-width: 700px;
+    line-height: 1.7;
+    margin-bottom: $space-8;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-3;
+
+    .btn-outline-white {
+      display: inline-flex;
+      align-items: center;
+      padding: $space-3 $space-6;
+      border: 2px solid rgba($neutral-white, 0.6);
+      color: $neutral-white;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: $text-sm;
+      text-decoration: none;
+      transition:
+        background 0.2s,
+        border-color 0.2s;
+
+      &:hover {
+        border-color: $neutral-white;
+        background: rgba($neutral-white, 0.1);
+      }
+    }
   }
 }
 
@@ -28,20 +58,22 @@
   padding: $space-12 0;
   background-color: $neutral-white;
 
+  @media (min-width: $breakpoint-md) {
+    padding: $space-20 0;
+  }
+
   &.alt-bg {
     background-color: $neutral-cream;
   }
 
   h2 {
     font-family: $font-heading;
-    font-size: 1.9rem;
-    font-weight: 700;
-    color: $primary-green;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: $primary-green-dark;
     margin-bottom: $space-6;
   }
 
   p {
-    font-family: $font-body;
     font-size: 1rem;
     color: $text-primary;
     line-height: 1.8;
@@ -54,95 +86,311 @@
   }
 }
 
-.styled-list {
-  list-style: none;
-  padding: 0;
-  margin: $space-4 0 0;
+// Two-column layout
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-10;
+  align-items: center;
 
-  li {
-    font-family: $font-body;
-    font-size: 1rem;
-    color: $text-primary;
-    line-height: 1.7;
-    padding: $space-4 $space-4 $space-4 $space-8;
-    margin-bottom: $space-3;
-    border-left: 4px solid $primary-green-light;
-    background-color: $neutral-white;
-    border-radius: 0 6px 6px 0;
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    strong {
-      color: $primary-green-dark;
+  &.reverse {
+    @media (min-width: $breakpoint-md) {
+      .two-col-text {
+        order: 1;
+      }
+      .two-col-aside {
+        order: 2;
+      }
     }
+  }
+
+  .two-col-text p {
+    max-width: 100%;
   }
 }
 
-.benefits-grid {
+// Norwood scale visual
+.norwood-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.norwood-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $space-3;
+
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.norwood-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-1;
+
+  .norwood-circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: $primary-green;
+    color: $neutral-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-heading;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 0.72rem;
+    color: $text-secondary;
+    text-align: center;
+  }
+}
+
+// Results grid (voor/na)
+.section-heading-center {
+  font-family: $font-heading;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: $primary-green-dark;
+  text-align: center;
+  margin-bottom: $space-3;
+}
+
+.section-sub-center {
+  text-align: center;
+  color: $text-secondary;
+  margin-bottom: $space-8 !important;
+}
+
+.results-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: $space-6;
-  margin-top: $space-4;
 
   @media (min-width: $breakpoint-md) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.benefit-card {
-  background-color: $primary-green-pale;
+.result-card {
   border-radius: 12px;
-  padding: $space-8;
-  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 
-  .benefit-icon {
-    font-size: 2.2rem;
-    margin-bottom: $space-4;
-  }
+  .result-img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 
-  h3 {
-    font-family: $font-heading;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: $primary-green-dark;
-    margin-bottom: $space-3;
-  }
-
-  p {
-    font-family: $font-body;
-    font-size: 0.95rem;
-    color: $text-secondary;
-    line-height: 1.7;
-    margin: 0;
-    max-width: 100%;
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 }
 
-.faq-list {
+// Feature cards (two-col aside)
+.feature-aside {
   display: flex;
   flex-direction: column;
   gap: $space-4;
 }
 
-.faq-item {
-  border: 1px solid $neutral-light;
+.feature-card {
+  display: flex;
+  gap: $space-3;
+  align-items: flex-start;
+  background: $primary-green-pale;
   border-radius: 10px;
-  padding: $space-6 $space-8;
-  background-color: $neutral-white;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: $space-4 $space-5;
 
-  .faq-question {
-    font-family: $font-heading;
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: $primary-green;
-    margin-bottom: $space-3;
+  .feature-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    background: $primary-green;
+    color: $neutral-white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-top: 2px;
   }
 
-  .faq-answer {
-    font-family: $font-body;
-    font-size: 0.97rem;
+  strong {
+    display: block;
+    color: $primary-green-dark;
+    font-size: $text-sm;
+    margin-bottom: $space-1;
+  }
+
+  p {
     color: $text-secondary;
-    line-height: 1.75;
-    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0 !important;
+  }
+}
+
+// Methoden grid
+.methoden-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+  margin-top: $space-8;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.methode-card {
+  background: $neutral-white;
+  border: 1px solid rgba($primary-green, 0.12);
+  border-radius: 14px;
+  padding: $space-8;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+
+  .alt-bg & {
+    background: $neutral-white;
+  }
+
+  .methode-header {
+    margin-bottom: $space-3;
+
+    .methode-tag {
+      display: inline-block;
+      background: $primary-green;
+      color: $neutral-white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 3px 10px;
+      border-radius: 100px;
+      margin-bottom: $space-2;
+    }
+
+    h3 {
+      font-family: $font-heading;
+      font-size: 1.2rem;
+      color: $primary-green-dark;
+      margin: 0;
+    }
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-sm;
+    line-height: 1.7;
+    margin-bottom: $space-4;
+    max-width: 100%;
+  }
+
+  .link-arrow {
+    color: $primary-green;
+    font-weight: 600;
+    font-size: $text-sm;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// DHI voordelen
+.voordelen-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-6;
+  margin: $space-8 0;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.voordeel {
+  display: flex;
+  gap: $space-4;
+  align-items: flex-start;
+
+  .voordeel-icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    background: $primary-green;
+    color: $neutral-white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+
+  strong {
+    display: block;
+    color: $primary-green-dark;
+    font-size: 1rem;
+    margin-bottom: $space-1;
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-sm;
+    line-height: 1.7;
+    margin: 0 !important;
     max-width: 100%;
   }
 }
+
+.cta-center {
+  text-align: center;
+  margin-top: $space-6;
+}
+
+// Kosten CTA row
+.kosten-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+  margin-top: $space-8;
+
+  .btn-outline-green {
+    display: inline-flex;
+    align-items: center;
+    padding: $space-3 $space-6;
+    border: 2px solid $primary-green;
+    color: $primary-green-dark;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: $text-sm;
+    text-decoration: none;
+    transition:
+      background 0.2s,
+      color 0.2s;
+
+    &:hover {
+      background: $primary-green;
+      color: $neutral-white;
+    }
+  }
+}
+
+// Trust badges section (mirrors why-choose)

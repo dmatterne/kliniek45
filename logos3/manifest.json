@@ -1,0 +1,1140 @@
+{
+  "source": "https://hairclinicwolf.be/wp-json/wp/v2/media",
+  "license_note": "Files are publicly accessible downloads. Reuse rights are not asserted by this manifest.",
+  "files": [
+    {
+      "path": "benefit-icons-2024/betrouwbaar.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/betrouwbaar.png",
+      "http_status": 200,
+      "downloaded_size": 4240,
+      "expected_size": 4240,
+      "match": "disambiguated:2024/06",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/betrouwbaar.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/betrouwbaar.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/expertise.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/expertise.png",
+      "http_status": 200,
+      "downloaded_size": 4449,
+      "expected_size": 4449,
+      "match": "disambiguated:2024/06",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/expertise.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/expertise.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/geen-bijwerkingen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/geen-bijwerkingen.png",
+      "http_status": 200,
+      "downloaded_size": 5759,
+      "expected_size": 5759,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/geen-bijwerkingen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/geen-herstelperiode.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/geen-herstelperiode.png",
+      "http_status": 200,
+      "downloaded_size": 7401,
+      "expected_size": 7401,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/geen-herstelperiode.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/gezonde-haarzakjes.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/gezonde-haarzakjes.png",
+      "http_status": 200,
+      "downloaded_size": 6578,
+      "expected_size": 6578,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/gezonde-haarzakjes.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/gratis-consult.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-consult.png",
+      "http_status": 200,
+      "downloaded_size": 4097,
+      "expected_size": 4097,
+      "match": "disambiguated:2024/06",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-consult.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-consult.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/gratis-hoofd-haar-analyse.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-hoofd-haar-analyse.png",
+      "http_status": 200,
+      "downloaded_size": 6240,
+      "expected_size": 6240,
+      "match": "disambiguated:2024/06",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-hoofd-haar-analyse.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-hoofd-haar-analyse.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/haargroei-stimuleren.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/haargroei-stimuleren.png",
+      "http_status": 200,
+      "downloaded_size": 6236,
+      "expected_size": 6236,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/haargroei-stimuleren.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/haarverdikking.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/haarverdikking.png",
+      "http_status": 200,
+      "downloaded_size": 6578,
+      "expected_size": 6578,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/haarverdikking.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/korte-behandeltijd.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/korte-behandeltijd.png",
+      "http_status": 200,
+      "downloaded_size": 5298,
+      "expected_size": 5298,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/korte-behandeltijd.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/lage-jaarlijkse-kosten.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/lage-jaarlijkse-kosten.png",
+      "http_status": 200,
+      "downloaded_size": 2354,
+      "expected_size": 2354,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/lage-jaarlijkse-kosten.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/preventie-haaruitval.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/preventie-haaruitval.png",
+      "http_status": 200,
+      "downloaded_size": 5818,
+      "expected_size": 5818,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/preventie-haaruitval.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/snel-resultaat.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/snel-resultaat.png",
+      "http_status": 200,
+      "downloaded_size": 4069,
+      "expected_size": 4069,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/snel-resultaat.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "benefit-icons-2024/stimulering-regeneratieproces.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/stimulering-regeneratieproces.png",
+      "http_status": 200,
+      "downloaded_size": 648,
+      "expected_size": 648,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/stimulering-regeneratieproces.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "brand-icons/icon-email.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-email.png",
+      "http_status": 200,
+      "downloaded_size": 9138,
+      "expected_size": 9138,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-email.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "brand-icons/icon-mobiel-trillen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-mobiel-trillen.png",
+      "http_status": 200,
+      "downloaded_size": 6462,
+      "expected_size": 6462,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-mobiel-trillen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "brand-icons/icon-ster-groen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-ster-groen.png",
+      "http_status": 200,
+      "downloaded_size": 11266,
+      "expected_size": 11266,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-ster-groen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "brand-icons/telefoon-kosten-berekenen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/telefoon-kosten-berekenen.png",
+      "http_status": 200,
+      "downloaded_size": 166403,
+      "expected_size": 166403,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/telefoon-kosten-berekenen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "favicon-hair-clinic-wolf-300x300-1.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/favicon-hair-clinic-wolf-300x300-1.png",
+      "http_status": 200,
+      "downloaded_size": 20523,
+      "expected_size": 8952,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/favicon-hair-clinic-wolf-300x300-1.png"
+      ],
+      "size_matches_expected": false
+    },
+    {
+      "path": "icon-check-300x300-1.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-check-300x300-1.png",
+      "http_status": 200,
+      "downloaded_size": 5989,
+      "expected_size": 3503,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-check-300x300-1.png"
+      ],
+      "size_matches_expected": false
+    },
+    {
+      "path": "icon-EN-vlag.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/12/icon-EN-vlag.png",
+      "http_status": 200,
+      "downloaded_size": 6541,
+      "expected_size": 6541,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/12/icon-EN-vlag.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-facebook-wit.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-facebook-wit.png",
+      "http_status": 200,
+      "downloaded_size": 928,
+      "expected_size": 851,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-facebook-wit.png"
+      ],
+      "size_matches_expected": false
+    },
+    {
+      "path": "icon-faq.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-faq.png",
+      "http_status": 200,
+      "downloaded_size": 10476,
+      "expected_size": 10476,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-faq.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-haartransplantatie.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-haartransplantatie.png",
+      "http_status": 200,
+      "downloaded_size": 12572,
+      "expected_size": 12572,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-haartransplantatie.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-hair-wave-wit.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-hair-wave-wit.png",
+      "http_status": 200,
+      "downloaded_size": 6153,
+      "expected_size": 6153,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-hair-wave-wit.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-instagram-wit.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-instagram-wit.png",
+      "http_status": 200,
+      "downloaded_size": 3065,
+      "expected_size": 3065,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-instagram-wit.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-kenniscentrum.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-kenniscentrum.png",
+      "http_status": 200,
+      "downloaded_size": 7827,
+      "expected_size": 7827,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-kenniscentrum.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-NL-vlag.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/12/icon-NL-vlag.png",
+      "http_status": 200,
+      "downloaded_size": 5086,
+      "expected_size": 5086,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/12/icon-NL-vlag.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-ster-wit.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-ster-wit.png",
+      "http_status": 200,
+      "downloaded_size": 1642,
+      "expected_size": 1642,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-ster-wit.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "icon-zorg.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-zorg.png",
+      "http_status": 200,
+      "downloaded_size": 8130,
+      "expected_size": 8130,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/icon-zorg.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "logo-hair-clinic-wolf.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/logo-hair-clinic-wolf.png",
+      "http_status": 200,
+      "downloaded_size": 8951,
+      "expected_size": 8951,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/logo-hair-clinic-wolf.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "logo-wit-hairclinicwolf.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/logo-wit-hairclinicwolf.png",
+      "http_status": 200,
+      "downloaded_size": 5017,
+      "expected_size": 5017,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/logo-wit-hairclinicwolf.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/Kappers-Logos.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/Kappers-Logos.png",
+      "http_status": 200,
+      "downloaded_size": 4509,
+      "expected_size": 4509,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/Kappers-Logos.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Belcrum-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Belcrum-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 22472,
+      "expected_size": 22472,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Belcrum-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Coiffeur-Heunen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Coiffeur-Heunen.png",
+      "http_status": 200,
+      "downloaded_size": 3280,
+      "expected_size": 3280,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Coiffeur-Heunen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Dandies-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Dandies-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 34131,
+      "expected_size": 34131,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Dandies-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Flawless-Kapsalon.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Flawless-Kapsalon.png",
+      "http_status": 200,
+      "downloaded_size": 18092,
+      "expected_size": 18092,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Flawless-Kapsalon.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Hairplanets-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Hairplanets-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 111824,
+      "expected_size": 111824,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Hairplanets-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-House-of-Hair-no.1.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-House-of-Hair-no.1.png",
+      "http_status": 200,
+      "downloaded_size": 2804,
+      "expected_size": 2804,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-House-of-Hair-no.1.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Kapsalon-Sisco.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Kapsalon-Sisco.png",
+      "http_status": 200,
+      "downloaded_size": 12230,
+      "expected_size": 12230,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Kapsalon-Sisco.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Licht-Verknipt-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Licht-Verknipt-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 12109,
+      "expected_size": 12109,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Licht-Verknipt-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Millstreet-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Millstreet-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 15890,
+      "expected_size": 15890,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Millstreet-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-My-BarberCo.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-My-BarberCo.png",
+      "http_status": 200,
+      "downloaded_size": 41094,
+      "expected_size": 41094,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-My-BarberCo.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Nero-Barbershop.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Nero-Barbershop.png",
+      "http_status": 200,
+      "downloaded_size": 12848,
+      "expected_size": 12848,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Nero-Barbershop.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Peter-van-Dooren-Intercoiffure-01.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Peter-van-Dooren-Intercoiffure-01.png",
+      "http_status": 200,
+      "downloaded_size": 20448,
+      "expected_size": 20448,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Peter-van-Dooren-Intercoiffure-01.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Salon-DeLuxe.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Salon-DeLuxe.png",
+      "http_status": 200,
+      "downloaded_size": 24838,
+      "expected_size": 24838,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Salon-DeLuxe.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Simon-Says.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Simon-Says.png",
+      "http_status": 200,
+      "downloaded_size": 4013,
+      "expected_size": 4013,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Simon-Says.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-t-Knippenreitje.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-t-Knippenreitje.png",
+      "http_status": 200,
+      "downloaded_size": 3594,
+      "expected_size": 3594,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-t-Knippenreitje.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-The-Barber-Garden.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-The-Barber-Garden.png",
+      "http_status": 200,
+      "downloaded_size": 32591,
+      "expected_size": 32591,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-The-Barber-Garden.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "partner-logos/logo-Tonys-Hair-Factory.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Tonys-Hair-Factory.png",
+      "http_status": 200,
+      "downloaded_size": 28377,
+      "expected_size": 28377,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/logo-Tonys-Hair-Factory.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/alleen-scheren-donorgebied.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/alleen-scheren-donorgebied.png",
+      "http_status": 200,
+      "downloaded_size": 12932,
+      "expected_size": 12932,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/alleen-scheren-donorgebied.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/betrouwbaar.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/betrouwbaar.png",
+      "http_status": 200,
+      "downloaded_size": 9518,
+      "expected_size": 9518,
+      "match": "disambiguated:2025/02",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/betrouwbaar.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/betrouwbaar.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/bewaren-grafts.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/bewaren-grafts.png",
+      "http_status": 200,
+      "downloaded_size": 11673,
+      "expected_size": 11673,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/bewaren-grafts.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/directe-haarimplantatie.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/directe-haarimplantatie.png",
+      "http_status": 200,
+      "downloaded_size": 14275,
+      "expected_size": 14275,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/directe-haarimplantatie.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/expertise.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/expertise.png",
+      "http_status": 200,
+      "downloaded_size": 9895,
+      "expected_size": 9895,
+      "match": "disambiguated:2025/02",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/expertise.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/expertise.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/extracties-grafts_.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/extracties-grafts_.png",
+      "http_status": 200,
+      "downloaded_size": 12063,
+      "expected_size": 12063,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/extracties-grafts_.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/geen-hechtingen.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/geen-hechtingen.png",
+      "http_status": 200,
+      "downloaded_size": 12861,
+      "expected_size": 12861,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/geen-hechtingen.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/gratis-consult.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-consult.png",
+      "http_status": 200,
+      "downloaded_size": 9289,
+      "expected_size": 9289,
+      "match": "disambiguated:2025/02",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-consult.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-consult.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/gratis-hoofd-haar-analyse.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-hoofd-haar-analyse.png",
+      "http_status": 200,
+      "downloaded_size": 14087,
+      "expected_size": 14087,
+      "match": "disambiguated:2025/02",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 2,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/gratis-hoofd-haar-analyse.png",
+        "https://hairclinicwolf.be/wp-content/uploads/2024/06/gratis-hoofd-haar-analyse.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/implanteren-grafts.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/implanteren-grafts.png",
+      "http_status": 200,
+      "downloaded_size": 10092,
+      "expected_size": 10092,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/implanteren-grafts.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/Incisies-grafts.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/Incisies-grafts.png",
+      "http_status": 200,
+      "downloaded_size": 9727,
+      "expected_size": 9727,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/Incisies-grafts.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/kanalen-maken.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/kanalen-maken.png",
+      "http_status": 200,
+      "downloaded_size": 9727,
+      "expected_size": 9727,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/kanalen-maken.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/kortere-behandeltijd.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/kortere-behandeltijd.png",
+      "http_status": 200,
+      "downloaded_size": 15870,
+      "expected_size": 15870,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/kortere-behandeltijd.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/kortere-herstelperiode.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/kortere-herstelperiode.png",
+      "http_status": 200,
+      "downloaded_size": 15870,
+      "expected_size": 15870,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/kortere-herstelperiode.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/maximale-haardichtheid.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/maximale-haardichtheid.png",
+      "http_status": 200,
+      "downloaded_size": 14275,
+      "expected_size": 14275,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/maximale-haardichtheid.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/minder-bloeding-en-schade.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/minder-bloeding-en-schade.png",
+      "http_status": 200,
+      "downloaded_size": 12861,
+      "expected_size": 12861,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/minder-bloeding-en-schade.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/precisie-en-veiligheid.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/precisie-en-veiligheid.png",
+      "http_status": 200,
+      "downloaded_size": 15617,
+      "expected_size": 15617,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/precisie-en-veiligheid.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/sneller-herstel.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/sneller-herstel.png",
+      "http_status": 200,
+      "downloaded_size": 2101,
+      "expected_size": 2101,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/sneller-herstel.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "process-icons-2025/zeer-voordelig-tarief.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2025/02/zeer-voordelig-tarief.png",
+      "http_status": 200,
+      "downloaded_size": 5338,
+      "expected_size": 5338,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2025/02/zeer-voordelig-tarief.png"
+      ],
+      "size_matches_expected": true
+    },
+    {
+      "path": "ster.png",
+      "status": "ok",
+      "source_url": "https://hairclinicwolf.be/wp-content/uploads/2023/11/ster.png",
+      "http_status": 200,
+      "downloaded_size": 1694,
+      "expected_size": 1694,
+      "match": "unique",
+      "valid_png": true,
+      "error": null,
+      "candidate_count": 1,
+      "candidates": [
+        "https://hairclinicwolf.be/wp-content/uploads/2023/11/ster.png"
+      ],
+      "size_matches_expected": true
+    }
+  ],
+  "summary": {
+    "source_png_count": 70,
+    "downloaded_png_count": 70,
+    "ok_count": 70,
+    "failed_count": 0
+  }
+}

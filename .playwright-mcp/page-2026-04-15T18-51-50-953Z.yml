@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e11]:
+          - link "076 204 5512" [ref=e12] [cursor=pointer]:
+            - /url: tel:0762045512
+          - text: "|"
+          - link "info@hairclinicwolf.be" [ref=e13] [cursor=pointer]:
+            - /url: mailto:info@hairclinicwolf.be
+          - text: "|"
+          - link "4,9 / 5,0" [ref=e14] [cursor=pointer]:
+            - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - text: "|"
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://hairclinicwolf.nl/
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://hairclinicwolf.com/
+        - generic [ref=e21]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/
+          - generic [ref=e25]:
+            - navigation [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - link "Behandelingen 3" [ref=e30] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/behandelingen/
+                - listitem [ref=e31]:
+                  - link "Haargroei stimuleren 3" [ref=e32] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haargroei-stimuleren/
+                - listitem [ref=e33]:
+                  - link "Over ons 3" [ref=e34] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/over-ons/
+                - listitem [ref=e35]:
+                  - link "Resultaten" [ref=e36] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/ervaringen/
+                - listitem [ref=e37]:
+                  - generic [ref=e38]: Kennis 3
+                - listitem [ref=e39]:
+                  - link "Kosten berekenen" [ref=e40] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+                - listitem [ref=e41]:
+                  - link "Afspraak maken" [ref=e42] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/afspraak-maken/
+            - text: a 33 33 33 33
+    - generic [ref=e43]:
+      - generic [ref=e46]:
+        - article [ref=e48]:
+          - generic [ref=e49]:
+            - heading "Geen Resultaten Gevonden" [level=1] [ref=e50]
+            - paragraph [ref=e51]: De pagina die u zocht kon niet gevonden worden. Probeer uw zoekopdracht te verfijnen of gebruik de bovenstaande navigatie om deze post te vinden.
+        - generic [ref=e52]:
+          - search [ref=e54]:
+            - generic [ref=e55]:
+              - searchbox "Zoeken" [ref=e56]
+              - button "Zoeken" [ref=e57] [cursor=pointer]
+          - generic [ref=e59]:
+            - heading "Recent Posts" [level=2] [ref=e60]
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "Hoe bereid je je voor op jouw haartransplantatie?" [ref=e63] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/blog-haartransplantatie-voorbereiding/
+              - listitem [ref=e64]:
+                - link "Wat is het verschil tussen FUE Saffier en DHI?" [ref=e65] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/blog-verschil-fue-saffier-en-dhi/
+              - listitem [ref=e66]:
+                - link "Haartransplantatie voor en na" [ref=e67] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/blog-haartransplantatie-voor-en-na/
+              - listitem [ref=e68]:
+                - link "Hoe lang duurt een haartransplantatie" [ref=e69] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/blog-hoe-lang-duurt-een-haartransplantatie/
+              - listitem [ref=e70]:
+                - link "Haartransplantatie zonder scheren" [ref=e71] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/blog-haartransplantatie-zonder-scheren/
+          - generic [ref=e73]:
+            - heading "Recent Comments" [level=2] [ref=e74]
+            - generic [ref=e75]: Geen reacties om weer te geven.
+      - contentinfo [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - img "logo-wit-hairclinicwolf" [ref=e83]
+              - paragraph [ref=e86] [cursor=pointer]:
+                - text: Markt 24
+                - text: 4841 AC, Prinsenbeek
+                - text: Nederland
+              - paragraph [ref=e89] [cursor=pointer]:
+                - text: Meilegemstraat 26
+                - text: 9630, Zwalm
+                - text: België
+            - generic [ref=e92]:
+              - heading "Locaties" [level=3] [ref=e93]
+              - paragraph [ref=e94]:
+                - link "Haartransplantatie Turkije" [ref=e95] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije
+                - link "Haartransplantatie Istanbul" [ref=e96] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul
+                - link "Haartransplantatie België" [ref=e97] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-belgie
+                - link "Haartransplantatie Nederland" [ref=e98] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland
+              - paragraph [ref=e99]
+            - generic [ref=e102]:
+              - heading "Contact" [level=3] [ref=e103]
+              - paragraph [ref=e104]:
+                - 'link "Tel: 076 204 5512" [ref=e105] [cursor=pointer]':
+                  - /url: tel:0762045512
+                - 'link "Tel: 06 29440919" [ref=e106] [cursor=pointer]':
+                  - /url: tel:06 29440919
+                - 'link "E-mail: info@hairclinicwolf.be" [ref=e107] [cursor=pointer]':
+                  - /url: mailto:info@hairclinicwolf.be
+              - paragraph [ref=e108]:
+                - link [ref=e109] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hairclinicwolfhaartransplantatie
+                - link [ref=e110] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hairclinicwolf/
+          - img "icon-hair-wave-wit" [ref=e116]
+          - generic [ref=e118]:
+            - generic [ref=e121]: "© 2026 HairClinicWolf | KvK: 76458490 | BTW: NL860630122B01"
+            - paragraph [ref=e125]:
+              - link "Algemene voorwaarden" [ref=e126] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/algemene-voorwaarden
+              - text: "|"
+              - link "Privacy- & Cookiebeleid" [ref=e127] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/privacy-cookiebeleid
+  - button " Hoe kan ik je helpen?" [ref=e128] [cursor=pointer]:
+    - generic [ref=e129]: 
+    - generic [ref=e130]: Hoe kan ik je helpen?
+  - text: "2"
+  - dialog "Cookie consent button" [ref=e131] [cursor=pointer]:
+    - img [ref=e133]
+    - generic: Cookie-instellingen

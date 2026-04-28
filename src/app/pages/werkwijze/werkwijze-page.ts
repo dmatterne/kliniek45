@@ -5,19 +5,20 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 @Component({
   selector: 'app-werkwijze-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
-  styleUrl: './werkwijze-page.scss',
+  imports: [RouterLink, ConsultationComponent],
+  styleUrls: ['./werkwijze-page.scss'],
   template: `
     <section class="hero">
       <div class="container">
-        <div class="hero__content">
-          <span class="hero__badge">Stap voor stap</span>
-          <h1 class="hero__title">Onze Werkwijze</h1>
-          <p class="hero__subtitle">Van eerste contact tot volledig herstel</p>
-          <div class="hero__actions">
-            <a routerLink="/contact" class="btn btn-primary">Start uw traject</a>
-            <a routerLink="/behandelingen/fue-saffier" class="btn btn-secondary">Onze technieken</a>
-          </div>
+        <span class="hero__badge">Uw behandeltraject</span>
+        <h1 class="hero__title">Hoe werkt een haartransplantatie bij HaarKliniek 45?</h1>
+        <p class="hero__subtitle">
+          Van eerste consultatie tot definitief resultaat — transparant, persoonlijk en
+          professioneel in Grazen, Belgie.
+        </p>
+        <div class="hero__actions">
+          <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
+          <a routerLink="/behandelingen" class="btn btn-outline">Onze behandelingen</a>
         </div>
       </div>
     </section>
@@ -25,120 +26,38 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--white">
       <div class="container">
         <div class="section__header">
-          <h2>Ons 6-stappenproces</h2>
+          <h2>Uw behandeltraject in 7 stappen</h2>
           <div class="section__divider"></div>
-          <p class="section__lead">Een haartransplantatie bij HaarKliniek 45 verloopt altijd volgens een doordacht en beproefd stappenplan. Zo weet u altijd wat u kunt verwachten.</p>
+          <p class="section__lead">
+            Wij begeleiden u van A tot Z. Hieronder leest u precies wat u kunt verwachten — zodat u
+            volledig voorbereid bent.
+          </p>
         </div>
         <div class="timeline">
-          <div class="timeline-step">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">1</span>
-              <div class="timeline-step__line"></div>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">🗣️</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Vrijblijvend consult</h3>
-                <p class="timeline-step__desc">Alles begint met een gratis en vrijblijvend kennismakingsgesprek. Tijdens dit consult analyseert onze specialist uw haarpatroon en donorzone, bespreekt uw verwachtingen en stelt eventuele vragen over uw medische achtergrond. U krijgt een eerlijk beeld van de mogelijkheden en de beperkingen. Er is geen enkele verplichting om na het gesprek door te gaan.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">Gratis</span>
-                  <span class="tag">Vrijblijvend</span>
-                  <span class="tag">Ca. 45 min</span>
+          @for (step of timelineSteps; track step.number; let last = $last) {
+            <div class="timeline-step" [class.timeline-step--last]="last">
+              <div class="timeline-step__marker">
+                <div class="timeline-step__number">{{ step.number }}</div>
+                @if (!last) {
+                  <div class="timeline-step__line"></div>
+                }
+              </div>
+              <div class="timeline-step__body">
+                <div class="timeline-step__icon">{{ step.icon }}</div>
+                <div class="timeline-step__content">
+                  <h3 class="timeline-step__title">{{ step.title }}</h3>
+                  <p class="timeline-step__desc">{{ step.desc }}</p>
+                  @if (step.tags.length > 0) {
+                    <div class="timeline-step__tags">
+                      @for (tag of step.tags; track tag) {
+                        <span class="tag">{{ tag }}</span>
+                      }
+                    </div>
+                  }
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="timeline-step">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">2</span>
-              <div class="timeline-step__line"></div>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">✏️</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Haarlijnontwerp</h3>
-                <p class="timeline-step__desc">Samen met de specialist ontwerpt u de ideale haarlijn. Dit is een creatief en persoonlijk proces: uw gezichtsvorm, leeftijd, haartype en wensen worden meegenomen in het ontwerp. Wij maken gebruik van digitale simulatie zodat u vooraf een realistisch beeld krijgt van het verwachte eindresultaat. Pas wanneer u volledig tevreden bent met het ontwerp, gaan we verder.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">Digitale simulatie</span>
-                  <span class="tag">Op maat</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline-step">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">3</span>
-              <div class="timeline-step__line"></div>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">💊</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Voorbereiding</h3>
-                <p class="timeline-step__desc">Op de dag van de behandeling wordt u ontvangen in onze kliniek. Na een korte briefing neemt u een comfortabele positie in. Lokale verdoving wordt aangebracht op zowel de donorzone als de ontvangende zone. De verdoving werkt snel en effectief: u voelt geen pijn gedurende de gehele procedure. Wij zorgen voor uw comfort — muziek, films of podcasts zijn beschikbaar.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">Lokale verdoving</span>
-                  <span class="tag">Pijnvrij</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline-step">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">4</span>
-              <div class="timeline-step__line"></div>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">✂️</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Extractie (FUE / DHI)</h3>
-                <p class="timeline-step__desc">Met een microronde punch worden individuele haarzakjes (grafts) één voor één zorgvuldig uit de donorzone onttrokken — doorgaans de achterkant en zijkanten van het hoofd, waar haargroei genetisch stabiel is. De geëxtraheerde grafts worden opgeslagen in een speciale voedingsoplossing om de levensvatbaarheid te waarborgen.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">FUE Saffier</span>
-                  <span class="tag">DHI</span>
-                  <span class="tag">Individuele grafts</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline-step">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">5</span>
-              <div class="timeline-step__line"></div>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">🔬</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Implantatie</h3>
-                <p class="timeline-step__desc">Na de extractie worden de kanaaltjes aangemaakt (bij FUE Saffier) of worden de grafts direct geïmplanteerd (bij DHI). Elke graft wordt nauwkeurig geplaatst op de juiste hoek, richting en diepte — zodat de nieuwe haren straks op een volstrekt natuurlijke manier groeien. Dit is het meest cruciale onderdeel van de behandeling.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">Saffieren mesjes</span>
-                  <span class="tag">Precisie-implantatie</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline-step timeline-step--last">
-            <div class="timeline-step__marker">
-              <span class="timeline-step__number">6</span>
-            </div>
-            <div class="timeline-step__body">
-              <div class="timeline-step__icon">🏠</div>
-              <div class="timeline-step__content">
-                <h3 class="timeline-step__title">Nazorg</h3>
-                <p class="timeline-step__desc">Na de behandeling ontvangt u gedetailleerde schriftelijke aftercare-instructies mee naar huis. Een controlebezoek is ingepland voor de dag erna en opnieuw na 10 dagen. Onze specialisten zijn bereikbaar voor al uw vragen tijdens het herstelproces. Follow-up afspraken na 3, 6 en 12 maanden garanderen dat uw herstel optimaal verloopt.</p>
-                <div class="timeline-step__tags">
-                  <span class="tag">Schriftelijke instructies</span>
-                  <span class="tag">Follow-up</span>
-                  <span class="tag">12 maanden begeleiding</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          }
         </div>
       </div>
     </section>
@@ -146,43 +65,26 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--cream">
       <div class="container">
         <div class="section__header">
-          <h2>Wat te verwachten na de behandeling</h2>
+          <h2>Herstelschema na de behandeling</h2>
           <div class="section__divider"></div>
-          <p class="section__lead">Haargroei na een transplantatie verloopt in fasen. Kennis hiervan helpt u realistische verwachtingen te stellen.</p>
+          <p class="section__lead">
+            Elk herstelproces is uniek, maar onderstaande tijdlijn geeft een goed beeld van wat u
+            kunt verwachten.
+          </p>
         </div>
         <div class="recovery-timeline">
-          <div class="recovery-phase">
-            <div class="recovery-phase__period">Week 1–2</div>
-            <div class="recovery-phase__content">
-              <h3 class="recovery-phase__title">Direct herstel</h3>
-              <p class="recovery-phase__desc">Korstjes, lichte zwelling en roodheid zijn normaal en verwacht. De getransplanteerde haren zijn kwetsbaar in deze periode — volg de aftercare-instructies nauwgezet op. Vermijd fysieke inspanning en slaap met het hoofd licht omhoog.</p>
-              <span class="recovery-phase__badge recovery-phase__badge--normal">Volledig normaal</span>
+          @for (phase of recoveryPhases; track phase.period) {
+            <div class="recovery-phase">
+              <div class="recovery-phase__period">{{ phase.period }}</div>
+              <div>
+                <h3 class="recovery-phase__title">{{ phase.title }}</h3>
+                <p class="recovery-phase__desc">{{ phase.desc }}</p>
+                <span class="recovery-phase__badge recovery-phase__badge--{{ phase.badgeType }}">{{
+                  phase.badge
+                }}</span>
+              </div>
             </div>
-          </div>
-          <div class="recovery-phase">
-            <div class="recovery-phase__period">Maand 1–3</div>
-            <div class="recovery-phase__content">
-              <h3 class="recovery-phase__title">Shock loss</h3>
-              <p class="recovery-phase__desc">De getransplanteerde haren vallen tijdelijk uit — dit heet shock loss en is een normaal en verwacht onderdeel van het herstelproces. De haarzakjes zijn intact en gezond; alleen de haarschacht valt uit. Geen paniek: dit is de voorbereiding op de echte, permanente haargroei die volgt.</p>
-              <span class="recovery-phase__badge recovery-phase__badge--warning">Normaal — geen zorgen!</span>
-            </div>
-          </div>
-          <div class="recovery-phase">
-            <div class="recovery-phase__period">Maand 4–8</div>
-            <div class="recovery-phase__content">
-              <h3 class="recovery-phase__title">Nieuwe haargroei</h3>
-              <p class="recovery-phase__desc">Nieuwe haargroei begint zichtbaar te worden. Aanvankelijk fijn en licht van kleur, maar de haarschachten worden geleidelijk dikker en sterker. Dit is het moment waarop de eerste opvallende resultaten zichtbaar worden.</p>
-              <span class="recovery-phase__badge recovery-phase__badge--good">Zichtbare vooruitgang</span>
-            </div>
-          </div>
-          <div class="recovery-phase">
-            <div class="recovery-phase__period">Maand 12–18</div>
-            <div class="recovery-phase__content">
-              <h3 class="recovery-phase__title">Eindresultaat</h3>
-              <p class="recovery-phase__desc">Het volledige eindresultaat wordt zichtbaar. De getransplanteerde haren zijn volledig gerijpt, hebben hun definitieve dikte en kleur bereikt en groeien zoals uw eigen natuurlijke haren. Dit is het moment voor de definitieve evaluatie en de tevredenheidsfoto.</p>
-              <span class="recovery-phase__badge recovery-phase__badge--success">Volledig resultaat</span>
-            </div>
-          </div>
+          }
         </div>
       </div>
     </section>
@@ -190,83 +92,88 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--white">
       <div class="container">
         <div class="section__header">
-          <h2>Do's en Don'ts na de behandeling</h2>
+          <h2>Dos &amp; Don&apos;ts na uw behandeling</h2>
           <div class="section__divider"></div>
-          <p class="section__lead">De juiste nazorg is essentieel voor een optimaal resultaat. Volg deze richtlijnen zorgvuldig op.</p>
+          <p class="section__lead">
+            Een goede nazorg is cruciaal voor het beste resultaat. Volg deze richtlijnen zorgvuldig
+            op.
+          </p>
         </div>
         <div class="dos-donts-grid">
           <div class="dos-column">
             <div class="dos-column__header">
-              <span class="dos-column__icon">✅</span>
-              <h3>Do's</h3>
+              <span>✓</span>
+              <h3>Wel doen</h3>
             </div>
             <ul class="dos-column__list">
-              <li class="dos-column__item">
-                <span class="dos-column__check">✓</span>
-                <div>
-                  <strong>Rust nemen</strong>
-                  <p>Neem de eerste 3–5 dagen volledige rust. Uw lichaam gebruikt energie voor herstel.</p>
-                </div>
-              </li>
-              <li class="dos-column__item">
-                <span class="dos-column__check">✓</span>
-                <div>
-                  <strong>Zacht wassen na 3 dagen</strong>
-                  <p>Vanaf dag 3 kunt u de hoofdhuid voorzichtig wassen met de meegeleverde shampoo en lotion, volgens de instructies.</p>
-                </div>
-              </li>
-              <li class="dos-column__item">
-                <span class="dos-column__check">✓</span>
-                <div>
-                  <strong>Beschermen tegen zon</strong>
-                  <p>Draag de eerste maanden een hoed in de zon. Directe UV-blootstelling kan het herstel vertragen.</p>
-                </div>
-              </li>
-              <li class="dos-column__item">
-                <span class="dos-column__check">✓</span>
-                <div>
-                  <strong>Voorgeschreven medicijnen nemen</strong>
-                  <p>Neem antibiotica, pijnstillers en eventuele andere voorgeschreven medicatie stipt in volgens schema.</p>
-                </div>
-              </li>
+              @for (item of dosItems; track item.title) {
+                <li class="dos-column__item">
+                  <span class="dos-column__check">✓</span>
+                  <div>
+                    <strong>{{ item.title }}</strong>
+                    <p>{{ item.desc }}</p>
+                  </div>
+                </li>
+              }
             </ul>
           </div>
           <div class="donts-column">
             <div class="donts-column__header">
-              <span class="donts-column__icon">❌</span>
-              <h3>Don'ts</h3>
+              <span>✗</span>
+              <h3>Niet doen</h3>
             </div>
             <ul class="donts-column__list">
-              <li class="donts-column__item">
-                <span class="donts-column__cross">✗</span>
-                <div>
-                  <strong>Niet krabben of wrijven</strong>
-                  <p>Krab of wrijf nooit aan de behandelde zones, ook niet als het jeuk veroorzaakt. Korstjes mogen op eigen tempo loslaten.</p>
-                </div>
-              </li>
-              <li class="donts-column__item">
-                <span class="donts-column__cross">✗</span>
-                <div>
-                  <strong>Geen sport eerste 2 weken</strong>
-                  <p>Vermijd intensieve lichaamsbeweging, zwaar tillen en sport de eerste 14 dagen volledig. Zweten verhoogt infectierisico.</p>
-                </div>
-              </li>
-              <li class="donts-column__item">
-                <span class="donts-column__cross">✗</span>
-                <div>
-                  <strong>Geen alcohol eerste week</strong>
-                  <p>Alcohol verdunt het bloed en interfereert met genezing. Vermijd alcoholconsumptie de eerste week na de behandeling.</p>
-                </div>
-              </li>
-              <li class="donts-column__item">
-                <span class="donts-column__cross">✗</span>
-                <div>
-                  <strong>Geen sauna of zwembad</strong>
-                  <p>Vermijd sauna, zwembad, jacuzzi en stoomkamers gedurende minstens 4 weken na de behandeling.</p>
-                </div>
-              </li>
+              @for (item of dontsItems; track item.title) {
+                <li class="donts-column__item">
+                  <span class="donts-column__cross">✗</span>
+                  <div>
+                    <strong>{{ item.title }}</strong>
+                    <p>{{ item.desc }}</p>
+                  </div>
+                </li>
+              }
             </ul>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--green">
+      <div class="container">
+        <div class="section__header section__header--light">
+          <h2>Klaar om uw traject te starten?</h2>
+          <div class="section__divider section__divider--light"></div>
+          <p class="section__lead section__lead--light">
+            Plan vandaag nog uw gratis consult bij HaarKliniek 45 in Grazen. Geen verplichtingen —
+            alleen eerlijk advies.
+          </p>
+        </div>
+        <div class="hero__actions">
+          <a routerLink="/contact" class="btn btn-primary" style="background:#fff;color:#1a4d47;"
+            >Gratis consult aanvragen</a
+          >
+          <a
+            href="tel:+32485593302"
+            class="btn btn-outline"
+            style="border-color:rgba(255,255,255,0.6);color:#fff;"
+            >+32 485 593 302</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>
@@ -274,5 +181,158 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <app-consultation />
   `,
 })
-export class WerkwijzePageComponent {}
+export class WerkwijzePageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
 
+  timelineSteps = [
+    {
+      number: 1,
+      icon: '💬',
+      title: 'De Consultatie',
+      desc: 'Alles begint met een gratis consult — telefonisch of persoonlijk in onze kliniek in Grazen. U bespreekt uw situatie, wensen en verwachtingen vrijblijvend met een specialist. Informeer ons over eerdere behandelingen en medicijngebruik voor een zo volledig mogelijk beeld.',
+      tags: ['Gratis', 'Vrijblijvend', 'Telefonisch of persoonlijk'],
+    },
+    {
+      number: 2,
+      icon: '📸',
+      title: "Foto's maken",
+      desc: "Voor een nauwkeurige beoordeling worden foto's genomen vanuit verschillende hoeken. Bij een persoonlijk consult gebeurt dit in de kliniek. Deze foto's vormen de basis van uw persoonlijk dossier en zijn strikt vertrouwelijk.",
+      tags: ['Meerdere hoeken', 'Vertrouwelijk dossier', 'Precisieanalyse'],
+    },
+    {
+      number: 3,
+      icon: '🔬',
+      title: 'Vaststellen van de behandeling',
+      desc: 'Onze specialist beoordeelt het donorgebied, de haarstructuur en de mate van haaruitval nauwkeurig. Op basis hiervan wordt het benodigde aantal grafts bepaald en een realistisch resultaatoverzicht opgesteld.',
+      tags: ['Donoranalyse', 'Grafts bepalen', 'Resultaatprognose'],
+    },
+    {
+      number: 4,
+      icon: '📋',
+      title: 'Behandelplan en Voorbereiding',
+      desc: 'Na akkoord over het behandelplan plannen wij de ingreep in. U ontvangt heldere richtlijnen voor voor- en nabehandeling. Voorbereiding: geen alcohol 5 dagen voor de ingreep, stop met bloedverdunners in overleg met de arts, was uw haar de ochtend van de ingreep.',
+      tags: ['Geen alcohol 5 dagen voor', 'Haar wassen ochtend van ingreep', 'Heldere instructies'],
+    },
+    {
+      number: 5,
+      icon: '✂️',
+      title: 'De Behandeling',
+      desc: 'Op de behandeldag verwelkomen wij u in HaarKliniek 45 in Grazen. Draag comfortabele kleding die niet over het hoofd getrokken moet worden. Onze arts en team leggen alles stap voor stap uit. Het eerste deel: oogsten van grafts uit het donorgebied. Daarna worden de grafts zorgvuldig geimplanteerd in de dunner wordende of kale zones. Na afloop ontvangt u medicatie en gedetailleerde instructies mee.',
+      tags: ['Lokale verdoving', 'Dagbehandeling', 'FUE Saffier of DHI', 'Medicatie achteraf'],
+    },
+    {
+      number: 6,
+      icon: '🚿',
+      title: 'Wassing en Eerste controle',
+      desc: 'De eerste wassing vindt plaats 1 a 2 dagen na de behandeling en wordt door ons begeleid. Het verband wordt verwijderd en de eerste reiniging uitgevoerd. U krijgt productadvies en de juiste wastechniek uitgelegd voor thuis.',
+      tags: ['Dag 1-2 na ingreep', 'Begeleid door team', 'Juiste wastechniek'],
+    },
+    {
+      number: 7,
+      icon: '🌱',
+      title: 'Nazorg en Opvolging',
+      desc: 'Onze begeleiding stopt niet wanneer u de kliniek verlaat. Dag 10 voorzien wij een controleafspraak. Maandelijks worden foto-updates gemaakt om de voortgang te volgen. Ons team is altijd bereikbaar via telefoon, WhatsApp of e-mail voor al uw vragen.',
+      tags: ['Controle dag 10', 'Maandelijkse foto-updates', 'Telefoon en WhatsApp support'],
+    },
+  ];
+
+  recoveryPhases = [
+    {
+      period: 'Dag 1-3',
+      title: 'Rust en herstel',
+      desc: 'Lichte zwelling en roodheid zijn normaal en verdwijnen vanzelf. Slaap met een nekkussen in een verhoogde positie. Vermijd direct contact met de behandelzone.',
+      badge: 'Rust aanbevolen',
+      badgeType: 'normal',
+    },
+    {
+      period: 'Dag 4-10',
+      title: 'Korstjes vormen en loslaten',
+      desc: 'Kleine korstjes vormen zich in de behandelzone — onderdeel van het normale genezingsproces. Was het haar zachtjes volgens de instructies. Krab nooit aan de korstjes.',
+      badge: 'Voorzichtig wassen',
+      badgeType: 'warning',
+    },
+    {
+      period: 'Week 2',
+      title: 'Zichtbare genezing en shock loss',
+      desc: 'Het grootste deel van de zichtbare genezing is achter de rug. De getransplanteerde haren kunnen tijdelijk uitvallen — dit heet shock loss en is volkomen normaal. De haarfollikels zijn intact en zullen opnieuw groeien.',
+      badge: 'Normaal proces',
+      badgeType: 'good',
+    },
+    {
+      period: 'Maand 3-6',
+      title: 'Nieuwe haargroei zichtbaar',
+      desc: 'De eerste tekenen van nieuwe haargroei worden zichtbaar. Het haar is aanvankelijk fijn en licht maar wordt geleidelijk dikker en sterker. U ziet nu merkbare vooruitgang.',
+      badge: 'Zichtbare groei',
+      badgeType: 'good',
+    },
+    {
+      period: 'Maand 12',
+      title: 'Definitief resultaat',
+      desc: 'Na 12 maanden is het definitieve resultaat zichtbaar. Sommige patienten zien zelfs tot 18 maanden verdere verbetering. Het getransplanteerde haar groeit permanent en kan gewassen, geknipt en gestyled worden zoals uw eigen haar.',
+      badge: 'Definitief resultaat',
+      badgeType: 'success',
+    },
+  ];
+
+  dosItems = [
+    {
+      title: 'Slaap verhoogd',
+      desc: 'Slaap de eerste nachten met een nekkussen in een verhoogde positie om zwelling te minimaliseren.',
+    },
+    {
+      title: 'Zacht wassen vanaf dag 2',
+      desc: 'Was het haar voorzichtig met de speciale shampoo en de wastechniek die ons team u heeft uitgelegd.',
+    },
+    {
+      title: 'Voldoende water drinken',
+      desc: 'Hydratatie ondersteunt het genezingsproces. Drink dagelijks minimaal 1,5 a 2 liter water.',
+    },
+    {
+      title: 'Voorgeschreven medicatie nemen',
+      desc: 'Neem de voorgeschreven medicatie (pijnstillers, antibiotica) stipt in zoals aangegeven door de arts.',
+    },
+    {
+      title: 'Bescherm het hoofd tegen direct zonlicht',
+      desc: 'Draag de eerste 2 weken een luchtige hoed of pet als bescherming tegen de zon.',
+    },
+  ];
+
+  dontsItems = [
+    {
+      title: 'Niet krabben of wrijven (grafts)',
+      desc: 'Krab nooit aan de grafts of korstjes. Dit kan de net geplaatste follikels beschadigen.',
+    },
+    {
+      title: 'Geen intensief sporten (3 weken)',
+      desc: 'Vermijd intensieve inspanning, zweten en verhoogde bloeddruk gedurende minimaal 3 weken.',
+    },
+    {
+      title: 'Niet zwemmen (4 weken)',
+      desc: 'Zwembad, zee en sauna zijn de eerste 4 weken verboden vanwege infectierisico en chemicalien.',
+    },
+    {
+      title: 'Niet roken (2 weken)',
+      desc: 'Roken vermindert de bloeddoorstroming en belemmert de genezing van de haarfollikels.',
+    },
+    {
+      title: 'Geen alcohol (1 week)',
+      desc: 'Alcohol verdunt het bloed en vertraagt het herstelproces. Vermijd alcohol de eerste week na de ingreep.',
+    },
+    {
+      title: 'Geen directe zon zonder bescherming (2 weken)',
+      desc: 'UV-straling kan het gevoelige behandelgebied beschadigen. Draag altijd bescherming buiten.',
+    },
+  ];
+}

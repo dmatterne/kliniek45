@@ -2,302 +2,492 @@
 @use '../../../styles/typography' as *;
 @use '../../../styles/spacing' as *;
 
-.page-hero {
+// ─── Hero ─────────────────────────────────────────────────────────────────
+.hero {
   background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
   color: $neutral-white;
-  padding: $space-16 $space-4;
-  text-align: center;
+  padding: $space-20 0 $space-16;
 
-  .eyebrow {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: $gold;
-    margin-bottom: $space-3;
-    font-family: $font-body;
-    font-weight: 600;
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    font-size: $text-sm;
+    color: rgba($neutral-white, 0.7);
+    margin-bottom: $space-6;
+
+    a {
+      color: rgba($neutral-white, 0.85);
+      text-decoration: none;
+      &:hover {
+        color: $neutral-white;
+      }
+    }
   }
 
-  h1 {
+  .hero-title {
     font-family: $font-heading;
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
-    margin-bottom: $space-4;
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-    opacity: 0.9;
-    max-width: 620px;
-    margin: 0 auto;
-    font-family: $font-body;
-  }
-}
-
-.page-section {
-  padding: $space-16 $space-4;
-
-  &.bg-light { background: $neutral-cream; }
-
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  h2 {
-    font-family: $font-heading;
-    font-size: 1.9rem;
-    color: $primary-green;
+    line-height: 1.2;
     margin-bottom: $space-6;
   }
 
-  p { font-family: $font-body; color: $text-secondary; line-height: 1.75; margin-bottom: $space-4; }
+  .hero-subtitle {
+    font-size: $text-lg;
+    line-height: 1.7;
+    color: rgba($neutral-white, 0.9);
+    max-width: 680px;
+    margin-bottom: $space-8;
+  }
 }
 
-.intro-text {
-  font-size: 1.1rem;
-  color: $text-secondary;
-  font-family: $font-body;
-  line-height: 1.8;
-  margin-bottom: $space-10;
-  max-width: 760px;
+// ─── Intro ────────────────────────────────────────────────────────────────
+.intro-section {
+  padding: $space-16 0;
+  background: $neutral-white;
+
+  .intro-card {
+    display: flex;
+    gap: $space-8;
+    align-items: flex-start;
+    background: $primary-green-pale;
+    border-radius: 16px;
+    padding: $space-10;
+
+    .intro-icon {
+      font-size: 3rem;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      font-family: $font-heading;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $primary-green-dark;
+      margin-bottom: $space-4;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: 1.8;
+      margin-bottom: $space-3;
+    }
+  }
 }
 
-.steps-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-6;
+// ─── How long ─────────────────────────────────────────────────────────────
+.how-long-section {
+  padding: $space-20 0;
+  background: $neutral-cream;
 
-  .step-item {
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-1;
+    margin-top: $space-12;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $space-4;
+    }
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .timeline-item {
+    background: $neutral-white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+
+    .timeline-marker {
+      background: $primary-green;
+      color: $neutral-white;
+      font-weight: 700;
+      font-size: $text-sm;
+      padding: $space-3 $space-4;
+      text-align: center;
+    }
+
+    .timeline-content {
+      padding: $space-6;
+
+      h3 {
+        font-family: $font-heading;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin-bottom: $space-3;
+      }
+
+      p {
+        color: $text-secondary;
+        font-size: $text-sm;
+        line-height: 1.7;
+      }
+    }
+  }
+}
+
+// ─── No scratch warning ───────────────────────────────────────────────────
+.no-scratch-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+
+  .warning-card {
+    display: flex;
+    gap: $space-8;
+    align-items: flex-start;
+    background: #fff5f5;
+    border: 2px solid #e53e3e;
+    border-radius: 16px;
+    padding: $space-10;
+
+    .warning-icon {
+      font-size: 3rem;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      font-family: $font-heading;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #c0392b;
+      margin-bottom: $space-4;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: 1.7;
+      margin-bottom: $space-6;
+    }
+  }
+
+  .risks-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-4;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .risk-item {
     display: flex;
     gap: $space-4;
     align-items: flex-start;
+    background: $neutral-white;
+    border-radius: 10px;
+    padding: $space-5;
+    border: 1px solid rgba(#e53e3e, 0.2);
 
-    .step-num {
+    .risk-icon {
+      font-size: 1.5rem;
       flex-shrink: 0;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 50%;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: $space-1;
+      strong {
+        color: $text-primary;
+        font-weight: 700;
+        font-size: $text-sm;
+      }
+      span {
+        color: $text-secondary;
+        font-size: $text-sm;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+// ─── Washing steps ────────────────────────────────────────────────────────
+.washing-section {
+  padding: $space-20 0;
+  background: $neutral-cream;
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: $space-4;
+    margin-top: $space-12;
+  }
+
+  .step-card {
+    display: flex;
+    gap: $space-6;
+    align-items: flex-start;
+    background: $neutral-white;
+    border-radius: 12px;
+    padding: $space-8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+    .step-number {
       background: $primary-green;
       color: $neutral-white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-family: $font-body;
-    }
-
-    .step-body {
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; }
-      p { margin: 0; font-family: $font-body; color: $text-secondary; line-height: 1.65; }
-    }
-  }
-}
-
-.benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: $space-6;
-
-  .benefit-card {
-    background: $neutral-white;
-    border-radius: 12px;
-    padding: $space-6;
-    text-align: center;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-
-    .benefit-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; font-size: 0.95rem; line-height: 1.6; }
-  }
-}
-
-.faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .faq-item {
-    background: $neutral-white;
-    border: 1px solid $neutral-light;
-    border-radius: 10px;
-    padding: $space-5 $space-6;
-
-    h4 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.05rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.7; }
-  }
-}
-
-.candidates-grid {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .candidate-item {
-    display: flex;
-    gap: $space-4;
-    align-items: flex-start;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .cand-icon { color: $primary-green; font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
-    h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-1; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; }
-  }
-}
-
-.treatments-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: $space-6;
-}
-
-.treatment-link-card {
-  display: block;
-  background: $neutral-white;
-  border: 2px solid $neutral-light;
-  border-radius: 14px;
-  padding: $space-6;
-  text-decoration: none;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
-
-  &:hover {
-    border-color: $primary-green;
-    box-shadow: 0 4px 20px rgba(26,77,71,0.12);
-    transform: translateY(-3px);
-  }
-
-  .tl-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-  h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; }
-  p { font-family: $font-body; color: $text-secondary; margin: 0 0 $space-4; font-size: 0.95rem; line-height: 1.6; }
-  .tl-arrow { color: $primary-green; font-weight: 700; font-size: 1.1rem; }
-}
-
-.norwood-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .norwood-item {
-    display: flex;
-    gap: $space-4;
-    align-items: baseline;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .norwood-num {
+      font-size: 1.1rem;
       flex-shrink: 0;
-      font-family: $font-heading;
-      font-size: 1.3rem;
-      color: $primary-green;
-      font-weight: 700;
-      min-width: 1.5rem;
     }
 
-    div { font-family: $font-body; color: $text-secondary; line-height: 1.65; }
-    strong { color: $text-primary; }
+    .step-content {
+      h3 {
+        font-family: $font-heading;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin-bottom: $space-3;
+      }
+      p {
+        color: $text-secondary;
+        line-height: 1.7;
+        font-size: $text-sm;
+      }
+    }
   }
 }
 
-.tips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: $space-6;
+// ─── Itch section ─────────────────────────────────────────────────────────
+.itch-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+
+  .itch-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-8;
+    margin-top: $space-12;
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+
+  .itch-info > p {
+    color: $text-secondary;
+    line-height: 1.8;
+    margin-bottom: $space-6;
+  }
+
+  .comfort-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $space-4;
+
+    li {
+      display: flex;
+      gap: $space-4;
+      align-items: flex-start;
+
+      .comfort-icon {
+        font-size: 1.5rem;
+        flex-shrink: 0;
+      }
+
+      div {
+        strong {
+          display: block;
+          color: $text-primary;
+          font-weight: 700;
+          margin-bottom: $space-1;
+        }
+        p {
+          color: $text-secondary;
+          font-size: $text-sm;
+          line-height: 1.6;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .itch-dont {
+    background: #fff5f5;
+    border-radius: 12px;
+    padding: $space-8;
+    height: fit-content;
+
+    .warning-title {
+      font-family: $font-heading;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #c0392b;
+      margin-bottom: $space-5;
+    }
+
+    .dont-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: $space-3;
+
+      li {
+        font-size: $text-sm;
+        color: $text-secondary;
+        padding-left: $space-5;
+        position: relative;
+
+        &::before {
+          content: '✗';
+          position: absolute;
+          left: 0;
+          color: #c0392b;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+// ─── Comfort tips ─────────────────────────────────────────────────────────
+.comfort-section {
+  padding: $space-20 0;
+  background: $primary-green-pale;
+
+  .tips-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-6;
+    margin-top: $space-12;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 
   .tip-card {
     background: $neutral-white;
-    border-radius: 14px;
-    padding: $space-6;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    border-top: 3px solid $primary-green;
+    border-radius: 12px;
+    padding: $space-8;
+    text-align: center;
 
-    .tip-num {
+    .tip-icon {
+      font-size: 2.5rem;
+      display: block;
+      margin-bottom: $space-4;
+    }
+
+    h3 {
       font-family: $font-heading;
+      font-size: 1rem;
+      font-weight: 600;
+      color: $text-primary;
+      margin-bottom: $space-3;
+    }
+
+    p {
+      color: $text-secondary;
+      font-size: $text-sm;
+      line-height: 1.7;
+    }
+  }
+}
+
+// ─── Warning signs ────────────────────────────────────────────────────────
+.warning-signs-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+
+  .section-subtitle a {
+    color: $primary-green;
+    font-weight: 600;
+    &:hover {
+      color: $primary-green-dark;
+    }
+  }
+
+  .signs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-4;
+    margin-top: $space-12;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .sign-card {
+    display: flex;
+    gap: $space-4;
+    align-items: flex-start;
+    border-radius: 12px;
+    padding: $space-6;
+
+    .sign-icon {
       font-size: 2rem;
-      color: $primary-green-pale;
-      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    h3 {
+      font-family: $font-heading;
+      font-size: 1rem;
+      font-weight: 600;
       margin-bottom: $space-2;
     }
 
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-3; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
+    p {
+      font-size: $text-sm;
+      color: $text-secondary;
+      line-height: 1.6;
+    }
+
+    &.sign-urgent {
+      background: #fff5f5;
+      border: 1px solid rgba(#e53e3e, 0.3);
+      h3 {
+        color: #c0392b;
+      }
+    }
+    &.sign-warning {
+      background: #fffbeb;
+      border: 1px solid rgba(#d69e2e, 0.3);
+      h3 {
+        color: #b7791f;
+      }
+    }
   }
-}
 
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  position: relative;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 4.5rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: $primary-green-pale;
-  }
-
-  .timeline-item {
+  .nav-links {
     display: flex;
-    gap: $space-6;
-    align-items: flex-start;
-    padding: $space-5 0;
-    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $space-4;
+    margin-top: $space-12;
+    padding-top: $space-8;
+    border-top: 1px solid rgba($primary-green, 0.15);
+  }
 
-    .timeline-day {
-      flex-shrink: 0;
-      width: 4rem;
-      font-family: $font-body;
-      font-weight: 700;
-      font-size: 0.8rem;
-      color: $primary-green;
-      text-align: right;
-      padding-top: 0.2rem;
-    }
-
-    .timeline-body {
-      background: $neutral-white;
-      border-radius: 10px;
-      padding: $space-4 $space-5;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      flex: 1;
-
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; font-size: 1rem; }
-      p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
+  .nav-link {
+    color: $primary-green;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: $text-sm;
+    &:hover {
+      color: $primary-green-dark;
+      text-decoration: underline;
     }
   }
 }
 
-.dos-donts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $space-8;
-
-  @media (max-width: 640px) {
-    grid-template-columns: 1fr;
-  }
-
-  ul { padding-left: $space-5; list-style: disc; }
-  li { font-family: $font-body; color: $text-secondary; margin-bottom: $space-3; line-height: 1.6; }
-
-  .dos-title { color: #2d7a72; font-family: $font-heading; margin-bottom: $space-4; }
-  .dont-title { color: #b83232; font-family: $font-heading; margin-bottom: $space-4; }
-}
-
-.cta-section {
-  background: $primary-green;
-  color: $neutral-white;
-  padding: $space-12 $space-4;
-  text-align: center;
-
-  h2 { font-family: $font-heading; font-size: 1.8rem; margin-bottom: $space-4; }
-  p { font-family: $font-body; opacity: 0.9; margin-bottom: $space-6; }
-}
+// ─── Trust badges ─────────────────────────────────────────────────────────

@@ -2,33 +2,50 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
+interface FaqItem {
+  q: string;
+  a: string;
+  open: boolean;
+}
+
 @Component({
   selector: 'app-faq-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./faq-page.scss'],
   template: `
-    <section class="hero">
+    <section class="page-hero">
       <div class="container">
-        <span class="eyebrow">Alles wat u wilt weten</span>
         <h1>Veelgestelde Vragen</h1>
-        <p class="subtitle">Duidelijke antwoorden over haartransplantatie, herstel en onze behandelingen</p>
+        <p class="subtitle">
+          Alles wat u wilt weten over haartransplantatie bij HaarKliniek 45 in Grazen, België
+        </p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <p class="intro-text">
+          Heeft u vragen over haartransplantatie, onze technieken of de nazorg? Hieronder vindt u
+          antwoord op de meest gestelde vragen. Staat uw vraag er niet bij? Neem dan vrijblijvend
+          contact op — ons team helpt u graag persoonlijk verder.
+        </p>
       </div>
     </section>
 
     <section class="faq-section">
       <div class="container">
-        @for (cat of categories; track cat.label) {
+        @for (cat of faqCategories; track cat.title) {
           <div class="faq-category">
-            <h2 class="category-title">{{ cat.label }}</h2>
+            <h2 class="category-title">{{ cat.title }}</h2>
             <div class="faq-list">
-              @for (item of cat.items; track item.q; let i = $index) {
-                <div class="faq-item" [class.open]="openKey === cat.label + i">
-                  <button class="faq-question" (click)="toggle(cat.label + i)">
-                    <span>{{ item.q }}</span>
-                    <span class="faq-icon">{{ openKey === cat.label + i ? '−' : '+' }}</span>
+              @for (item of cat.items; track item.q) {
+                <div class="faq-item" [class.open]="item.open">
+                  <button class="faq-question" (click)="toggle(item)">
+                    {{ item.q }}
+                    <span class="faq-icon">{{ item.open ? '−' : '+' }}</span>
                   </button>
-                  @if (openKey === cat.label + i) {
+                  @if (item.open) {
                     <div class="faq-answer">
                       <p>{{ item.a }}</p>
                     </div>
@@ -43,9 +60,31 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="cta-section">
       <div class="container">
-        <h2>Heeft u nog vragen?</h2>
-        <p>Ons team staat klaar om al uw vragen persoonlijk te beantwoorden.</p>
-        <a routerLink="/contact" class="btn btn-primary">Neem contact op</a>
+        <h2>Nog steeds vragen?</h2>
+        <p>
+          Onze specialisten staan klaar voor een gratis en vrijblijvend gesprek. Wij beantwoorden al
+          uw vragen persoonlijk.
+        </p>
+        <div class="cta-buttons">
+          <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
+          <a href="tel:+32485593302" class="btn btn-outline">Bel ons: +32 485 593 302</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+        </div>
       </div>
     </section>
 
@@ -53,51 +92,159 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   `,
 })
 export class FaqPageComponent {
-  openKey = '';
-  toggle(key: string) { this.openKey = this.openKey === key ? '' : key; }
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
 
-  categories = [
+  faqCategories: { title: string; items: FaqItem[] }[] = [
     {
-      label: 'Algemeen',
+      title: 'Algemene vragen',
       items: [
-        { q: 'Wat is een haartransplantatie?', a: 'Een haartransplantatie is een chirurgische ingreep waarbij gezonde haarzakjes van de achterkant of zijkanten van uw hoofd worden overgebracht naar gebieden met dunner wordend of geen haar. De FUE en DHI zijn de meest gebruikte moderne technieken.' },
-        { q: 'Ben ik geschikt voor een haartransplantatie?', a: 'Geschikte kandidaten zijn personen met stabiele haaruitval, voldoende donorhaarzakjes en een goede algemene gezondheid. Een persoonlijk consult is nodig om uw situatie te beoordelen. De meeste mensen ouder dan 25 jaar komen in aanmerking.' },
-        { q: 'Is het resultaat permanent?', a: 'Ja. Getransplanteerde haarzakjes zijn afkomstig uit DHT-resistente gebieden en vallen in principe niet meer uit. Eenmaal getransplanteerd groeien ze levenslang mee. U kunt ze wassen, knippen, verven en stylen zoals uw eigen haar.' },
-        { q: 'Hoeveel grafts heb ik nodig?', a: 'Het aantal benodigde grafts hangt af van de omvang van het kale gebied, de gewenste dichtheid en de kwaliteit van de donorzone. Kleine behandelingen vereisen 500-1.500 grafts, middelgrote 1.500-3.000, en uitgebreide behandelingen tot 4.000 grafts of meer.' },
-        { q: 'Wat is het verschil tussen FUE, FUE Saffier en DHI?', a: 'FUE extraheert grafts en implanteert via incisies. FUE Saffier gebruikt een saffiermes voor scherpere incisies met minder littekenvorming. DHI gebruikt een Choi-pen die extractie en implantatie combineert, wat meer dichtheid en sneller herstel oplevert.' },
+        {
+          q: 'Is een haartransplantatie pijnlijk?',
+          a: 'De ingreep wordt uitgevoerd onder lokale verdoving, waardoor u tijdens de behandeling geen pijn ervaart. U kunt wel een lichte druksensatie voelen. Na de ingreep is er enige gevoeligheid, maar dit verdwijnt doorgaans binnen enkele dagen.',
+          open: false,
+        },
+        {
+          q: 'Hoelang duurt een haartransplantatie?',
+          a: 'Afhankelijk van het aantal grafts en de gebruikte techniek duurt een haartransplantatie 4 tot 8 uur. Het is een dagbehandeling — u gaat dezelfde dag naar huis.',
+          open: false,
+        },
+        {
+          q: 'Wanneer zie ik het eindresultaat?',
+          a: 'Na de ingreep vallen de getransplanteerde haren tijdelijk uit (2 tot 4 weken) — dit is volkomen normaal en onderdeel van het proces. Nieuwe haargroei wordt zichtbaar na 3 tot 4 maanden. Het definitieve resultaat is te beoordelen na 12 tot 18 maanden.',
+          open: false,
+        },
+        {
+          q: 'Hoe lang blijft het resultaat?',
+          a: 'Het resultaat van een haartransplantatie is permanent. De getransplanteerde haren zijn afkomstig uit het donorgebied dat genetisch resistent is tegen DHT — het hormoon dat haaruitval veroorzaakt. Ze blijven dus voor de rest van uw leven groeien.',
+          open: false,
+        },
+        {
+          q: 'Hoeveel grafts heb ik nodig?',
+          a: 'Dit hangt af van de mate van haaruitval en de gewenste dichtheid. Voor een kleine behandelzone zijn 1.000 tot 1.500 grafts voldoende; voor grotere zones gaat dit richting 3.000 tot 4.500 of meer. Tijdens het gratis consult bepalen wij nauwkeurig het benodigde aantal grafts voor uw situatie.',
+          open: false,
+        },
+        {
+          q: 'Wat kost een haartransplantatie?',
+          a: 'De prijs hangt af van het aantal grafts en de gekozen techniek. Tijdens het gratis consult ontvangt u een gepersonaliseerde offerte op maat — geen verborgen kosten, volledige transparantie.',
+          open: false,
+        },
       ],
     },
     {
-      label: 'Voorbereiding',
+      title: 'Vragen over geschiktheid',
       items: [
-        { q: 'Hoe verloopt het eerste consult?', a: 'Tijdens het gratis consult bestuderen we uw haarpatroon, donorzone en medische achtergrond. We bespreken uw verwachtingen, stellen een behandelplan op en geven een transparante prijsofferte. Dit duurt gemiddeld 45-60 minuten en is volledig vrijblijvend.' },
-        { q: 'Welke voorbereiding is nodig vóór de ingreep?', a: 'We vragen u bloedverdunners en bepaalde supplementen te stoppen (na medisch overleg), alcohol en roken te vermijden in de week voor de ingreep, en comfortabele kleding te dragen. Een uitgebreide checklist ontvangt u na het plannen van uw afspraak.' },
-        { q: 'Kan ik een haartransplantatie combineren met haargroei-stimulerende behandelingen?', a: 'Absoluut. PRP, Regenera Activa en Hairegen kunnen zowel voor als na een haartransplantatie worden ingezet. Voor de transplantatie versterken ze de donorzone. Daarna versnellen ze het herstel en stimuleren de haargroei.' },
+        {
+          q: 'Ben ik een goede kandidaat voor een haartransplantatie?',
+          a: 'Goede kandidaten hebben een stabiele haaruitval, voldoende donordichtheid en zijn minimaal 23 tot 25 jaar oud. Onze specialist beoordeelt uw situatie uitgebreid tijdens het gratis consult en adviseert u eerlijk over de mogelijkheden en verwachtingen.',
+          open: false,
+        },
+        {
+          q: 'Kunnen vrouwen ook een haartransplantatie ondergaan?',
+          a: 'Ja, een haartransplantatie is ook voor vrouwen effectief bij bepaalde types haaruitval. De planning verschilt van die bij mannen omdat haaruitval bij vrouwen vaak diffuser van aard is. Onze specialist bespreekt de opties specifiek voor uw situatie.',
+          open: false,
+        },
+        {
+          q: 'Is er een maximumleeftijd voor een haartransplantatie?',
+          a: 'Er is geen strikte maximumleeftijd. Zolang u in goede gezondheid verkeert en over voldoende donormateriaal beschikt, zijn er mogelijkheden. Onze specialist bespreekt graag de opties met u, ongeacht uw leeftijd.',
+          open: false,
+        },
+        {
+          q: 'Kan ik een haartransplantatie ondergaan als ik medicijnen gebruik?',
+          a: 'Dit hangt af van het type medicatie. Bespreek uw medicijngebruik altijd met onze specialist. Sommige medicijnen — zoals bloedverdunners — dienen mogelijk tijdelijk gestopt te worden in overleg met uw huisarts. Stop nooit eigenhandig met medicatie.',
+          open: false,
+        },
       ],
     },
     {
-      label: 'Behandeling & herstel',
+      title: 'Vragen over technieken',
       items: [
-        { q: 'Hoe lang duurt de ingreep?', a: 'Afhankelijk van het aantal te transplanteren grafts duurt een behandeling gemiddeld 4 tot 8 uur. Kleine behandelingen (1.000-1.500 grafts) zijn sneller afgerond, grotere behandelingen (3.000+ grafts) nemen een volledige dag in beslag.' },
-        { q: 'Is een haartransplantatie pijnlijk?', a: 'De ingreep wordt uitgevoerd onder lokale anesthesie, waardoor u geen pijn voelt. Na de ingreep kunt u enige gevoeligheid ervaren, maar dit is goed beheersbaar met pijnstillers. De meeste patiënten beschrijven de behandeling als comfortabeler dan verwacht.' },
-        { q: 'Hoe lang duurt het herstel?', a: 'De meeste patiënten kunnen na 3-5 dagen al terug aan het werk. In de eerste week zijn er korstjes en lichte zwelling. Na 2 weken zijn de korstjes verdwenen. Sportieve activiteiten kunnen na 2-3 weken worden hervat.' },
-        { q: 'Kan ik na een haartransplantatie sporten?', a: 'Lichte activiteiten zijn na 2 weken toegestaan. Intensief sporten en zweten moet u de eerste 2-3 weken vermijden om infecties en het loslaten van grafts te voorkomen. Zwemmen is pas na 4-6 weken aanbevolen.' },
-        { q: 'Kan ik werken na de ingreep?', a: 'De meeste mensen keren na 3-5 dagen terug naar kantoorwerk. Zwaar lichamelijk werk wordt de eerste 2 weken afgeraden. Werken vanuit huis is direct na de ingreep mogelijk. Uw specialist geeft persoonlijk advies op basis van uw beroep.' },
+        {
+          q: 'Wat is het verschil tussen FUE Saffier en DHI?',
+          a: 'Bij FUE Saffier worden kanaaltjes geopend met een saffieren blad voor maximale precisie; meer grafts per sessie zijn mogelijk. Bij DHI (Direct Hair Implantation) worden grafts rechtstreeks geimplanteerd via een Choi-pen — ideaal voor maximale precisie in een beperkt gebied. Beide technieken laten minimale littekens achter.',
+          open: false,
+        },
+        {
+          q: 'Wat is de Long Hair methode?',
+          a: 'De Long Hair methode laat toe om een haartransplantatie uit te voeren zonder het haar te scheren. Dit is ideaal voor kleinere behandelzones of voor patienten die discretie wensen. Het resultaat is direct zichtbaar na de ingreep.',
+          open: false,
+        },
+        {
+          q: 'Kan ik ook een baardtransplantatie laten doen?',
+          a: 'Ja, HaarKliniek 45 biedt ook baardtransplantaties aan. De techniek is vergelijkbaar met de reguliere haartransplantatie en geeft een natuurlijk, permanent resultaat. Vraag een gratis consult aan voor meer informatie.',
+          open: false,
+        },
       ],
     },
     {
-      label: 'Resultaten',
+      title: 'Vragen over herstel en nazorg',
       items: [
-        { q: 'Wanneer zie ik resultaat?', a: 'De eerste nieuwe haargroei is zichtbaar vanaf maand 4-6. Tussen maand 8-12 is er al significant verschil. Het volledige eindresultaat is na 12-18 maanden bereikt. Het is normaal dat getransplanteerd haar in de eerste weken tijdelijk uitvalt - dit is onderdeel van het herstelproces.' },
-        { q: 'Kan haaruitval terugkomen na een transplantatie?', a: 'Getransplanteerde haarzakjes zijn DHT-resistent en vallen in principe niet meer uit. Wel kan het omringend haar verder uitvallen. We bespreken dit tijdens het consult en plannen zo nodig toekomstige sessies. We adviseren ook ondersteunende behandelingen.' },
+        {
+          q: 'Wanneer kan ik het werk hervatten?',
+          a: 'Bij kantoorfuncties kunt u doorgaans na 2 tot 3 dagen weer aan het werk. Voor zwaar fysiek werk of intensieve sporten dient u minimaal 2 tot 3 weken te wachten.',
+          open: false,
+        },
+        {
+          q: 'Wanneer mag ik mijn haar wassen?',
+          a: 'U ontvangt gedetailleerde instructies en productadvies van ons team. In het algemeen kunt u het haar vanaf dag 2 wassen met een speciale milde shampoo en een zachte wastechniek die wij u uitleggen.',
+          open: false,
+        },
+        {
+          q: 'Kan ik na de ingreep sporten?',
+          a: 'Licht wandelen is toegestaan vanaf dag 1. Intensief sporten, zwemmen en contactsporten dient u minimaal 3 tot 4 weken te vermijden om de grafts niet te beschadigen.',
+          open: false,
+        },
+        {
+          q: 'Zijn er littekens zichtbaar na een haartransplantatie?',
+          a: 'Bij FUE- en DHI-technieken worden microscopisch kleine ronde puntjes achtergelaten in het donorgebied. Deze zijn bij normaal haar praktisch onzichtbaar en worden als niet-storend ervaren door de overgrote meerderheid van de patienten.',
+          open: false,
+        },
+        {
+          q: 'Hoelang moet ik rechtop slapen na de ingreep?',
+          a: 'De eerste 3 tot 10 nachten slaapt u best met een nekkussen in een licht verhoogde positie om zwelling te beperken en de grafts te beschermen.',
+          open: false,
+        },
+        {
+          q: 'Wanneer vallen de korstjes weg?',
+          a: 'De korstjes verdwijnen doorgaans na 10 tot 15 dagen. Met de speciale wastechniek die wij u aanleren, gaat dit sneller en comfortabeler.',
+          open: false,
+        },
       ],
     },
     {
-      label: 'Kosten & praktisch',
+      title: 'Vragen over de kliniek',
       items: [
-        { q: 'Wat kost een haartransplantatie?', a: 'De kosten variëren sterk afhankelijk van het aantal grafts, de gebruikte techniek en uw individuele situatie. Tijdens uw vrijblijvend consult ontvangt u een persoonlijke offerte op maat. Wij bieden transparante prijzen zonder verborgen kosten.' },
-        { q: 'Wat is de Long Hair haartransplantatie?', a: 'Bij de Long Hair methode worden haarzakjes getransplanteerd zonder het haar volledig te scheren. Dit is ideaal voor mensen die hun huidig haar willen behouden tijdens het herstel, of voor vrouwen die geen korte-haarfase willen doormaken.' },
+        {
+          q: 'Waar is HaarKliniek 45 gevestigd?',
+          a: 'HaarKliniek 45 bevindt zich op Verdaelstraat 45, 3450 Grazen, Belgie. De kliniek is goed bereikbaar met eigen wagen en beschikt over gratis parkeermogelijkheden in de buurt.',
+          open: false,
+        },
+        {
+          q: 'Hoe maak ik een afspraak?',
+          a: 'U kunt contact opnemen via het contactformulier op onze website, telefonisch via +32 485 593 302 of per e-mail via info@haarkliniek45.be. Het eerste consult is altijd gratis en vrijblijvend.',
+          open: false,
+        },
+        {
+          q: 'Bieden jullie ook niet-chirurgische behandelingen aan?',
+          a: 'Ja, naast haartransplantaties bieden wij ook niet-chirurgische behandelingen aan zoals PRP-therapie, Hairegen, Regenera Activa, een DNA-test voor gepersonaliseerd haaradvies en micro haarpigmentatie.',
+          open: false,
+        },
       ],
     },
   ];
+
+  toggle(item: FaqItem): void {
+    item.open = !item.open;
+  }
 }

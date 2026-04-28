@@ -1,164 +1,294 @@
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-fue-saffier-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
-  styleUrl: './fue-saffier-page.scss',
+  imports: [NgFor, RouterLink, ConsultationComponent],
+  styleUrls: ['./fue-saffier-page.scss'],
   template: `
-    <section class="hero">
+    <section class="page-hero">
       <div class="container">
-        <div class="hero__content">
-          <span class="hero__badge">Geavanceerde Techniek</span>
-          <h1 class="hero__title">FUE Saffier Techniek</h1>
-          <p class="hero__subtitle">De gouden standaard in haartransplantatie met saffieren mesjes</p>
-          <div class="hero__actions">
-            <a routerLink="/contact" class="btn btn-primary">Gratis Consult Aanvragen</a>
-            <a routerLink="/werkwijze" class="btn btn-secondary">Hoe het werkt</a>
+        <h1>FUE Saffier Haartransplantatie</h1>
+        <p class="hero-subtitle">
+          Follicular Unit Extraction met saffieren instrumenten – precisie haartransplantatie voor
+          natuurlijke resultaten en minimaal herstel bij HaarKliniek 45 in Grazen, Belgie.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <h2>Wat is een FUE Saffier haartransplantatie?</h2>
+            <p>
+              Een volle haardos is voor veel mensen een bron van zelfvertrouwen. Als je te maken
+              hebt met haarverlies, kan een FUE Saffier haartransplantatie een goede oplossing zijn
+              om je zelfvertrouwen te herwinnen.
+            </p>
+            <p>
+              FUE, oftewel Follicular Unit Extraction, is een populaire haartransplantatie methode
+              waarbij haarzakjes met een klein boortje uit het donorgebied worden gehaald. Daarna
+              maken we kleine kanaaltjes in het ontvangstgebied, waar we de haartjes zorgvuldig
+              plaatsen.
+            </p>
+            <p>
+              Bij HaarKliniek 45 houden we rekening met jouw wensen, toekomstige haargroei,
+              nationaliteit en etniciteit voor een volledig op maat gemaakt resultaat.
+            </p>
+          </div>
+          <div class="image-block">
+            <img
+              src="assets/images/voor-na-mannen.png"
+              alt="FUE Saffier haartransplantatie voor en na"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--white">
+    <section class="content-section alt-bg">
       <div class="container">
-        <div class="section__header">
-          <h2>Wat is de FUE Saffier techniek?</h2>
-          <div class="section__divider"></div>
-        </div>
-        <div class="text-block">
-          <p>De FUE Saffier techniek is een verfijnde versie van de klassieke Follicular Unit Extraction (FUE) methode. Het voornaamste verschil ligt in het type mesjes dat wordt gebruikt bij het aanmaken van de ontvangende kanaaltjes: in plaats van stalen mesjes worden hier saffieren mesjes ingezet — vervaardigd van het edelsteenmineraal corundum. De unieke V-vormige punt van het saffieren mesje maakt het mogelijk om de kanaaltjes uiterst precies en met minimaal weefseltrauma aan te brengen.</p>
-          <p>Dankzij de gladde, niet-poreuze oppervlakte van saffier is er aanzienlijk minder wrijving met het omliggende weefsel, wat leidt tot minder bloeding, sneller herstel en een hogere overlevingskans van de getransplanteerde haarzakjes. HaarKliniek 45 maakt uitsluitend gebruik van deze geavanceerde techniek voor de beste resultaten — omdat u niets minder verdient dan het allerbeste.</p>
+        <h2>Hoe gaat de FUE Saffier behandeling in zijn werk?</h2>
+        <p>
+          De FUE Saffier procedure verloopt in vier nauwkeurige stappen voor een optimaal resultaat.
+        </p>
+        <div class="steps-grid steps-4">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3>Incisies grafts</h3>
+            <p>
+              Eerst maken we kleine incisies rondom de haarzakjes om ze voor te bereiden op de
+              extractie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3>Extractie grafts</h3>
+            <p>
+              Haarzakjes worden zorgvuldig verzameld uit het donorgebied met een speciaal saffieren
+              boortje.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3>Kanalen maken</h3>
+            <p>
+              Met saffieren instrumenten worden nauwkeurige kanaaltjes gemaakt in het
+              ontvangstgebied.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <h3>Implanteren grafts</h3>
+            <p>
+              De grafts worden met een speciaal pincet zorgvuldig in de gemaakte kanaaltjes
+              geplaatst.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--cream">
+    <section class="content-section">
       <div class="container">
-        <div class="section__header">
-          <h2>Waarom saffieren mesjes?</h2>
-          <div class="section__divider"></div>
-          <p class="section__lead">Saffier is harder, gladder en scherper dan staal — en dat maakt het verschil in uw eindresultaat.</p>
+        <h2>Onze werkwijze</h2>
+        <p>
+          De FUE Saffier methode is een moderne benadering van haartransplantatie die bekend staat
+          om zijn precisie en natuurlijke resultaten. Bij FUE worden haarzakjes met een klein
+          boortje uit het donorgebied gehaald. Daarna maken we kleine kanaaltjes in de kale of
+          dunner wordende gebieden op de hoofdhuid, waar we de haarzakjes zorgvuldig plaatsen.
+        </p>
+        <p>
+          Het unieke kenmerk van FUE is dat er geen lineaire incisies nodig zijn, wat resulteert in
+          minder zichtbare littekens en een sneller herstel in vergelijking met traditionele
+          methoden. Door de precisie van de techniek en de natuurlijke groei van de
+          getransplanteerde haarzakjes, biedt FUE Saffier een effectieve oplossing voor haarherstel
+          met minimale invasie en maximale esthetische resultaten.
+        </p>
+        <p>
+          Bij HaarKliniek 45 nemen we je volledig mee in het proces van de FUE Saffier
+          behandelmethode. Voor meer informatie over hoe wij te werk gaan kun je contact opnemen of
+          een gratis consult inplannen in onze kliniek in Grazen, Belgie.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>Plan een consult bij HaarKliniek 45 in Grazen</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>De consultatie</h3>
+            <p>
+              Tijdens het consultatiegesprek bespreken we al je wensen en heb je alle gelegenheid om
+              vragen te stellen. Dit kan telefonisch of persoonlijk in onze kliniek in Grazen,
+              Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Start behandeling</h3>
+            <p>
+              Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
+              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Nazorg</h3>
+            <p>
+              Wij blijven je adviseren na de behandeling. Je ontvangt advies over producten, wassing
+              en eventuele vervolgbehandelingen.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>De voordelen van de FUE Saffier behandelmethode</h2>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <span class="benefit-card__icon">💎</span>
-            <h3 class="benefit-card__title">Minder littekens</h3>
-            <p class="benefit-card__text">De gladde saffieroppervlakte laat aanzienlijk minder sporen na in het weefsel dan traditioneel staal. Incisies sluiten sneller en littekens zijn nauwelijks zichtbaar — zelfs bij kort geschoren haar.</p>
+            <div class="benefit-icon">&#128200;</div>
+            <h3>Meer grafts per sessie</h3>
+            <p>
+              Met FUE Saffier kunnen we meer grafts in dezelfde tijdsduur implanteren dan met DHI,
+              ideaal bij grotere behandelgebieden.
+            </p>
           </div>
           <div class="benefit-card">
-            <span class="benefit-card__icon">⚡</span>
-            <h3 class="benefit-card__title">Sneller herstel</h3>
-            <p class="benefit-card__text">Kleinere en nauwkeurigere incisies betekenen minimale weefselschade. Patiënten ervaren minder zwelling en pijn na de ingreep en kunnen sneller terugkeren naar hun dagelijkse activiteiten.</p>
+            <div class="benefit-icon">&#9201;</div>
+            <h3>Kortere behandeltijd</h3>
+            <p>
+              De behandeling gaat sneller dan DHI dankzij de efficiente werkmethode met saffieren
+              instrumenten.
+            </p>
           </div>
           <div class="benefit-card">
-            <span class="benefit-card__icon">🎯</span>
-            <h3 class="benefit-card__title">Hogere nauwkeurigheid</h3>
-            <p class="benefit-card__text">Saffieren mesjes geven de specialist betere controle over de diepte en hoek van elke incisie. Dit resulteert in een natuurlijkere haargroeirichting en een esthetisch superieur eindresultaat.</p>
+            <div class="benefit-icon">&#128176;</div>
+            <h3>Zeer voordelig tarief</h3>
+            <p>
+              De FUE Saffier behandeling is doorgaans goedkoper dan de DHI-behandeling, zonder in te
+              boeten op kwaliteit.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#10004;</div>
+            <h3>Geen hechtingen</h3>
+            <p>
+              Nauwelijks littekenvorming op het achterhoofd, in tegenstelling tot de verouderde
+              FUT-methode.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#127807;</div>
+            <h3>Natuurlijke resultaten</h3>
+            <p>
+              De saffieren instrumenten creeren nauwkeurigere kanaaltjes voor een meer natuurlijk
+              groeipatroon van het haar.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">&#9889;</div>
+            <h3>Snel herstel</h3>
+            <p>
+              Geen lineaire littekens en minimale weefselschade betekent een vlotte herstelperiode
+              na de ingreep.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--white">
+    <section class="content-section alt-bg">
       <div class="container">
-        <div class="section__header">
-          <h2>Het FUE Saffier proces</h2>
-          <div class="section__divider"></div>
-          <p class="section__lead">Van consultatie tot implantatie — elke stap wordt met uiterste zorg uitgevoerd.</p>
-        </div>
-        <ol class="process-list">
-          <li class="process-step">
-            <div class="process-step__number">1</div>
-            <div class="process-step__content">
-              <h3>Consultatie en haarlijnontwerp</h3>
-              <p>Onze specialist analyseert uw haarpatroon, beoordeelt de densiteit van uw donorzone en tekent samen met u de ideale haarlijn. Uw wensen en verwachtingen staan hierbij volledig centraal. Er wordt ook een digitale simulatie gemaakt zodat u het verwachte resultaat kunt visualiseren.</p>
-            </div>
-          </li>
-          <li class="process-step">
-            <div class="process-step__number">2</div>
-            <div class="process-step__content">
-              <h3>Verdoving van donor- en ontvangende zone</h3>
-              <p>Beide zones worden grondig lokaal verdoofd zodat de behandeling volledig pijnvrij verloopt. U blijft de gehele procedure bij bewustzijn en kunt ontspannen. Op verzoek is er ook lichte sedatie mogelijk voor extra comfort.</p>
-            </div>
-          </li>
-          <li class="process-step">
-            <div class="process-step__number">3</div>
-            <div class="process-step__content">
-              <h3>Extractie van haarzakjes met FUE-methode</h3>
-              <p>Met een microronde punch worden individuele haarzakjes (grafts) één voor één uit de donorzone onttrokken. Dit gebeurt uiterst zorgvuldig om de haarzakjes volledig intact te houden en de overleving te maximaliseren.</p>
-            </div>
-          </li>
-          <li class="process-step">
-            <div class="process-step__number">4</div>
-            <div class="process-step__content">
-              <h3>Aanmaken van kanaaltjes met saffieren mesjes</h3>
-              <p>In de ontvangende zone worden met de saffieren mesjes microscopisch kleine kanaaltjes aangemaakt op de exacte hoek, richting en diepte die overeenkomen met uw natuurlijke haargroei. Dit is de stap die FUE Saffier onderscheidt van de standaard FUE-techniek.</p>
-            </div>
-          </li>
-          <li class="process-step">
-            <div class="process-step__number">5</div>
-            <div class="process-step__content">
-              <h3>Implantatie van haarzakjes in de kanaaltjes</h3>
-              <p>De geëxtraheerde haarzakjes worden één voor één zorgvuldig in de aangemaakte kanaaltjes geplaatst. De nauwkeurige positionering garandeert een naturel, dicht en harmonieus eindresultaat.</p>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section section--green">
-      <div class="container">
-        <div class="stats-row">
-          <div class="stat">
-            <span class="stat__number">98%</span>
-            <span class="stat__label">Graftoverleving</span>
+        <h2>FUE Saffier voor en na resultaten</h2>
+        <p>
+          Benieuwd naar de resultaten van een haartransplantatie met de FUE Saffier methode bij
+          HaarKliniek 45? Bekijk hieronder een aantal resultaten van onze behandelingen.
+        </p>
+        <div class="three-col-images">
+          <div class="image-block">
+            <img
+              src="assets/images/mannen-voor-na-1.png"
+              alt="FUE Saffier haartransplantatie voor en na 1"
+            />
           </div>
-          <div class="stat">
-            <span class="stat__number">7–14</span>
-            <span class="stat__label">Dagen herstel</span>
+          <div class="image-block">
+            <img
+              src="assets/images/mannen-voor-na-2.png"
+              alt="FUE Saffier haartransplantatie voor en na 2"
+            />
           </div>
-          <div class="stat">
-            <span class="stat__number">12–18</span>
-            <span class="stat__label">Maanden voor eindresultaat</span>
+          <div class="image-block">
+            <img
+              src="assets/images/mannen-voor-na-3.png"
+              alt="FUE Saffier haartransplantatie voor en na 3"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--cream">
+    <section class="content-section">
       <div class="container">
-        <div class="section__header">
-          <h2>Veelgestelde vragen over FUE Saffier</h2>
-          <div class="section__divider"></div>
+        <div class="two-col">
+          <div>
+            <h2>Voor de behandeling</h2>
+            <p>
+              Bij HaarKliniek 45 gaan we graag persoonlijk met je in gesprek. We geven je advies
+              over wat de beste keuze is voor jouw haartransplantatie. Als FUE Saffier de beste
+              keuze voor jou blijkt te zijn, plannen we dit in met onze medisch specialisten in onze
+              kliniek in Grazen, Belgie.
+            </p>
+            <p>
+              Overweeg je een haartransplantatie met de FUE Saffier behandelmethode? Twijfel je nog
+              of heb je vragen? Maak dan gratis en vrijblijvend een afspraak met onze consulent.
+            </p>
+          </div>
+          <div>
+            <h2>Nazorg na de behandeling</h2>
+            <p>
+              Na de haartransplantatie ontvang je van ons gedetailleerde instructies over hoe je je
+              hoofdhuid moet verzorgen. Zo krijg je van ons een shampoo, speciaal ontworpen voor de
+              verzorging van het getransplanteerde haar.
+            </p>
+            <p>
+              Na de behandeling blijven we je adviseren. We zien je graag na een tijdje terug om te
+              zien hoe goed de getransplanteerde haren groeien. Al binnen enkele maanden beginnen de
+              nieuwe haren te groeien, en na ongeveer een jaar tot 14 maanden is het definitieve
+              resultaat zichtbaar.
+            </p>
+          </div>
         </div>
-        <div class="faq-list">
-          <details class="faq-item">
-            <summary class="faq-item__question">Wat is het verschil tussen standaard FUE en FUE Saffier?</summary>
-            <div class="faq-item__answer">
-              <p>Het voornaamste verschil zit in het instrument waarmee de ontvangende kanaaltjes worden aangemaakt. Bij standaard FUE worden stalen mesjes gebruikt, terwijl bij FUE Saffier saffieren mesjes worden ingezet. Deze mesjes zijn harder, gladder en scherper, wat resulteert in kleinere incisies, minder weefselschade, sneller herstel en een hogere graftoverleving.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary class="faq-item__question">Is FUE Saffier geschikt voor iedereen?</summary>
-            <div class="faq-item__answer">
-              <p>FUE Saffier is voor de meeste kandidaten voor haartransplantatie een uitstekende keuze. Tijdens een gratis consultatie beoordelen onze specialisten uw haartype, de densiteit van uw donorzone en de uitgestrektheid van de kaalheid. Op basis hiervan adviseren zij de meest geschikte techniek voor uw specifieke situatie.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary class="faq-item__question">Hoelang duurt een FUE Saffier behandeling?</summary>
-            <div class="faq-item__answer">
-              <p>Een FUE Saffier behandeling duurt gemiddeld 6 tot 10 uur, afhankelijk van het aantal te transplanteren grafts. Kleinere sessies (1.000–2.000 grafts) duren doorgaans 5–6 uur; grotere sessies (3.000–4.000+ grafts) kunnen een volledige dag in beslag nemen.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary class="faq-item__question">Zijn de resultaten van FUE Saffier beter dan standaard FUE?</summary>
-            <div class="faq-item__answer">
-              <p>Klinische studies en praktijkervaring tonen aan dat FUE Saffier doorgaans betere resultaten geeft dan standaard FUE op vlak van graftoverleving, littekens en herstelsnelheid. Om die reden kiezen steeds meer topklinieken wereldwijd voor deze methode als hun standaardprotocol.</p>
-            </div>
-          </details>
+      </div>
+    </section>
+
+    <section class="faq-link-section">
+      <div class="container">
+        <p>
+          Heb je vragen over de FUE Saffier behandeling, het verschil met DHI, de herstelperiode of
+          de kosten? Bekijk onze veelgestelde vragen voor uitgebreide antwoorden.
+        </p>
+        <a routerLink="/faq">Bekijk alle veelgestelde vragen &#8594;</a>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          <ng-container *ngFor="let _ of [1, 2]">
+            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
+          </ng-container>
         </div>
       </div>
     </section>
@@ -166,5 +296,18 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <app-consultation />
   `,
 })
-export class FueSaffierPageComponent {}
-
+export class FueSaffierPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

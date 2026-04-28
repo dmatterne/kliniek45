@@ -67,7 +67,9 @@
   border-radius: 12px;
   padding: $space-8;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
 
@@ -110,7 +112,9 @@
   border: 2px solid $primary-green;
   padding: $space-2 $space-4;
   border-radius: 6px;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
   align-self: flex-start;
 
   &:hover {
@@ -118,3 +122,152 @@
     color: $neutral-white;
   }
 }
+
+// ── Extra page layout classes ──────────────────────────────────────────────
+
+.hero-eyebrow {
+  font-size: $text-sm;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba($neutral-white, 0.75);
+  margin-bottom: $space-3;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-4;
+  margin-top: $space-6;
+}
+
+.btn-light {
+  border-color: rgba($neutral-white, 0.6);
+  color: $neutral-white;
+  &:hover {
+    background: rgba($neutral-white, 0.15);
+    border-color: $neutral-white;
+  }
+}
+
+.techniques-section {
+  background: $neutral-cream;
+}
+
+.haargroei-stim-section {
+  background: $neutral-white;
+}
+
+.dna-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: $space-5;
+  background: $primary-green-pale;
+  border: 1px solid rgba($primary-green, 0.2);
+  border-radius: 12px;
+  padding: $space-6 $space-8;
+  margin-top: $space-10;
+
+  .dna-callout-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $text-lg;
+    color: $primary-green-dark;
+    margin-bottom: $space-2;
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-base;
+    line-height: 1.7;
+    margin-bottom: $space-4;
+  }
+}
+
+.cta-section {
+  background: $primary-green;
+  padding: $space-16 0;
+
+  .cta-box {
+    text-align: center;
+    color: $neutral-white;
+
+    h2 {
+      font-family: $font-heading;
+      font-size: $text-3xl;
+      color: $neutral-white;
+      margin-bottom: $space-4;
+    }
+
+    p {
+      font-size: $text-lg;
+      opacity: 0.9;
+      max-width: 680px;
+      margin: 0 auto $space-8;
+      line-height: 1.7;
+    }
+  }
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-4;
+  justify-content: center;
+}
+
+.causes-list,
+.minox-list {
+  list-style: none;
+  padding: 0;
+  margin: $space-4 0;
+
+  li {
+    padding: $space-2 0 $space-2 $space-5;
+    position: relative;
+    color: $text-secondary;
+    line-height: 1.6;
+    border-bottom: 1px solid $neutral-light;
+
+    &::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: $primary-green;
+      font-weight: 700;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.scale-block {
+  background: $neutral-cream;
+  border-radius: 8px;
+  padding: $space-4 $space-5;
+  margin-bottom: $space-4;
+
+  h4 {
+    font-family: $font-heading;
+    color: $primary-green-dark;
+    margin-bottom: $space-2;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.consult-nudge {
+  font-style: italic;
+  color: $text-secondary;
+  margin-bottom: $space-5;
+}
+
+// ── Trust Badges ──────────────────────────────────────────────────────────

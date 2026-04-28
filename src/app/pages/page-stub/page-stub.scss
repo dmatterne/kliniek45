@@ -23,7 +23,11 @@
     margin-bottom: $space-4;
   }
 
-  p { color: $text-secondary; font-size: $text-lg; margin-bottom: $space-4; }
+  p {
+    color: $text-secondary;
+    font-size: $text-lg;
+    margin-bottom: $space-4;
+  }
 
   .coming-soon {
     display: inline-block;

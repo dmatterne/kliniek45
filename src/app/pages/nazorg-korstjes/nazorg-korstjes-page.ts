@@ -5,88 +5,385 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 @Component({
   selector: 'app-nazorg-korstjes-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./nazorg-korstjes-page.scss'],
   template: `
-    <section class="page-hero">
+    <section class="hero">
       <div class="container">
-        <span class="eyebrow">Nazorg</span>
-        <h1>Korstjes na haartransplantatie</h1>
-        <p class="subtitle">Wat u moet weten over korstvorming na een haartransplantatie en hoe u er correct mee omgaat.</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a routerLink="/">Home</a>
+          <span aria-hidden="true">›</span>
+          <a routerLink="/nazorg">Nazorg</a>
+          <span aria-hidden="true">›</span>
+          <span>Korstjes</span>
+        </nav>
+        <h1 class="hero-title">Korstjes na Haartransplantatie</h1>
+        <p class="hero-subtitle">
+          Korstjes na een haartransplantatie zijn een volledig normaal en noodzakelijk onderdeel van
+          het genezingsproces. Ze beschermen de grafts terwijl ze ingroeien. Leer alles over wat u
+          mag doen, wat absoluut niet mag en hoe lang ze aanhouden.
+        </p>
+        <a routerLink="/contact" class="btn btn-primary">Stel uw vraag</a>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="intro-section">
       <div class="container">
-        <h2>Waarom ontstaan korstjes?</h2>
-        <p>Na een haartransplantatie vormen zich kleine korstjes op zowel het ontvangende gebied als op de donorzone. Deze korstjes zijn volledig normaal en maken deel uit van het natuurlijke genezingsproces. Ze bestaan uit gestold lymfevocht en gedroogd bloed dat vrijkomt bij de microincisies die tijdens de ingreep worden gemaakt.</p>
-        <p>De korstjes dienen als beschermend schild voor de kwetsbare, pas geplaatste haarzakjes. Het is essentieel dat u ze niet aanraakt of verwijdert vóór ze spontaan loslaten — dit kan grafts beschadigen en het eindresultaat negatief beïnvloeden. Uw specialist geeft na de ingreep een gedetailleerd verzorgingsprotocol mee.</p>
-      </div>
-    </section>
-
-    <section class="page-section bg-light">
-      <div class="container">
-        <h2>Tijdlijn van de korstjes</h2>
-        <div class="timeline">
-          <div class="timeline-item"><div class="timeline-day">Dag 1–3</div><div class="timeline-body"><h4>Vorming</h4><p>Korstjes beginnen te vormen op het ontvangende gebied en de donorzone. De huid kan rood en gevoelig aanvoelen.</p></div></div>
-          <div class="timeline-item"><div class="timeline-day">Dag 4–7</div><div class="timeline-body"><h4>Harder &amp; droger</h4><p>De korstjes worden harder en droger. Voorzichtig wassen met de meegeleverde lotion mag nu worden gestart.</p></div></div>
-          <div class="timeline-item"><div class="timeline-day">Dag 8–14</div><div class="timeline-body"><h4>Loslaten</h4><p>De korstjes beginnen spontaan los te laten. Zachte massage bij het wassen helpt dit proces te begeleiden.</p></div></div>
-          <div class="timeline-item"><div class="timeline-day">Dag 14+</div><div class="timeline-body"><h4>Huid genormaliseerd</h4><p>Vrijwel alle korstjes zijn verdwenen. De huid heeft haar normale kleur en textuur herwonnen.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <h2>Verzorgingstips</h2>
-        <div class="dos-donts">
-          <div class="dos">
-            <h3 class="dos-title">✅ Wel doen</h3>
-            <ul>
-              <li>Deppen met lauwe water via de meegeleverde spray</li>
-              <li>De door ons voorgeschreven shampoo en lotion gebruiken</li>
-              <li>Slaap op uw rug met een verhoogd hoofd de eerste week</li>
-              <li>Houd de huid goed gehydrateerd met de nazorgcrème</li>
-              <li>Meld ongebruikelijke roodheid of koorts direct bij ons</li>
-            </ul>
-          </div>
-          <div class="donts">
-            <h3 class="dont-title">❌ Niet doen</h3>
-            <ul>
-              <li>Krabben of wrijven aan de behandelde zone</li>
-              <li>Korstjes forceren te verwijderen</li>
-              <li>Direct zonlicht op de behandelde zone de eerste maand</li>
-              <li>Intensief sporten of zweten de eerste 2 weken</li>
-              <li>Zwemmen in zwembad of zee de eerste 4-6 weken</li>
-            </ul>
+        <div class="intro-card">
+          <div class="intro-icon">🩹</div>
+          <div>
+            <h2>Korstjes zijn normaal — geen reden tot ongerustheid</h2>
+            <p>
+              Na een haartransplantatie worden kleine insnijdingen gemaakt in de huid. Het wondvocht
+              dat daarna vrijkomt, droogt op en vormt korstjes rondom de getransplanteerde grafts.
+              Dit is een natuurlijk beschermend proces en een teken dat uw lichaam actief aan het
+              genezen is.
+            </p>
+            <p>
+              Bij HaarKliniek 45 informeren we elke patiënt uitgebreid over dit onderwerp zodat u
+              weet wat u kunt verwachten en hoe u correct moet handelen.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section bg-light">
+    <section class="how-long-section">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Mag ik korstjes voorzichtig verwijderen?</h4><p>Nee, nooit met de hand verwijderen. U riskeert grafts mee te trekken. Laat ze spontaan loslaten of was ze zacht weg met de meegeleverde lotion na dag 7.</p></div>
-          <div class="faq-item"><h4>Wanneer verdwijnen de korstjes volledig?</h4><p>Bij de meeste patiënten zijn de korstjes na 10 tot 14 dagen volledig verdwenen. Het exacte tijdstip verschilt per persoon en per huidtype.</p></div>
-          <div class="faq-item"><h4>Is jeuk normaal?</h4><p>Ja, jeuk is een teken van genezing en volledig normaal. Krab echter niet — deppen met koud water of licht kloppen geeft verlichting.</p></div>
+        <h2 class="section-title">Hoe lang duren de korstjes?</h2>
+        <div class="timeline-grid">
+          <div class="timeline-item">
+            <div class="timeline-marker">Dag 1–3</div>
+            <div class="timeline-content">
+              <h3>Korstjes vormen zich</h3>
+              <p>
+                Direct na de ingreep begint het wondvocht op te drogen. De kleine korstjes rondom
+                elke graft worden zichtbaar. Dit is pijnloos en normaal.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">Dag 4–7</div>
+            <div class="timeline-content">
+              <h3>Korstjes worden vaster</h3>
+              <p>
+                De korstjes zijn nu duidelijk zichtbaar. Ze beschermen de ingegroeide grafts. Laat
+                ze ongemoeid en was zacht met de speciale shampoo.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">Dag 7–10</div>
+            <div class="timeline-content">
+              <h3>Verweken en loslaten</h3>
+              <p>
+                Vanaf dag zeven kunt u de korstjes voorzichtig verweken met lauwwarm water en
+                conditioner. Ze laten geleidelijk los — forceer dit nooit.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">Dag 10–15</div>
+            <div class="timeline-content">
+              <h3>Grotendeels verdwenen</h3>
+              <p>
+                Bij de meeste patiënten zijn de korstjes op dag tien tot vijftien volledig
+                verdwenen. Zijn ze na dag vijftien nog aanwezig? Neem contact op met onze kliniek.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    
-    <section class="cta-section">
+    <section class="no-scratch-section">
       <div class="container">
-        <h2>Vragen over uw nazorg?</h2>
-        <p>Ons team staat klaar om u te begeleiden gedurende het volledige hersteltraject.</p>
-        <a routerLink="/contact" class="btn btn-gold">Neem contact op</a>
-        <a routerLink="/nazorg" class="btn btn-secondary" style="margin-left:1rem">Alle nazorg info</a>
+        <div class="warning-card">
+          <div class="warning-icon">⚠️</div>
+          <div>
+            <h2>Krab nooit aan de korstjes — nooit</h2>
+            <p>
+              Dit is de allerbelangrijkste regel:
+              <strong
+                >u mag de korstjes absoluut niet krabben, plukken of verwijderen met kracht.</strong
+              >
+            </p>
+            <div class="risks-grid">
+              <div class="risk-item">
+                <span class="risk-icon">🩸</span>
+                <div>
+                  <strong>Wonden heropenen</strong>
+                  <span
+                    >Krabben kan de gehechte wonden heropenen en blootstellen aan infectie.</span
+                  >
+                </div>
+              </div>
+              <div class="risk-item">
+                <span class="risk-icon">🦠</span>
+                <div>
+                  <strong>Infectie</strong>
+                  <span
+                    >Bacteriën kunnen via beschadigde huid binnendringen en ernstige infecties
+                    veroorzaken.</span
+                  >
+                </div>
+              </div>
+              <div class="risk-item">
+                <span class="risk-icon">💔</span>
+                <div>
+                  <strong>Graft-verlies</strong>
+                  <span
+                    >Een graft die nog niet volledig is ingegroeid kan letterlijk losgetrokken
+                    worden.</span
+                  >
+                </div>
+              </div>
+              <div class="risk-item">
+                <span class="risk-icon">📉</span>
+                <div>
+                  <strong>Slechter resultaat</strong>
+                  <span
+                    >Beschadigde grafts groeien minder goed of helemaal niet uit, wat het
+                    eindresultaat aantast.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="washing-section">
+      <div class="container">
+        <h2 class="section-title">Correct wassen: stap voor stap</h2>
+        <p class="section-subtitle">
+          De juiste wastechniek maakt een enorm verschil voor uw herstel
+        </p>
+        <div class="steps">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Gebruik uitsluitend de meegeleverde shampoo</h3>
+              <p>
+                Onze specialisten geven u een speciaal samengestelde shampoo mee die zachtzinnig is
+                voor de gevoelige huid en grafts. Gebruik geen gewone shampoo in de eerste twee
+                weken.
+              </p>
+            </div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Lauwwarm water — nooit te heet</h3>
+              <p>
+                Warm water kan de bloedvaten verwijden en zwelling veroorzaken. Gebruik altijd
+                lauwwarm water. De eerste week laat u de douchestraal nooit direct op het
+                getransplanteerde gebied vallen.
+              </p>
+            </div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Zacht deppen — nooit wrijven</h3>
+              <p>
+                Breng de shampoo aan met licht tikkende bewegingen van de vingertoppen. Wrijf of
+                masseer nooit krachtig. Na het wassen droogt u het haar zacht dep met een schone
+                handdoek — nooit frotteren.
+              </p>
+            </div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Korstjes verweken (na dag 7)</h3>
+              <p>
+                Breng een kleine hoeveelheid conditioner aan op de korstjes. Laat dit 10–15 minuten
+                inwerken. Spoel daarna zacht af. De korstjes zullen geleidelijk loslaten. Forceer
+                dit nooit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="itch-section">
+      <div class="container">
+        <h2 class="section-title">Jeuk door korstjes: wat kunt u doen?</h2>
+        <div class="itch-grid">
+          <div class="itch-info">
+            <p>
+              Jeuk is een normaal bijverschijnsel van de genezende huid. Het is het teken dat de
+              huid zich herstelt. Toch voelt de verleiding om te krabben soms overweldigend. Hier
+              zijn veilige manieren om de jeuk te verlichten:
+            </p>
+            <ul class="comfort-list">
+              <li>
+                <span class="comfort-icon">🧊</span>
+                <div>
+                  <strong>IJspak naast (niet op) het gebied</strong>
+                  <p>
+                    Een koud kompres naast het getransplanteerde gebied kan de jeuk tijdelijk
+                    verlichten.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="comfort-icon">💨</span>
+                <div>
+                  <strong>Koel houden</strong>
+                  <p>Slaap in een koele, goed geventileerde kamer. Warmte verergert de jeuk.</p>
+                </div>
+              </li>
+              <li>
+                <span class="comfort-icon">🧴</span>
+                <div>
+                  <strong>Regelmatig wassen</strong>
+                  <p>
+                    Een schone hoofdhuid jeukt minder. Was dagelijks zacht met de speciale shampoo.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="comfort-icon">💊</span>
+                <div>
+                  <strong>Antihistaminicum op voorschrift</strong>
+                  <p>
+                    In ernstige gevallen kan uw arts een antihistaminicum voorschrijven. Vraag ons
+                    om advies.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="itch-dont">
+            <h3 class="warning-title">⛔ Wat u absoluut niet mag doen bij jeuk</h3>
+            <ul class="dont-list">
+              <li>Krabben met nagels — ook niet licht</li>
+              <li>Het gebied wrijven met een handdoek</li>
+              <li>Ijs direct op de grafts leggen</li>
+              <li>Haarlak of producten op de jeukende zone aanbrengen</li>
+              <li>Een haardroogkap of warme luchtblazer gebruiken</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comfort-section">
+      <div class="container">
+        <h2 class="section-title">Comforttips voor een vlotter herstel</h2>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <span class="tip-icon">😴</span>
+            <h3>Verhoogd slapen</h3>
+            <p>
+              Slaap met een nekkussen de eerste nachten. Verhoogd hoofd vermindert zwelling en houdt
+              druk weg van de grafts.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🏃</span>
+            <h3>Activiteiten vermijden</h3>
+            <p>
+              Geen intensief sporten de eerste week. Zweten bevordert jeuk en kan de korstjes weken
+              op het verkeerde moment.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🧢</span>
+            <h3>Geen pet of muts</h3>
+            <p>
+              Vermijd petten en mutsen de eerste twee weken. Ze kunnen wrijving veroorzaken en de
+              korstjes beschadigen.
+            </p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🥗</span>
+            <h3>Gezonde voeding</h3>
+            <p>
+              Eet voldoende eiwitten en vitaminen. Een goed voedingspatroon versnelt het
+              genezingsproces aanzienlijk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="warning-signs-section">
+      <div class="container">
+        <h2 class="section-title">Wanneer contact opnemen?</h2>
+        <p class="section-subtitle">
+          Neem onmiddellijk contact op via <a href="tel:+32485593302">+32 485 593 302</a> of
+          <a href="https://wa.me/32485593302" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          als u het volgende merkt:
+        </p>
+        <div class="signs-grid">
+          <div class="sign-card sign-urgent">
+            <span class="sign-icon">🌡️</span>
+            <h3>Koorts</h3>
+            <p>Koorts boven 38°C kan wijzen op een infectie. Neem onmiddellijk contact op.</p>
+          </div>
+          <div class="sign-card sign-urgent">
+            <span class="sign-icon">🔴</span>
+            <h3>Extreme roodheid of pus</h3>
+            <p>Sterke roodheid met warmte of etter zijn tekenen van infectie. Wacht niet.</p>
+          </div>
+          <div class="sign-card sign-warning">
+            <span class="sign-icon">📅</span>
+            <h3>Korstjes na dag 15</h3>
+            <p>Zijn de korstjes na vijftien dagen nog aanwezig? Stuur ons een foto via WhatsApp.</p>
+          </div>
+          <div class="sign-card sign-warning">
+            <span class="sign-icon">😰</span>
+            <h3>Overmatige zwelling</h3>
+            <p>
+              Enige zwelling is normaal. Neemt die toe na dag drie? Neem contact op voor advies.
+            </p>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a routerLink="/nazorg" class="nav-link">← Terug naar Nazorg</a>
+          <a routerLink="/nazorg/herstel-na-haartransplantatie" class="nav-link"
+            >Herstel na Haartransplantatie →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+        </div>
       </div>
     </section>
 
     <app-consultation />
   `,
 })
-export class NazorgKorstjesPageComponent {}
-
+export class NazorgKorstjesPageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

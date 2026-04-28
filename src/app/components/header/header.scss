@@ -1,6 +1,6 @@
-@use "../../../styles/colors" as *;
-@use "../../../styles/typography" as *;
-@use "../../../styles/spacing" as *;
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
 
 .top-bar {
   background: #0f2e2b;
@@ -29,8 +29,13 @@
     text-decoration: none;
     font-size: $text-sm;
     transition: color 0.2s;
-    &:hover { color: $gold; }
-    svg { flex-shrink: 0; opacity: 0.7; }
+    &:hover {
+      color: $gold;
+    }
+    svg {
+      flex-shrink: 0;
+      opacity: 0.7;
+    }
   }
 
   .top-bar-rating {
@@ -39,9 +44,18 @@
     gap: $space-2;
     text-decoration: none;
     transition: opacity 0.2s;
-    &:hover { opacity: 0.8; }
-    .rating-stars { color: $gold; font-size: $text-sm; letter-spacing: 1px; }
-    .rating-text { color: rgba($neutral-white, 0.75); font-size: $text-sm; }
+    &:hover {
+      opacity: 0.8;
+    }
+    .rating-stars {
+      color: $gold;
+      font-size: $text-sm;
+      letter-spacing: 1px;
+    }
+    .rating-text {
+      color: rgba($neutral-white, 0.75);
+      font-size: $text-sm;
+    }
   }
 
   @media (max-width: $breakpoint-md) {
@@ -102,10 +116,14 @@
         gap: $space-1;
         white-space: nowrap;
         transition: color 0.2s;
-        &:hover { color: $gold; }
+        &:hover {
+          color: $gold;
+        }
       }
 
-      &.has-dropdown:hover .dropdown { display: block; }
+      &.has-dropdown:hover .dropdown {
+        display: block;
+      }
     }
 
     .dropdown {
@@ -129,8 +147,13 @@
         color: $text-primary;
         text-decoration: none;
         font-size: $text-sm;
-        transition: background 0.15s, color 0.15s;
-        &:hover { background: $gold-pale; color: $primary-green; }
+        transition:
+          background 0.15s,
+          color 0.15s;
+        &:hover {
+          background: $gold-pale;
+          color: $primary-green;
+        }
       }
     }
   }
@@ -200,7 +223,10 @@
         z-index: 200;
         gap: $space-2;
 
-        .nav-item > a { color: rgba($neutral-white, 0.9); padding: $space-3 0; }
+        .nav-item > a {
+          color: rgba($neutral-white, 0.9);
+          padding: $space-3 0;
+        }
 
         .dropdown {
           display: block;
@@ -213,16 +239,27 @@
           padding: $space-1 0;
           margin-top: $space-1;
 
-          li a { color: rgba($neutral-white, 0.75); &:hover { background: rgba($gold, 0.1); color: $gold; } }
+          li a {
+            color: rgba($neutral-white, 0.75);
+            &:hover {
+              background: rgba($gold, 0.1);
+              color: $gold;
+            }
+          }
         }
       }
     }
-    .nav-ctas { display: none; }
-    .hamburger { display: flex; }
-    .nav-inner { flex-wrap: wrap; }
+    .nav-ctas {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .nav-inner {
+      flex-wrap: wrap;
+    }
   }
 }
-
 
 .dropdown-divider {
   height: 1px;

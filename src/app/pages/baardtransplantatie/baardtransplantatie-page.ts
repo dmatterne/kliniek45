@@ -1,79 +1,306 @@
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-baardtransplantatie-page',
   standalone: true,
-  imports: [ConsultationComponent],
+  imports: [NgFor, RouterLink, ConsultationComponent],
   styleUrls: ['./baardtransplantatie-page.scss'],
   template: `
     <section class="page-hero">
       <div class="container">
         <h1>Baardtransplantatie</h1>
-        <p>Vul kale plekken op en creëer een volle, goed gevormde baard — voor een krachtige en verzorgde uitstraling.</p>
+        <p class="hero-subtitle">
+          Heeft u last van een dunne of ontbrekende baard? Bij HaarKliniek 45 in Grazen creeren we
+          een volle, natuurlijke baard die past bij uw gezicht.
+        </p>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="content-section">
       <div class="container">
-        <h2>Wat is een baardtransplantatie?</h2>
-        <p>Een baardtransplantatie is een minimaal invasieve ingreep waarbij haarfollikels van de achterkant van het hoofd
-        worden overgebracht naar de kaak, wangen of bovenlip. De getransplanteerde haartjes groeien volledig
-        en permanent, waardoor u een volle baard kunt laten groeien die u jarenlang plezier geeft.</p>
-        <p>De behandeling is geschikt voor mannen met dunne of ongelijkmatige baardgroei, kale plekken in
-        de baard, of die hun baard willen verlengen. Bij HaarKliniek 45 gebruiken wij de FUE-techniek voor een nauwkeurig en littekenloos resultaat.</p>
-      </div>
-    </section>
-
-    <section class="page-section bg-light">
-      <div class="container">
-        <h2>Wie komt in aanmerking?</h2>
-        <div class="candidates-grid">
-          <div class="candidate-item"><span class="cand-icon">✔</span><div><h4>Dunne of ongelijkmatige baard</h4><p>Mannen met dunne baardzones die een vollere uitstraling wensen.</p></div></div>
-          <div class="candidate-item"><span class="cand-icon">✔</span><div><h4>Kale plekken door littekens</h4><p>Littekens die baardgroei verhinderen kunnen worden gecamoufleerd.</p></div></div>
-          <div class="candidate-item"><span class="cand-icon">✔</span><div><h4>Beperkte genetische aanleg</h4><p>Mannen met genetisch beperkte baardaanleg die alsnog een volle baard willen.</p></div></div>
-          <div class="candidate-item"><span class="cand-icon">✔</span><div><h4>Asymmetrische baardlijn</h4><p>Een onregelmatige baardlijn kan via transplantatie worden gecorrigeerd.</p></div></div>
+        <div class="two-col">
+          <div>
+            <h2>Voor een volle baard</h2>
+            <p>
+              Heeft u last van een dunne of ontbrekende baard? Overweeg dan een baardtransplantatie
+              bij HaarKliniek 45 in Grazen. Een baardtransplantatie kan kale plekken opvullen of
+              zelfs een volledige baard creeren, wat vaak leidt tot meer zelfvertrouwen. Maar hoe
+              werkt een baardtransplantatie eigenlijk? En wat komt er allemaal bij kijken?
+            </p>
+            <p>
+              Een baardtransplantatie kan een oplossing bieden voor mannen zonder baard of met een
+              onvolledige baard, ongeacht welk deel ontbreekt - of het nu de snor, sik, bakkebaarden
+              of een ander deel betreft. U hoeft niet volledig kaal te zijn; zelfs mannen met een
+              dunne baard kunnen kiezen voor een dikkere en vollere baard.
+            </p>
+          </div>
+          <div class="image-block">
+            <img
+              src="assets/images/mannen-voor-na-1.png"
+              alt="Baardtransplantatie voor en na - HaarKliniek 45"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="content-section alt-bg">
       <div class="container">
-        <h2>Hoe verloopt de behandeling?</h2>
-        <div class="steps-list">
-          <div class="step-item"><div class="step-num">1</div><div class="step-body"><h4>Gratis consult</h4><p>Onze specialist bestudeert uw baardpatroon en bepaalt hoeveel follikels nodig zijn.</p></div></div>
-          <div class="step-item"><div class="step-num">2</div><div class="step-body"><h4>Ontwerp baardlijn</h4><p>Samen met u tekenen we de gewenste baardvorm uit, rekening houdend met uw gezichtsstructuur.</p></div></div>
-          <div class="step-item"><div class="step-num">3</div><div class="step-body"><h4>Extractie (FUE)</h4><p>Haarfollikels worden onder lokale verdoving één voor één geoogst uit het donorgebied.</p></div></div>
-          <div class="step-item"><div class="step-num">4</div><div class="step-body"><h4>Implantatie</h4><p>De follikels worden nauwkeurig geïmplanteerd op de juiste hoek voor een volledig natuurlijke baardgroei.</p></div></div>
-          <div class="step-item"><div class="step-num">5</div><div class="step-body"><h4>Herstel en groei</h4><p>Na 2–3 weken vallen de haartjes tijdelijk uit. Vanaf maand 3–4 start de definitieve baardgroei.</p></div></div>
-        </div>
+        <h2>Hoe werkt een baardtransplantatie?</h2>
+        <p>
+          Er zijn verschillende oorzaken voor een gebrek aan baardgroei, waaronder genetica,
+          erfelijkheid, chirurgische littekens en brandwonden. Tijdens een baardtransplantatie
+          worden gezonde haarzakjes uit het donorgebied (het achterhoofd) naar het gewenste gebied
+          verplaatst, waar ze na verloop van tijd nieuwe haren produceren en kale plekken opvullen.
+        </p>
+        <p>
+          De procedure wordt uitgevoerd onder plaatselijke verdoving en - ondanks de duur van 4 tot
+          8 uur - is deze niet ingrijpend. U ervaart tijdens de ingreep geen pijn. Na de behandeling
+          ontvangt u van ons uitgebreide nazorginstructies om het beste resultaat te garanderen.
+        </p>
+        <ul class="styled-list">
+          <li>
+            <strong>Genetica en erfelijkheid:</strong> De meest voorkomende oorzaak van beperkte
+            baardgroei
+          </li>
+          <li>
+            <strong>Littekens:</strong> Chirurgische littekens of brandwonden kunnen de baardgroei
+            belemmeren
+          </li>
+          <li>
+            <strong>Alopecia areata:</strong> Een auto-immuunziekte die kale plekken kan veroorzaken
+            in de baard
+          </li>
+          <li>
+            <strong>Hormonale factoren:</strong> Testosterontekort of hormonale onbalans kan de
+            baardgroei beinvloeden
+          </li>
+        </ul>
       </div>
     </section>
 
-    <section class="page-section bg-light">
+    <section class="content-section">
       <div class="container">
-        <h2>Voordelen</h2>
+        <h2>Werkwijze bij baardtransplantatie met DHI</h2>
+        <p>
+          De haarzakjes kunnen op verschillende manieren worden getransplanteerd. Hoewel FUE vaak
+          wordt genoemd als een goede methode voor baardtransplantatie, levert de nieuwste techniek
+          - Direct Hair Implantation (DHI) - uitstekende resultaten. Onze specialist adviseert de
+          beste techniek op basis van uw persoonlijke situatie en foto's.
+        </p>
+        <p>
+          DHI maakt gebruik van speciale implantatiepennen voor de directe plaatsing van grafts in
+          de huid, wat minder bloedingen oplevert en meer controle over de richting en diepte van de
+          haarzakjes mogelijk maakt. Dit resulteert in een natuurlijker ogende baard die perfect
+          aansluit bij uw gezichtsstructuur.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>Keuze van uw nieuwe baardlijn</h2>
+        <p>
+          U heeft de vrijheid om de vorm van uw nieuwe baardlijn te kiezen, met deskundig advies van
+          onze arts. Een natuurlijke baard heeft vaak geen strakke rechte of scherpe lijnen, omdat u
+          dit ook met scheren kunt bereiken. De plaatsing en vorm van de baardlijn zijn essentieel
+          voor het uiterlijk van uw gezicht.
+        </p>
+        <p>
+          Sommigen kiezen een rechte lijn, terwijl anderen de voorkeur geven aan een hogere, rondere
+          lijn om een natuurlijker uiterlijk te behouden. Samen met onze specialist bepaalt u welke
+          baardlijn het beste bij uw gezicht past en het gewenste resultaat bereikt.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Waarom de DHI-methode voor snor- en baardtransplantatie?</h2>
+        <p>
+          Bij HaarKliniek 45 bieden we de DHI-methode aan voor snor- en baardtransplantaties vanwege
+          de volgende voordelen:
+        </p>
         <div class="benefits-grid">
-          <div class="benefit-card"><span class="benefit-icon">💎</span><h3>Permanent resultaat</h3><p>De getransplanteerde follikels groeien voor de rest van uw leven.</p></div>
-          <div class="benefit-card"><span class="benefit-icon">🎯</span><h3>Volledig natuurlijk</h3><p>De baard groeit precies zoals uw eigen haar — niemand merkt het verschil.</p></div>
-          <div class="benefit-card"><span class="benefit-icon">⏱️</span><h3>Snel herstel</h3><p>Na 5–7 dagen zijn de meeste patiënten al terug aan het werk.</p></div>
+          <div class="benefit-card">
+            <div class="benefit-icon">💉</div>
+            <h3>Directe haarimplantatie</h3>
+            <p>
+              Met DHI worden haarzakjes rechtstreeks in het gewenste gebied geplaatst, zonder de
+              noodzaak voor incisies. Dit zorgt voor nauwkeurige implantatie in het gezicht.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🩸</div>
+            <h3>Minder bloeding en schade</h3>
+            <p>
+              Omdat er geen incisies nodig zijn, is er bijna geen bloeding tijdens de procedure en
+              wordt de huid minimaal beschadigd. Meer comfort, minder complicaties.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Sneller herstel</h3>
+            <p>
+              Door minimale schade en minder risico op bloedingen is de hersteltijd na een
+              DHI-baardtransplantatie korter. U kunt sneller genieten van uw nieuwe baard.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🎯</div>
+            <h3>Precisie en veiligheid</h3>
+            <p>
+              De DHI-implanter biedt de chirurg volledige controle over de richting, hoek en diepte
+              van de haarzakjes - cruciaal voor een natuurlijk ogende baard.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="content-section alt-bg">
       <div class="container">
-        <h2>Veelgestelde vragen</h2>
-        <div class="faq-list">
-          <div class="faq-item"><h4>Is een baardtransplantatie pijnlijk?</h4><p>De ingreep wordt uitgevoerd onder lokale verdoving. Na de behandeling is er lichte gevoeligheid die snel verdwijnt.</p></div>
-          <div class="faq-item"><h4>Hoe lang duurt de ingreep?</h4><p>Afhankelijk van het aantal follikels duurt een baardtransplantatie 4 tot 8 uur.</p></div>
-          <div class="faq-item"><h4>Wanneer zie ik het definitieve resultaat?</h4><p>Het volledige resultaat is na 9–12 maanden zichtbaar.</p></div>
-          <div class="faq-item"><h4>Kan ik mijn baard nadien scheren?</h4><p>Ja, zodra de haartjes zijn aangeslagen kunt u uw baard bijhouden of laten groeien zoals u wenst.</p></div>
+        <h2>Hoe verloopt het traject bij HaarKliniek 45?</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3>De consultatie</h3>
+            <p>
+              Tijdens het gratis consultatiegesprek bespreken we al uw wensen en heeft u alle
+              gelegenheid om vragen te stellen. De consultatie vindt plaats in onze kliniek in
+              Grazen, Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3>Start behandeling</h3>
+            <p>
+              U ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
+              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3>Nazorg</h3>
+            <p>
+              Wij blijven u adviseren na de behandeling. U ontvangt advies over producten, wassing
+              en eventuele vervolgbehandelingen. Persoonlijke nazorg staat centraal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Wanneer zie ik resultaat na een baardtransplantatie?</h2>
+        <p>
+          Na de baardtransplantatie kunnen de getransplanteerde haren tijdelijk uitvallen, wat
+          volkomen normaal is. Na ongeveer 15 dagen begint de tijdelijke haaruitval (ook bekend als
+          shock fall), en dit duurt tot het einde van de tweede maand. Maak u geen zorgen - dit is
+          een normaal onderdeel van het herstelproces.
+        </p>
+        <p>
+          Vanaf de derde maand beginnen nieuwe haren te groeien. Na 7 tot 8 maanden bereikt u
+          ongeveer 85-90% van het eindresultaat, en daarna groeien de haren verder door. Het
+          definitieve resultaat is volledig zichtbaar na 12 tot 14 maanden, maar de individuele
+          ervaring kan varieren.
+        </p>
+        <div class="steps-grid" style="margin-top: 2rem;">
+          <div class="step-card">
+            <div class="step-number">0-2m</div>
+            <h3>Herstelperiode</h3>
+            <p>
+              De getransplanteerde haren vallen tijdelijk uit (shock fall). Dit is normaal en
+              verwacht. De haarzakjes blijven actief en beginnen nieuwe haren te produceren.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3-8m</div>
+            <h3>Haargroei start</h3>
+            <p>
+              Vanaf de derde maand groeien nieuwe haren. Na 7-8 maanden is 85-90% van het
+              eindresultaat zichtbaar. De baard wordt voller en dichter.
+            </p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">12-14m</div>
+            <h3>Eindresultaat</h3>
+            <p>
+              Na 12 tot 14 maanden is het definitieve, permanente resultaat volledig zichtbaar. Een
+              volle, natuurlijke baard die u een leven lang meegaat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt-bg">
+      <div class="container">
+        <h2>Kosten baardtransplantatie</h2>
+        <p>
+          Wat kost een baardtransplantatie bij HaarKliniek 45? Onze prijzen zijn altijd op maat,
+          afhankelijk van de omvang van de behandeling en uw persoonlijke situatie. Er zijn geen
+          verborgen kosten of financiele verrassingen achteraf. Helaas vergoeden
+          verzekeringsmaatschappijen een baardtransplantatie vaak niet.
+        </p>
+        <p>
+          Kies vandaag nog voor een baardtransplantatie bij HaarKliniek 45 in Grazen en geniet van
+          een volle baard. Heeft u vragen of wilt u een gratis consult? Plan online een afspraak of
+          neem contact met ons op.
+        </p>
+        <h3>Ben ik geschikt voor een baardtransplantatie?</h3>
+        <p>
+          Bij HaarKliniek 45 geven we eerlijk advies. Niet iedereen is geschikt voor een
+          baardtransplantatie. De geschiktheid kan worden beinvloed door de kwaliteit van het
+          donorgebied en eventuele medische factoren. Vraag een gratis consult aan voor persoonlijk
+          advies op maat.
+        </p>
+      </div>
+    </section>
+
+    <section class="faq-link-section">
+      <div class="container">
+        <p>
+          Heeft u nog vragen over baardtransplantatie? Bekijk onze veelgestelde vragen voor
+          antwoorden over geschiktheid, het benodigde aantal grafts, de eerste wassing, wanneer u
+          weer kunt scheren en meer.
+        </p>
+        <a [routerLink]="['/faq']">Bekijk alle veelgestelde vragen &rarr;</a>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+      </div>
+      <div class="badges-track-wrap" aria-hidden="true">
+        <div class="badges-track">
+          <ng-container *ngFor="let _ of [1, 2]">
+            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
+          </ng-container>
         </div>
       </div>
     </section>
 
     <app-consultation />
-  `
+  `,
 })
-export class BaardtransplantatiePageComponent {}
+export class BaardtransplantatiePageComponent {
+  trustBadges = [
+    'Gratis consult',
+    'Betrouwbaar',
+    'Belgische kliniek',
+    'Gecertificeerde specialisten',
+    'Persoonlijke nazorg',
+    '10+ jaar ervaring',
+    'Geen verborgen kosten',
+    'Garantiecertificaat',
+    '100% expertise',
+    'Hoogwaardige faciliteiten',
+    'Gediplomeerd',
+  ];
+}

@@ -25,7 +25,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-heading;
   font-weight: 700;
   line-height: 1.2;
@@ -90,14 +95,30 @@ button {
 .section-title {
   text-align: center;
   color: $primary-green-dark;
-  margin-bottom: $space-4;
+  font-size: clamp(1.85rem, 4vw, $h2-size);
+  margin-bottom: $space-3;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 52px;
+    height: 3px;
+    background: linear-gradient(90deg, $primary-green, $gold);
+    margin: $space-3 auto 0;
+    border-radius: 2px;
+  }
 }
 
 .section-subtitle {
   text-align: center;
   color: $text-secondary;
-  margin-bottom: $space-8;
+  margin-top: $space-4;
+  margin-bottom: $space-12;
   font-size: $text-lg;
+  line-height: 1.75;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Buttons
@@ -105,7 +126,7 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: $space-3 $space-8;
+  padding: $space-4 $space-8;
   border-radius: 50px;
   font-weight: 600;
   font-size: $text-base;
@@ -115,39 +136,433 @@ button {
   cursor: pointer;
   text-decoration: none;
   white-space: nowrap;
+  letter-spacing: 0.2px;
 
   &.btn-primary {
     background: $primary-green;
     color: $neutral-white;
     border-color: $primary-green;
-    &:hover { background: $primary-green-dark; border-color: $primary-green-dark; color: $neutral-white; }
+    &:hover {
+      background: $primary-green-dark;
+      border-color: $primary-green-dark;
+      color: $neutral-white;
+    }
   }
 
   &.btn-secondary {
     background: transparent;
     color: $primary-green;
     border-color: $primary-green;
-    &:hover { background: $primary-green; color: $neutral-white; }
+    &:hover {
+      background: $primary-green;
+      color: $neutral-white;
+    }
   }
 
   &.btn-outline-white {
     background: transparent;
     color: $neutral-white;
     border-color: $neutral-white;
-    &:hover { background: $neutral-white; color: $primary-green; }
+    &:hover {
+      background: $neutral-white;
+      color: $primary-green;
+    }
   }
 
   &.btn-gold {
     background: $gold;
     color: $neutral-white;
     border-color: $gold;
-    &:hover { background: $gold-dark; border-color: $gold-dark; color: $neutral-white; }
+    &:hover {
+      background: $gold-dark;
+      border-color: $gold-dark;
+      color: $neutral-white;
+    }
   }
 
   &.btn-outline-gold {
     background: transparent;
     color: $gold;
     border-color: $gold;
-    &:hover { background: $gold; color: $neutral-white; }
+    &:hover {
+      background: $gold;
+      color: $neutral-white;
+    }
   }
+}
+
+// Focus visible ring for accessibility
+:focus-visible {
+  outline: 3px solid $gold;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+// ─── Page-level layouts ───────────────────────────────────────────────────────
+
+.page-hero {
+  background: linear-gradient(
+    135deg,
+    $primary-green-dark 0%,
+    $primary-green 60%,
+    $secondary-green 100%
+  );
+  color: $neutral-white;
+  padding: $space-20 0;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-family: $font-heading;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    margin-bottom: $space-5;
+    line-height: 1.15;
+    color: $neutral-white;
+  }
+
+  .hero-subtitle,
+  .page-subtitle {
+    font-size: $text-lg;
+    opacity: 0.88;
+    max-width: 640px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    color: rgba($neutral-white, 0.9);
+  }
+
+  .page-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: $space-2;
+    background: rgba($gold, 0.15);
+    border: 1px solid rgba($gold, 0.35);
+    border-radius: 50px;
+    padding: $space-2 $space-4;
+    font-size: $text-sm;
+    font-weight: 700;
+    color: $gold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: $space-5;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: $space-16 0;
+  }
+}
+
+.content-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+
+  &.alt-bg {
+    background: $neutral-cream;
+  }
+
+  &.dark-bg {
+    background: $primary-green;
+    color: $neutral-white;
+  }
+
+  h2 {
+    font-family: $font-heading;
+    font-size: clamp(1.6rem, 3.5vw, $h2-size);
+    color: $primary-green-dark;
+    margin-bottom: $space-5;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-family: $font-heading;
+    font-size: $h4-size;
+    color: $primary-green-dark;
+    margin-bottom: $space-3;
+    margin-top: $space-8;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.8;
+    max-width: 720px;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: $space-16 0;
+  }
+}
+
+// Styled list (used across pages)
+.styled-list {
+  list-style: none;
+  padding: 0;
+  margin: $space-6 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: $space-3;
+    color: $text-secondary;
+    line-height: 1.7;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      background: $primary-green;
+      border-radius: 50%;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E");
+      background-size: 14px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 2px;
+    }
+  }
+}
+
+// FAQ layout
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
+  max-width: 800px;
+}
+
+.faq-item {
+  border: 1px solid $neutral-gray-100;
+  border-radius: 12px;
+  overflow: hidden;
+  background: $neutral-white;
+
+  .faq-question {
+    padding: $space-5 $space-6;
+    font-weight: 600;
+    color: $primary-green-dark;
+    font-family: $font-heading;
+    font-size: $text-lg;
+    border-bottom: 1px solid $neutral-gray-100;
+  }
+
+  .faq-answer {
+    padding: $space-5 $space-6;
+    color: $text-secondary;
+    line-height: 1.8;
+
+    p {
+      margin-bottom: $space-3;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Benefits grid (used across treatment pages)
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: $space-6;
+  margin: $space-8 0;
+}
+
+.benefit-card {
+  padding: $space-6;
+  background: $neutral-white;
+  border: 1px solid $neutral-gray-100;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba($primary-green, 0.1);
+  }
+
+  .benefit-icon {
+    width: 48px;
+    height: 48px;
+    background: $primary-green-pale;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-green;
+    margin-bottom: $space-4;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: $h5-size;
+    color: $primary-green-dark;
+    margin-bottom: $space-2;
+    margin-top: 0;
+  }
+
+  p {
+    color: $text-secondary;
+    font-size: $text-sm;
+    line-height: 1.7;
+    margin: 0;
+  }
+}
+
+// Two-column content layout for pages
+.two-col-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-16;
+  align-items: start;
+
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $space-8;
+  }
+}
+
+// Results grid for resultaten page
+.results-grid-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-6;
+  margin: $space-8 0;
+
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: 1fr;
+  }
+
+  .result-item {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.03);
+    }
+  }
+}
+
+// Team/staff grid
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $space-8;
+  margin: $space-10 0;
+}
+
+.team-card {
+  text-align: center;
+
+  .team-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto $space-4;
+    border: 3px solid $primary-green-pale;
+    display: block;
+  }
+
+  h3 {
+    font-size: $h5-size;
+    color: $primary-green-dark;
+    margin-bottom: $space-1;
+  }
+
+  span {
+    font-size: $text-sm;
+    color: $text-secondary;
+  }
+}
+
+// ─── Trust badges carousel (shared across all pages) ─────────────────────────
+.trust-section {
+  padding: $space-12 0 $space-8;
+  background: $neutral-white;
+  overflow: hidden;
+  .section-title {
+    margin-bottom: $space-8;
+  }
+}
+.badges-track-wrap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, $neutral-white, transparent);
+  }
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, $neutral-white, transparent);
+  }
+}
+@keyframes scroll-badges {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.badges-track {
+  display: flex;
+  align-items: center;
+  gap: $space-4;
+  width: max-content;
+  animation: scroll-badges 28s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: $space-2 $space-5;
+  background: $primary-green-pale;
+  color: $primary-green-dark;
+  border-radius: 100px;
+  font-size: $text-sm;
+  font-weight: 600;
+  border: 1px solid rgba($primary-green, 0.15);
 }

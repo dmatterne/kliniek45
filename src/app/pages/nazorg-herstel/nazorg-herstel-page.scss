@@ -2,302 +2,432 @@
 @use '../../../styles/typography' as *;
 @use '../../../styles/spacing' as *;
 
-.page-hero {
+// ─── Hero ─────────────────────────────────────────────────────────────────
+.hero {
   background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
   color: $neutral-white;
-  padding: $space-16 $space-4;
-  text-align: center;
+  padding: $space-20 0 $space-16;
 
-  .eyebrow {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: $gold;
-    margin-bottom: $space-3;
-    font-family: $font-body;
-    font-weight: 600;
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    font-size: $text-sm;
+    color: rgba($neutral-white, 0.7);
+    margin-bottom: $space-6;
+
+    a {
+      color: rgba($neutral-white, 0.85);
+      text-decoration: none;
+      &:hover {
+        color: $neutral-white;
+      }
+    }
   }
 
-  h1 {
+  .hero-title {
     font-family: $font-heading;
-    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
-    margin-bottom: $space-4;
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-    opacity: 0.9;
-    max-width: 620px;
-    margin: 0 auto;
-    font-family: $font-body;
-  }
-}
-
-.page-section {
-  padding: $space-16 $space-4;
-
-  &.bg-light { background: $neutral-cream; }
-
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  h2 {
-    font-family: $font-heading;
-    font-size: 1.9rem;
-    color: $primary-green;
+    line-height: 1.2;
     margin-bottom: $space-6;
   }
 
-  p { font-family: $font-body; color: $text-secondary; line-height: 1.75; margin-bottom: $space-4; }
+  .hero-subtitle {
+    font-size: $text-lg;
+    line-height: 1.7;
+    color: rgba($neutral-white, 0.9);
+    max-width: 680px;
+    margin-bottom: $space-8;
+  }
 }
 
-.intro-text {
-  font-size: 1.1rem;
-  color: $text-secondary;
-  font-family: $font-body;
-  line-height: 1.8;
-  margin-bottom: $space-10;
-  max-width: 760px;
-}
+// ─── Two areas ────────────────────────────────────────────────────────────
+.two-areas-section {
+  padding: $space-20 0;
+  background: $neutral-white;
 
-.steps-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-6;
+  .areas-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-6;
+    margin-top: $space-12;
 
-  .step-item {
-    display: flex;
-    gap: $space-4;
-    align-items: flex-start;
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 
-    .step-num {
-      flex-shrink: 0;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 50%;
-      background: $primary-green;
-      color: $neutral-white;
+  .area-card {
+    border-radius: 16px;
+    padding: $space-8;
+    border: 2px solid transparent;
+
+    &.area-donor {
+      background: #f0fdf4;
+      border-color: rgba(#2d6a4f, 0.3);
+    }
+
+    &.area-recipient {
+      background: $primary-green-pale;
+      border-color: rgba($primary-green, 0.3);
+    }
+
+    .area-header {
       display: flex;
       align-items: center;
-      justify-content: center;
+      gap: $space-3;
+      margin-bottom: $space-5;
+    }
+
+    .area-badge {
+      background: #2d6a4f;
+      color: $neutral-white;
+      border-radius: 8px;
+      padding: $space-1 $space-3;
+      font-size: $text-sm;
       font-weight: 700;
-      font-family: $font-body;
+
+      &.area-badge-recipient {
+        background: $primary-green;
+      }
     }
 
-    .step-body {
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; }
-      p { margin: 0; font-family: $font-body; color: $text-secondary; line-height: 1.65; }
+    .area-label {
+      font-size: $text-sm;
+      color: $text-secondary;
+      font-style: italic;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: 1.7;
+      margin-bottom: $space-5;
+    }
+
+    .area-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: $space-2;
+
+      li {
+        font-size: $text-sm;
+        color: $text-secondary;
+        padding-left: $space-5;
+        position: relative;
+
+        &::before {
+          content: '→';
+          position: absolute;
+          left: 0;
+          color: $primary-green;
+          font-weight: 700;
+        }
+      }
     }
   }
 }
 
-.benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: $space-6;
+// ─── Timeline ─────────────────────────────────────────────────────────────
+.timeline-section {
+  padding: $space-20 0;
+  background: $neutral-cream;
 
-  .benefit-card {
-    background: $neutral-white;
-    border-radius: 12px;
-    padding: $space-6;
-    text-align: center;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  .timeline {
+    position: relative;
+    margin-top: $space-12;
+    padding-left: $space-10;
 
-    .benefit-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; font-size: 0.95rem; line-height: 1.6; }
-  }
-}
-
-.faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .faq-item {
-    background: $neutral-white;
-    border: 1px solid $neutral-light;
-    border-radius: 10px;
-    padding: $space-5 $space-6;
-
-    h4 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; font-size: 1.05rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.7; }
-  }
-}
-
-.candidates-grid {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .candidate-item {
-    display: flex;
-    gap: $space-4;
-    align-items: flex-start;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .cand-icon { color: $primary-green; font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
-    h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-1; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; }
-  }
-}
-
-.treatments-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: $space-6;
-}
-
-.treatment-link-card {
-  display: block;
-  background: $neutral-white;
-  border: 2px solid $neutral-light;
-  border-radius: 14px;
-  padding: $space-6;
-  text-decoration: none;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
-
-  &:hover {
-    border-color: $primary-green;
-    box-shadow: 0 4px 20px rgba(26,77,71,0.12);
-    transform: translateY(-3px);
-  }
-
-  .tl-icon { font-size: 2rem; display: block; margin-bottom: $space-3; }
-  h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-2; }
-  p { font-family: $font-body; color: $text-secondary; margin: 0 0 $space-4; font-size: 0.95rem; line-height: 1.6; }
-  .tl-arrow { color: $primary-green; font-weight: 700; font-size: 1.1rem; }
-}
-
-.norwood-list {
-  display: flex;
-  flex-direction: column;
-  gap: $space-4;
-
-  .norwood-item {
-    display: flex;
-    gap: $space-4;
-    align-items: baseline;
-    background: $neutral-white;
-    border-radius: 10px;
-    padding: $space-4 $space-6;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-
-    .norwood-num {
-      flex-shrink: 0;
-      font-family: $font-heading;
-      font-size: 1.3rem;
-      color: $primary-green;
-      font-weight: 700;
-      min-width: 1.5rem;
+    @media (min-width: $breakpoint-md) {
+      padding-left: $space-16;
     }
 
-    div { font-family: $font-body; color: $text-secondary; line-height: 1.65; }
-    strong { color: $text-primary; }
-  }
-}
+    &::before {
+      content: '';
+      position: absolute;
+      left: 16px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: rgba($primary-green, 0.2);
 
-.tips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: $space-6;
-
-  .tip-card {
-    background: $neutral-white;
-    border-radius: 14px;
-    padding: $space-6;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-    border-top: 3px solid $primary-green;
-
-    .tip-num {
-      font-family: $font-heading;
-      font-size: 2rem;
-      color: $primary-green-pale;
-      font-weight: 700;
-      margin-bottom: $space-2;
+      @media (min-width: $breakpoint-md) {
+        left: 32px;
+      }
     }
-
-    h3 { font-family: $font-heading; color: $primary-green; margin-bottom: $space-3; font-size: 1.1rem; }
-    p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
-  }
-}
-
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  position: relative;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 4.5rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: $primary-green-pale;
   }
 
   .timeline-item {
+    position: relative;
     display: flex;
     gap: $space-6;
-    align-items: flex-start;
-    padding: $space-5 0;
-    position: relative;
+    margin-bottom: $space-8;
 
-    .timeline-day {
-      flex-shrink: 0;
-      width: 4rem;
-      font-family: $font-body;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -$space-10;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: $primary-green;
+    border: 3px solid $neutral-white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba($primary-green, 0.3);
+    flex-shrink: 0;
+
+    @media (min-width: $breakpoint-md) {
+      left: -$space-16;
+    }
+
+    &.timeline-dot-final {
+      width: 20px;
+      height: 20px;
+      background: $primary-green-dark;
+      left: calc(#{-$space-10} - 2px);
+
+      @media (min-width: $breakpoint-md) {
+        left: calc(#{-$space-16} - 2px);
+      }
+    }
+  }
+
+  .timeline-time {
+    font-family: $font-heading;
+    font-size: $text-sm;
+    font-weight: 700;
+    color: $primary-green;
+    white-space: nowrap;
+    min-width: 80px;
+    padding-top: $space-1;
+
+    &.timeline-time-final {
+      color: $primary-green-dark;
+      font-size: $text-base;
+    }
+  }
+
+  .timeline-body {
+    flex: 1;
+    background: $neutral-white;
+    border-radius: 12px;
+    padding: $space-6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+    h3 {
+      font-family: $font-heading;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $text-primary;
+      margin-bottom: $space-3;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: 1.7;
+      font-size: $text-sm;
+      margin-bottom: $space-4;
+    }
+  }
+
+  .timeline-tips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-2;
+
+    .tip {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: $space-1 $space-3;
+      border-radius: 100px;
+
+      &.ok {
+        background: #f0fdf4;
+        color: #2d6a4f;
+        border: 1px solid rgba(#2d6a4f, 0.25);
+      }
+
+      &.nok {
+        background: #fff5f5;
+        color: #c0392b;
+        border: 1px solid rgba(#c0392b, 0.25);
+      }
+    }
+  }
+}
+
+// ─── Shockloss ────────────────────────────────────────────────────────────
+.shockloss-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+
+  .shockloss-card {
+    background: #fffbeb;
+    border: 2px solid #d69e2e;
+    border-radius: 16px;
+    padding: $space-10;
+
+    h2 {
+      font-family: $font-heading;
+      font-size: 1.5rem;
       font-weight: 700;
-      font-size: 0.8rem;
-      color: $primary-green;
-      text-align: right;
-      padding-top: 0.2rem;
+      color: #b7791f;
+      margin-bottom: $space-4;
     }
 
-    .timeline-body {
-      background: $neutral-white;
-      border-radius: 10px;
-      padding: $space-4 $space-5;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      flex: 1;
-
-      h4 { font-family: $font-heading; color: $text-primary; margin-bottom: $space-2; font-size: 1rem; }
-      p { font-family: $font-body; color: $text-secondary; margin: 0; line-height: 1.65; font-size: 0.95rem; }
+    > p {
+      color: $text-secondary;
+      line-height: 1.8;
+      margin-bottom: $space-8;
+      font-size: $text-lg;
     }
   }
-}
 
-.dos-donts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $space-8;
-
-  @media (max-width: 640px) {
+  .shockloss-facts {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: $space-4;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
-  ul { padding-left: $space-5; list-style: disc; }
-  li { font-family: $font-body; color: $text-secondary; margin-bottom: $space-3; line-height: 1.6; }
+  .fact {
+    display: flex;
+    gap: $space-4;
+    align-items: flex-start;
+    background: $neutral-white;
+    border-radius: 10px;
+    padding: $space-5;
 
-  .dos-title { color: #2d7a72; font-family: $font-heading; margin-bottom: $space-4; }
-  .dont-title { color: #b83232; font-family: $font-heading; margin-bottom: $space-4; }
+    .fact-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    div {
+      strong {
+        display: block;
+        color: $text-primary;
+        font-weight: 700;
+        margin-bottom: $space-1;
+      }
+      p {
+        color: $text-secondary;
+        font-size: $text-sm;
+        line-height: 1.6;
+        margin: 0;
+      }
+    }
+  }
 }
 
-.cta-section {
-  background: $primary-green;
-  color: $neutral-white;
-  padding: $space-12 $space-4;
-  text-align: center;
+// ─── Restrictions ─────────────────────────────────────────────────────────
+.restrictions-section {
+  padding: $space-20 0;
+  background: $neutral-cream;
 
-  h2 { font-family: $font-heading; font-size: 1.8rem; margin-bottom: $space-4; }
-  p { font-family: $font-body; opacity: 0.9; margin-bottom: $space-6; }
+  .restrictions-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-6;
+    margin-top: $space-12;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .restriction-card {
+    background: $neutral-white;
+    border-radius: 12px;
+    padding: $space-8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+    .restriction-header {
+      display: flex;
+      align-items: center;
+      gap: $space-3;
+      margin-bottom: $space-4;
+
+      .restriction-icon {
+        font-size: 1.75rem;
+      }
+
+      h3 {
+        font-family: $font-heading;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin: 0;
+      }
+    }
+
+    .restriction-timeline {
+      font-size: $text-sm;
+      font-weight: 600;
+      padding: $space-2 $space-3;
+      border-radius: 8px;
+      margin-bottom: $space-4;
+
+      &.bad {
+        background: #fff5f5;
+        color: #c0392b;
+      }
+      &.warning {
+        background: #fffbeb;
+        color: #b7791f;
+      }
+      &.ok {
+        background: #f0fdf4;
+        color: #2d6a4f;
+      }
+    }
+
+    p {
+      color: $text-secondary;
+      font-size: $text-sm;
+      line-height: 1.7;
+    }
+  }
 }
+
+// ─── Nav links ────────────────────────────────────────────────────────────
+.nav-section {
+  padding: $space-12 0;
+  background: $neutral-white;
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $space-4;
+    padding: $space-8 0;
+    border-top: 1px solid rgba($primary-green, 0.15);
+    border-bottom: 1px solid rgba($primary-green, 0.15);
+  }
+
+  .nav-link {
+    color: $primary-green;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: $text-sm;
+    &:hover {
+      color: $primary-green-dark;
+      text-decoration: underline;
+    }
+  }
+}
+
+// ─── Trust badges ─────────────────────────────────────────────────────────

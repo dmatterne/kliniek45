@@ -1,153 +1,456 @@
-@use 'sass:color';
 @use '../../../styles/colors' as *;
 @use '../../../styles/typography' as *;
 @use '../../../styles/spacing' as *;
 
 .hero {
-  background: $primary-green;
+  background: linear-gradient(135deg, $primary-green 0%, $primary-green-dark 100%);
   color: $neutral-white;
-  padding: $space-16 $space-4;
-  text-align: center;
-
-  h1 {
+  padding: $space-20 0 $space-16;
+  .hero-title {
     font-family: $font-heading;
-    font-size: 2.4rem;
-    margin-bottom: $space-4;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: $space-6;
   }
-
-  .subtitle {
-    font-family: $font-body;
-    font-size: 1.15rem;
-    opacity: 0.88;
+  .hero-subtitle {
+    font-size: $text-lg;
+    line-height: 1.7;
+    color: rgba($neutral-white, 0.9);
+    max-width: 680px;
   }
 }
 
-.contact-info {
-  padding: $space-16 $space-4;
-  background: $neutral-cream;
-
-  h2 {
-    font-family: $font-heading;
-    font-size: 1.9rem;
-    color: $text-primary;
-    text-align: center;
-    margin-bottom: $space-8;
-  }
-}
-
-.info-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: $space-6;
-
-  @media (min-width: $breakpoint-md) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    grid-template-columns: repeat(4, 1fr);
+.contact-main-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-8;
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: 2fr 3fr;
+      align-items: start;
+    }
   }
 }
 
 .info-card {
-  background: $neutral-white;
-  border-radius: 12px;
-  padding: $space-8 $space-6;
-  text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  border-top: 3px solid $primary-green;
-
-  .info-icon {
-    font-size: 2rem;
-    display: block;
-    margin-bottom: $space-3;
-  }
-
-  h3 {
+  background: $neutral-cream;
+  border-radius: 16px;
+  padding: $space-8;
+  border: 1px solid rgba($primary-green, 0.12);
+  h2 {
     font-family: $font-heading;
-    font-size: 1.05rem;
-    color: $primary-green;
-    margin-bottom: $space-2;
-  }
-
-  p {
-    font-family: $font-body;
-    font-size: 0.9rem;
-    color: $text-secondary;
-    line-height: 1.6;
-    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $text-primary;
+    margin-bottom: $space-8;
+    padding-bottom: $space-4;
+    border-bottom: 2px solid rgba($primary-green, 0.15);
   }
 }
 
-.contact-form-section {
-  padding: $space-16 $space-4;
-  background: $neutral-white;
+.info-item {
+  display: flex;
+  gap: $space-4;
+  align-items: flex-start;
+  margin-bottom: $space-6;
+  .info-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  div {
+    strong {
+      display: block;
+      color: $text-primary;
+      font-weight: 700;
+      font-size: $text-sm;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: $space-1;
+    }
+    a {
+      color: $primary-green;
+      text-decoration: none;
+      font-size: $text-base;
+      &:hover {
+        color: $primary-green-dark;
+        text-decoration: underline;
+      }
+    }
+    address {
+      font-style: normal;
+      color: $text-secondary;
+      line-height: 1.6;
+      font-size: $text-sm;
+    }
+  }
+}
 
+.hours {
+  .hours-row {
+    display: flex;
+    justify-content: space-between;
+    gap: $space-4;
+    font-size: $text-sm;
+    color: $text-secondary;
+    padding: $space-1 0;
+    &:first-child {
+      font-weight: 600;
+      color: $text-primary;
+    }
+  }
+  .hours-note {
+    font-size: $text-sm;
+    color: $text-secondary;
+    font-style: italic;
+    margin-top: $space-2;
+  }
+}
+
+.map-placeholder {
+  margin-top: $space-6;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba($primary-green, 0.2);
+  .map-link {
+    display: block;
+    text-decoration: none;
+    &:hover .map-visual {
+      background: $primary-green-pale;
+    }
+  }
+  .map-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $space-2;
+    padding: $space-8;
+    background: rgba($primary-green, 0.05);
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .map-pin {
+    font-size: 2rem;
+  }
+  .map-text {
+    color: $primary-green;
+    font-weight: 700;
+    font-size: $text-sm;
+  }
+  .map-address {
+    color: $text-secondary;
+    font-size: $text-sm;
+  }
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  margin-top: $space-6;
+  padding-top: $space-6;
+  border-top: 1px solid rgba($primary-green, 0.12);
+}
+.social-label {
+  font-size: $text-sm;
+  color: $text-secondary;
+  font-weight: 600;
+}
+.social-icons {
+  display: flex;
+  gap: $space-2;
+}
+.social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: $primary-green;
+  color: $neutral-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $text-sm;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover {
+    background: $primary-green-dark;
+  }
+}
+
+.form-card {
+  background: $neutral-white;
+  border-radius: 16px;
+  padding: $space-8;
+  border: 1px solid rgba($primary-green, 0.12);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
   h2 {
     font-family: $font-heading;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: $text-primary;
-    text-align: center;
+    margin-bottom: $space-2;
+  }
+  .form-intro {
+    color: $text-secondary;
+    font-size: $text-sm;
     margin-bottom: $space-8;
   }
 }
 
 .contact-form {
-  max-width: 680px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: $space-6;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: $space-6;
-
-  @media (min-width: $breakpoint-md) {
-    grid-template-columns: repeat(2, 1fr);
+  .form-row {
+    margin-bottom: $space-5;
+  }
+  .form-row-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-5;
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $space-4;
+    }
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: $space-2;
+    label {
+      font-size: $text-sm;
+      font-weight: 600;
+      color: $text-primary;
+      .required {
+        color: #c0392b;
+        margin-left: 2px;
+      }
+    }
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: $space-3 $space-4;
+      border: 1.5px solid rgba($primary-green, 0.25);
+      border-radius: 8px;
+      font-family: $font-body;
+      font-size: $text-base;
+      color: $text-primary;
+      background: $neutral-white;
+      transition:
+        border-color 0.2s,
+        box-shadow 0.2s;
+      box-sizing: border-box;
+      &:focus {
+        outline: none;
+        border-color: $primary-green;
+        box-shadow: 0 0 0 3px rgba($primary-green, 0.12);
+      }
+      &::placeholder {
+        color: rgba($text-secondary, 0.6);
+      }
+    }
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    select {
+      cursor: pointer;
+    }
+  }
+  .form-group-check .checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: $space-3;
+    cursor: pointer;
+    input[type='checkbox'] {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      accent-color: $primary-green;
+      cursor: pointer;
+    }
+    span {
+      font-size: $text-sm;
+      color: $text-secondary;
+      line-height: 1.5;
+      a {
+        color: $primary-green;
+        text-decoration: underline;
+        &:hover {
+          color: $primary-green-dark;
+        }
+      }
+    }
+  }
+  .btn-submit {
+    width: 100%;
+    padding: $space-4;
+    font-size: $text-base;
+    margin-top: $space-4;
+    border-radius: 10px;
+  }
+  .form-note {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+    margin-top: $space-4;
+    font-size: $text-sm;
+    color: $text-secondary;
+    text-align: center;
+    justify-content: center;
   }
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: $space-2;
-
-  label {
-    font-family: $font-body;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: $text-primary;
-  }
-
-  input,
-  select,
-  textarea {
-    font-family: $font-body;
-    font-size: 1rem;
-    color: $text-primary;
+.consult-cta-section {
+  padding: $space-20 0;
+  background: $neutral-cream;
+  .consult-cta-card {
     background: $neutral-white;
-    border: 1.5px solid $neutral-light;
-    border-radius: 8px;
-    padding: $space-3 $space-4;
-    transition: border-color 0.2s ease;
-    outline: none;
-
-    &:focus {
-      border-color: $primary-green;
-      box-shadow: 0 0 0 3px rgba(26, 77, 71, 0.1);
-    }
-
-    &::placeholder {
-      color: color.scale($text-secondary, $lightness: 35%);
+    border-radius: 20px;
+    padding: $space-12;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-10;
+    border: 1px solid rgba($primary-green, 0.12);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: 3fr 2fr;
+      align-items: center;
     }
   }
-
-  textarea {
-    resize: vertical;
-    min-height: 120px;
+  .consult-cta-text {
+    h2 {
+      font-family: $font-heading;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      color: $text-primary;
+      margin-bottom: $space-4;
+    }
+    p {
+      color: $text-secondary;
+      line-height: 1.8;
+      margin-bottom: $space-6;
+    }
+  }
+  .consult-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 $space-8 0;
+    display: flex;
+    flex-direction: column;
+    gap: $space-2;
+    li {
+      font-size: $text-sm;
+      color: $text-secondary;
+      padding-left: $space-5;
+      position: relative;
+      &::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: $primary-green;
+        font-weight: 700;
+      }
+    }
+  }
+  .consult-cta-actions {
+    display: flex;
+    gap: $space-4;
+    flex-wrap: wrap;
+  }
+  .consult-cta-info {
+    display: flex;
+    flex-direction: column;
+    gap: $space-4;
+  }
+  .cta-info-badge {
+    display: flex;
+    gap: $space-4;
+    align-items: center;
+    background: $primary-green-pale;
+    border-radius: 12px;
+    padding: $space-4 $space-5;
+    .cta-badge-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    div {
+      strong {
+        display: block;
+        color: $primary-green-dark;
+        font-weight: 700;
+        font-size: $text-sm;
+      }
+      span {
+        color: $text-secondary;
+        font-size: $text-sm;
+      }
+    }
   }
 }
 
+.reach-section {
+  padding: $space-20 0;
+  background: $neutral-white;
+  .reach-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $space-6;
+    margin-top: $space-12;
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .reach-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: $neutral-cream;
+    border-radius: 16px;
+    padding: $space-10 $space-8;
+    text-decoration: none;
+    color: $text-primary;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+    border: 1px solid rgba($primary-green, 0.1);
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    }
+    &.reach-card-address {
+      cursor: default;
+      &:hover {
+        transform: none;
+        box-shadow: none;
+      }
+    }
+    .reach-icon {
+      font-size: 2.5rem;
+      margin-bottom: $space-4;
+    }
+    h3 {
+      font-family: $font-heading;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: $text-primary;
+      margin-bottom: $space-3;
+    }
+    p {
+      color: $primary-green;
+      font-weight: 600;
+      font-size: $text-base;
+      margin-bottom: $space-2;
+    }
+    .reach-note {
+      font-size: $text-sm;
+      color: $text-secondary;
+      margin-top: $space-2;
+    }
+  }
+}

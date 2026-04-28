@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e11]:
+          - link "076 204 5512" [ref=e12] [cursor=pointer]:
+            - /url: tel:0762045512
+          - text: "|"
+          - link "info@hairclinicwolf.be" [ref=e13] [cursor=pointer]:
+            - /url: mailto:info@hairclinicwolf.be
+          - text: "|"
+          - link "4,9 / 5,0" [ref=e14] [cursor=pointer]:
+            - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - text: "|"
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://hairclinicwolf.nl/
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://hairclinicwolf.com/
+        - generic [ref=e21]:
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/
+          - generic [ref=e25]:
+            - navigation [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - link "Behandelingen 3" [ref=e30] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/behandelingen/
+                - listitem [ref=e31]:
+                  - link "Haargroei stimuleren 3" [ref=e32] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haargroei-stimuleren/
+                - listitem [ref=e33]:
+                  - link "Over ons 3" [ref=e34] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/over-ons/
+                - listitem [ref=e35]:
+                  - link "Resultaten" [ref=e36] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/ervaringen/
+                - listitem [ref=e37]:
+                  - generic [ref=e38]: Kennis 3
+                - listitem [ref=e39]:
+                  - link "Kosten berekenen" [ref=e40] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+                - listitem [ref=e41]:
+                  - link "Afspraak maken" [ref=e42] [cursor=pointer]:
+                    - /url: https://hairclinicwolf.be/afspraak-maken/
+            - text: a 33 33 33 33
+    - generic [ref=e43]:
+      - generic [ref=e46]:
+        - generic [ref=e52]:
+          - heading "Haartransplantatie inhammen" [level=1] [ref=e55]
+          - paragraph [ref=e58]: Heb je als man of vrouw last van inhammen en wil je hier iets aan laten doen? Bij Hair Clinic Wolf begrijpen we dat het ontwikkelen van inhammen het zelfvertrouwen kan beïnvloeden. Het terugtrekken van de haargrens komt vaak voor na een bepaalde leeftijd. Daarom bieden wij gespecialiseerde haartransplantaties voor inhammen aan om dit probleem aan te pakken. Ontdek meer over deze behandeling.
+          - link "Lees verder" [ref=e59] [cursor=pointer]:
+            - /url: "#lees-verder-01"
+          - link "Afspraak maken 5" [ref=e61] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e69]:
+          - heading "Oorzaken ontstaan inhammen" [level=2] [ref=e70]
+          - paragraph [ref=e71]: Inhammen bij zowel mannen als vrouwen ontstaan meestal door genetische factoren. Bij mannen is het vaak gerelateerd aan mannelijke kaalheid (androgene alopecia), terwijl bij vrouwen hormonale veranderingen, genetica en veroudering een rol kunnen spelen bij het ontwikkelen van inhammen.
+        - generic [ref=e79]:
+          - heading "Haartransplantatie inhammen voor en na" [level=2] [ref=e80]
+          - paragraph [ref=e81]:
+            - text: Benieuwd naar de resultaten van een haartransplantatie inhammen? Bekijk hieronder enkele voor en na foto’s of
+            - link "bekijk alle ervaringen." [ref=e82] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/ervaringen/
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - heading "Inhammen opvullen met een haartransplantatie" [level=2] [ref=e99]
+            - paragraph [ref=e100]:
+              - text: Dankzij methoden zoals
+              - link "DHI" [ref=e101] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/technieken/dhi-haartransplantatie
+              - text: ", is een haartransplantatie voor inhammen tegenwoordig een minder zware ingreep. Bij deze methode verzamelen we gezonde haarzakjes 1 voor 1 uit het achterhoofd en transplanteren we deze in de kale plekken. Dit herstelt de oorspronkelijke haarlijn en verbetert de gezichtsverhoudingen. Laat je vooraf informeren over de verwachte resultaten."
+          - link "Lees verder" [ref=e102] [cursor=pointer]:
+            - /url: "#lees-verder-02"
+          - link "Persoonlijke prijsopgave 5" [ref=e104] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+        - generic [ref=e113]:
+          - heading "Inhammen terug laten groeien" [level=2] [ref=e114]
+          - paragraph [ref=e115]: Inhammen komen vaak voor bij mannen en vrouwen die een teruglopende haargrens ontwikkelen na een bepaalde leeftijd. Dit natuurlijke fenomeen wordt veroorzaakt door overmatig haaruitval, waardoor kale plekken aan de zijkanten van het hoofd ontstaan. Veel mensen voelen zich onzeker door inhammen en proberen deze te verbergen, maar dit is geen langetermijnoplossing.
+          - paragraph [ref=e116]: Een haartransplantatie kan een permanente oplossing bieden. Bij deze behandeling worden haren van het achterhoofd naar de kalende plekken aan de voorkant getransplanteerd. Dit zorgt voor een natuurlijke en langdurige oplossing. Ben je onzeker over je inhammen? Bij Hair Clinic Wolf kunnen we je inhammen weer laten groeien met een pijnloze techniek.
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "Plan nu een consult in via de telefoon of bij ons in de kliniek!" [level=2] [ref=e122]
+            - link "Bereken de kosten" [ref=e124] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+            - link "Plan een consult 5" [ref=e126] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/afspraak-maken/
+          - generic [ref=e129]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]
+              - heading "1. De consultatie" [level=4] [ref=e133]
+              - paragraph [ref=e134]: Tijdens het consultatiegesprek bespreken we al je wensen en heb je alle gelegenheid om vragen te stellen. Dit kan telefonisch, in Zwalm of in onze kliniek in Prinsenbeek.
+            - generic [ref=e136]:
+              - paragraph [ref=e137]
+              - heading "2. Start behandeling" [level=4] [ref=e138]
+              - paragraph [ref=e139]: Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten verlopen. De behandeling vindt plaats in Istanbul of Nederland.
+            - generic [ref=e141]:
+              - paragraph [ref=e142]
+              - heading "3. Nazorg" [level=4] [ref=e143]
+              - paragraph [ref=e144]: Wij blijven je adviseren na de behandeling. Je ontvangt o.a. advies over producten, wassing en eventuele vervolgbehandelingen.
+            - generic: "5"
+        - generic [ref=e145]:
+          - generic [ref=e150]:
+            - heading [level=2] [ref=e151]
+            - heading "Gratis consult met onze specialist" [level=2] [ref=e152]
+            - paragraph [ref=e153]: Twijfel je nog of heb je nog onbeantwoorde vragen? Bekijk dan direct de agenda van onze consulenten en maak gratis en vrijblijvend een afspraak.
+          - generic [ref=e155]:
+            - generic [ref=e160]:
+              - heading "Gratis consult" [level=3] [ref=e161]
+              - paragraph [ref=e162]: Het eerste consult is gratis en geheel vrijblijvend.
+              - paragraph [ref=e163]
+            - generic [ref=e168]:
+              - heading "100% Expertise" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Je kunt direct vragen stellen aan onze specialist.
+            - generic [ref=e175]:
+              - heading "Betrouwbaar" [level=3] [ref=e176]
+              - paragraph [ref=e177]: Wij gaan discreet om met je gegevens.
+            - generic [ref=e182]:
+              - heading "Hoofd- en haaranalyse" [level=3] [ref=e183]
+              - paragraph [ref=e184]: We voeren een gratis hoofd- en haaranalyse uit.
+          - link "Maak een afspraak 5" [ref=e188] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/afspraak-maken/
+        - generic [ref=e190]:
+          - generic [ref=e193]:
+            - paragraph [ref=e194]:
+              - img "Man op intake voor haartransplantatie inhammen." [ref=e195]
+            - heading "Kosten haartransplantatie inhammen" [level=2] [ref=e196]
+            - paragraph [ref=e197]: Bij Hair Clinic Wolf houden we van transplantatie en duidelijkheid. Bij ons starten de prijzen van een haartransplantatie vanaf €2.099,-. Onze prijzen zijn niet afhankelijk van het aantal grafts, dus geen financiële verrassingen achteraf.
+            - paragraph [ref=e198]:
+              - text: Benieuwd wat een haartransplantatie jou gaat kosten? Met behulp van onze
+              - link "kostencalculator" [ref=e199] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+              - text: bereken je de kosten eenvoudig en snel. Interesse in een intakegesprek? Maak
+              - link "online een afspraak" [ref=e200] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/afspraak-maken/
+              - text: of bel ons direct.
+          - generic [ref=e203]:
+            - paragraph [ref=e204]:
+              - img "Lieselotte samen met twee cliënten op de foto na succesvolle haartransplantatie inhammen." [ref=e205]
+            - heading "Ben ik geschikt?" [level=2] [ref=e206]
+            - paragraph [ref=e207]:
+              - text: Om erachter te komen of je geschikt bent voor een haartransplantatie gaan we graag met je in gesprek. Niet iedereen is namelijk geschikt. Dit kan diverse redenen hebben.
+              - text: Zo behandelen we geen mannen en vrouwen die last hebben van tijdelijk haaruitval. Het kan ook zo zijn dat er in het donorgebied onvoldoende haarzakjes zijn om het gewenste resultaat te bereiken.
+            - paragraph [ref=e208]: Heb je last van hart- en vaatziekten, diabetes of hematologische aandoeningen, dan zal onze behandelende arts beoordelen of je geschikt bent.
+        - link "5-sterren-reviews-hairclinicwolf" [ref=e213] [cursor=pointer]:
+          - /url: https://www.google.nl/maps/place/Hair+Clinic+Wolf/@51.65446,5.0388369,17z/data=!4m8!3m7!1s0x47c69766dc65ff81:0xb961d7854bcaf385!8m2!3d51.6544567!4d5.0414118!9m1!1b1!16s%2Fg%2F11j4dmw3_w?hl=nl&entry=ttu
+          - img "5-sterren-reviews-hairclinicwolf" [ref=e215]
+        - generic [ref=e219]:
+          - generic [ref=e223]:
+            - heading "Een perfecte organisatie!" [level=2] [ref=e224]
+            - paragraph [ref=e225]: “Al enige jaren had ik last van haaruitval, inhammen. Ik was er onzeker over en het had een negatieve impact op mijn zelfvertrouwen. Toen ik hoorde over Hair Clinic Wolf, was ik meteen enthousiast. Ik had al veel gelezen over haartransplantaties, maar bij Hair Clinic Wolf leek alles anders.
+            - paragraph [ref=e226]: Vanaf het eerste contact voelde ik me op mijn gemak. Lieselotte, de oprichter van Hair Clinic Wolf, is een oude studiegenoot van mij. Ze nam uitgebreid de tijd om mijn situatie te bespreken en gaf me duidelijke informatie over wat ik kon verwachten. Ze was ook heel open over de mogelijke risico’s en complicaties.
+            - paragraph [ref=e227]: Van het moment dat ik het vliegtuig instapte tot het moment dat ik weer thuiskwam, werd ik volledig ontzorgd. Het vervoer, de accommodatie en de operatie waren tot in de puntjes geregeld. Lieselotte was altijd bereikbaar voor vragen en ze stond altijd klaar om te helpen.
+            - paragraph [ref=e228]: "De operatie zelf viel me reuze mee. De verdoving was even ongemakkelijk, maar daarna voelde ik niets. De chirurg, was zeer ervaren en hij werkte heel nauwkeurig. Een prachtig resultaat Na de operatie word je naar het hotel terug gebracht. Waarbij de eerste nacht een rare nacht is. Doormiddel van een nekkussen moet je op je rug blijven liggen. Onwennig en minder prettig maar te doen. Tip: neem oordoppen mee voor het nachtelijke gejodel vanuit de meerdere moskeeën. Na de eerste nacht heb je een laatste check in het ziekenhuis en wordt je naar het vliegveld gebracht. Na een vlucht met Turkish (h)airlines ben je weer snel terug in Nederland. De eerste week krijg je korstjes op je hoofd. Ik en mijn broertje hebben maar om onze “tijgerbollen” gelachen. Na de laatste wasbeurt zijn alle korstjes eraf en is het wachten terwijl je haar aangroeit."
+            - paragraph [ref=e229]: Nu, een jaar later, is mijn haar weer vol en dekkend. Ik ben zo blij dat ik de stap heb gezet en ik raad Hair Clinic Wolf aan iedereen aan die overweegt een haartransplantatie te ondergaan.” — Mischa
+          - link "Bekijk alle ervaringen 5" [ref=e231] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/ervaringen/
+        - paragraph [ref=e237] [cursor=pointer]: Wij ontvangen gemiddeld een 4,9 van de 5 via Google Reviews!
+        - generic [ref=e238]:
+          - heading "Waarom een behandeling bij Hair Clinic Wolf?" [level=2] [ref=e243]
+          - generic [ref=e250]:
+            - heading "Gratis consult" [level=4] [ref=e257]
+            - heading "Betrouwbaar" [level=4] [ref=e264]
+            - heading "Geen cash betaling" [level=4] [ref=e271]
+            - heading "Nazorg in Nederland" [level=4] [ref=e278]
+            - heading "GGD-vergunning" [level=4] [ref=e285]
+            - heading "Gediplomeerd" [level=4] [ref=e292]
+            - heading "10+ jaar ervaring" [level=4] [ref=e299]
+            - heading "Garantiecertificaat" [level=4] [ref=e306]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e313]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e320]
+            - heading "100% Expertise" [level=4] [ref=e327]
+            - heading "Gratis consult" [level=4] [ref=e334]
+            - heading "Betrouwbaar" [level=4] [ref=e341]
+            - heading "Geen cash betaling" [level=4] [ref=e348]
+            - heading "Nazorg in Nederland" [level=4] [ref=e355]
+            - heading "GGD-vergunning" [level=4] [ref=e362]
+            - heading "Gediplomeerd" [level=4] [ref=e369]
+            - heading "10+ jaar ervaring" [level=4] [ref=e376]
+            - heading "Garantiecertificaat" [level=4] [ref=e383]
+            - heading "ISO Gecertificeerd" [level=4] [ref=e390]
+            - heading "Hoogwaardige faciliteiten" [level=4] [ref=e397]
+        - generic [ref=e402]:
+          - generic [ref=e403]:
+            - generic [ref=e405]:
+              - heading "ONZE CALCULATIETOOL" [level=4] [ref=e406]
+              - heading "Bereken de kosten online" [level=2] [ref=e407]
+              - paragraph [ref=e408]: Benieuwd wat een haartransplantatie je gaat kosten? Met behulp van onze quick scan bereken je dit gratis en snel.
+              - paragraph [ref=e409]:
+                - strong [ref=e410]: Kosten op maat
+                - text: Je ontvangt een prijsopgave op maat.
+              - paragraph [ref=e411]:
+                - strong [ref=e412]: Direct antwoord
+                - text: Je ontvangt direct een mail, bekijk hiervoor ook even je spam box.
+              - paragraph [ref=e413]:
+                - strong [ref=e414]: Ben je geschikt?
+                - text: Aan de hand van jouw antwoorden ontvang je jouw mate van geschiktheid.
+              - paragraph [ref=e415]:
+                - strong [ref=e416]: Gratis brochure
+                - text: "Je ontvangt gratis onze brochure: “Alles over haartransplantaties”."
+            - link "Start nu! 5" [ref=e418] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+          - link "telefoon-kosten-berekenen" [ref=e421] [cursor=pointer]:
+            - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+            - img "telefoon-kosten-berekenen" [ref=e423]
+        - generic [ref=e425]:
+          - generic [ref=e426]:
+            - img "icon-faq" [ref=e429]
+            - heading "Veelgestelde vragen" [level=2] [ref=e432]:
+              - text: Veelgestelde
+              - text: vragen
+          - generic [ref=e433]:
+            - generic [ref=e440]:
+              - generic [ref=e441]:
+                - heading "Hoeveel grafts heb ik nodig voor opvullen inhammen?" [level=5] [ref=e442] [cursor=pointer]
+                - paragraph [ref=e444]: Hoeveel grafts er nodig zijn voor het opvullen van de inhammen is afhankelijk van je persoonlijke situatie. Na het consult met onze specialist zal dit duidelijk worden. Een consultatie kan plaatsvinden via de telefoon, bij ons in Zwalm, in onze kliniek in Prinsenbeek of op een locatie naar eigen keuze.
+              - heading "\" Welke haartransplantatiemethode is het beste voor de inhammen?" [level=5] [ref=e446] [cursor=pointer]
+              - heading "\" Zijn er risico's verbonden aan een haartransplantatie van de inhammen?" [level=5] [ref=e448] [cursor=pointer]
+              - heading "\" Wat zijn de kosten van een haartransplantatie van de inhammen?" [level=5] [ref=e450] [cursor=pointer]
+            - link "Kenniscentrum" [ref=e451] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/veelgestelde-vragen/
+            - link "Bereken de kosten 5" [ref=e453] [cursor=pointer]:
+              - /url: https://hairclinicwolf.be/haartransplantatie-kosten-berekenen/
+      - contentinfo [ref=e454]:
+        - generic [ref=e455]:
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - img "logo-wit-hairclinicwolf" [ref=e461]
+              - paragraph [ref=e464] [cursor=pointer]:
+                - text: Markt 24
+                - text: 4841 AC, Prinsenbeek
+                - text: Nederland
+              - paragraph [ref=e467] [cursor=pointer]:
+                - text: Meilegemstraat 26
+                - text: 9630, Zwalm
+                - text: België
+            - generic [ref=e470]:
+              - heading "Locaties" [level=3] [ref=e471]
+              - paragraph [ref=e472]:
+                - link "Haartransplantatie Turkije" [ref=e473] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-turkije
+                - link "Haartransplantatie Istanbul" [ref=e474] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-istanbul
+                - link "Haartransplantatie België" [ref=e475] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-belgie
+                - link "Haartransplantatie Nederland" [ref=e476] [cursor=pointer]:
+                  - /url: https://hairclinicwolf.be/locaties/haartransplantatie-nederland
+              - paragraph [ref=e477]
+            - generic [ref=e480]:
+              - heading "Contact" [level=3] [ref=e481]
+              - paragraph [ref=e482]:
+                - 'link "Tel: 076 204 5512" [ref=e483] [cursor=pointer]':
+                  - /url: tel:0762045512
+                - 'link "Tel: 06 29440919" [ref=e484] [cursor=pointer]':
+                  - /url: tel:06 29440919
+                - 'link "E-mail: info@hairclinicwolf.be" [ref=e485] [cursor=pointer]':
+                  - /url: mailto:info@hairclinicwolf.be
+              - paragraph [ref=e486]:
+                - link [ref=e487] [cursor=pointer]:
+                  - /url: https://www.facebook.com/hairclinicwolfhaartransplantatie
+                - link [ref=e488] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hairclinicwolf/
+          - img "icon-hair-wave-wit" [ref=e494]
+          - generic [ref=e496]:
+            - generic [ref=e499]: "© 2026 HairClinicWolf | KvK: 76458490 | BTW: NL860630122B01"
+            - paragraph [ref=e503]:
+              - link "Algemene voorwaarden" [ref=e504] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/algemene-voorwaarden
+              - text: "|"
+              - link "Privacy- & Cookiebeleid" [ref=e505] [cursor=pointer]:
+                - /url: https://hairclinicwolf.be/privacy-cookiebeleid
+  - button " Hoe kan ik je helpen?" [ref=e506] [cursor=pointer]:
+    - generic [ref=e507]: 
+    - generic [ref=e508]: Hoe kan ik je helpen?
+  - text: "2"
+  - dialog "Cookie consent button" [ref=e509] [cursor=pointer]:
+    - img [ref=e511]
+    - generic: Cookie-instellingen

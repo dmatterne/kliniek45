@@ -1,6 +1,6 @@
-@use "../../../styles/colors" as *;
-@use "../../../styles/typography" as *;
-@use "../../../styles/spacing" as *;
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
 
 .footer {
   background: $primary-green-dark;
@@ -13,11 +13,15 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: $space-8;
 
-  @media (max-width: $breakpoint-lg) { grid-template-columns: 1fr 1fr; }
-  @media (max-width: $breakpoint-sm) { grid-template-columns: 1fr; }
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer-brand {
@@ -32,7 +36,12 @@
     }
   }
 
-  p { font-size: $text-sm; line-height: 1.75; margin-bottom: $space-4; opacity: 0.8; }
+  p {
+    font-size: $text-sm;
+    line-height: 1.75;
+    margin-bottom: $space-4;
+    opacity: 0.8;
+  }
 
   .footer-social {
     display: flex;
@@ -48,8 +57,13 @@
       justify-content: center;
       color: rgba($neutral-white, 0.7);
       text-decoration: none;
-      transition: background 0.2s, color 0.2s;
-      &:hover { background: $gold; color: $neutral-white; }
+      transition:
+        background 0.2s,
+        color 0.2s;
+      &:hover {
+        background: $gold;
+        color: $neutral-white;
+      }
     }
   }
 
@@ -58,8 +72,15 @@
     align-items: center;
     gap: $space-2;
     margin-bottom: $space-5;
-    .rating-stars { color: $gold; font-size: 0.9rem; letter-spacing: 2px; }
-    span:last-child { font-size: $text-sm; opacity: 0.7; }
+    .rating-stars {
+      color: $gold;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+    }
+    span:last-child {
+      font-size: $text-sm;
+      opacity: 0.7;
+    }
   }
 }
 
@@ -73,17 +94,31 @@
     letter-spacing: 1.5px;
   }
 
-  ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: $space-3; }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $space-3;
+  }
 
   a {
     color: rgba($neutral-white, 0.72);
     text-decoration: none;
     font-size: $text-sm;
     transition: color 0.2s;
-    &:hover { color: $gold; }
+    &:hover {
+      color: $gold;
+    }
   }
 
-  address { font-style: normal; font-size: $text-sm; line-height: 1.75; color: rgba($neutral-white, 0.72); }
+  address {
+    font-style: normal;
+    font-size: $text-sm;
+    line-height: 1.75;
+    color: rgba($neutral-white, 0.72);
+  }
 
   .footer-address {
     display: flex;
@@ -91,7 +126,11 @@
     align-items: flex-start;
     color: rgba($neutral-white, 0.72);
     font-size: $text-sm;
-    svg { flex-shrink: 0; margin-top: 3px; opacity: 0.6; }
+    svg {
+      flex-shrink: 0;
+      margin-top: 3px;
+      opacity: 0.6;
+    }
   }
 
   .footer-contact-links {
@@ -109,8 +148,57 @@
     text-decoration: none;
     font-size: $text-sm;
     transition: color 0.2s;
-    svg { opacity: 0.6; flex-shrink: 0; }
-    &:hover { color: $gold; svg { opacity: 1; } }
+    svg {
+      opacity: 0.6;
+      flex-shrink: 0;
+    }
+    &:hover {
+      color: $gold;
+      svg {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.footer-col--partner {
+  .partner-link {
+    display: inline-block;
+    margin-bottom: $space-3;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .partner-logo {
+    height: 44px;
+    width: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+  }
+
+  .partner-desc {
+    font-size: $text-sm;
+    color: rgba($neutral-white, 0.65);
+    line-height: 1.6;
+    margin-bottom: $space-3;
+
+    strong {
+      color: rgba($neutral-white, 0.85);
+    }
+  }
+
+  .partner-more {
+    font-size: $text-sm;
+    color: $gold;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
@@ -126,12 +214,24 @@
     gap: $space-4;
   }
 
-  p { font-size: $text-sm; margin: 0; opacity: 0.5; }
+  p {
+    font-size: $text-sm;
+    margin: 0;
+    opacity: 0.5;
+  }
 
   nav {
     display: flex;
     gap: $space-6;
-    a { font-size: $text-sm; color: rgba($neutral-white, 0.5); text-decoration: none; transition: color 0.2s; &:hover { color: $gold; } }
+    a {
+      font-size: $text-sm;
+      color: rgba($neutral-white, 0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+      &:hover {
+        color: $gold;
+      }
+    }
   }
 }
 
@@ -151,7 +251,9 @@
   gap: $space-2;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.28);
   z-index: 999;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 
   &:hover {
     transform: translateY(-3px);

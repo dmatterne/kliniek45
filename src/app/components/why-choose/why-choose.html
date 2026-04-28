@@ -1,29 +1,51 @@
 <section class="why-choose">
   <div class="container">
-    <h2 class="section-title">Waarom een haartransplantatie bij HaarKliniek 45?</h2>
-    <div class="why-grid">
-      <div class="why-item">
-        <div class="why-icon">🤝</div>
-        <h3>Van A tot Z begeleid</h3>
-        <p>Je hebt één vast aanspreekpunt voor alle vragen en wordt persoonlijk begeleid doorheen het hele traject.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="40" height="27" role="img" aria-label="Belgische vlag">
-            <rect width="1" height="2" x="0" fill="#000"/>
-            <rect width="1" height="2" x="1" fill="#FAE042"/>
-            <rect width="1" height="2" x="2" fill="#ED2939"/>
-          </svg>
+    <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+  </div>
+  <div class="badges-track-wrap" aria-hidden="true">
+    <div class="badges-track">
+      @for (_ of [1, 2]; track _) {
+        <span class="badge-pill">Gratis consult</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Betrouwbaar</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Belgische kliniek</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Gecertificeerde specialisten</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Persoonlijke nazorg</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">10+ jaar ervaring</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Geen verborgen kosten</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Garantiecertificaat</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">100% expertise</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Hoogwaardige faciliteiten</span>
+        <span class="badge-sep">✦</span>
+        <span class="badge-pill">Gediplomeerd</span>
+        <span class="badge-sep">✦</span>
+      }
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="benefits-grid">
+      @for (b of benefits; track b.icon) {
+        <div class="benefit-item">
+          <div class="benefit-icon">
+            <img
+              [src]="'assets/icons/benefit-icons-2024/' + b.icon + '.png'"
+              [alt]="b.label"
+              width="56"
+              height="56"
+            />
+          </div>
+          <span class="benefit-label">{{ b.label }}</span>
         </div>
-        <h3>Belgische specialisten</h3>
-        <p>Ons team van gecertificeerde professionals werkt vanuit België en combineert expertise met lokale nabijheid.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-icon">💎</div>
-        <h3>Kwaliteit & transparantie</h3>
-        <p>Geen verborgen kosten. Je ontvangt een volledig en eerlijk kostenplaatje vóór je beslist.</p>
-      </div>
+      }
     </div>
   </div>
 </section>
-
