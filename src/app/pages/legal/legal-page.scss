@@ -1,0 +1,61 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/spacing' as *;
+@use '../../../styles/typography' as *;
+
+.legal-hero {
+  padding: $space-16 0;
+}
+
+.legal-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: $space-12;
+  align-items: start;
+
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.legal-main {
+  display: grid;
+  gap: $space-8;
+}
+
+.legal-section {
+  padding-bottom: $space-8;
+  border-bottom: 1px solid $neutral-gray-100;
+
+  h2 {
+    font-size: clamp(1.35rem, 2vw, $h3-size);
+    margin-bottom: $space-3;
+  }
+
+  p {
+    max-width: 820px;
+    margin: 0;
+  }
+}
+
+.legal-aside {
+  padding: $space-6;
+  border: 1px solid rgba($primary-green, 0.14);
+  border-radius: 12px;
+  background: $neutral-cream;
+  position: sticky;
+  top: 96px;
+
+  h2 {
+    font-size: $h4-size;
+    margin-bottom: $space-3;
+  }
+
+  p {
+    font-size: $text-sm;
+    line-height: 1.7;
+  }
+
+  @media (max-width: $breakpoint-lg) {
+    position: static;
+  }
+}

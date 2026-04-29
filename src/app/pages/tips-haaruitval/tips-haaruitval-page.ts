@@ -140,7 +140,7 @@ export class TipsHaaruitvalPageComponent {
         'Een TrichoTest is een genetische test die uw persoonlijk haaruitvalprofiel in kaart brengt op basis van uw DNA.',
       detail:
         'De test toont aan of Minoxidil of Finasteride effectief zal zijn voor uw specifieke genetische profiel, welke vitaminen en mineralen uw lichaam extra nodig heeft, en wat de meest kansrijke behandelstrategie is. Dit voorkomt onnodige kosten aan ineffectieve behandelingen.',
-      link: '/behandelingen/dna-test-haaruitval',
+      link: '/haargroei-stimuleren/dna-test-haaruitval',
       linkText: 'Meer over de DNA-test',
       bullets: [],
       featured: true,

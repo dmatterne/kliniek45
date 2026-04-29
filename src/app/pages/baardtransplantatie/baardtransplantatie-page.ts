@@ -25,7 +25,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="partner-callout">
           <strong>ℹ️ Hoe werkt onze samenwerking?</strong>
           HaarKliniek 45 verzorgt uw intake en begeleiding. De baardtransplantatie zelf wordt
-          uitgevoerd door het gecertificeerde team van onze partner Hair Clinic Wolf.
+          uitgevoerd door onze partner Hair Clinic Wolf.
         </div>
       </div>
     </section>
@@ -37,8 +37,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h2>Voor een volle baard</h2>
             <p>
               Heeft u last van een dunne of ontbrekende baard? Overweeg dan een baardtransplantatie
-              bij HaarKliniek 45 in Grazen. Een baardtransplantatie kan kale plekken opvullen of
-              zelfs een volledige baard creeren, wat vaak leidt tot meer zelfvertrouwen. Maar hoe
+              via onze partner Hair Clinic Wolf. Een baardtransplantatie kan kale plekken opvullen
+              of zelfs een volledige baard creeren, wat vaak leidt tot meer zelfvertrouwen. Maar hoe
               werkt een baardtransplantatie eigenlijk? En wat komt er allemaal bij kijken?
             </p>
             <p>
@@ -71,7 +71,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p>
           De procedure wordt uitgevoerd onder plaatselijke verdoving en - ondanks de duur van 4 tot
           8 uur - is deze niet ingrijpend. U ervaart tijdens de ingreep geen pijn. Na de behandeling
-          ontvangt u van ons uitgebreide nazorginstructies om het beste resultaat te garanderen.
+          ontvangt u duidelijke nazorginstructies van de uitvoerende behandelaar en lokale opvolging
+          bij HaarKliniek 45.
         </p>
         <ul class="styled-list">
           <li>
@@ -100,7 +101,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p>
           De haarzakjes kunnen op verschillende manieren worden getransplanteerd. Hoewel FUE vaak
           wordt genoemd als een goede methode voor baardtransplantatie, levert de nieuwste techniek
-          - Direct Hair Implantation (DHI) - uitstekende resultaten. Het gecertificeerde team van
+          - Direct Hair Implantation (DHI) - goede resultaten bij geschikte kandidaten. Het team van
           Hair Clinic Wolf adviseert de beste techniek op basis van uw persoonlijke situatie en
           foto's.
         </p>
@@ -117,15 +118,14 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Keuze van uw nieuwe baardlijn</h2>
         <p>
-          U heeft de vrijheid om de vorm van uw nieuwe baardlijn te kiezen, met deskundig advies van
-          onze arts. Een natuurlijke baard heeft vaak geen strakke rechte of scherpe lijnen, omdat u
-          dit ook met scheren kunt bereiken. De plaatsing en vorm van de baardlijn zijn essentieel
-          voor het uiterlijk van uw gezicht.
+          U bespreekt de gewenste vorm van uw nieuwe baardlijn tijdens de intake en met de
+          uitvoerende partner. Een natuurlijke baard heeft vaak geen strakke rechte of scherpe
+          lijnen, omdat u dit ook met scheren kunt bereiken.
         </p>
         <p>
           Sommigen kiezen een rechte lijn, terwijl anderen de voorkeur geven aan een hogere, rondere
-          lijn om een natuurlijker uiterlijk te behouden. Samen met onze specialist bepaalt u welke
-          baardlijn het beste bij uw gezicht past en het gewenste resultaat bereikt.
+          lijn om een natuurlijker uiterlijk te behouden. Het uiteindelijke plan wordt medisch
+          beoordeeld door Hair Clinic Wolf.
         </p>
       </div>
     </section>
@@ -134,8 +134,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Waarom de DHI-methode voor snor- en baardtransplantatie?</h2>
         <p>
-          Bij HaarKliniek 45 bieden we de DHI-methode aan voor snor- en baardtransplantaties vanwege
-          de volgende voordelen:
+          Via Hair Clinic Wolf kan de DHI-methode voor snor- en baardtransplantaties worden
+          besproken vanwege de volgende voordelen:
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
@@ -243,8 +243,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">12-14m</div>
             <h3>Eindresultaat</h3>
             <p>
-              Na 12 tot 14 maanden is het definitieve, permanente resultaat volledig zichtbaar. Een
-              volle, natuurlijke baard die u een leven lang meegaat.
+              Na 12 tot 14 maanden kan het resultaat meestal goed beoordeeld worden. De uitkomst
+              verschilt per persoon en wordt opgevolgd volgens het advies van de uitvoerende
+              behandelaar.
             </p>
           </div>
         </div>
@@ -261,9 +262,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           verzekeringsmaatschappijen een baardtransplantatie vaak niet.
         </p>
         <p>
-          Kies vandaag nog voor een baardtransplantatie bij HaarKliniek 45 in Grazen en geniet van
-          een volle baard. Heeft u vragen of wilt u een gratis consult? Plan online een afspraak of
-          neem contact met ons op.
+          Start met een vrijblijvende intake bij HaarKliniek 45 in Grazen als u wilt weten of een
+          baardtransplantatie via Hair Clinic Wolf voor u zinvol kan zijn. Heeft u vragen of wilt u
+          een gratis consult? Plan een afspraak of neem contact met ons op.
         </p>
         <h3>Ben ik geschikt voor een baardtransplantatie?</h3>
         <p>

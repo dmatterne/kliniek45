@@ -10,11 +10,11 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   template: `
     <section class="hero">
       <div class="container">
-        <span class="hero__badge">Uw behandeltraject</span>
-        <h1 class="hero__title">Ons behandeltraject bij HaarKliniek 45</h1>
+        <span class="hero__badge">Uw traject</span>
+        <h1 class="hero__title">Uw intake-, behandel- en opvolgtraject</h1>
         <p class="hero__subtitle">
-          Van het eerste gratis consult in Grazen tot nazorg na uw behandeling — transparant,
-          persoonlijk en professioneel.
+          Van het eerste gratis consult in Grazen tot lokale nazorg na een behandeling —
+          transparant, persoonlijk en met een duidelijke rolverdeling.
         </p>
         <div class="hero__actions">
           <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -26,11 +26,11 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--white">
       <div class="container">
         <div class="section__header">
-          <h2>Uw behandeltraject in 6 stappen</h2>
+          <h2>Uw traject in 6 stappen</h2>
           <div class="section__divider"></div>
           <p class="section__lead">
-            Wij begeleiden u van A tot Z. Hieronder leest u precies wat u kunt verwachten — zodat u
-            volledig voorbereid bent.
+            Hieronder leest u wat u van HaarKliniek 45 kunt verwachten en wanneer Hair Clinic Wolf
+            in beeld komt voor chirurgische uitvoering.
           </p>
         </div>
         <div class="timeline">
@@ -67,11 +67,11 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="section section--cream">
       <div class="container">
         <div class="section__header">
-          <h2>Herstelschema na de behandeling</h2>
+          <h2>Algemene herstelinformatie</h2>
           <div class="section__divider"></div>
           <p class="section__lead">
-            Elk herstelproces is uniek, maar onderstaande tijdlijn geeft een goed beeld van wat u
-            kunt verwachten.
+            Elk herstelproces is uniek. Onderstaande tijdlijn is algemene informatie en vervangt
+            nooit de persoonlijke instructies van de uitvoerende behandelaar.
           </p>
         </div>
         <div class="recovery-timeline">
@@ -97,8 +97,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h2>Dos &amp; Don&apos;ts na uw behandeling</h2>
           <div class="section__divider"></div>
           <p class="section__lead">
-            Een goede nazorg is cruciaal voor het beste resultaat. Volg deze richtlijnen zorgvuldig
-            op.
+            Een goede nazorg ondersteunt het herstel. Volg altijd de persoonlijke instructies van de
+            uitvoerende behandelaar.
           </p>
         </div>
         <div class="dos-donts-grid">
@@ -146,8 +146,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h2>Klaar om uw traject te starten?</h2>
           <div class="section__divider section__divider--light"></div>
           <p class="section__lead section__lead--light">
-            Plan vandaag nog uw gratis consult bij HaarKliniek 45 in Grazen. Geen verplichtingen —
-            alleen eerlijk advies.
+            Plan vandaag nog uw gratis consult bij HaarKliniek 45 in Grazen. Geen verplichtingen,
+            wel duidelijk advies over lokale opties en partnertrajecten.
           </p>
         </div>
         <div class="hero__actions">
@@ -209,7 +209,7 @@ export class WerkwijzePageComponent {
       number: 2,
       icon: 'assets/icons/process-icons-2025/expertise.png',
       title: 'Intake & haaranalyse',
-      desc: "Tijdens de intake maken we gedetailleerde foto's en analyseren we uw haaruitvalpatroon. Op basis hiervan stellen we een persoonlijk behandelplan op.",
+      desc: "Tijdens de intake bespreken we uw haaruitvalpatroon, maken we indien nodig foto's en brengen we uw vragen in kaart. Op basis hiervan adviseren we de passende vervolgstap.",
       tags: ['Haaranalyse', 'Vertrouwelijk dossier', 'Persoonlijk plan'],
     },
     {
@@ -237,7 +237,7 @@ export class WerkwijzePageComponent {
       number: 6,
       icon: 'assets/icons/benefit-icons-2024/haargroei-stimuleren.png',
       title: 'Nazorg in België',
-      desc: 'Na uw behandeling — of dat nu bij ons of bij Hair Clinic Wolf was — staat HaarKliniek 45 klaar voor uw nazorg. We volgen uw herstel op en zijn uw Belgische aanspreekpunt voor al uw vragen.',
+      desc: 'Na uw behandeling — lokaal of via Hair Clinic Wolf — staat HaarKliniek 45 klaar voor opvolging. We helpen met praktische nazorgvragen en verwijzen bij medische vragen terug naar de uitvoerende behandelaar.',
       tags: ['Nazorg in Grazen', 'Belgisch aanspreekpunt', 'Opvolging herstel'],
     },
   ];
@@ -274,8 +274,8 @@ export class WerkwijzePageComponent {
     {
       period: 'Maand 12',
       title: 'Definitief resultaat',
-      desc: 'Na 12 maanden is het definitieve resultaat zichtbaar. Sommige patienten zien zelfs tot 18 maanden verdere verbetering. Het getransplanteerde haar groeit permanent en kan gewassen, geknipt en gestyled worden zoals uw eigen haar.',
-      badge: 'Definitief resultaat',
+      desc: 'Veel resultaten worden pas na 12 tot 18 maanden goed beoordeeld. De timing en kwaliteit van het resultaat verschillen per persoon en worden opgevolgd volgens het advies van de uitvoerende behandelaar.',
+      badge: 'Evaluatiemoment',
       badgeType: 'success',
     },
   ];

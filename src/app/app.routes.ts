@@ -29,6 +29,7 @@ import { HaaruitvalPageComponent } from './pages/haaruitval/haaruitval-page';
 import { HaaruitvalManPageComponent } from './pages/haaruitval-man/haaruitval-man-page';
 import { TipsHaaruitvalPageComponent } from './pages/tips-haaruitval/tips-haaruitval-page';
 import { NotFoundPageComponent } from './pages/not-found/not-found-page';
+import { LegalPageComponent } from './pages/legal/legal-page';
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -95,6 +96,11 @@ export const routes: Routes = [
   // Werkwijze & Contact
   { path: 'werkwijze', component: WerkwijzePageComponent },
   { path: 'contact', component: ContactPageComponent },
+
+  // Legal
+  { path: 'privacybeleid', component: LegalPageComponent, data: { page: 'privacy' } },
+  { path: 'cookiebeleid', component: LegalPageComponent, data: { page: 'cookies' } },
+  { path: 'algemene-voorwaarden', component: LegalPageComponent, data: { page: 'voorwaarden' } },
 
   { path: '**', component: NotFoundPageComponent },
 ];

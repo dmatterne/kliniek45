@@ -13,8 +13,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h1>Haartransplantatie Kosten</h1>
         <p class="hero-subtitle">
-          Transparante prijzen zonder verborgen kosten. Bij HaarKliniek 45 in Grazen ontvangt u een
-          persoonlijke prijsopgave op maat.
+          Heldere uitleg over kostenfactoren. Bij HaarKliniek 45 in Grazen krijgt u een eerste
+          inschatting en begeleiding richting een partnertraject via Hair Clinic Wolf.
         </p>
       </div>
     </section>
@@ -34,8 +34,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               De prijzen voor een haartransplantatie kunnen flink varieren. In sommige Europese
               landen kunnen de kosten oplopen tot wel 16.000 euro. Verzekeraars vergoeden dit
               doorgaans niet, omdat het wordt gezien als een cosmetische ingreep. Bij HaarKliniek 45
-              in Grazen hanteren we transparante en eerlijke prijzen op maat, zonder financiele
-              verrassingen achteraf.
+              in Grazen krijgt u duidelijke uitleg over de kostenfactoren, zonder verkoopdruk.
             </p>
           </div>
           <div class="image-block">
@@ -78,31 +77,30 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <strong>1. Waar u de behandeling laat uitvoeren:</strong>
             De levenskosten in het gebied waar u uw haartransplantatie overweegt, beinvloeden de
             prijs. Ook varieren de tarieven per kliniek en regio. Bij HaarKliniek 45 in Grazen
-            profiteert u van een eerlijke Belgische prijs zonder reiskosten naar het buitenland.
+            krijgt u lokaal advies voordat u beslist over een partnertraject.
           </li>
           <li>
             <strong>2. Type behandeling:</strong>
             Er zijn verschillende technieken, zoals FUE Saffier en DHI. Elke techniek heeft zijn
-            eigen indicaties en prijspunt. Onze specialisten adviseren u welke methode het beste bij
-            uw situatie past.
+            eigen indicaties en prijspunt. Wij leggen de verschillen uit en verwijzen voor medische
+            beoordeling naar Hair Clinic Wolf.
           </li>
           <li>
             <strong>3. Vaardigheid van de chirurg:</strong>
-            Een ervaren en gecertificeerde chirurg kan meer kosten, maar hogere prijzen betekenen
-            niet altijd betere vaardigheden. Bij HaarKliniek 45 werkt u altijd met het
-            gecertificeerde team van Hair Clinic Wolf.
+            Een ervaren chirurg kan meer kosten, maar hogere prijzen betekenen niet altijd betere
+            vaardigheden. De chirurgische beoordeling en uitvoering verlopen via Hair Clinic Wolf.
           </li>
           <li>
             <strong>4. Hoeveel haar er verplaatst wordt:</strong>
             Veel klinieken bepalen de prijs aan de hand van het aantal te verplaatsen grafts. Een
-            klein behandelgebied zoals inhammen kost minder dan een volledige kronbehandeling. Bij
-            HaarKliniek 45 werken we met transparante totaalpakketten.
+            klein behandelgebied zoals inhammen kost minder dan een volledige kruinbehandeling. De
+            uiteindelijke prijs hangt af van de beoordeling en het aantal grafts.
           </li>
           <li>
             <strong>5. Bijkomende kosten:</strong>
             Als u kiest voor een behandeling in het buitenland, let dan op of reis- en
-            verblijfkosten inbegrepen zijn. Bij HaarKliniek 45 in Grazen zijn er geen bijkomende
-            reiskosten - wij zijn uw lokale Belgische kliniek.
+            verblijfkosten inbegrepen zijn. Een lokale intake in Grazen helpt u vooraf duidelijkheid
+            te krijgen over praktische kosten en verwachtingen.
           </li>
         </ul>
       </div>
@@ -117,16 +115,17 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h3>De consultatie</h3>
             <p>
               Tijdens het gratis consultatiegesprek in Grazen bespreken we al uw wensen. We voeren
-              ook een gratis hoofd- en haaranalyse uit en geven u een persoonlijke prijsopgave.
+              een eerste hoofd- en haarbespreking en geven u uitleg over de mogelijke
+              kostenfactoren.
             </p>
           </div>
           <div class="step-card">
             <div class="step-number">02</div>
             <h3>Start behandeling</h3>
             <p>
-              U ontvangt van ons duidelijke richtlijnen om de behandeling zo effectief mogelijk te
-              laten verlopen. De haartransplantatie wordt uitgevoerd door Hair Clinic Wolf in
-              Nederland of Turkije. HaarKliniek 45 begeleidt u voor en na de ingreep.
+              U ontvangt van ons duidelijke richtlijnen voor voorbereiding. De haartransplantatie
+              wordt uitgevoerd door Hair Clinic Wolf in Nederland of Turkije. HaarKliniek 45
+              begeleidt u voor en na de ingreep.
             </p>
           </div>
           <div class="step-card">
@@ -162,16 +161,16 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="benefit-icon">🔬</div>
             <h3>Hoofd- en haaranalyse</h3>
             <p>
-              We voeren gratis een professionele hoofd- en haaranalyse uit om uw situatie volledig
-              te beoordelen.
+              We bespreken uw hoofd- en haarsituatie zodat u weet welke vervolgstap logisch kan
+              zijn.
             </p>
           </div>
           <div class="benefit-card">
             <div class="benefit-icon">💰</div>
             <h3>Persoonlijke prijsopgave</h3>
             <p>
-              U ontvangt een prijsopgave op maat, specifiek voor uw situatie. Geen standaardprijzen,
-              maar een eerlijke berekening.
+              U krijgt uitleg over de kostenfactoren en wanneer een concrete offerte via het
+              partnertraject nodig is.
             </p>
           </div>
           <div class="benefit-card">
@@ -208,8 +207,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             behandelingen voeren wij zelf uit in ons adviescentrum
           </li>
           <li>
-            <strong>Gecertificeerde chirurgen via Hair Clinic Wolf:</strong> De transplantaties
-            worden uitgevoerd door het ervaren, gecertificeerde team van Hair Clinic Wolf
+            <strong>Chirurgische uitvoering via Hair Clinic Wolf:</strong> De transplantaties worden
+            beoordeeld en uitgevoerd door Hair Clinic Wolf
           </li>
           <li>
             <strong>Belgisch aanspreekpunt:</strong> Na uw ingreep blijft u bij ons terecht voor

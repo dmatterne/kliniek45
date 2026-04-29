@@ -93,7 +93,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <li>Minimale ongemakken, geen revalidatie</li>
                 <li>3 sessies met tussenpozen van 4–6 weken</li>
               </ul>
-              <a routerLink="/behandelingen/prp-behandeling" class="btn btn-outline"
+              <a routerLink="/haargroei-stimuleren/prp-behandeling" class="btn btn-outline"
                 >Meer over PRP</a
               >
             </div>
@@ -116,7 +116,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <li>Zichtbaar resultaat na 4–6 weken</li>
                 <li>Combineerbaar met PRP en Regenera Activa</li>
               </ul>
-              <a routerLink="/behandelingen/hairegen" class="btn btn-outline">Meer over Hairegen</a>
+              <a routerLink="/haargroei-stimuleren/hairegen" class="btn btn-outline"
+                >Meer over Hairegen</a
+              >
             </div>
           </div>
 
@@ -137,7 +139,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <li>Geen synthetische stoffen — 100&nbsp;% eigen materiaal</li>
                 <li>Resultaten zichtbaar na 2–4 maanden</li>
               </ul>
-              <a routerLink="/behandelingen/regenera-activa" class="btn btn-outline"
+              <a routerLink="/haargroei-stimuleren/regenera-activa" class="btn btn-outline"
                 >Meer over Regenera Activa</a
               >
             </div>
@@ -160,7 +162,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <li>Inzicht in de progressie van haaruitval</li>
                 <li>Slechts één afname — eenvoudig en snel</li>
               </ul>
-              <a routerLink="/behandelingen/dna-test-haaruitval" class="btn btn-outline"
+              <a routerLink="/haargroei-stimuleren/dna-test-haaruitval" class="btn btn-outline"
                 >Meer over de DNA-test</a
               >
             </div>

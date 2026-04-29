@@ -17,15 +17,15 @@ HaarKliniek45 should not duplicate that provider voice. The site should instead 
 
 ## Business And Content Findings
 
-| Area | Current risk | Recommended direction |
-| --- | --- | --- |
-| Homepage hero | Mostly clear, but the promise focuses on "hair back" before the role split. | Keep the consult-first message and explicitly mention Belgian intake plus Hair Clinic Wolf for surgical execution. |
-| Treatments overview | "Onze behandelingen" can imply HaarKliniek45 owns every surgical treatment. | Rename/reframe to "Advies, behandelingen en partnertrajecten" or clearly split "Bij ons in Grazen" from "Via Hair Clinic Wolf". |
-| Surgical pages | DHI and FUE pages contained wording such as treatment in HaarKliniek45's clinic in Grazen and "wij behandelen". | Reframe as information/referral pages: HaarKliniek45 explains, screens, prepares, and follows up; Hair Clinic Wolf performs the procedure. |
-| Results and reviews | Hair Clinic Wolf results/reviews are valuable but sensitive. | Attribute all surgical results to Hair Clinic Wolf and do not imply HaarKliniek45 produced them. Do not reuse reviews unless approved. |
-| Trust badges | "Gecertificeerde specialisten", "Garantiecertificaat", "100% expertise", "Hoogwaardige faciliteiten", and "Gediplomeerd" are risky without proof. | Use safer trust signals: Belgian adviescentrum, partner Hair Clinic Wolf, persoonlijke begeleiding, lokale opvolging, duidelijke rolverdeling, discrete aanpak. |
-| Claims | Phrases like permanent, guaranteed, no scars, painless, maximum density, no recovery, and best results need caution. | Use qualified language: "kan", "doorgaans", "afhankelijk van jouw situatie", and "wordt beoordeeld tijdens consult". |
-| Routing | Some non-surgical treatment links point to `/behandelingen/...` even though the Angular routes are under `/haargroei-stimuleren/...`. | Update links to the actual route paths. |
+| Area                | Current risk                                                                                                                                      | Recommended direction                                                                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Homepage hero       | Mostly clear, but the promise focuses on "hair back" before the role split.                                                                       | Keep the consult-first message and explicitly mention Belgian intake plus Hair Clinic Wolf for surgical execution.                                              |
+| Treatments overview | "Onze behandelingen" can imply HaarKliniek45 owns every surgical treatment.                                                                       | Rename/reframe to "Advies, behandelingen en partnertrajecten" or clearly split "Bij ons in Grazen" from "Via Hair Clinic Wolf".                                 |
+| Surgical pages      | DHI and FUE pages contained wording such as treatment in HaarKliniek45's clinic in Grazen and "wij behandelen".                                   | Reframe as information/referral pages: HaarKliniek45 explains, screens, prepares, and follows up; Hair Clinic Wolf performs the procedure.                      |
+| Results and reviews | Hair Clinic Wolf results/reviews are valuable but sensitive.                                                                                      | Attribute all surgical results to Hair Clinic Wolf and do not imply HaarKliniek45 produced them. Do not reuse reviews unless approved.                          |
+| Trust badges        | "Gecertificeerde specialisten", "Garantiecertificaat", "100% expertise", "Hoogwaardige faciliteiten", and "Gediplomeerd" are risky without proof. | Use safer trust signals: Belgian adviescentrum, partner Hair Clinic Wolf, persoonlijke begeleiding, lokale opvolging, duidelijke rolverdeling, discrete aanpak. |
+| Claims              | Phrases like permanent, guaranteed, no scars, painless, maximum density, no recovery, and best results need caution.                              | Use qualified language: "kan", "doorgaans", "afhankelijk van jouw situatie", and "wordt beoordeeld tijdens consult".                                            |
+| Routing             | Some non-surgical treatment links point to `/behandelingen/...` even though the Angular routes are under `/haargroei-stimuleren/...`.             | Update links to the actual route paths.                                                                                                                         |
 
 ## Design And Brand Findings
 
@@ -33,17 +33,17 @@ The dark green and gold combination suits a premium hair clinic brand when the g
 
 Recommended color system:
 
-| Role | Color | Use |
-| --- | --- | --- |
-| Primary dark green | `#123f39` | Header, hero, footer, primary brand surfaces |
-| Deep green | `#0b2f2a` | Dark overlays, hover states, strong contrast |
-| Refined green | `#27685d` | Secondary accents, icons, cards |
-| Refined gold | `#b88a2c` | CTA backgrounds, section rules, premium highlights |
-| Dark gold | `#8f681d` | Gold text/link hover on light backgrounds |
-| Pale gold | `#f4ead2` | Soft callouts and hover backgrounds |
-| Warm white | `#fffdf9` | Main page background |
-| Soft neutral | `#f7f4ee` | Alternating sections |
-| Text | `#302f2a` / `#625f55` | Body and muted copy |
+| Role               | Color                 | Use                                                |
+| ------------------ | --------------------- | -------------------------------------------------- |
+| Primary dark green | `#123f39`             | Header, hero, footer, primary brand surfaces       |
+| Deep green         | `#0b2f2a`             | Dark overlays, hover states, strong contrast       |
+| Refined green      | `#27685d`             | Secondary accents, icons, cards                    |
+| Refined gold       | `#b88a2c`             | CTA backgrounds, section rules, premium highlights |
+| Dark gold          | `#8f681d`             | Gold text/link hover on light backgrounds          |
+| Pale gold          | `#f4ead2`             | Soft callouts and hover backgrounds                |
+| Warm white         | `#fffdf9`             | Main page background                               |
+| Soft neutral       | `#f7f4ee`             | Alternating sections                               |
+| Text               | `#302f2a` / `#625f55` | Body and muted copy                                |
 
 Designer recommendations:
 
@@ -61,6 +61,8 @@ Designer recommendations:
 - Rewrote high-risk DHI and FUE copy so treatment execution is attributed to Hair Clinic Wolf.
 - Replaced risky repeated trust badge labels with safer partnership and guidance claims.
 - Corrected non-surgical internal links to the existing `/haargroei-stimuleren/...` route structure.
+- Added dedicated privacy, cookie, and general-terms pages and connected the footer links.
+- Softened additional cost, FAQ, results, workflow, and beard-transplant content so it avoids unsupported guarantees and keeps surgical execution with Hair Clinic Wolf.
 
 ## Follow-Up Recommendations
 

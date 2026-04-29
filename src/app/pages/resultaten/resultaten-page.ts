@@ -14,8 +14,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p class="hero-eyebrow">Resultaten</p>
         <h1>Resultaten</h1>
         <p class="hero-subtitle">
-          Eerlijke, onbewerkte voor-en-na-foto&rsquo;s van echte patiënten van HaarKliniek 45 in
-          Grazen, België. Geen filters, geen Photoshop — enkel authentieke resultaten.
+          HaarKliniek 45 documenteert toekomstige lokale behandelingen zorgvuldig. Chirurgische
+          haartransplantatieresultaten worden steeds aan de uitvoerende partner Hair Clinic Wolf
+          toegeschreven.
         </p>
       </div>
     </section>
@@ -55,9 +56,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="cta-box">
           <h2>Wil je weten wat wij voor jou kunnen doen?</h2>
           <p>
-            Tijdens een gratis en volledig vrijblijvend consult analyseert onze specialist uw
-            haaruitval, het donorgebied en uw verwachtingen. Zo ontvangt u een eerlijk en
-            gepersonaliseerd advies — zonder verplichtingen.
+            Tijdens een gratis en volledig vrijblijvend consult bespreken we uw haaruitval,
+            verwachtingen en mogelijke vervolgstappen. Zo ontvangt u eerlijk advies over lokale
+            opties en eventuele doorverwijzing — zonder verplichtingen.
           </p>
           <div class="cta-actions">
             <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>

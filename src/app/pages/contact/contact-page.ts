@@ -125,16 +125,17 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h2>Plan nu uw gratis en vrijblijvende consultatie</h2>
             <p>
               Tijdens een persoonlijk consult bij HaarKliniek 45 in Grazen nemen we 30 tot 45
-              minuten de tijd om uw situatie grondig te bespreken. Onze specialist bekijkt uw
-              haarsituatie, bespreekt de mogelijke behandelingen en stelt een persoonlijk
-              behandelplan op. U ontvangt een gedetailleerde offerte — geheel zonder verplichting.
+              minuten de tijd om uw situatie rustig te bespreken. We bekijken uw haarsituatie,
+              lichten mogelijke lokale behandelingen toe en bespreken wanneer een partnertraject via
+              Hair Clinic Wolf zinvol kan zijn. U ontvangt duidelijke vervolgstappen — geheel zonder
+              verplichting.
             </p>
             <ul class="consult-bullets">
               <li>30–45 minuten persoonlijk gesprek</li>
               <li>Grondige analyse van uw haarsituatie</li>
               <li>Overzicht van mogelijke behandelingen</li>
-              <li>Persoonlijk behandelplan op maat</li>
-              <li>Gedetailleerde offerte zonder verplichting</li>
+              <li>Duidelijk advies over lokale opties en partnertrajecten</li>
+              <li>Vervolgstappen zonder verplichting</li>
             </ul>
             <div class="consult-cta-actions">
               <a href="tel:+32485593302" class="btn btn-primary">Bel voor een afspraak</a>

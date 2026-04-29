@@ -18,7 +18,7 @@ interface FaqItem {
       <div class="container">
         <h1>Veelgestelde Vragen</h1>
         <p class="subtitle">
-          Alles wat u wilt weten over haartransplantatie bij HaarKliniek 45 in Grazen, België
+          Alles over intake, lokale begeleiding, nazorg en partnertrajecten via Hair Clinic Wolf
         </p>
       </div>
     </section>
@@ -28,7 +28,7 @@ interface FaqItem {
         <p class="intro-text">
           Heeft u vragen over haartransplantatie, onze technieken of de nazorg? Hieronder vindt u
           antwoord op de meest gestelde vragen. Staat uw vraag er niet bij? Neem dan vrijblijvend
-          contact op — onze specialist helpt u graag persoonlijk verder.
+          contact op — we helpen u graag persoonlijk verder.
         </p>
       </div>
     </section>
@@ -62,8 +62,8 @@ interface FaqItem {
       <div class="container">
         <h2>Nog steeds vragen?</h2>
         <p>
-          Onze specialist staat klaar voor een gratis en vrijblijvend gesprek. Wij beantwoorden al
-          uw vragen persoonlijk.
+          Wij staan klaar voor een gratis en vrijblijvend gesprek en beantwoorden uw vragen
+          persoonlijk.
         </p>
         <div class="cta-buttons">
           <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -126,17 +126,17 @@ export class FaqPageComponent {
         },
         {
           q: 'Hoe lang blijft het resultaat?',
-          a: 'Het resultaat van een haartransplantatie is permanent. De getransplanteerde haren zijn afkomstig uit het donorgebied dat genetisch resistent is tegen DHT — het hormoon dat haaruitval veroorzaakt. Ze blijven dus voor de rest van uw leven groeien.',
+          a: 'Getransplanteerde haren komen uit een donorgebied dat doorgaans minder gevoelig is voor erfelijke haaruitval. Hoe lang en hoe goed het resultaat zichtbaar blijft, verschilt per persoon en wordt besproken door de uitvoerende behandelaar.',
           open: false,
         },
         {
           q: 'Hoeveel grafts heb ik nodig?',
-          a: 'Dit hangt af van de mate van haaruitval en de gewenste dichtheid. Voor een kleine behandelzone zijn 1.000 tot 1.500 grafts voldoende; voor grotere zones gaat dit richting 3.000 tot 4.500 of meer. Tijdens het gratis consult bepalen wij nauwkeurig het benodigde aantal grafts voor uw situatie.',
+          a: 'Dit hangt af van de mate van haaruitval en de gewenste dichtheid. Voor een kleine behandelzone zijn 1.000 tot 1.500 grafts voldoende; voor grotere zones gaat dit richting 3.000 tot 4.500 of meer. Tijdens het gratis consult maken we een eerste inschatting en stemmen we de medische beoordeling af met Hair Clinic Wolf.',
           open: false,
         },
         {
           q: 'Wat kost een haartransplantatie?',
-          a: 'De prijs hangt af van het aantal grafts en de gekozen techniek. Tijdens het gratis consult ontvangt u een gepersonaliseerde offerte op maat — geen verborgen kosten, volledige transparantie.',
+          a: 'De prijs hangt af van het aantal grafts en de gekozen techniek. Tijdens het gratis consult krijgt u uitleg over de kostenfactoren. Een concrete prijsopgave hangt af van de beoordeling en het traject via Hair Clinic Wolf.',
           open: false,
         },
       ],
@@ -146,22 +146,22 @@ export class FaqPageComponent {
       items: [
         {
           q: 'Ben ik een goede kandidaat voor een haartransplantatie?',
-          a: 'Goede kandidaten hebben een stabiele haaruitval, voldoende donordichtheid en zijn minimaal 23 tot 25 jaar oud. Onze specialist beoordeelt uw situatie uitgebreid tijdens het gratis consult en adviseert u eerlijk over de mogelijkheden en verwachtingen.',
+          a: 'Goede kandidaten hebben een stabiele haaruitval, voldoende donordichtheid en zijn minimaal 23 tot 25 jaar oud. Wij bespreken uw situatie tijdens het gratis consult en verwijzen voor medische beoordeling naar Hair Clinic Wolf wanneer een transplantatie relevant is.',
           open: false,
         },
         {
           q: 'Kunnen vrouwen ook een haartransplantatie ondergaan?',
-          a: 'Ja, een haartransplantatie is ook voor vrouwen effectief bij bepaalde types haaruitval. De planning verschilt van die bij mannen omdat haaruitval bij vrouwen vaak diffuser van aard is. Onze specialist bespreekt de opties specifiek voor uw situatie.',
+          a: 'Ja, een haartransplantatie is ook voor vrouwen effectief bij bepaalde types haaruitval. De planning verschilt van die bij mannen omdat haaruitval bij vrouwen vaak diffuser van aard is. Wij bespreken de opties voor uw situatie en verwijzen door wanneer chirurgische beoordeling nodig is.',
           open: false,
         },
         {
           q: 'Is er een maximumleeftijd voor een haartransplantatie?',
-          a: 'Er is geen strikte maximumleeftijd. Zolang u in goede gezondheid verkeert en over voldoende donormateriaal beschikt, zijn er mogelijkheden. Onze specialist bespreekt graag de opties met u, ongeacht uw leeftijd.',
+          a: 'Er is geen strikte maximumleeftijd. Zolang u in goede gezondheid verkeert en over voldoende donormateriaal beschikt, zijn er mogelijkheden. Wij bespreken graag de opties met u en verwijzen door wanneer chirurgische beoordeling nodig is.',
           open: false,
         },
         {
           q: 'Kan ik een haartransplantatie ondergaan als ik medicijnen gebruik?',
-          a: 'Dit hangt af van het type medicatie. Bespreek uw medicijngebruik altijd met onze specialist. Sommige medicijnen — zoals bloedverdunners — dienen mogelijk tijdelijk gestopt te worden in overleg met uw huisarts. Stop nooit eigenhandig met medicatie.',
+          a: 'Dit hangt af van het type medicatie. Bespreek uw medicijngebruik altijd met de uitvoerende behandelaar en vermeld dit ook tijdens uw intake. Sommige medicijnen — zoals bloedverdunners — dienen mogelijk tijdelijk gestopt te worden in overleg met uw huisarts. Stop nooit eigenhandig met medicatie.',
           open: false,
         },
       ],
@@ -181,7 +181,7 @@ export class FaqPageComponent {
         },
         {
           q: 'Kan ik ook een baardtransplantatie laten doen?',
-          a: 'Ja, via onze partner Hair Clinic Wolf is een baardtransplantatie mogelijk. Na uw intake bij HaarKliniek 45 in Grazen verwijzen wij u door naar hun gecertificeerde team.',
+          a: 'Ja, via onze partner Hair Clinic Wolf is een baardtransplantatie mogelijk. Na uw intake bij HaarKliniek 45 in Grazen verwijzen wij u door voor verdere beoordeling.',
           open: false,
         },
       ],
