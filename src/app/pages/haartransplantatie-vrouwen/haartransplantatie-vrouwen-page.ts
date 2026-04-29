@@ -281,7 +281,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             vrijblijvend
           </li>
           <li>
-            <strong>Belgische kliniek:</strong> Geen reis- of verblijfkosten naar het buitenland
+            <strong>Lokale intake:</strong> Uw intake en nazorg verlopen bij ons in Grazen — geen taalbarrière
           </li>
         </ul>
       </div>
@@ -340,7 +340,7 @@ export class HaartransplantatieVrouwenPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',

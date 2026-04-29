@@ -227,7 +227,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="cta-info-badge">
               <span class="cta-badge-icon">🏥</span>
               <div>
-                <strong>Belgische kliniek</strong>
+                <strong>Haaradviescentrum</strong>
                 <span>Verdaelstraat 45, 3450 Grazen</span>
               </div>
             </div>
@@ -293,7 +293,7 @@ export class ContactPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',

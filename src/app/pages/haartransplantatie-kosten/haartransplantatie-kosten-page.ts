@@ -188,36 +188,36 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="content-section alt-bg">
       <div class="container">
-        <h2>Waarom kiezen voor een Belgische kliniek?</h2>
+        <h2>Waarom uw traject starten bij HaarKliniek 45?</h2>
         <p>
-          Steeds meer mensen overwegen een haartransplantatie in het buitenland. Hoewel de prijzen
-          soms lager lijken, zijn er ook aanzienlijke voordelen aan een behandeling bij een
-          Belgische kliniek zoals HaarKliniek 45 in Grazen.
+          HaarKliniek 45 is geen uitvoerende kliniek, maar uw Belgische intake- en adviespartner.
+          U start uw traject bij ons in Grazen; de haartransplantatie zelf wordt uitgevoerd door
+          onze partner Hair Clinic Wolf in Nederland of Turkije.
         </p>
         <ul class="styled-list">
           <li>
-            <strong>Geen reiskosten:</strong> U hoeft niet naar het buitenland - bespaar op
-            vluchten, hotels en verlies van werkdagen
+            <strong>Eerlijk en onafhankelijk advies:</strong> Jens Vandenreijt beoordeelt uw
+            situatie objectief — ook als een transplantatie niet de beste optie voor u is
           </li>
           <li>
-            <strong>Lokale nazorg:</strong> Onze specialisten staan bij u in de buurt voor opvolging
-            en eventuele vervolgbehandelingen
+            <strong>Lokale intake en nazorg:</strong> Uw intake, haaranalyse en nazorg verlopen
+            bij ons in Grazen — in uw eigen taal, dicht bij huis
           </li>
           <li>
-            <strong>Belgische kwaliteitsnormen:</strong> Wij werken conform de strenge Belgische en
-            Europese gezondheidsnormen
+            <strong>Non-chirurgische behandelingen lokaal:</strong> PRP, Hairegen, MHP en andere
+            behandelingen voeren wij zelf uit in ons adviescentrum
           </li>
           <li>
-            <strong>Persoonlijk contact:</strong> U heeft altijd direct contact met uw behandelaar -
-            geen taalbarriere
+            <strong>Gecertificeerde chirurgen via Hair Clinic Wolf:</strong> De transplantaties
+            worden uitgevoerd door het ervaren, gecertificeerde team van Hair Clinic Wolf
           </li>
           <li>
-            <strong>Vertrouwdheid:</strong> U wordt behandeld in uw eigen omgeving, zonder de stress
-            van een buitenlandse reis
+            <strong>Belgisch aanspreekpunt:</strong> Na uw ingreep blijft u bij ons terecht voor
+            vragen, opvolging en vervolgbehandelingen — geen communicatieproblemen
           </li>
           <li>
-            <strong>Volledige begeleiding:</strong> Van consultatie tot nazorg, alles wordt bij ons
-            lokaal geregeld
+            <strong>Transparante kostenoverzichten:</strong> Wij geven u een helder beeld van alle
+            kosten vóór u een beslissing neemt — geen verborgen tarieven
           </li>
         </ul>
       </div>
@@ -270,7 +270,7 @@ export class HaartransplantatieKostenPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',

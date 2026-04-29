@@ -294,7 +294,7 @@ export class HaartransplantatieMannenPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',

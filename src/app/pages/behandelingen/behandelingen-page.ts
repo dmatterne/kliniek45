@@ -308,8 +308,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h2>Welke behandeling past bij jou?</h2>
           <p>
             Ieder geval van haaruitval is uniek. Tijdens een gratis en volledig vrijblijvend consult
-            analyseren onze Belgische specialisten uw situatie, het donorgebied en uw persoonlijke
-            wensen — en adviseren de meest geschikte behandeling voor uw budget en verwachtingen.
+            analyseert Jens Vandenreijt uw situatie en persoonlijke wensen — en adviseert de meest geschikte behandeling voor uw budget en verwachtingen. Non-chirurgische behandelingen voeren wij lokaal uit; haartransplantaties verlopen via onze partner Hair Clinic Wolf.
           </p>
           <div class="cta-actions">
             <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -343,7 +342,7 @@ export class BehandelingenPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Gecertificeerde specialisten',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',

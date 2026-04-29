@@ -266,7 +266,7 @@ export class OverOnsPageComponent {
   trustBadges = [
     'Gratis consult',
     'Betrouwbaar',
-    'Belgische kliniek',
+    'Belgisch adviescentrum',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
     'Haarspecialist',
