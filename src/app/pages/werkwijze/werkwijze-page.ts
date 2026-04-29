@@ -43,7 +43,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 }
               </div>
               <div class="timeline-step__body">
-                <div class="timeline-step__icon">{{ step.icon }}</div>
+                <div class="timeline-step__icon">
+                  <img [src]="step.icon" [alt]="step.title" width="48" height="48" />
+                </div>
                 <div class="timeline-step__content">
                   <h3 class="timeline-step__title">{{ step.title }}</h3>
                   <p class="timeline-step__desc">{{ step.desc }}</p>
@@ -198,42 +200,42 @@ export class WerkwijzePageComponent {
   timelineSteps = [
     {
       number: 1,
-      icon: '💬',
+      icon: 'assets/icons/process-icons-2025/gratis-consult.png',
       title: 'Gratis consult',
       desc: 'Plan een gratis en vrijblijvend kennismakingsgesprek bij ons in Grazen. Jens Vandenreijt bespreekt uw situatie, uw wensen en beantwoordt al uw vragen.',
       tags: ['Gratis', 'Vrijblijvend', 'Bij ons in Grazen'],
     },
     {
       number: 2,
-      icon: '📸',
+      icon: 'assets/icons/process-icons-2025/gratis-hoofd-haar-analyse.png',
       title: 'Intake & haaranalyse',
       desc: "Tijdens de intake maken we gedetailleerde foto's en analyseren we uw haaruitvalpatroon. Op basis hiervan stellen we een persoonlijk behandelplan op.",
       tags: ['Haaranalyse', 'Vertrouwelijk dossier', 'Persoonlijk plan'],
     },
     {
       number: 3,
-      icon: '📋',
+      icon: 'assets/icons/process-icons-2025/expertise.png',
       title: 'Behandelplan & advies',
       desc: 'U ontvangt een helder behandelplan met advies over non-chirurgische behandelingen (PRP, Hairegen, MHP, etc.) en — indien van toepassing — een verwijzing naar onze partner Hair Clinic Wolf voor een haartransplantatie.',
       tags: ['Eerlijk advies', 'Non-chirurgische opties', 'Doorverwijzing indien nodig'],
     },
     {
       number: 4,
-      icon: '💚',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Non-chirurgische behandeling (optioneel)',
       desc: 'Indien u kiest voor non-chirurgische behandelingen, voeren we deze uit in onze kliniek in Grazen. Denk aan PRP-therapie, Hairegen, Micro Haarpigmentatie of Regenera Activa.',
       tags: ['PRP', 'Hairegen', 'MHP', 'Regenera Activa'],
     },
     {
       number: 5,
-      icon: '✂️',
+      icon: 'assets/icons/process-icons-2025/implanteren-grafts.png',
       title: 'Haartransplantatie bij Hair Clinic Wolf (optioneel)',
       desc: 'Kiest u voor een haartransplantatie? Dan verwijzen wij u door naar Hair Clinic Wolf in Nederland of Turkije. Zij zijn onze vaste partner en bieden FUE Saffier, DHI en baardtransplantaties aan met jarenlange ervaring.',
       tags: ['FUE Saffier', 'DHI', 'Via Hair Clinic Wolf'],
     },
     {
       number: 6,
-      icon: '🌱',
+      icon: 'assets/icons/benefit-icons-2024/haargroei-stimuleren.png',
       title: 'Nazorg in België',
       desc: 'Na uw behandeling — of dat nu bij ons of bij Hair Clinic Wolf was — staat HaarKliniek 45 klaar voor uw nazorg. We volgen uw herstel op en zijn uw Belgische aanspreekpunt voor al uw vragen.',
       tags: ['Nazorg in Grazen', 'Belgisch aanspreekpunt', 'Opvolging herstel'],

@@ -168,9 +168,19 @@
   }
 
   &__icon {
-    font-size: 2rem;
+    width: 56px;
+    height: 56px;
     flex-shrink: 0;
     margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
   }
 
   &__content {

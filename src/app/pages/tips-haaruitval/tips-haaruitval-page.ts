@@ -53,7 +53,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="tip-number">{{ tip.number }}</div>
             <div class="tip-content">
               <div class="tip-header">
-                <span class="tip-icon">{{ tip.icon }}</span>
+                <span class="tip-icon">
+                  <img [src]="tip.icon" [alt]="tip.title" width="48" height="48" />
+                </span>
                 <h2 class="tip-title">{{ tip.title }}</h2>
               </div>
               <p class="tip-intro">{{ tip.intro }}</p>
@@ -132,7 +134,7 @@ export class TipsHaaruitvalPageComponent {
   tips = [
     {
       number: 1,
-      icon: '🧬',
+      icon: 'assets/icons/benefit-icons-2024/gezonde-haarzakjes.png',
       title: 'DNA-test voor persoonsgericht advies',
       intro:
         'Een TrichoTest is een genetische test die uw persoonlijk haaruitvalprofiel in kaart brengt op basis van uw DNA.',
@@ -145,7 +147,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 2,
-      icon: '💊',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Neem de juiste vitaminen',
       intro:
         'Vitaminetekorten zijn een veelgenegeerde oorzaak van haaruitval. De juiste suppletie kan een merkbaar verschil maken.',
@@ -163,7 +165,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 3,
-      icon: '💉',
+      icon: 'assets/icons/benefit-icons-2024/stimulering-regeneratieproces.png',
       title: 'Kies haargroei stimulerende behandelingen',
       intro:
         'Niet-chirurgische behandelingen kunnen de haargroei stimuleren en haaruitval vertragen — ook zonder ingreep.',
@@ -176,7 +178,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 4,
-      icon: '🩸',
+      icon: 'assets/icons/benefit-icons-2024/stimulering-regeneratieproces.png',
       title: 'Voorkom een ijzertekort',
       intro:
         'IJzer is essentieel voor het transport van zuurstof naar de haarfollikels. Een tekort leidt direct tot verzwakking en verlies van haar.',
@@ -194,7 +196,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 5,
-      icon: '🔬',
+      icon: 'assets/icons/benefit-icons-2024/expertise.png',
       title: 'Controleer uw medicijngebruik',
       intro:
         'Bepaalde medicijnen kunnen als bijwerking haaruitval veroorzaken — dit wordt vaak over het hoofd gezien.',
@@ -207,7 +209,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 6,
-      icon: '🚭',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Stop met roken',
       intro:
         'Roken heeft een direct negatief effect op de bloeddoorstroming naar de hoofdhuid en daarmee op de gezondheid van uw haarfollikels.',
@@ -220,7 +222,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 7,
-      icon: '🧘',
+      icon: 'assets/icons/benefit-icons-2024/geen-herstelperiode.png',
       title: 'Verminder stress',
       intro:
         'Langdurige stress is een bewezen oorzaak van haaruitval via telogeen effluvium — een verstoring van de haargroeicyclus.',
@@ -233,7 +235,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 8,
-      icon: '✂️',
+      icon: 'assets/icons/process-icons-2025/alleen-scheren-donorgebied.png',
       title: 'Vermijd chemische behandelingen en overmatige hitte',
       intro:
         'Agressieve haarbehandelingen beschadigen niet alleen de haarschacht, maar ook de follikels bij langdurig gebruik.',
@@ -251,7 +253,7 @@ export class TipsHaaruitvalPageComponent {
     },
     {
       number: 9,
-      icon: '👨‍⚕️',
+      icon: 'assets/icons/benefit-icons-2024/expertise.png',
       title: 'Laat u adviseren door onze experts',
       intro:
         'De meest effectieve aanpak van haaruitval is altijd persoonlijk. Iedereen heeft een ander genetisch profiel, een andere oorzaak en andere noden.',

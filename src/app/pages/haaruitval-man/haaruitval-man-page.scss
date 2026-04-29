@@ -160,8 +160,17 @@
 }
 
 .symptom-icon {
-  font-size: 2rem;
-  display: block;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
 }
 
 .norwood-section {
@@ -299,8 +308,17 @@
 }
 
 .prevention-icon {
-  font-size: 2rem;
-  display: block;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
 }
 
 .treatments-section {
@@ -343,8 +361,17 @@
 }
 
 .treatment-icon {
-  font-size: 2rem;
-  display: block;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
 }
 
 .treatment-title {

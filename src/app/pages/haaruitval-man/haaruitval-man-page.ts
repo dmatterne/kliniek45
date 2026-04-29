@@ -72,7 +72,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="symptoms-grid">
           @for (symptom of symptoms; track symptom.title) {
             <div class="symptom-card">
-              <div class="symptom-icon">{{ symptom.icon }}</div>
+              <div class="symptom-icon">
+                <img [src]="symptom.icon" [alt]="symptom.title" width="48" height="48" />
+              </div>
               <h3>{{ symptom.title }}</h3>
               <p>{{ symptom.desc }}</p>
             </div>
@@ -117,7 +119,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="prevention-grid">
           @for (tip of preventionTips; track tip.title) {
             <div class="prevention-card">
-              <div class="prevention-icon">{{ tip.icon }}</div>
+              <div class="prevention-icon">
+                <img [src]="tip.icon" [alt]="tip.title" width="48" height="48" />
+              </div>
               <h3>{{ tip.title }}</h3>
               <p>{{ tip.desc }}</p>
             </div>
@@ -135,7 +139,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="treatments-grid">
           @for (treatment of treatments; track treatment.title) {
             <a [routerLink]="treatment.link" class="treatment-card">
-              <div class="treatment-icon">{{ treatment.icon }}</div>
+              <div class="treatment-icon">
+                <img [src]="treatment.icon" [alt]="treatment.title" width="48" height="48" />
+              </div>
               <h3 class="treatment-title">{{ treatment.title }}</h3>
               <p class="treatment-desc">{{ treatment.desc }}</p>
               <span class="treatment-type treatment-type--{{ treatment.type }}">{{
@@ -220,22 +226,22 @@ export class HaaruitvalManPageComponent {
 
   symptoms = [
     {
-      icon: '↩️',
+      icon: 'assets/icons/benefit-icons-2024/preventie-haaruitval.png',
       title: 'Terugwijkende haarlijn',
       desc: 'De haarlijn trekt zich terug aan de slapen en het voorhoofd, wat een M-vormig patroon creëert.',
     },
     {
-      icon: '🔍',
+      icon: 'assets/icons/benefit-icons-2024/haarverdikking.png',
       title: 'Verdunning op de kruin',
       desc: 'Het haar op de bovenkant van het hoofd wordt dunner en de hoofdhuid wordt steeds meer zichtbaar.',
     },
     {
-      icon: 'M',
+      icon: 'assets/icons/benefit-icons-2024/preventie-haaruitval.png',
       title: 'M-, U- of V-vormige haarlijn',
       desc: 'Een typisch mannelijk patroon waarbij de haarlijn een karakteristieke M-, U- of V-vorm aanneemt.',
     },
     {
-      icon: '⏰',
+      icon: 'assets/icons/benefit-icons-2024/snel-resultaat.png',
       title: 'Vroeg begin mogelijk',
       desc: 'Mannelijke kaalheid kan al voor het 20e levensjaar beginnen. Vroege actie leidt tot betere resultaten.',
     },
@@ -302,22 +308,22 @@ export class HaaruitvalManPageComponent {
 
   preventionTips = [
     {
-      icon: '🚭',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Stop met roken',
       desc: 'Roken vermindert de bloeddoorstroming naar de hoofdhuid en ontneemt de follikels van zuurstof en voedingsstoffen.',
     },
     {
-      icon: '🧘',
+      icon: 'assets/icons/benefit-icons-2024/geen-herstelperiode.png',
       title: 'Verminder stress',
       desc: 'Chronische stress verstoort de hormonale balans en kan haaruitval versnellen. Meditatie, sport en voldoende slaap helpen.',
     },
     {
-      icon: '🥩',
+      icon: 'assets/icons/benefit-icons-2024/gezonde-haarzakjes.png',
       title: 'Voeding rijk aan proteinen en ijzer',
       desc: 'Een dieet rijk aan proteinen (vlees, vis, eieren, peulvruchten), ijzer en vitaminen B en D ondersteunt gezonde haargroei.',
     },
     {
-      icon: '💊',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Bespreek uw medicatie',
       desc: 'Sommige medicijnen versnellen haaruitval. Overleg met uw arts of er alternatieven zijn. Stop nooit eigenhandig met medicatie.',
     },
@@ -325,7 +331,7 @@ export class HaaruitvalManPageComponent {
 
   treatments = [
     {
-      icon: '✂️',
+      icon: 'assets/icons/process-icons-2025/implanteren-grafts.png',
       title: 'Haartransplantatie voor mannen',
       desc: 'Permanente oplossing voor gevorderde haaruitval. Eigen haar, eigen donorzone, levenslang resultaat.',
       link: '/behandelingen/haartransplantatie-mannen',
@@ -333,7 +339,7 @@ export class HaaruitvalManPageComponent {
       typeLabel: 'Chirurgisch',
     },
     {
-      icon: '💎',
+      icon: 'assets/icons/process-icons-2025/precisie-en-veiligheid.png',
       title: 'FUE Saffier',
       desc: 'Geavanceerde FUE-techniek met saffieren blad voor maximale precisie en sneller herstel.',
       link: '/behandelingen/fue-saffier',
@@ -341,7 +347,7 @@ export class HaaruitvalManPageComponent {
       typeLabel: 'Chirurgisch',
     },
     {
-      icon: '🖊️',
+      icon: 'assets/icons/process-icons-2025/directe-haarimplantatie.png',
       title: 'DHI',
       desc: 'Direct Hair Implantation met Choi-pen voor maximale dichtheid en precisie. Minder trauma aan het donorgebied.',
       link: '/behandelingen/dhi',
@@ -349,7 +355,7 @@ export class HaaruitvalManPageComponent {
       typeLabel: 'Chirurgisch',
     },
     {
-      icon: '🎨',
+      icon: 'assets/icons/benefit-icons-2024/haarverdikking.png',
       title: 'Micro Haarpigmentatie',
       desc: 'Niet-chirurgische oplossing die de optische illusie van een geschoren hoofd of meer dichtheid creëert.',
       link: '/behandelingen/micro-haarpigmentatie',
@@ -357,7 +363,7 @@ export class HaaruitvalManPageComponent {
       typeLabel: 'Niet-chirurgisch',
     },
     {
-      icon: '🩸',
+      icon: 'assets/icons/benefit-icons-2024/stimulering-regeneratieproces.png',
       title: 'PRP-behandeling',
       desc: 'Platelet-rich plasma stimuleert de haarfollikels en vertraagt haaruitval. Ideaal als preventie of aanvulling.',
       link: '/behandelingen/prp-behandeling',
@@ -365,7 +371,7 @@ export class HaaruitvalManPageComponent {
       typeLabel: 'Niet-chirurgisch',
     },
     {
-      icon: '🌿',
+      icon: 'assets/icons/benefit-icons-2024/haargroei-stimuleren.png',
       title: 'Regenera Activa',
       desc: 'Innovatieve behandeling met biologische groeifactoren die haargroei stimuleren en miniaturisering afremmen.',
       link: '/behandelingen/regenera-activa',

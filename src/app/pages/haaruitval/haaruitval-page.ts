@@ -73,7 +73,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="types-grid">
           @for (type of hairLossTypes; track type.name) {
             <div class="type-card">
-              <div class="type-icon">{{ type.icon }}</div>
+              <div class="type-icon">
+                <img [src]="type.icon" [alt]="type.name" width="48" height="48" />
+              </div>
               <h3 class="type-name">{{ type.name }}</h3>
               <p class="type-desc">{{ type.desc }}</p>
               <span class="type-tag">{{ type.tag }}</span>
@@ -92,7 +94,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="causes-grid">
           @for (cause of causes; track cause.title) {
             <div class="cause-card">
-              <div class="cause-icon">{{ cause.icon }}</div>
+              <div class="cause-icon">
+                <img [src]="cause.icon" [alt]="cause.title" width="48" height="48" />
+              </div>
               <h3 class="cause-title">{{ cause.title }}</h3>
               <p class="cause-desc">{{ cause.desc }}</p>
             </div>
@@ -257,25 +261,25 @@ export class HaaruitvalPageComponent {
 
   hairLossTypes = [
     {
-      icon: '🧬',
+      icon: 'assets/icons/benefit-icons-2024/gezonde-haarzakjes.png',
       name: 'Alopecia Androgenetica',
       desc: 'De meest voorkomende vorm: erfelijke haaruitval veroorzaakt door DHT. Treft zowel mannen (Norwood-schaal) als vrouwen (Ludwig-schaal).',
       tag: 'Meest voorkomend',
     },
     {
-      icon: '⭕',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       name: 'Alopecia Areata',
       desc: 'Een auto-immuunziekte waarbij het immuunsysteem de haarfollikels aanvalt, resulterend in ronde kale plekken op het hoofd of lichaam.',
       tag: 'Auto-immuun',
     },
     {
-      icon: '😓',
+      icon: 'assets/icons/benefit-icons-2024/stimulering-regeneratieproces.png',
       name: 'Telogeen Effluvium',
       desc: 'Tijdelijke, diffuse haaruitval veroorzaakt door stress, ziekte, een bevalling of andere fysiologische schokken. Groeit vaak terug na herstel.',
       tag: 'Tijdelijk',
     },
     {
-      icon: '💆',
+      icon: 'assets/icons/benefit-icons-2024/haarverdikking.png',
       name: 'Tractie Alopecia',
       desc: 'Veroorzaakt door herhaaldelijk trekken aan het haar door strakke kapsels, vlechten of extensies. Leidt tot geleidelijke beschadiging van de follikels.',
       tag: 'Door styling',
@@ -284,32 +288,32 @@ export class HaaruitvalPageComponent {
 
   causes = [
     {
-      icon: '🧬',
+      icon: 'assets/icons/benefit-icons-2024/gezonde-haarzakjes.png',
       title: 'Erfelijke aanleg',
       desc: '95% van haaruitval bij mannen is erfelijk bepaald. De gevoeligheid voor DHT is genetisch overgedragen en kan van beide kanten van de familie komen.',
     },
     {
-      icon: '⚖️',
+      icon: 'assets/icons/benefit-icons-2024/lage-jaarlijkse-kosten.png',
       title: 'Hormonale schommelingen',
       desc: 'Zwangerschap, bevalling, menopauze, schildklierproblematiek en schommelingen in androgeenspiegels kunnen leiden tot tijdelijke of blijvende haaruitval.',
     },
     {
-      icon: '😰',
+      icon: 'assets/icons/benefit-icons-2024/stimulering-regeneratieproces.png',
       title: 'Stress en ziekte',
       desc: 'Langdurige stress, hoge koorts, operaties of ernstige ziekten kunnen de haargroeicyclus verstoren en resulteren in telogeen effluvium — diffuse tijdelijke haaruitval.',
     },
     {
-      icon: '🥗',
+      icon: 'assets/icons/benefit-icons-2024/gezonde-haarzakjes.png',
       title: 'Voedingstekorten',
       desc: 'Een tekort aan ijzer, zink, biotine, vitamine D of proteinen kan de haargroei negatief beinvloeden. Een DNA-test kan specifieke tekorten in kaart brengen.',
     },
     {
-      icon: '💊',
+      icon: 'assets/icons/benefit-icons-2024/geen-bijwerkingen.png',
       title: 'Medicijnen',
       desc: 'Bloeddrukverlagende middelen, antidepressiva, chemotherapie, hormonale anticonceptie en bepaalde cholesterolmedicijnen kunnen haaruitval als bijwerking hebben.',
     },
     {
-      icon: '✂️',
+      icon: 'assets/icons/process-icons-2025/alleen-scheren-donorgebied.png',
       title: 'Verkeerde haarverzorging',
       desc: 'Overmatig gebruik van hittegereedschappen, agressieve chemicalien (bleking, permanenten) en strakke kapsels kunnen de haarschacht en follikels beschadigen.',
     },

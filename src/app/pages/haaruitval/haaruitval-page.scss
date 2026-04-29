@@ -151,9 +151,18 @@
 }
 
 .type-icon {
-  font-size: 2rem;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: $space-3;
-  display: block;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
 }
 
 .type-name {
@@ -210,9 +219,18 @@
 }
 
 .cause-icon {
-  font-size: 2rem;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: $space-3;
-  display: block;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
 }
 
 .cause-title {
