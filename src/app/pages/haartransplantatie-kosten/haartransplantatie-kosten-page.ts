@@ -150,7 +150,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">💬</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
             <h3>Gratis consult</h3>
             <p>
               Het eerste consult is gratis en geheel vrijblijvend. Geen verplichtingen, wel alle
@@ -158,7 +158,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🔬</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v11l4 4 4-4V3M5 7H3m18 0h-2"/></svg></div>
             <h3>Hoofd- en haaranalyse</h3>
             <p>
               We bespreken uw hoofd- en haarsituatie zodat u weet welke vervolgstap logisch kan
@@ -166,7 +166,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">💰</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
             <h3>Persoonlijke prijsopgave</h3>
             <p>
               U krijgt uitleg over de kostenfactoren en wanneer een concrete offerte via het
@@ -174,7 +174,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🔒</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
             <h3>Discreet en vertrouwelijk</h3>
             <p>
               Wij gaan discreet om met uw gegevens. Uw informatie wordt nooit zonder uw toestemming

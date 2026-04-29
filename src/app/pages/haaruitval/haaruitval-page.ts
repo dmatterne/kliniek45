@@ -214,7 +214,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <span class="subpage-link">Lees meer &rarr;</span>
           </a>
           <a routerLink="/kenniscentrum/tips-haaruitval" class="subpage-card">
-            <div class="subpage-icon">💡</div>
+            <div class="subpage-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 22h4M12 2a7 7 0 017 7c0 2.5-1.5 4.5-3 6H8c-1.5-1.5-3-3.5-3-6a7 7 0 017-7z"/></svg></div>
             <h3>9 Tips tegen haaruitval</h3>
             <p>
               Praktische tips om haaruitval te vertragen of te voorkomen — van vitaminen tot

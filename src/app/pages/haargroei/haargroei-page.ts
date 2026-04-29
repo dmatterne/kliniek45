@@ -100,7 +100,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="hg-card">
-            <div class="hg-card-icon">⚡</div>
+            <div class="hg-card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
             <div class="hg-card-body">
               <h3>Hairegen</h3>
               <p class="hg-card-tagline">Microneedling + elektrotherapie voor de hoofdhuid</p>
@@ -123,7 +123,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="hg-card">
-            <div class="hg-card-icon">🧬</div>
+            <div class="hg-card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 15c6.667-6 13.333 0 20-6M2 9c6.667 6 13.333 0 20 6M7 11.5v1M17 11.5v1M12 11.5v1M7 9.5V8M17 9.5V8M12 9.5V8"/></svg></div>
             <div class="hg-card-body">
               <h3>Regenera Activa</h3>
               <p class="hg-card-tagline">Regeneratieve geneeskunde met eigen stamcellen</p>
@@ -175,7 +175,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="content-section minoxidil-section">
       <div class="container">
         <div class="info-banner">
-          <div class="info-banner-icon">💊</div>
+          <div class="info-banner-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 20H4a2 2 0 01-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 011.66.9l.82 1.2a2 2 0 001.66.9H20a2 2 0 012 2v2"/><circle cx="18" cy="18" r="3"/><path d="M18 15v6M15 18h6"/></svg></div>
           <div class="info-banner-content">
             <h2>De rol van Minoxidil bij haargroei</h2>
             <p>

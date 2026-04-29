@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeroComponent } from '../../components/hero/hero';
+import { TrustBarComponent } from '../../components/trust-bar/trust-bar';
 import { InfoCardsComponent } from '../../components/info-cards/info-cards';
 import { AboutSectionComponent } from '../../components/about-section/about-section';
 import { TreatmentsComponent } from '../../components/treatments/treatments';
@@ -14,6 +15,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
   standalone: true,
   imports: [
     HeroComponent,
+    TrustBarComponent,
     InfoCardsComponent,
     AboutSectionComponent,
     TreatmentsComponent,

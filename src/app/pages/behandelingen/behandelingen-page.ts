@@ -157,7 +157,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="treatment-card">
-            <div class="card-icon">🌿</div>
+            <div class="card-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 19.82L5.71 18M3.82 19.82L5.71 18M3.82 19.82c1.5-1 6-2.5 10-3M3.82 19.82l1.89-1.82"/></svg></div>
             <h3>Long Hair Haartransplantatie</h3>
             <p>
               Informatie over Long Hair haartransplantatie voor wie scheren wil beperken. De
@@ -192,7 +192,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">🎯</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
             <h3>DHI — Direct Hair Implantation</h3>
             <p>
               Methode waarbij grafts met een Choi Implanter Pen worden geplaatst. We bespreken
@@ -203,7 +203,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="benefit-card">
-            <div class="benefit-icon">💎</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M11 3l-4 6 5 13 5-13-4-6"/><path d="M2 9h20"/></svg></div>
             <h3>FUE Saffier</h3>
             <p>
               Follicular Unit Extraction met saffieren instrumenten. We helpen u begrijpen wanneer
@@ -253,7 +253,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="benefit-card">
-            <div class="benefit-icon">⚡</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
             <h3>Hairegen</h3>
             <p>
               Innovatief medisch apparaat dat microneedling combineert met elektrotherapie en
@@ -267,7 +267,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="benefit-card">
-            <div class="benefit-icon">🧬</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 15c6.667-6 13.333 0 20-6M2 9c6.667 6 13.333 0 20 6M7 11.5v1M17 11.5v1M12 11.5v1M7 9.5V8M17 9.5V8M12 9.5V8"/></svg></div>
             <h3>Regenera Activa</h3>
             <p>
               Regeneratieve behandeling op basis van uw eigen stamcellen. Kleine weefselstukjes

@@ -99,7 +99,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="no-scratch-section">
       <div class="container">
         <div class="warning-card">
-          <div class="warning-icon">⚠️</div>
+          <div class="warning-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
           <div>
             <h2>Krab nooit aan de korstjes — nooit</h2>
             <p>
@@ -238,7 +238,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 </div>
               </li>
               <li>
-                <span class="comfort-icon">🧴</span>
+                <span class="comfort-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6l1 4H8L9 3z"/><path d="M8 7v13a1 1 0 001 1h6a1 1 0 001-1V7"/><path d="M10 11h4"/></svg></span>
                 <div>
                   <strong>Regelmatig wassen</strong>
                   <p>
@@ -247,7 +247,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 </div>
               </li>
               <li>
-                <span class="comfort-icon">💊</span>
+                <span class="comfort-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 20H4a2 2 0 01-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 011.66.9l.82 1.2a2 2 0 001.66.9H20a2 2 0 012 2v2"/><circle cx="18" cy="18" r="3"/><path d="M18 15v6M15 18h6"/></svg></span>
                 <div>
                   <strong>Antihistaminicum op voorschrift</strong>
                   <p>
@@ -332,7 +332,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <p>Sterke roodheid met warmte of etter zijn tekenen van infectie. Wacht niet.</p>
           </div>
           <div class="sign-card sign-warning">
-            <span class="sign-icon">📅</span>
+            <span class="sign-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
             <h3>Korstjes na dag 15</h3>
             <p>Zijn de korstjes na vijftien dagen nog aanwezig? Stuur ons een foto via WhatsApp.</p>
           </div>

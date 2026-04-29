@@ -251,7 +251,12 @@
       }
     }
     .nav-ctas {
-      display: none;
+      display: flex;
+
+      .btn-gold {
+        font-size: $text-sm;
+        padding: $space-2 $space-3;
+      }
     }
     .hamburger {
       display: flex;

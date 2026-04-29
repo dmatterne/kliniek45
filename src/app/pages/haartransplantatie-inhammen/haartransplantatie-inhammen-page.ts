@@ -136,7 +136,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">🎯</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
             <h3>Directe haarimplantatie</h3>
             <p>
               Met DHI worden haarzakjes rechtstreeks in het gewenste gebied geplaatst, zonder de
@@ -154,7 +154,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">⚡</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
             <h3>Sneller herstel</h3>
             <p>
               Door minimale schade en minder risico op bloedingen is de hersteltijd na een
@@ -162,7 +162,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🔬</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v11l4 4 4-4V3M5 7H3m18 0h-2"/></svg></div>
             <h3>Precisie en veiligheid</h3>
             <p>
               De DHI-implanter biedt de chirurg volledige controle over de richting, hoek en diepte
@@ -171,7 +171,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🌿</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 19.82L5.71 18M3.82 19.82L5.71 18M3.82 19.82c1.5-1 6-2.5 10-3M3.82 19.82l1.89-1.82"/></svg></div>
             <h3>Natuurlijke haargrens</h3>
             <p>
               Door de precieze plaatsingstechniek kunnen we een haargrens creeren die er volkomen
@@ -179,7 +179,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">✅</div>
+            <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>
             <h3>Permanent resultaat</h3>
             <p>
               De getransplanteerde haarzakjes zijn afkomstig uit een gebied dat resistent is tegen

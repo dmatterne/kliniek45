@@ -225,6 +225,36 @@ export class FaqPageComponent {
       title: 'Vragen over de kliniek',
       items: [
         {
+          q: 'Wie voert de haartransplantatie uit?',
+          a: 'Hair Clinic Wolf voert alle haartransplantaties uit. HaarKliniek 45 regelt de intake, begeleiding en nazorg.',
+          open: false,
+        },
+        {
+          q: 'Wat doet HaarKliniek 45 precies?',
+          a: 'Wij zijn uw Belgisch aanspreekpunt. We doen de intake, haaranalyse, behandeladvies en nazorg. De chirurgische ingreep zelf vindt plaats bij Hair Clinic Wolf.',
+          open: false,
+        },
+        {
+          q: 'Waar vindt de ingreep plaats?',
+          a: 'De ingreep wordt uitgevoerd door Hair Clinic Wolf in Nederland of Istanbul, Turkije. Uw intake en nazorg verlopen bij ons in Grazen, België.',
+          open: false,
+        },
+        {
+          q: 'Wat zijn de kosten?',
+          a: 'De kosten voor een haartransplantatie via Hair Clinic Wolf liggen doorgaans tussen €2.700 en €7.950, afhankelijk van het aantal grafts en de techniek. Uw persoonlijke offerte ontvangt u na de intake bij HaarKliniek 45.',
+          open: false,
+        },
+        {
+          q: 'Hoe verloopt de nazorg?',
+          a: 'Na de ingreep volgt Jens Vandenreijt uw herstel op vanuit Grazen. We plannen controle-afspraken in en adviseren over wassing, producten en eventuele vervolgbehandelingen.',
+          open: false,
+        },
+        {
+          q: 'Is er een garantie op het resultaat?',
+          a: 'Hair Clinic Wolf biedt een garantiecertificaat op de haargroei. De exacte voorwaarden worden besproken tijdens de intake bij HaarKliniek 45.',
+          open: false,
+        },
+        {
           q: 'Waar is HaarKliniek 45 gevestigd?',
           a: 'HaarKliniek 45 bevindt zich op Verdaelstraat 45, 3450 Grazen, Belgie. De kliniek is goed bereikbaar met eigen wagen en beschikt over gratis parkeermogelijkheden in de buurt.',
           open: false,

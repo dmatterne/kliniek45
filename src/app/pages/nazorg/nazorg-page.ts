@@ -68,7 +68,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="reasons-grid">
           <div class="reason-card">
-            <div class="reason-icon">🌱</div>
+            <div class="reason-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22V12M12 12C12 7 7 4 2 5c0 5 3 9 10 7M12 12c0-5 5-8 10-7 0 5-3 9-10 7"/></svg></div>
             <h3>Grafts moeten ingroeien</h3>
             <p>
               De eerste tien dagen na de transplantatie zijn kritiek. De grafts moeten zich
@@ -192,7 +192,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="contact-methods">
           <a href="tel:+32485593302" class="contact-card">
-            <span class="contact-icon">📞</span>
+            <span class="contact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
             <div>
               <strong>Bel ons</strong>
               <span>+32 485 593 302</span>
@@ -204,14 +204,14 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span class="contact-icon">💬</span>
+            <span class="contact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
             <div>
               <strong>WhatsApp</strong>
               <span>Stuur een bericht</span>
             </div>
           </a>
           <a href="mailto:info@haarkliniek45.be" class="contact-card">
-            <span class="contact-icon">✉️</span>
+            <span class="contact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg></span>
             <div>
               <strong>E-mail</strong>
               <span>info&#64;haarkliniek45.be</span>
@@ -236,7 +236,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <span class="read-more">Lees meer →</span>
           </a>
           <a routerLink="/nazorg/herstel-na-haartransplantatie" class="subpage-card">
-            <span class="subpage-icon">📅</span>
+            <span class="subpage-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
             <h3>Herstel na Haartransplantatie</h3>
             <p>
               Een complete tijdlijn van dag één tot maand twaalf. Weet precies wat u kunt verwachten
@@ -262,7 +262,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2 class="section-title">Do's &amp; Don'ts — Snel Overzicht</h2>
         <div class="dos-donts-grid">
           <div class="dos-card">
-            <h3 class="dos-title">✅ Wel doen</h3>
+            <h3 class="dos-title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Wel doen</h3>
             <ul>
               <li>Was voorzichtig met de meegeleverde speciale shampoo</li>
               <li>Slaap de eerste nachten op de rug met een nekkussen</li>
@@ -275,7 +275,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </ul>
           </div>
           <div class="donts-card">
-            <h3 class="donts-title">❌ Niet doen</h3>
+            <h3 class="donts-title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Niet doen</h3>
             <ul>
               <li>Krab nooit aan de korstjes — risico op graft-verlies</li>
               <li>Raak het getransplanteerde gebied niet aan met vuile handen</li>

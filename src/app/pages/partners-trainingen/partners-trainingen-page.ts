@@ -88,7 +88,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="highlight-item">
-            <span class="highlight-icon">🤝</span>
+            <span class="highlight-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span>
             <h3>Doorverwijzingen</h3>
             <p>
               Als partner ontvangt u doorverwijzingen van patiënten in uw regio die een kapper
@@ -153,7 +153,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                   </div>
                 </div>
                 <div class="topic-item">
-                  <span class="topic-icon">🧴</span>
+                  <span class="topic-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6l1 4H8L9 3z"/><path d="M8 7v13a1 1 0 001 1h6a1 1 0 001-1V7"/><path d="M10 11h4"/></svg></span>
                   <div>
                     <h4>Productaanbevelingen</h4>
                     <p>
@@ -180,7 +180,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="partner-benefits-grid">
           <div class="partner-benefit">
-            <div class="pb-icon">📞</div>
+            <div class="pb-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
             <h3>Vaste contactpersoon</h3>
             <p>
               U heeft een rechtstreekse lijn met ons team. Voor vragen van klanten, specifieke cases
@@ -243,7 +243,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
             <div class="expectation-list">
               <div class="expectation-item">
-                <span class="exp-icon">✅</span>
+                <span class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
                 <div>
                   <h4>Hygiënenormen</h4>
                   <p>
@@ -253,7 +253,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 </div>
               </div>
               <div class="expectation-item">
-                <span class="exp-icon">✅</span>
+                <span class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
                 <div>
                   <h4>Deelname aan jaarlijkse training</h4>
                   <p>
@@ -263,7 +263,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 </div>
               </div>
               <div class="expectation-item">
-                <span class="exp-icon">✅</span>
+                <span class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
                 <div>
                   <h4>Kleine promotionele aanwezigheid</h4>
                   <p>

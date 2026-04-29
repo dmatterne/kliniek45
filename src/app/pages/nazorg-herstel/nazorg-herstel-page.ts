@@ -239,7 +239,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="shockloss-section">
       <div class="container">
         <div class="shockloss-card">
-          <h2>⚠️ Shockloss: het haar valt uit — geen paniek</h2>
+          <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Shockloss: het haar valt uit — geen paniek</h2>
           <p>
             Twee tot vier weken na de transplantatie valt het getransplanteerde haar uit. Dit heet
             <strong>shockloss</strong> en is een volledig normaal en verwacht onderdeel van het
@@ -247,7 +247,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </p>
           <div class="shockloss-facts">
             <div class="fact">
-              <span class="fact-icon">✅</span>
+              <span class="fact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
               <div>
                 <strong>De haarfollikels blijven intact</strong>
                 <p>
@@ -256,7 +256,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               </div>
             </div>
             <div class="fact">
-              <span class="fact-icon">✅</span>
+              <span class="fact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
               <div>
                 <strong>Nieuw haar groeit zeker terug</strong>
                 <p>
@@ -266,7 +266,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               </div>
             </div>
             <div class="fact">
-              <span class="fact-icon">✅</span>
+              <span class="fact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
               <div>
                 <strong>Dit is wetenschappelijk verklaard</strong>
                 <p>
@@ -276,7 +276,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               </div>
             </div>
             <div class="fact">
-              <span class="fact-icon">📞</span>
+              <span class="fact-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
               <div>
                 <strong>Vragen? Bel ons gerust</strong>
                 <p>

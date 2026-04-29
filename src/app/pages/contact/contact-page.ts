@@ -28,7 +28,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="contact-info-grid">
           <div class="info-card">
             <div class="info-item">
-              <span class="info-icon">📍</span>
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
               <div>
                 <strong>Adres</strong>
                 <address>
@@ -39,7 +39,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </div>
 
             <div class="info-item">
-              <span class="info-icon">📞</span>
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
               <div>
                 <strong>Telefoon</strong>
                 <a href="tel:+32485593302">+32 485 593 302</a>
@@ -47,7 +47,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </div>
 
             <div class="info-item">
-              <span class="info-icon">✉️</span>
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg></span>
               <div>
                 <strong>E-mail</strong>
                 <a href="mailto:info@haarkliniek45.be">info&#64;haarkliniek45.be</a>
@@ -55,7 +55,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </div>
 
             <div class="info-item">
-              <span class="info-icon">🕐</span>
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
               <div>
                 <strong>Openingsuren</strong>
                 <div class="hours">
@@ -77,7 +77,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 aria-label="Bekijk locatie op Google Maps"
               >
                 <div class="map-visual">
-                  <span class="map-pin">📍</span>
+                  <span class="map-pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
                   <span class="map-text">Bekijk op Google Maps</span>
                   <span class="map-address">Verdaelstraat 45, 3450 Grazen</span>
                 </div>
@@ -144,28 +144,28 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
           <div class="consult-cta-info">
             <div class="cta-info-badge">
-              <span class="cta-badge-icon">🎁</span>
+              <span class="cta-badge-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><path d="M12 22V7m0 0a3 3 0 100-6 3 3 0 000 6zm0 0a3 3 0 100-6 3 3 0 000 6z"/></svg></span>
               <div>
                 <strong>100% gratis</strong>
                 <span>Geen kosten verbonden aan het consult</span>
               </div>
             </div>
             <div class="cta-info-badge">
-              <span class="cta-badge-icon">🤝</span>
+              <span class="cta-badge-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span>
               <div>
                 <strong>Vrijblijvend</strong>
                 <span>Geen verplichtingen na het consult</span>
               </div>
             </div>
             <div class="cta-info-badge">
-              <span class="cta-badge-icon">🏥</span>
+              <span class="cta-badge-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
               <div>
                 <strong>Haaradviescentrum</strong>
                 <span>Verdaelstraat 45, 3450 Grazen</span>
               </div>
             </div>
             <div class="cta-info-badge">
-              <span class="cta-badge-icon">⏰</span>
+              <span class="cta-badge-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
               <div>
                 <strong>Snelle reactie</strong>
                 <span>Binnen 1 werkdag antwoord</span>
@@ -181,19 +181,19 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2 class="section-title">Hoe kunt u ons bereiken?</h2>
         <div class="reach-cards">
           <a href="tel:+32485593302" class="reach-card">
-            <div class="reach-icon">📞</div>
+            <div class="reach-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
             <h3>Bel ons</h3>
             <p>+32 485 593 302</p>
             <span class="reach-note">Ma–Vr: 9:00–18:00 / Za: 9:00–14:00</span>
           </a>
           <a href="mailto:info@haarkliniek45.be" class="reach-card">
-            <div class="reach-icon">✉️</div>
+            <div class="reach-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg></div>
             <h3>E-mail ons</h3>
             <p>info&#64;haarkliniek45.be</p>
             <span class="reach-note">Reactie binnen 1 werkdag</span>
           </a>
           <div class="reach-card reach-card-address">
-            <div class="reach-icon">📍</div>
+            <div class="reach-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
             <h3>Bezoek ons</h3>
             <p>Verdaelstraat 45</p>
             <p>3450 Grazen, België</p>

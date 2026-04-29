@@ -68,7 +68,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p class="section-subtitle">Drie opties — van ideaal tot aanvaardbaar</p>
         <div class="positions-grid">
           <div class="position-card position-best">
-            <div class="position-badge">⭐ Beste keuze</div>
+            <div class="position-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Beste keuze</div>
             <div class="position-icon">🛏️</div>
             <h3>Op de rug met nekkussen</h3>
             <p>
@@ -101,7 +101,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
           <div class="position-card position-avoid">
             <div class="position-badge position-badge-avoid">🚫 Vermijden</div>
-            <div class="position-icon">⚠️</div>
+            <div class="position-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
             <h3>Posities om te vermijden</h3>
             <p>
               Bepaalde slaapposities zijn gevaarlijk in de herstelfase en moeten absoluut vermeden
@@ -229,7 +229,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="tip-card">
-            <span class="tip-icon">🧴</span>
+            <span class="tip-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6l1 4H8L9 3z"/><path d="M8 7v13a1 1 0 001 1h6a1 1 0 001-1V7"/><path d="M10 11h4"/></svg></span>
             <h3>Beddengoed niet aanraken</h3>
             <p>
               Zorg dat het beddengoed het getransplanteerde gebied niet direct raakt. Dit is precies
@@ -318,7 +318,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="mental-tips">
           <div class="mental-tip">
-            <span class="mental-icon">🎯</span>
+            <span class="mental-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
             <div>
               <strong>Focus op het resultaat</strong>
               <p>
@@ -347,7 +347,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </div>
           </div>
           <div class="mental-tip">
-            <span class="mental-icon">📞</span>
+            <span class="mental-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.62 3.33 2 2 0 013.6 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.6a16 16 0 005.5 5.5l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
             <div>
               <strong>Bel ons bij twijfel</strong>
               <p>

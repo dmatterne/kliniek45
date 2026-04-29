@@ -1,0 +1,51 @@
+@use '../../../styles/colors' as *;
+@use '../../../styles/typography' as *;
+@use '../../../styles/spacing' as *;
+
+.trust-bar {
+  background: #f7f4ef;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  padding: $space-3 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+.trust-bar-inner {
+  @include container;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: $space-3;
+  justify-content: flex-start;
+
+  @media (min-width: $breakpoint-md) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  padding: $space-2 $space-4;
+  background: $primary-green;
+  color: $neutral-white;
+  border-radius: 999px;
+  font-size: $text-sm;
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+    flex-shrink: 0;
+  }
+}
