@@ -25,161 +25,72 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="contact-main-section">
       <div class="container">
-        <div class="contact-layout">
-          <!-- Left: contact info -->
-          <div class="contact-info-col">
-            <div class="info-card">
-              <h2>Contactgegevens</h2>
-
-              <div class="info-item">
-                <span class="info-icon">📍</span>
-                <div>
-                  <strong>Adres</strong>
-                  <address>
-                    Verdaelstraat 45<br />
-                    3450 Grazen, België
-                  </address>
-                </div>
+        <div class="contact-info-grid">
+          <div class="info-card">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Adres</strong>
+                <address>
+                  Verdaelstraat 45<br />
+                  3450 Grazen, België
+                </address>
               </div>
+            </div>
 
-              <div class="info-item">
-                <span class="info-icon">📞</span>
-                <div>
-                  <strong>Telefoon</strong>
-                  <a href="tel:+32485593302">+32 485 593 302</a>
-                </div>
+            <div class="info-item">
+              <span class="info-icon">📞</span>
+              <div>
+                <strong>Telefoon</strong>
+                <a href="tel:+32485593302">+32 485 593 302</a>
               </div>
+            </div>
 
-              <div class="info-item">
-                <span class="info-icon">✉️</span>
-                <div>
-                  <strong>E-mail</strong>
-                  <a href="mailto:info@haarkliniek45.be">info&#64;haarkliniek45.be</a>
-                </div>
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <div>
+                <strong>E-mail</strong>
+                <a href="mailto:info@haarkliniek45.be">info&#64;haarkliniek45.be</a>
               </div>
+            </div>
 
-              <div class="info-item">
-                <span class="info-icon">🕐</span>
-                <div>
-                  <strong>Openingsuren</strong>
-                  <div class="hours">
-                    <div class="hours-row">
-                      <span>Op afspraak — neem contact op voor beschikbaarheid</span>
-                    </div>
+            <div class="info-item">
+              <span class="info-icon">🕐</span>
+              <div>
+                <strong>Openingsuren</strong>
+                <div class="hours">
+                  <div class="hours-row">
+                    <span>Op afspraak — neem contact op voor beschikbaarheid</span>
                   </div>
-                </div>
-              </div>
-
-              <div class="map-placeholder">
-                <a
-                  href="https://www.google.com/maps/search/Verdaelstraat+45+3450+Grazen+Belgie"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="map-link"
-                  aria-label="Bekijk locatie op Google Maps"
-                >
-                  <div class="map-visual">
-                    <span class="map-pin">📍</span>
-                    <span class="map-text">Bekijk op Google Maps</span>
-                    <span class="map-address">Verdaelstraat 45, 3450 Grazen</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="social-row">
-                <span class="social-label">Volg ons:</span>
-                <div class="social-icons">
-                  <span class="social-icon" aria-label="Facebook">f</span>
-                  <span class="social-icon" aria-label="Instagram">📷</span>
-                  <span class="social-icon" aria-label="WhatsApp">💬</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Right: contact form -->
-          <div class="form-col">
-            <div class="form-card">
-              <h2>Stuur ons een bericht</h2>
-              <p class="form-intro">U ontvangt binnen 1 werkdag een reactie.</p>
-
-              <form class="contact-form" (submit)="onFormSubmit($event)">
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="naam">Naam <span class="required">*</span></label>
-                    <input
-                      type="text"
-                      id="naam"
-                      name="naam"
-                      placeholder="Uw volledige naam"
-                      required
-                    />
-                  </div>
+          <div class="info-card">
+            <div class="map-placeholder">
+              <a
+                href="https://www.google.com/maps/search/Verdaelstraat+45+3450+Grazen+Belgie"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="map-link"
+                aria-label="Bekijk locatie op Google Maps"
+              >
+                <div class="map-visual">
+                  <span class="map-pin">📍</span>
+                  <span class="map-text">Bekijk op Google Maps</span>
+                  <span class="map-address">Verdaelstraat 45, 3450 Grazen</span>
                 </div>
+              </a>
+            </div>
 
-                <div class="form-row form-row-two">
-                  <div class="form-group">
-                    <label for="email">E-mailadres <span class="required">*</span></label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="uw@email.be"
-                      required
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="telefoon">Telefoonnummer</label>
-                    <input type="tel" id="telefoon" name="telefoon" placeholder="+32 ..." />
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="onderwerp">Onderwerp</label>
-                    <select id="onderwerp" name="onderwerp">
-                      <option value="">Kies een onderwerp...</option>
-                      <option value="consult">Gratis consult aanvragen</option>
-                      <option value="info">Informatie over behandelingen</option>
-                      <option value="nazorg">Nazorg vragen</option>
-                      <option value="samenwerking">Samenwerking</option>
-                      <option value="overige">Overige</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="bericht">Bericht <span class="required">*</span></label>
-                    <textarea
-                      id="bericht"
-                      name="bericht"
-                      rows="6"
-                      placeholder="Schrijf hier uw bericht of vraag..."
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group form-group-check">
-                    <label class="checkbox-label">
-                      <input type="checkbox" name="privacy" required />
-                      <span>
-                        Ik ga akkoord met het
-                        <a routerLink="/privacybeleid">privacybeleid</a>
-                      </span>
-                    </label>
-                  </div>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-submit">Verzend bericht</button>
-                <p class="form-note">
-                  <span>🔒</span>
-                  Uw gegevens worden vertrouwelijk behandeld. U ontvangt binnen 1 werkdag een
-                  reactie.
-                </p>
-              </form>
+            <div class="social-row">
+              <span class="social-label">Volg ons:</span>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61585961954316" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">f</a>
+                <a href="https://www.instagram.com/haarkliniek45/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">in</a>
+                <a href="https://wa.me/32485593302" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp">W</a>
+              </div>
             </div>
           </div>
         </div>
@@ -302,8 +213,4 @@ export class ContactPageComponent {
     'Hoogwaardige faciliteiten',
     'Gediplomeerd',
   ];
-
-  onFormSubmit(e: Event): void {
-    e.preventDefault();
-  }
 }

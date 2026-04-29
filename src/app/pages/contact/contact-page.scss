@@ -24,12 +24,12 @@
 .contact-main-section {
   padding: $space-20 0;
   background: $neutral-white;
-  .contact-layout {
+  .contact-info-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: $space-8;
     @media (min-width: $breakpoint-lg) {
-      grid-template-columns: 2fr 3fr;
+      grid-template-columns: 1fr 1fr;
       align-items: start;
     }
   }
@@ -175,133 +175,11 @@
   justify-content: center;
   font-size: $text-sm;
   font-weight: 700;
+  text-decoration: none;
   cursor: pointer;
   transition: background 0.2s;
   &:hover {
     background: $primary-green-dark;
-  }
-}
-
-.form-card {
-  background: $neutral-white;
-  border-radius: 16px;
-  padding: $space-8;
-  border: 1px solid rgba($primary-green, 0.12);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
-  h2 {
-    font-family: $font-heading;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: $text-primary;
-    margin-bottom: $space-2;
-  }
-  .form-intro {
-    color: $text-secondary;
-    font-size: $text-sm;
-    margin-bottom: $space-8;
-  }
-}
-
-.contact-form {
-  .form-row {
-    margin-bottom: $space-5;
-  }
-  .form-row-two {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: $space-5;
-    @media (min-width: $breakpoint-md) {
-      grid-template-columns: repeat(2, 1fr);
-      gap: $space-4;
-    }
-  }
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: $space-2;
-    label {
-      font-size: $text-sm;
-      font-weight: 600;
-      color: $text-primary;
-      .required {
-        color: #c0392b;
-        margin-left: 2px;
-      }
-    }
-    input,
-    select,
-    textarea {
-      width: 100%;
-      padding: $space-3 $space-4;
-      border: 1.5px solid rgba($primary-green, 0.25);
-      border-radius: 8px;
-      font-family: $font-body;
-      font-size: $text-base;
-      color: $text-primary;
-      background: $neutral-white;
-      transition:
-        border-color 0.2s,
-        box-shadow 0.2s;
-      box-sizing: border-box;
-      &:focus {
-        outline: none;
-        border-color: $primary-green;
-        box-shadow: 0 0 0 3px rgba($primary-green, 0.12);
-      }
-      &::placeholder {
-        color: rgba($text-secondary, 0.6);
-      }
-    }
-    textarea {
-      resize: vertical;
-      min-height: 120px;
-    }
-    select {
-      cursor: pointer;
-    }
-  }
-  .form-group-check .checkbox-label {
-    display: flex;
-    align-items: flex-start;
-    gap: $space-3;
-    cursor: pointer;
-    input[type='checkbox'] {
-      width: 18px;
-      height: 18px;
-      flex-shrink: 0;
-      margin-top: 2px;
-      accent-color: $primary-green;
-      cursor: pointer;
-    }
-    span {
-      font-size: $text-sm;
-      color: $text-secondary;
-      line-height: 1.5;
-      a {
-        color: $primary-green;
-        text-decoration: underline;
-        &:hover {
-          color: $primary-green-dark;
-        }
-      }
-    }
-  }
-  .btn-submit {
-    width: 100%;
-    padding: $space-4;
-    font-size: $text-base;
-    margin-top: $space-4;
-    border-radius: 10px;
-  }
-  .form-note {
-    display: flex;
-    align-items: center;
-    gap: $space-2;
-    margin-top: $space-4;
-    font-size: $text-sm;
-    color: $text-secondary;
-    text-align: center;
-    justify-content: center;
   }
 }
 
