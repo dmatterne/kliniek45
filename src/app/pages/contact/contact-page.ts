@@ -64,14 +64,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                   <strong>Openingsuren</strong>
                   <div class="hours">
                     <div class="hours-row">
-                      <span>Maandag – Vrijdag</span>
-                      <span>9:00 – 18:00</span>
+                      <span>Op afspraak — neem contact op voor beschikbaarheid</span>
                     </div>
-                    <div class="hours-row">
-                      <span>Zaterdag</span>
-                      <span>9:00 – 14:00</span>
-                    </div>
-                    <div class="hours-note">Op afspraak</div>
                   </div>
                 </div>
               </div>
@@ -183,7 +177,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
                 <p class="form-note">
                   <span>🔒</span>
                   Uw gegevens worden vertrouwelijk behandeld. U ontvangt binnen 1 werkdag een
-                  reactie van ons team.
+                  reactie.
                 </p>
               </form>
             </div>

@@ -89,8 +89,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <li>
             <strong>3. Vaardigheid van de chirurg:</strong>
             Een ervaren en gecertificeerde chirurg kan meer kosten, maar hogere prijzen betekenen
-            niet altijd betere vaardigheden. Bij HaarKliniek 45 werkt u altijd met gecertificeerde
-            en gediplomeerde specialisten.
+            niet altijd betere vaardigheden. Bij HaarKliniek 45 werkt u altijd met het
+            gecertificeerde team van Hair Clinic Wolf.
           </li>
           <li>
             <strong>4. Hoeveel haar er verplaatst wordt:</strong>
@@ -125,7 +125,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h3>Start behandeling</h3>
             <p>
               U ontvangt van ons duidelijke richtlijnen om de behandeling zo effectief mogelijk te
-              laten verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+              laten verlopen. De haartransplantatie wordt uitgevoerd door Hair Clinic Wolf in
+              Nederland of Turkije. HaarKliniek 45 begeleidt u voor en na de ingreep.
             </p>
           </div>
           <div class="step-card">

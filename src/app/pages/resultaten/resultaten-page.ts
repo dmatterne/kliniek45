@@ -55,12 +55,12 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <div class="cta-box">
           <h2>Wil je weten wat wij voor jou kunnen doen?</h2>
           <p>
-            Tijdens een gratis en volledig vrijblijvend consult analyseren onze specialisten uw
+            Tijdens een gratis en volledig vrijblijvend consult analyseert onze specialist uw
             haaruitval, het donorgebied en uw verwachtingen. Zo ontvangt u een eerlijk en
             gepersonaliseerd advies — zonder verplichtingen.
           </p>
           <div class="cta-actions">
-            <a routerLink="/consult" class="btn btn-primary">Gratis consult aanvragen</a>
+            <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
             <a routerLink="/behandelingen" class="btn btn-outline">Alle behandelingen</a>
           </div>
         </div>

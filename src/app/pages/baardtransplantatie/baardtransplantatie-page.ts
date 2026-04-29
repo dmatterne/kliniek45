@@ -1,21 +1,32 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-baardtransplantatie-page',
   standalone: true,
-  imports: [NgFor, RouterLink, ConsultationComponent],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./baardtransplantatie-page.scss'],
   template: `
     <section class="page-hero">
       <div class="container">
         <h1>Baardtransplantatie</h1>
         <p class="hero-subtitle">
-          Heeft u last van een dunne of ontbrekende baard? Bij HaarKliniek 45 in Grazen creeren we
-          een volle, natuurlijke baard die past bij uw gezicht.
+          Heeft u last van een dunne of ontbrekende baard? Via onze partner Hair Clinic Wolf is een
+          volledige baardtransplantatie mogelijk. HaarKliniek 45 verzorgt uw intake en begeleiding
+          vanuit Grazen.
         </p>
+      </div>
+    </section>
+
+    <!-- PARTNER CALLOUT -->
+    <section class="partner-callout-section">
+      <div class="container">
+        <div class="partner-callout">
+          <strong>ℹ️ Hoe werkt onze samenwerking?</strong>
+          HaarKliniek 45 verzorgt uw intake en begeleiding. De baardtransplantatie zelf wordt
+          uitgevoerd door het gecertificeerde team van onze partner Hair Clinic Wolf.
+        </div>
       </div>
     </section>
 
@@ -40,8 +51,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <div class="image-block">
             <img
               src="assets/images/mannen-voor-na-1.png"
-              alt="Baardtransplantatie voor en na - HaarKliniek 45"
+              alt="Baardtransplantatie voor en na - Hair Clinic Wolf"
             />
+            <p class="image-attribution"><em>Resultaten van onze partner Hair Clinic Wolf</em></p>
           </div>
         </div>
       </div>
@@ -88,8 +100,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p>
           De haarzakjes kunnen op verschillende manieren worden getransplanteerd. Hoewel FUE vaak
           wordt genoemd als een goede methode voor baardtransplantatie, levert de nieuwste techniek
-          - Direct Hair Implantation (DHI) - uitstekende resultaten. Onze specialist adviseert de
-          beste techniek op basis van uw persoonlijke situatie en foto's.
+          - Direct Hair Implantation (DHI) - uitstekende resultaten. Het gecertificeerde team van
+          Hair Clinic Wolf adviseert de beste techniek op basis van uw persoonlijke situatie en
+          foto's.
         </p>
         <p>
           DHI maakt gebruik van speciale implantatiepennen voor de directe plaatsing van grafts in
@@ -178,8 +191,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">02</div>
             <h3>Start behandeling</h3>
             <p>
-              U ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
-              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+              De baardtransplantatie wordt uitgevoerd door Hair Clinic Wolf in Nederland of Turkije.
+              HaarKliniek 45 begeleidt u voor en na de ingreep.
             </p>
           </div>
           <div class="step-card">
@@ -279,9 +292,12 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
-          <ng-container *ngFor="let _ of [1, 2]">
-            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
-          </ng-container>
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>

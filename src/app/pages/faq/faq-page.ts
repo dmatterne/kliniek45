@@ -28,7 +28,7 @@ interface FaqItem {
         <p class="intro-text">
           Heeft u vragen over haartransplantatie, onze technieken of de nazorg? Hieronder vindt u
           antwoord op de meest gestelde vragen. Staat uw vraag er niet bij? Neem dan vrijblijvend
-          contact op — ons team helpt u graag persoonlijk verder.
+          contact op — onze specialist helpt u graag persoonlijk verder.
         </p>
       </div>
     </section>
@@ -62,7 +62,7 @@ interface FaqItem {
       <div class="container">
         <h2>Nog steeds vragen?</h2>
         <p>
-          Onze specialisten staan klaar voor een gratis en vrijblijvend gesprek. Wij beantwoorden al
+          Onze specialist staat klaar voor een gratis en vrijblijvend gesprek. Wij beantwoorden al
           uw vragen persoonlijk.
         </p>
         <div class="cta-buttons">
@@ -181,7 +181,7 @@ export class FaqPageComponent {
         },
         {
           q: 'Kan ik ook een baardtransplantatie laten doen?',
-          a: 'Ja, HaarKliniek 45 biedt ook baardtransplantaties aan. De techniek is vergelijkbaar met de reguliere haartransplantatie en geeft een natuurlijk, permanent resultaat. Vraag een gratis consult aan voor meer informatie.',
+          a: 'Ja, via onze partner Hair Clinic Wolf is een baardtransplantatie mogelijk. Na uw intake bij HaarKliniek 45 in Grazen verwijzen wij u door naar hun gecertificeerde team.',
           open: false,
         },
       ],

@@ -18,7 +18,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           HaarKliniek 45 biedt oplossingen op maat voor elk type haaruitval in Grazen, België.
         </p>
         <div class="hero-actions">
-          <a routerLink="/consult" class="btn btn-primary">Gratis consult aanvragen</a>
+          <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
           <a routerLink="/resultaten" class="btn btn-outline btn-light">Bekijk resultaten</a>
         </div>
       </div>
@@ -92,7 +92,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               Niet zeker in welk stadium u zich bevindt? Tijdens uw gratis consult analyseren onze
               specialisten uw haaruitval en stellen een gepersonaliseerd plan op.
             </p>
-            <a routerLink="/consult" class="btn btn-outline">Boek een gratis consult</a>
+            <a routerLink="/contact" class="btn btn-outline">Boek een gratis consult</a>
           </div>
         </div>
       </div>
@@ -103,8 +103,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2 class="section-title">Chirurgische haartransplantaties</h2>
         <p class="section-subtitle">
-          Onze chirurgische haartransplantaties geven permanente, natuurlijke resultaten. Uw eigen
-          haarfollikels worden verplaatst naar de kale of dunne zones — voor altijd.
+          Via onze partner Hair Clinic Wolf zijn permanente, natuurlijke haartransplantaties
+          mogelijk. HaarKliniek 45 verzorgt de intake, het consult en de nazorg vanuit Belgi&euml;.
         </p>
         <div class="treatments-grid">
           <div class="treatment-card">
@@ -312,7 +312,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             wensen — en adviseren de meest geschikte behandeling voor uw budget en verwachtingen.
           </p>
           <div class="cta-actions">
-            <a routerLink="/consult" class="btn btn-primary">Gratis consult aanvragen</a>
+            <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
             <a routerLink="/werkwijze" class="btn btn-outline">Onze werkwijze</a>
           </div>
         </div>

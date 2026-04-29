@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-haartransplantatie-mannen-page',
   standalone: true,
-  imports: [ConsultationComponent, RouterLink, NgFor],
+  imports: [ConsultationComponent, RouterLink],
   styleUrls: ['./haartransplantatie-mannen-page.scss'],
   template: `
     <!-- HERO -->
@@ -16,12 +15,22 @@ import { RouterLink } from '@angular/router';
         <p class="hero-subtitle">
           Heb je last van haarverlies en ben je op zoek naar een oplossing? Bij HaarKliniek 45
           begrijpen we dat haaruitval bij mannen een grote impact kan hebben. Genetische oorzaken,
-          stress, trauma of een vorm van alopecia kunnen haarverlies veroorzaken. Daarom bieden we
-          gespecialiseerde haartransplantaties voor mannen aan om het zelfvertrouwen te herstellen.
+          stress, trauma of een vorm van alopecia kunnen haarverlies veroorzaken.
         </p>
         <div class="hero-actions">
           <a routerLink="/contact" class="btn btn-primary">Maak een afspraak</a>
           <a href="#hoe-werkt" class="btn btn-outline-white">Lees verder</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNER CALLOUT -->
+    <section class="partner-callout-section">
+      <div class="container">
+        <div class="partner-callout">
+          <strong>ℹ️ Hoe werkt onze samenwerking?</strong>
+          HaarKliniek 45 verzorgt uw intake en begeleiding. De haartransplantatie zelf wordt
+          uitgevoerd door het gecertificeerde team van onze partner Hair Clinic Wolf.
         </div>
       </div>
     </section>
@@ -46,10 +55,12 @@ import { RouterLink } from '@angular/router';
           </div>
           <div class="two-col-aside norwood-visual">
             <div class="norwood-grid">
-              <div class="norwood-item" *ngFor="let n of norwoodScale">
-                <div class="norwood-circle">{{ n.label }}</div>
-                <span>{{ n.desc }}</span>
-              </div>
+              @for (n of norwoodScale; track n.label) {
+                <div class="norwood-item">
+                  <div class="norwood-circle">{{ n.label }}</div>
+                  <span>{{ n.desc }}</span>
+                </div>
+              }
             </div>
           </div>
         </div>
@@ -61,12 +72,18 @@ import { RouterLink } from '@angular/router';
       <div class="container">
         <h2 class="section-heading-center">Haartransplantatie mannen voor en na</h2>
         <p class="section-sub-center">
-          Benieuwd naar de resultaten? Bekijk hieronder enkele voor en na foto's.
+          Benieuwd naar de resultaten? Bekijk hieronder enkele voor en na foto's van onze partner
+          Hair Clinic Wolf.
+        </p>
+        <p class="section-attribution">
+          <em>Resultaten behaald door onze partner Hair Clinic Wolf</em>
         </p>
         <div class="results-grid">
-          <div class="result-card" *ngFor="let img of voorNaImages">
-            <img [src]="img.src" [alt]="img.alt" loading="lazy" class="result-img" />
-          </div>
+          @for (img of voorNaImages; track img.src) {
+            <div class="result-card">
+              <img [src]="img.src" [alt]="img.alt" loading="lazy" class="result-img" />
+            </div>
+          }
         </div>
       </div>
     </section>
@@ -78,14 +95,15 @@ import { RouterLink } from '@angular/router';
           <div class="two-col-text">
             <h2>Hoe werkt een haartransplantatie bij mannen?</h2>
             <p>
-              Onze haartransplantaties voor mannen bieden een permanente oplossing voor haarverlies.
-              Via geavanceerde technieken verplaatsen we haarzakjes — ook wel grafts genoemd — van
-              een gezond donorgebied naar de zones waar je haarverlies hebt. Dit resulteert in een
-              natuurlijke en blijvende haargroei.
+              Via onze partner Hair Clinic Wolf kunt u een haartransplantatie ondergaan waarbij een
+              permanente oplossing voor haarverlies wordt gerealiseerd. Via geavanceerde technieken
+              verplaatsen ze haarzakjes — ook wel grafts genoemd — van een gezond donorgebied naar
+              de zones waar u haarverlies heeft. Dit resulteert in een natuurlijke en blijvende
+              haargroei.
             </p>
             <p>
-              Naast een haartransplantatie kunnen we je bij HaarKliniek 45 ook helpen met een
-              baardtransplantatie of haargroei stimulerende behandelingen.
+              Naast een haartransplantatie kunnen we je bij HaarKliniek 45 ook helpen met haargroei
+              stimulerende behandelingen zoals PRP, Hairegen en Regenera Activa.
             </p>
             <a routerLink="/contact" class="btn btn-primary">Persoonlijke prijsopgave</a>
           </div>
@@ -114,7 +132,7 @@ import { RouterLink } from '@angular/router';
             <div class="feature-card">
               <div class="feature-icon">✓</div>
               <div>
-                <strong>Naturelijk resultaat</strong>
+                <strong>Natuurlijk resultaat</strong>
                 <p>Elke graft wordt geplaatst op de juiste hoek en richting.</p>
               </div>
             </div>
@@ -138,14 +156,16 @@ import { RouterLink } from '@angular/router';
           waarbij geen littekens ontstaan.
         </p>
         <div class="methoden-grid">
-          <div class="methode-card" *ngFor="let m of methoden">
-            <div class="methode-header">
-              <span class="methode-tag">{{ m.tag }}</span>
-              <h3>{{ m.title }}</h3>
+          @for (m of methoden; track m.title) {
+            <div class="methode-card">
+              <div class="methode-header">
+                <span class="methode-tag">{{ m.tag }}</span>
+                <h3>{{ m.title }}</h3>
+              </div>
+              <p>{{ m.desc }}</p>
+              <a [routerLink]="m.link" class="link-arrow">Meer info →</a>
             </div>
-            <p>{{ m.desc }}</p>
-            <a [routerLink]="m.link" class="link-arrow">Meer info →</a>
-          </div>
+          }
         </div>
       </div>
     </section>
@@ -158,17 +178,19 @@ import { RouterLink } from '@angular/router';
       <div class="container">
         <h2>Waarom een haartransplantatie via de DHI-methode?</h2>
         <p>
-          Bij HaarKliniek 45 bieden we de DHI-methode aan voor haartransplantaties bij mannen om
-          diverse goede redenen:
+          Via onze partner Hair Clinic Wolf is de DHI-methode beschikbaar voor haartransplantaties
+          bij mannen om diverse goede redenen:
         </p>
         <div class="voordelen-grid">
-          <div class="voordeel" *ngFor="let v of dhiVoordelen">
-            <div class="voordeel-icon">✓</div>
-            <div>
-              <strong>{{ v.title }}</strong>
-              <p>{{ v.desc }}</p>
+          @for (v of dhiVoordelen; track v.title) {
+            <div class="voordeel">
+              <div class="voordeel-icon">✓</div>
+              <div>
+                <strong>{{ v.title }}</strong>
+                <p>{{ v.desc }}</p>
+              </div>
             </div>
-          </div>
+          }
         </div>
         <div class="cta-center">
           <a routerLink="/contact" class="btn btn-primary">Maak een afspraak</a>
@@ -182,13 +204,13 @@ import { RouterLink } from '@angular/router';
         <h2>Haartransplantatie mannen kosten</h2>
         <p>
           Een veelgestelde vraag is: "Wat zijn de kosten voor een haartransplantatie voor mannen?"
-          Bij HaarKliniek 45 streven we ernaar om onze behandelingen betaalbaar en transparant te
-          houden. Je ontvangt altijd een eerlijke, op maat gemaakte prijsopgave vóór je beslist.
+          Bij HaarKliniek 45 streven we ernaar om onze begeleiding betaalbaar en transparant te
+          houden. U ontvangt altijd een eerlijke, op maat gemaakte prijsopgave vóór u beslist.
         </p>
         <p>
-          Om erachter te komen of je geschikt bent voor een haartransplantatie gaan we graag met je
-          in gesprek. Bij HaarKliniek 45 geven we hier altijd een eerlijk advies over. Niet iedere
-          man is namelijk geschikt voor een haartransplantatie — een gratis consult geeft je
+          Om erachter te komen of u geschikt bent voor een haartransplantatie gaan we graag met u in
+          gesprek. Bij HaarKliniek 45 geven we hier altijd een eerlijk advies over. Niet iedere man
+          is namelijk geschikt voor een haartransplantatie — een gratis consult geeft u
           duidelijkheid zonder enige verplichting.
         </p>
         <div class="kosten-cta-row">
@@ -207,9 +229,12 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
-          <ng-container *ngFor="let _ of [1, 2]">
-            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
-          </ng-container>
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>

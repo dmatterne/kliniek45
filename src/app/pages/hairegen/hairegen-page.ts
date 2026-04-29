@@ -116,9 +116,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2>Hoe veilig is het gebruik van Hairegen?</h2>
         <p>
           Het apparaat is eenvoudig, praktisch en volkomen veilig om thuis te gebruiken. Het is de
-          enige haarregeneratieoplossing met gegarandeerde resultaten zonder bijwerkingen. Het is
-          ontworpen met gebruiksvriendelijkheid als prioriteit, zodat iedereen het gemakkelijk in
-          zijn dagelijks routine kan integreren.
+          enige haarregeneratieoplossing met bewezen positieve resultaten en een uitstekend
+          veiligheidsprofiel. Het is ontworpen met gebruiksvriendelijkheid als prioriteit, zodat
+          iedereen het gemakkelijk in zijn dagelijks routine kan integreren.
         </p>
         <p>
           Bovendien is de wetenschappelijke benadering achter het apparaat zorgvuldig ontwikkeld om
@@ -225,8 +225,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h2>Hairegen voor en na</h2>
             <p>
               Benieuwd naar de resultaten met Hairegen? Regelmatig gebruik van het Hairegen apparaat
-              leidt tot zichtbaar voller en gezonder haar. Neem contact op met ons voor actuele voor
-              en na resultaten van onze clienten bij HaarKliniek 45.
+              leidt tot zichtbaar voller en gezonder haar. Neem contact op voor meer informatie over
+              de mogelijke resultaten met Hairegen.
             </p>
             <div class="image-block">
               <img src="assets/images/voor-na-mannen.png" alt="Hairegen voor en na mannen" />

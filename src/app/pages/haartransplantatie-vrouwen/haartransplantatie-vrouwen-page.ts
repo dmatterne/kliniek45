@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { ConsultationComponent } from '../../components/consultation/consultation';
 
 @Component({
   selector: 'app-haartransplantatie-vrouwen-page',
   standalone: true,
-  imports: [NgFor, RouterLink, ConsultationComponent],
+  imports: [RouterLink, ConsultationComponent],
   styleUrls: ['./haartransplantatie-vrouwen-page.scss'],
   template: `
     <section class="page-hero">
@@ -14,8 +13,19 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h1>Haartransplantatie voor Vrouwen</h1>
         <p class="hero-subtitle">
           Haarverlies bij vrouwen heeft een grote emotionele impact. Bij HaarKliniek 45 in Grazen
-          bieden we gespecialiseerde, discrete oplossingen op maat.
+          bieden we gespecialiseerde, discrete intake en begeleiding op maat.
         </p>
+      </div>
+    </section>
+
+    <!-- PARTNER CALLOUT -->
+    <section class="partner-callout-section">
+      <div class="container">
+        <div class="partner-callout">
+          <strong>ℹ️ Hoe werkt onze samenwerking?</strong>
+          HaarKliniek 45 verzorgt uw intake en begeleiding. De haartransplantatie zelf wordt
+          uitgevoerd door het gecertificeerde team van onze partner Hair Clinic Wolf.
+        </div>
       </div>
     </section>
 
@@ -33,15 +43,16 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
             <p>
               Bij HaarKliniek 45 begrijpen we hoe ingrijpend haarverlies kan zijn voor uw
-              zelfvertrouwen en welzijn. Onze gecertificeerde specialisten bieden u persoonlijk
-              advies en een behandeling die is afgestemd op uw specifieke situatie en wensen.
+              zelfvertrouwen en welzijn. Onze specialist biedt u persoonlijk advies en begeleiding
+              die is afgestemd op uw specifieke situatie en wensen.
             </p>
           </div>
           <div class="image-block">
             <img
               src="assets/images/voor-na-vrouwen.png"
-              alt="Haartransplantatie vrouwen voor en na - HaarKliniek 45"
+              alt="Haartransplantatie vrouwen voor en na - Hair Clinic Wolf"
             />
+            <p class="image-attribution"><em>Resultaten van onze partner Hair Clinic Wolf</em></p>
           </div>
         </div>
       </div>
@@ -111,9 +122,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Waarom de DHI-methode voor vrouwen?</h2>
         <p>
-          Bij HaarKliniek 45 bieden we de DHI-methode (Direct Hair Implantation) aan voor
-          haartransplantaties bij vrouwen. Deze methode heeft een aantal belangrijke voordelen die
-          haar bijzonder geschikt maken voor de specifieke behoeften van vrouwelijke patienten.
+          Via onze partner Hair Clinic Wolf is de DHI-methode (Direct Hair Implantation) beschikbaar
+          voor haartransplantaties bij vrouwen. Deze methode heeft een aantal belangrijke voordelen
+          die haar bijzonder geschikt maken voor de specifieke behoeften van vrouwelijke patienten.
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
@@ -226,8 +237,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">02</div>
             <h3>Start behandeling</h3>
             <p>
-              U ontvangt van ons duidelijke richtlijnen om de behandeling zo effectief mogelijk te
-              laten verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+              De haartransplantatie wordt uitgevoerd door Hair Clinic Wolf in Nederland of Turkije.
+              HaarKliniek 45 begeleidt u voor en na de ingreep.
             </p>
           </div>
           <div class="step-card">
@@ -312,9 +323,12 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
-          <ng-container *ngFor="let _ of [1, 2]">
-            <span class="badge-pill" *ngFor="let b of trustBadges">{{ b }}</span>
-          </ng-container>
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
+          @for (b of trustBadges; track b) {
+            <span class="badge-pill">{{ b }}</span>
+          }
         </div>
       </div>
     </section>
