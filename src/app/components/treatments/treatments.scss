@@ -81,13 +81,21 @@
 }
 
 .treatment-link {
-  color: $gold;
+  color: $gold-dark;
   font-weight: 600;
   font-size: $text-sm;
   text-decoration: none;
   &:hover {
-    color: $gold-dark;
+    color: $primary-green;
   }
+}
+
+.treatment-meta {
+  display: block;
+  color: $primary-green;
+  font-size: $text-sm;
+  font-weight: 700;
+  margin-bottom: $space-4;
 }
 
 .treatments-cta {

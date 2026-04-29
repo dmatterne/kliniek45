@@ -63,9 +63,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           naadloos aan bij uw huid- en haarkleur.
         </p>
         <p>
-          Deze behandeling vraagt om precisie, hygiëne en vakmanschap. Daarom werken we bij
-          HaarKliniek 45 uitsluitend volgens strenge hygienerichtlijnen met gecertificeerde en
-          gediplomeerde specialisten.
+          Deze behandeling vraagt om precisie, hygiëne en vakmanschap. Daarom bespreken we vooraf
+          zorgvuldig wat realistisch is voor jouw huid, haarkleur en gewenste uitstraling.
         </p>
       </div>
     </section>
@@ -257,7 +256,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-heading-center">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -276,12 +275,12 @@ export class MicroHaarpigmentatiePageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

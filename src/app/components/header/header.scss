@@ -176,12 +176,13 @@
     .btn-gold {
       background: $gold;
       border-color: $gold;
-      color: $neutral-white;
+      color: $primary-green-dark;
       font-weight: 700;
       letter-spacing: 0.3px;
       &:hover {
         background: $gold-dark;
         border-color: $gold-dark;
+        color: $neutral-white;
       }
     }
   }

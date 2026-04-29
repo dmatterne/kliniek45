@@ -193,7 +193,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-title">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -215,13 +215,13 @@ export class HaaruitvalManPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 
   symptoms = [

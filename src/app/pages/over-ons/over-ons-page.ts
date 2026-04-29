@@ -219,7 +219,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <!-- Trust Badges -->
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-title">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">

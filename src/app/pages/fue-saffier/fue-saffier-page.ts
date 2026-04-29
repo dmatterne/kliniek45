@@ -13,8 +13,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h1>FUE Saffier Haartransplantatie</h1>
         <p class="hero-subtitle">
-          Follicular Unit Extraction met saffieren instrumenten – precisie haartransplantatie voor
-          natuurlijke resultaten en minimaal herstel bij HaarKliniek 45 in Grazen, Belgie.
+          FUE Saffier is een chirurgische haartransplantatietechniek die via Hair Clinic Wolf wordt
+          beoordeeld en uitgevoerd. HaarKliniek 45 verzorgt intake, voorbereiding en lokale nazorg.
         </p>
       </div>
     </section>
@@ -36,8 +36,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               plaatsen.
             </p>
             <p>
-              Bij HaarKliniek 45 houden we rekening met jouw wensen, toekomstige haargroei,
-              nationaliteit en etniciteit voor een volledig op maat gemaakt resultaat.
+              Tijdens uw intake bij HaarKliniek 45 bespreken we uw wensen, verwachtingen en vragen.
+              De medische planning en uitvoering gebeuren via Hair Clinic Wolf.
             </p>
           </div>
           <div class="image-block">
@@ -97,10 +97,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Onze werkwijze</h2>
         <p>
-          De FUE Saffier methode is een moderne benadering van haartransplantatie die bekend staat
-          om zijn precisie en natuurlijke resultaten. Bij FUE worden haarzakjes met een klein
-          boortje uit het donorgebied gehaald. Daarna maken we kleine kanaaltjes in de kale of
-          dunner wordende gebieden op de hoofdhuid, waar we de haarzakjes zorgvuldig plaatsen.
+          De FUE Saffier methode is een moderne benadering van haartransplantatie. Bij FUE worden
+          haarzakjes uit het donorgebied gehaald en in het ontvangstgebied geplaatst. Deze
+          chirurgische handelingen worden door Hair Clinic Wolf beoordeeld en uitgevoerd.
         </p>
         <p>
           Het unieke kenmerk van FUE is dat er geen lineaire incisies nodig zijn, wat resulteert in
@@ -110,9 +109,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           met minimale invasie en maximale esthetische resultaten.
         </p>
         <p>
-          Bij HaarKliniek 45 nemen we je volledig mee in het proces van de FUE Saffier
-          behandelmethode. Voor meer informatie over hoe wij te werk gaan kun je contact opnemen of
-          een gratis consult inplannen in onze kliniek in Grazen, Belgie.
+          Bij HaarKliniek 45 nemen we je mee in de voorbereiding, verwachtingen en nazorg rond een
+          mogelijk FUE Saffier traject. Voor persoonlijk advies kun je een gratis consult inplannen
+          in Grazen.
         </p>
       </div>
     </section>
@@ -134,8 +133,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">2</div>
             <h3>Start behandeling</h3>
             <p>
-              Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
-              verlopen. De behandeling vindt plaats in onze kliniek in Grazen, Belgie.
+              Je ontvangt van ons richtlijnen voor voorbereiding. Als FUE Saffier passend is, vindt
+              de chirurgische behandeling plaats via Hair Clinic Wolf.
             </p>
           </div>
           <div class="step-card">
@@ -210,8 +209,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>FUE Saffier voor en na resultaten</h2>
         <p>
-          Benieuwd naar de resultaten van een haartransplantatie met de FUE Saffier methode bij
-          HaarKliniek 45? Bekijk hieronder een aantal resultaten van onze behandelingen.
+          Benieuwd naar voorbeelden van FUE Saffier resultaten? Gebruik deze pagina als startpunt
+          voor uw vragen; chirurgische resultaten moeten aan Hair Clinic Wolf worden toegeschreven.
         </p>
         <div class="three-col-images">
           <div class="image-block">
@@ -243,9 +242,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h2>Voor de behandeling</h2>
             <p>
               Bij HaarKliniek 45 gaan we graag persoonlijk met je in gesprek. We geven je advies
-              over wat de beste keuze is voor jouw haartransplantatie. Als FUE Saffier de beste
-              keuze voor jou blijkt te zijn, plannen we dit in met onze medisch specialisten in onze
-              kliniek in Grazen, Belgie.
+              over wat de beste keuze kan zijn voor jouw haartransplantatie. Als FUE Saffier
+              relevant blijkt, stemmen we het chirurgische vervolg af met Hair Clinic Wolf.
             </p>
             <p>
               Overweeg je een haartransplantatie met de FUE Saffier behandelmethode? Twijfel je nog
@@ -282,7 +280,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-heading-center">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -301,12 +299,12 @@ export class FueSaffierPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

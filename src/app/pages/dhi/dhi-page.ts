@@ -13,9 +13,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h1>DHI Haartransplantatie</h1>
         <p class="hero-subtitle">
-          Direct Hair Implantation – de meest geavanceerde haartransplantatietechniek met de Choi
-          pen voor maximale dichtheid en natuurlijke resultaten bij HaarKliniek 45 in Grazen,
-          België.
+          Direct Hair Implantation is een chirurgische techniek die via onze partner Hair Clinic
+          Wolf wordt beoordeeld en uitgevoerd. HaarKliniek 45 helpt u lokaal met intake,
+          voorbereiding en nazorg.
         </p>
       </div>
     </section>
@@ -38,9 +38,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               worden zijn FUE en FUE Saffier.
             </p>
             <p>
-              Wist je dat we mislukte haartransplantaties ook goed kunnen herstellen door middel van
-              de DHI-techniek? Bij HaarKliniek 45 in Grazen, België, behandelen wij voornamelijk met
-              de DHI-methode omdat we hiermee de mooiste resultaten boeken.
+              Of DHI geschikt is, hangt af van uw donorgebied, haarverliespatroon en verwachtingen.
+              Tijdens de intake bereiden we uw vragen voor en stemmen we het chirurgische vervolg af
+              met Hair Clinic Wolf.
             </p>
           </div>
           <div class="image-block">
@@ -101,22 +101,18 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Onze werkwijze bij HaarKliniek 45</h2>
         <p>
-          Bij een DHI haartransplantatie combineren we zowel precisie als effectiviteit. Deze
-          techniek begint met een grondige analyse van het haar en de hoofdhuid, waarna de
-          haarzakjes zorgvuldig worden geoogst uit het donorgebied, meestal aan de achterkant van
-          het hoofd.
+          Bij HaarKliniek 45 nemen we u mee in de voorbereiding op een mogelijk DHI-traject. We
+          bespreken uw haarverlies, verwachtingen, nazorg en de informatie die Hair Clinic Wolf
+          nodig heeft voor een medische beoordeling.
         </p>
         <p>
-          Met behulp van een speciale Choi-implanter worden de haarzakjes vervolgens een voor een
-          getransplanteerd naar de kalende of dunner wordende gebieden op de hoofdhuid. Wat deze
-          methode onderscheidt, is de nauwkeurigheid waarmee de haarzakjes worden geplaatst, wat
-          resulteert in een sneller herstel en natuurlijke groei.
+          De chirurgische stappen zelf, zoals extractie en implantatie met een Choi-implanter,
+          worden uitgevoerd door het medische team van Hair Clinic Wolf. Wij blijven het lokale
+          aanspreekpunt voor voorbereiding en opvolging.
         </p>
         <p>
-          DHI biedt een efficiente en minimaal invasieve oplossing voor mensen die op zoek zijn naar
-          haarherstel met optimale resultaten. Bij HaarKliniek 45 in Grazen nemen we je volledig mee
-          in het proces van de DHI-behandelmethode. Maak vrijblijvend een afspraak voor een gratis
-          consult.
+          Maak vrijblijvend een afspraak in Grazen als u wilt weten of een DHI-traject het bespreken
+          waard is en welke vragen u vooraf helder moet hebben.
         </p>
       </div>
     </section>
@@ -138,9 +134,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">2</div>
             <h3>Start behandeling</h3>
             <p>
-              Je ontvangt van ons richtlijnen om de behandeling zo effectief mogelijk te laten
-              verlopen. De behandeling vindt plaats in onze gecertificeerde kliniek in Grazen,
-              Belgie.
+              Je ontvangt van ons richtlijnen voor voorbereiding. Als DHI passend is, vindt de
+              chirurgische behandeling plaats via Hair Clinic Wolf.
             </p>
           </div>
           <div class="step-card">
@@ -215,8 +210,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>DHI voor en na resultaten</h2>
         <p>
-          Benieuwd naar de resultaten van een haartransplantatie met de DHI-methode bij HaarKliniek
-          45? Bekijk hieronder een aantal resultaten van onze behandelingen in Grazen, Belgie.
+          Benieuwd naar voorbeelden van DHI-resultaten? Gebruik deze pagina als startpunt voor uw
+          vragen; chirurgische resultaten moeten altijd aan Hair Clinic Wolf worden toegeschreven.
         </p>
         <div class="three-col-images">
           <div class="image-block">
@@ -253,9 +248,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               mee boeken.
             </p>
             <p>
-              Tijdens het gratis consult in onze kliniek in Grazen, Belgie bespreken we jouw
-              situatie, wensen en verwachtingen. Op basis hiervan stellen we een behandelplan op
-              maat op. Je hoeft nergens anders voor te zijn – alles vindt plaats bij ons in Belgie.
+              Tijdens het gratis consult in Grazen bespreken we jouw situatie, wensen en
+              verwachtingen. Als een haartransplantatie relevant is, stemmen we het vervolg af met
+              Hair Clinic Wolf.
             </p>
           </div>
           <div>
@@ -289,7 +284,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-heading-center">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -308,12 +303,12 @@ export class DhiPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

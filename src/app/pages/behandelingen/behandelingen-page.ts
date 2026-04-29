@@ -12,10 +12,11 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <section class="page-hero">
       <div class="container">
         <p class="hero-eyebrow">Behandelingen</p>
-        <h1>Alle Haarbehandelingen</h1>
+        <h1>Haaradvies, behandelingen en partnertrajecten</h1>
         <p class="hero-subtitle">
-          Van chirurgische haartransplantaties tot non-invasieve haargroeibehandelingen —
-          HaarKliniek 45 biedt oplossingen op maat voor elk type haaruitval in Grazen, België.
+          Start in Grazen met een gratis intake en duidelijk advies. Non-chirurgische behandelingen
+          en nazorg begeleiden we lokaal; chirurgische haartransplantaties verlopen via Hair Clinic
+          Wolf.
         </p>
         <div class="hero-actions">
           <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -89,8 +90,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               </p>
             </div>
             <p class="consult-nudge">
-              Niet zeker in welk stadium u zich bevindt? Tijdens uw gratis consult analyseren onze
-              specialisten uw haaruitval en stellen een gepersonaliseerd plan op.
+              Niet zeker in welk stadium u zich bevindt? Tijdens uw gratis consult bespreken we uw
+              haaruitval, verwachtingen en de mogelijke vervolgstappen.
             </p>
             <a routerLink="/contact" class="btn btn-outline">Boek een gratis consult</a>
           </div>
@@ -111,9 +112,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">👨</div>
             <h3>Haartransplantatie Mannen</h3>
             <p>
-              Permanente oplossing voor mannelijk haaruitval. Van een terugtrekkende haarlijn tot
-              uitgebreide kaalheid op de kruin — wij herstellen uw haar met precisie en een volledig
-              natuurlijk resultaat, aangepast aan uw gezichtsvorm en leeftijd.
+              Intake en advies voor mannelijk haaruitval. Als een transplantatie passend is,
+              verloopt de medische uitvoering via Hair Clinic Wolf.
             </p>
             <a routerLink="/behandelingen/haartransplantatie-mannen" class="card-link"
               >Meer info →</a
@@ -124,9 +124,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">👩</div>
             <h3>Haartransplantatie Vrouwen</h3>
             <p>
-              Speciaal afgestemd op vrouwelijke haaruitval en verdunning. Wij behandelen diffuse
-              verdunning over de hoofdhuid, hersteloperaties na eerder mislukte ingrepen en
-              specifieke zones die volume verliezen.
+              Advies voor vrouwelijke haaruitval en verdunning, met aandacht voor oorzaak,
+              verwachtingen en mogelijke niet-chirurgische of chirurgische vervolgstappen.
             </p>
             <a routerLink="/behandelingen/haartransplantatie-vrouwen" class="card-link"
               >Meer info →</a
@@ -137,9 +136,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">↩️</div>
             <h3>Haartransplantatie Inhammen</h3>
             <p>
-              Gericht herstel van de haarlijn en inhammen. Een verfijnde behandeling waarbij de
-              haarlijn opnieuw wordt getekend op basis van uw gezichtscontouren en proportie — voor
-              een onmiskenbaar natuurlijk eindresultaat.
+              Lokale intake voor vragen over inhammen en haarlijn. De haarlijnplanning en
+              chirurgische uitvoering worden door Hair Clinic Wolf beoordeeld.
             </p>
             <a routerLink="/behandelingen/haartransplantatie-inhammen" class="card-link"
               >Meer info →</a
@@ -150,9 +148,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">🔝</div>
             <h3>Haartransplantatie Kruin</h3>
             <p>
-              Kaalheid op de kruin is een van de meest voorkomende patronen bij mannen. Met onze
-              technieken vullen wij de kruin op met uw eigen follikels voor een duurzaam resultaat
-              dat jarenlang standhoudt.
+              Kaalheid op de kruin vraagt om realistisch advies over donorgebied, dichtheid en
+              verwachtingen. We bereiden dit traject lokaal met u voor.
             </p>
             <a routerLink="/behandelingen/haartransplantatie-kruin" class="card-link"
               >Meer info →</a
@@ -163,9 +160,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">🌿</div>
             <h3>Long Hair Haartransplantatie</h3>
             <p>
-              Haartransplantatie met lang haar zodat u het eindresultaat onmiddellijk kunt
-              beoordelen op de behandeltafel. Het donorgebied wordt niet kaalgeschoren — ideaal voor
-              patiënten met lang haar die hun look willen behouden.
+              Informatie over Long Hair haartransplantatie voor wie scheren wil beperken. De
+              geschiktheid en uitvoering worden via Hair Clinic Wolf bepaald.
             </p>
             <a routerLink="/behandelingen/long-hair-haartransplantatie" class="card-link"
               >Meer info →</a
@@ -176,9 +172,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="card-icon">🧔</div>
             <h3>Baardtransplantatie</h3>
             <p>
-              Voor mannen die een vollere, dichtere of symmetrischere baard wensen. Kale plekken in
-              de baard of snor worden gevuld met follikels van het achterhoofd voor een consistent,
-              mannelijk resultaat.
+              Intake voor vragen over een vollere of symmetrischere baard. De chirurgische
+              baardtransplantatie verloopt via Hair Clinic Wolf.
             </p>
             <a routerLink="/behandelingen/baardtransplantatie" class="card-link">Meer info →</a>
           </div>
@@ -189,20 +184,20 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <!-- Technieken -->
     <section class="content-section techniques-section">
       <div class="container">
-        <h2 class="section-title">Onze technieken</h2>
+        <h2 class="section-title">Technieken via Hair Clinic Wolf</h2>
         <p class="section-subtitle">
-          HaarKliniek 45 werkt uitsluitend met bewezen, state-of-the-art technieken voor optimale
-          graftoverleving, minimale hersteltijd en het meest natuurlijke resultaat.
+          We leggen de verschillen uit en helpen u gericht vragen voorbereiden. De keuze en
+          uitvoering van DHI of FUE Saffier gebeurt in het chirurgische traject bij Hair Clinic
+          Wolf.
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
             <div class="benefit-icon">🎯</div>
             <h3>DHI — Direct Hair Implantation</h3>
             <p>
-              De meest geavanceerde methode. Follikels worden rechtstreeks geplaatst met de Choi
-              Implanter Pen — geen sneden, maximale overlevingskans van de grafts, hogere dichtheid
-              per cm². Ideaal voor vrouwen, de kruinzone en patiënten die het donorgebied niet
-              willen kaalscheren.
+              Methode waarbij grafts met een Choi Implanter Pen worden geplaatst. We bespreken
+              wanneer DHI relevant kan zijn en verwijzen voor medische beoordeling naar Hair Clinic
+              Wolf.
             </p>
             <a routerLink="/behandelingen/dhi" class="card-link">Meer over DHI →</a>
           </div>
@@ -211,10 +206,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="benefit-icon">💎</div>
             <h3>FUE Saffier</h3>
             <p>
-              Follicular Unit Extraction met saffieren incisiepunten. De uiterst fijne sneden
-              resulteren in minimale littekenvorming, sneller herstel en een superieur esthetisch
-              eindresultaat. Dé gouden standaard voor grotere gebieden zoals het voorhoofd en de
-              haarlijn.
+              Follicular Unit Extraction met saffieren instrumenten. We helpen u begrijpen wanneer
+              deze methode kan passen en wat u vooraf aan de partnerkliniek moet vragen.
             </p>
             <a routerLink="/behandelingen/fue-saffier" class="card-link">Meer over FUE Saffier →</a>
           </div>
@@ -254,7 +247,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               doorbloeding en vertraagt actief haaruitval. Aanbevolen als bijkomende nazorg na
               haartransplantatie.
             </p>
-            <a routerLink="/behandelingen/prp-behandeling" class="card-link">Meer over PRP →</a>
+            <a routerLink="/haargroei-stimuleren/prp-behandeling" class="card-link"
+              >Meer over PRP →</a
+            >
           </div>
 
           <div class="benefit-card">
@@ -266,7 +261,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               follikels en versterkt het bestaande haar van binnenuit. Pijnloos en zonder
               revalidatieperiode.
             </p>
-            <a routerLink="/behandelingen/hairegen" class="card-link">Meer over Hairegen →</a>
+            <a routerLink="/haargroei-stimuleren/hairegen" class="card-link"
+              >Meer over Hairegen →</a
+            >
           </div>
 
           <div class="benefit-card">
@@ -277,7 +274,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               worden verwerkt tot een suspensie en teruggeplaatst in de hoofdhuid — dit activeert de
               regeneratiecapaciteit van uw follikels en vertraagt actief progressief haaruitval.
             </p>
-            <a routerLink="/behandelingen/regenera-activa" class="card-link"
+            <a routerLink="/haargroei-stimuleren/regenera-activa" class="card-link"
               >Meer over Regenera →</a
             >
           </div>
@@ -293,7 +290,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               bepaalde werkzame stoffen. Het resultaat is een volledig gepersonaliseerd
               behandeladvies — wetenschappelijk onderbouwd.
             </p>
-            <a routerLink="/behandelingen/dna-test-haaruitval" class="btn btn-outline"
+            <a routerLink="/haargroei-stimuleren/dna-test-haaruitval" class="btn btn-outline"
               >Meer over de DNA-test</a
             >
           </div>
@@ -308,7 +305,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h2>Welke behandeling past bij jou?</h2>
           <p>
             Ieder geval van haaruitval is uniek. Tijdens een gratis en volledig vrijblijvend consult
-            analyseert Jens Vandenreijt uw situatie en persoonlijke wensen — en adviseert de meest geschikte behandeling voor uw budget en verwachtingen. Non-chirurgische behandelingen voeren wij lokaal uit; haartransplantaties verlopen via onze partner Hair Clinic Wolf.
+            bespreekt Jens Vandenreijt uw situatie en persoonlijke wensen. U krijgt helder advies
+            over lokale non-chirurgische opties, nazorg en eventuele doorverwijzing naar Hair Clinic
+            Wolf voor een haartransplantatie.
           </p>
           <div class="cta-actions">
             <a routerLink="/contact" class="btn btn-primary">Gratis consult aanvragen</a>
@@ -321,7 +320,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
     <!-- Trust Badges -->
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-title">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -343,12 +342,12 @@ export class BehandelingenPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

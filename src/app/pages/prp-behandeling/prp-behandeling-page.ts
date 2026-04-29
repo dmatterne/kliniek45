@@ -143,8 +143,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-number">2</div>
             <h3>Start behandeling</h3>
             <p>
-              Je ontvangt van ons richtlijnen om de PRP-behandeling zo effectief mogelijk te laten
-              verlopen. Alles vindt plaats bij ons in Grazen, Belgie.
+              Je ontvangt van ons richtlijnen om de PRP-behandeling zorgvuldig te laten verlopen.
+              Dit lokale non-chirurgische traject vindt plaats bij ons in Grazen, Belgie.
             </p>
           </div>
           <div class="step-card">
@@ -269,7 +269,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-heading-center">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -288,12 +288,12 @@ export class PrpBehandelingPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

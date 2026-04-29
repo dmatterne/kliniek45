@@ -190,9 +190,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Waarom uw traject starten bij HaarKliniek 45?</h2>
         <p>
-          HaarKliniek 45 is geen uitvoerende kliniek, maar uw Belgische intake- en adviespartner.
-          U start uw traject bij ons in Grazen; de haartransplantatie zelf wordt uitgevoerd door
-          onze partner Hair Clinic Wolf in Nederland of Turkije.
+          HaarKliniek 45 is geen uitvoerende kliniek, maar uw Belgische intake- en adviespartner. U
+          start uw traject bij ons in Grazen; de haartransplantatie zelf wordt uitgevoerd door onze
+          partner Hair Clinic Wolf in Nederland of Turkije.
         </p>
         <ul class="styled-list">
           <li>
@@ -200,8 +200,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             situatie objectief — ook als een transplantatie niet de beste optie voor u is
           </li>
           <li>
-            <strong>Lokale intake en nazorg:</strong> Uw intake, haaranalyse en nazorg verlopen
-            bij ons in Grazen — in uw eigen taal, dicht bij huis
+            <strong>Lokale intake en nazorg:</strong> Uw intake, haaranalyse en nazorg verlopen bij
+            ons in Grazen — in uw eigen taal, dicht bij huis
           </li>
           <li>
             <strong>Non-chirurgische behandelingen lokaal:</strong> PRP, Hairegen, MHP en andere
@@ -252,7 +252,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-heading-center">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-heading-center">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -271,12 +271,12 @@ export class HaartransplantatieKostenPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }

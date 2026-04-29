@@ -87,9 +87,30 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="social-row">
               <span class="social-label">Volg ons:</span>
               <div class="social-icons">
-                <a href="https://www.facebook.com/profile.php?id=61585961954316" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">f</a>
-                <a href="https://www.instagram.com/haarkliniek45/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">in</a>
-                <a href="https://wa.me/32485593302" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp">W</a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61585961954316"
+                  target="_blank"
+                  rel="noopener"
+                  class="social-icon"
+                  aria-label="Facebook"
+                  >f</a
+                >
+                <a
+                  href="https://www.instagram.com/haarkliniek45/"
+                  target="_blank"
+                  rel="noopener"
+                  class="social-icon"
+                  aria-label="Instagram"
+                  >in</a
+                >
+                <a
+                  href="https://wa.me/32485593302"
+                  target="_blank"
+                  rel="noopener"
+                  class="social-icon"
+                  aria-label="WhatsApp"
+                  >W</a
+                >
               </div>
             </div>
           </div>
@@ -183,7 +204,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
 
     <section class="trust-section">
       <div class="container">
-        <h2 class="section-title">Waarom een behandeling bij HaarKliniek 45?</h2>
+        <h2 class="section-title">Waarom starten bij HaarKliniek 45?</h2>
       </div>
       <div class="badges-track-wrap" aria-hidden="true">
         <div class="badges-track">
@@ -205,12 +226,12 @@ export class ContactPageComponent {
     'Gratis consult',
     'Betrouwbaar',
     'Belgisch adviescentrum',
-    'Gecertificeerde specialisten',
+    'Partner Hair Clinic Wolf',
     'Persoonlijke nazorg',
     'Geen verborgen kosten',
-    'Garantiecertificaat',
-    '100% expertise',
-    'Hoogwaardige faciliteiten',
-    'Gediplomeerd',
+    'Duidelijke rolverdeling',
+    'Persoonlijke begeleiding',
+    'Lokale opvolging',
+    'Discrete aanpak',
   ];
 }
