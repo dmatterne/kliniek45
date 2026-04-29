@@ -42,6 +42,26 @@
     box-shadow: 0 16px 48px rgba($primary-green-dark, 0.2);
   }
 
+  .about-team-placeholder {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: 16px;
+    background: lighten($primary-green, 52%);
+    border: 2px dashed lighten($primary-green, 35%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $space-3;
+    color: $primary-green;
+
+    p {
+      font-size: 0.9rem;
+      color: lighten($primary-green, 15%);
+      margin: 0;
+    }
+  }
+
   .about-badge {
     position: absolute;
     bottom: -$space-5;
