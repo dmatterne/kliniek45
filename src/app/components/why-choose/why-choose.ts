@@ -15,7 +15,6 @@ export class WhyChooseComponent {
     { icon: 'snel-resultaat', label: 'Snel resultaat' },
     { icon: 'geen-bijwerkingen', label: 'Geen bijwerkingen' },
     { icon: 'geen-herstelperiode', label: 'Geen herstelperiode' },
-    { icon: 'korte-behandeltijd', label: 'Korte behandeltijd' },
-    { icon: 'gratis-hoofd-haar-analyse', label: 'Gratis haaranalyse' },
+    { icon: 'kortere-behandeltijd', label: 'Korte behandeltijd' },
   ];
 }

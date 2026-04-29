@@ -207,7 +207,7 @@ export class WerkwijzePageComponent {
     },
     {
       number: 2,
-      icon: 'assets/icons/process-icons-2025/gratis-hoofd-haar-analyse.png',
+      icon: 'assets/icons/process-icons-2025/expertise.png',
       title: 'Intake & haaranalyse',
       desc: "Tijdens de intake maken we gedetailleerde foto's en analyseren we uw haaruitvalpatroon. Op basis hiervan stellen we een persoonlijk behandelplan op.",
       tags: ['Haaranalyse', 'Vertrouwelijk dossier', 'Persoonlijk plan'],
