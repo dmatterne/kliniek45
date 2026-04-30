@@ -181,7 +181,7 @@ export class FaqPageComponent {
         },
         {
           q: 'Kan ik ook een baardtransplantatie laten doen?',
-          a: 'Ja, via onze partner Hair Clinic Wolf is een baardtransplantatie mogelijk. Na uw intake bij HaarKliniek 45 in Grazen verwijzen wij u door voor verdere beoordeling.',
+          a: 'Ja, via onze partner Hair Clinic Wolf is een baardtransplantatie mogelijk. Na uw intake bij HaarKliniek 45 in Grazen verwijzen wij u door voor verdere beoordeling en planning van de ingreep.',
           open: false,
         },
       ],

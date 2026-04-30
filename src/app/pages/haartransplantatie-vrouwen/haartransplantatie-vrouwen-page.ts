@@ -189,8 +189,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Ongeschoren haartransplantatie voor vrouwen</h2>
         <p>
-          Voor vrouwen die hun haar niet willen scheren, bieden we ook de ongeschoren
-          haartransplantatiemethode aan (ook wel de Long Hair techniek genoemd). Bij deze methode
+          Voor vrouwen die hun haar niet willen scheren, is via onze partner Hair Clinic Wolf ook de
+          ongeschoren haartransplantatiemethode beschikbaar (ook wel de Long Hair techniek genoemd). Bij deze methode
           hoeft u uw haar niet te scheren. De haarzakjes worden discreet uit het donorgebied
           geoogst, waarbij uw bestaande haarlengte volledig behouden blijft.
         </p>
