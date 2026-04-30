@@ -47,8 +47,6 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             />
           </div>
         </div>
-        <img src="assets/images/fue-behandeling-1.jpg" alt="FUE Saffier behandeling — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
-        <img src="assets/images/fue-behandeling-2.jpg" alt="FUE grafts extractie — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 

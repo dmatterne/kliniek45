@@ -60,14 +60,6 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
-    <!-- Nazorg images -->
-    <section class="content-section">
-      <div class="container">
-        <img src="assets/images/werkwijze-wassing.webp" alt="Eerste wassing na haartransplantatie" loading="lazy" class="content-img" width="800" height="533">
-        <img src="assets/images/werkwijze-controleafspraken.png" alt="Controleafspraken en nazorg" loading="lazy" class="content-img" width="800" height="533">
-      </div>
-    </section>
-
     <section class="why-section">
       <div class="container">
         <h2 class="section-title">Waarom is nazorg zo belangrijk?</h2>

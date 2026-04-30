@@ -51,8 +51,6 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             />
           </div>
         </div>
-        <img src="assets/images/haartransplantatie-inhammen-behandeling.jpg" alt="Inhammen behandeling — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
-        <img src="assets/images/haartransplantatie-inhammen-zijkant.jpg" alt="Inhammen resultaat zijkant" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 

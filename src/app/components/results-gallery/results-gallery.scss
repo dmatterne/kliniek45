@@ -60,6 +60,20 @@
   object-fit: cover;
 }
 
+.result-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $space-10 $space-6;
+  background: $neutral-cream;
+
+  img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+  }
+}
+
 .result-caption {
   padding: $space-3 $space-4;
   display: flex;
