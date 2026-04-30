@@ -77,7 +77,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               <p>
                 De Norwood-Hamilton schaal beschrijft 7 stadia van mannelijk haaruitval — van een
                 licht terugtrekkende haarlijn (stadium I) tot uitgebreide kaalheid op het voorhoofd
-                en de gehele kruin (stadium VII). Onze specialisten gebruiken deze schaal om het
+                en de gehele kruin (stadium VII). Onze specialist gebruikt deze schaal om het
                 juiste aantal grafts en de optimale techniek te bepalen.
               </p>
             </div>
@@ -258,8 +258,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <p>
               Innovatief medisch apparaat dat microneedling combineert met elektrotherapie en
               mesotherapie. Stimuleert de doorbloeding van de hoofdhuid, activeert slapende
-              follikels en versterkt het bestaande haar van binnenuit. Pijnloos en zonder
-              revalidatieperiode.
+              follikels en versterkt het bestaande haar van binnenuit. Nagenoeg pijnloos — minimaal ongemak.
             </p>
             <a routerLink="/haargroei-stimuleren/hairegen" class="card-link"
               >Meer over Hairegen →</a

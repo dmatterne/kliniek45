@@ -64,6 +64,17 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
+    <!-- Process images -->
+    <section class="section section--white">
+      <div class="container">
+        <img src="assets/images/werkwijze-consult.jpg" alt="Intake consult bij HaarKliniek 45" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/werkwijze-behandelplan.jpg" alt="Medisch behandelplan opstellen" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/werkwijze-fotos.jpg" alt="Foto-opvolging tijdens herstelproces" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/werkwijze-wassing.webp" alt="Eerste wassing na haartransplantatie" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/werkwijze-controleafspraken.png" alt="Controleafspraken nazorg" loading="lazy" class="content-img" width="800" height="533">
+      </div>
+    </section>
+
     <section class="section section--cream">
       <div class="container">
         <div class="section__header">

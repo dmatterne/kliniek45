@@ -51,6 +51,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             />
           </div>
         </div>
+        <img src="assets/images/haartransplantatie-inhammen-behandeling.jpg" alt="Inhammen behandeling — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/haartransplantatie-inhammen-zijkant.jpg" alt="Inhammen resultaat zijkant" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 
@@ -98,7 +100,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           plekken. Dit herstelt de oorspronkelijke haarlijn en verbetert de gezichtsverhoudingen.
         </p>
         <p>
-          De behandeling verloopt onder plaatselijke verdoving, zodat u geen pijn ervaart tijdens de
+          De behandeling verloopt onder plaatselijke verdoving, zodat u doorgaans geen pijn ervaart tijdens de
           ingreep. Na de behandeling kunnen er tijdelijk korstjes en lichte roodheid optreden, maar
           dit verdwijnt binnen enkele weken. Het eindresultaat is permanent en zichtbaar na 12 tot
           14 maanden.
@@ -180,7 +182,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
           <div class="benefit-card">
             <div class="benefit-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <h3>Permanent resultaat</h3>
+            <h3>Langdurig, natuurlijk resultaat</h3>
             <p>
               De getransplanteerde haarzakjes zijn afkomstig uit een gebied dat resistent is tegen
               haarverlies. Eenmaal getransplanteerd, blijven ze voor het leven haar produceren.

@@ -84,7 +84,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="timeline-body">
               <h3>De dag na de ingreep</h3>
               <p>
-                Lichte zwelling en roodheid zijn normaal en verwacht. Onze specialisten begeleiden u
+                Lichte zwelling en roodheid zijn normaal en verwacht. Onze specialist begeleidt u
                 bij de eerste wasbeurt of geven gedetailleerde instructies mee voor thuis. Rust is
                 de boodschap.
               </p>

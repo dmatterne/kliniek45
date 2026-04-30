@@ -45,6 +45,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             />
           </div>
         </div>
+        <img src="assets/images/haartransplantatie-kruin-behandeling.jpg" alt="Haartransplantatie kruin — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/haartransplantatie-kruin-overhead.jpg" alt="Kruin resultaat bovenaanzicht" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 
@@ -76,7 +78,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <strong>Natuurlijk resultaat:</strong> Na 12-14 maanden is het definitieve, volledig
             natuurlijke resultaat zichtbaar
           </li>
-          <li><strong>Plaatselijke verdoving:</strong> U ervaart geen pijn tijdens de ingreep</li>
+          <li><strong>Plaatselijke verdoving:</strong> Dankzij verdoving ervaart u doorgaans geen pijn</li>
         </ul>
       </div>
     </section>
@@ -87,7 +89,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p>
           Na de haartransplantatie kunnen er korstjes en jeuk ontstaan. Het is cruciaal om hier niet
           aan te krabben om infecties en schade aan de haarzakjes te voorkomen. Volg de
-          nazorginstructies van onze specialisten nauwkeurig op voor het beste resultaat.
+          nazorginstructies van onze specialist nauwkeurig op voor het beste resultaat.
         </p>
         <p>
           Ongeveer twee maanden na de behandeling vallen de haren op de kruin tijdelijk uit. Geen

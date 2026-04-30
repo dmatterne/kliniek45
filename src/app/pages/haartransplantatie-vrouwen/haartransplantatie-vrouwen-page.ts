@@ -55,6 +55,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <p class="image-attribution"><em>Resultaten van onze partner Hair Clinic Wolf</em></p>
           </div>
         </div>
+        <img src="assets/images/haartransplantatie-vrouwen-2.jpg" alt="Haartransplantatie vrouwen behandeling" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/haartransplantatie-vrouwen-haargrens.jpg" alt="Haartransplantatie vrouwen haargrens resultaat" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 
@@ -115,6 +117,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             alt="Haartransplantatie inhammen vrouwen voor en na"
           />
         </div>
+        <img src="assets/images/voor-na-vrouwen.png" alt="Haartransplantatie vrouw voor en na — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 

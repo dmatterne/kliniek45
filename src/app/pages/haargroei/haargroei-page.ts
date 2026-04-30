@@ -32,7 +32,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <p class="section-subtitle">
           De keuze tussen haargroei stimuleren en een haartransplantatie hangt af van de mate van
           haaruitval, uw leeftijd, de kwaliteit van het donorgebied en uw persoonlijke wensen. Onze
-          specialisten adviseren u eerlijk en transparant.
+          specialist adviseert u eerlijk en transparant.
         </p>
         <div class="two-col-content">
           <div class="col">
@@ -59,7 +59,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               </p>
               <p>
                 HaarKliniek 45 begeleidt u van het eerste consult tot de definitieve nazorgafspraak
-                — altijd door hetzelfde vertrouwde team.
+                — altijd door Jens Vandenreijt.
               </p>
             </div>
           </div>
@@ -73,11 +73,15 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2 class="section-title">Onze haargroeibehandelingen</h2>
         <p class="section-subtitle">
           Vier wetenschappelijk onderbouwde behandelingen voor haargroei en haaruitvalpreventie,
-          beschikbaar in onze kliniek in Grazen, België.
+          beschikbaar in Grazen, België.
         </p>
         <div class="hg-treatments-grid">
           <div class="hg-card">
-            <div class="hg-card-icon">🩸</div>
+            <div class="hg-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 007 7z"/>
+            </svg>
+          </div>
             <div class="hg-card-body">
               <h3>PRP Behandeling</h3>
               <p class="hg-card-tagline">Platelet Rich Plasma — uw eigen groeifactoren</p>
@@ -208,7 +212,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2 class="section-title">Vitaminen &amp; mineralen voor gezond haar</h2>
         <p class="section-subtitle">
           Voeding en suppletie spelen een ondersteunende rol bij gezonde haargroei. Onze
-          specialisten bespreken met u welke tekorten uw haaruitval kunnen verklaren.
+          specialist bespreekt met u welke tekorten uw haaruitval kunnen verklaren.
         </p>
         <div class="vitamins-grid">
           <div class="vitamin-card">
@@ -255,7 +259,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           <h2>Wil je weten welke behandeling het beste bij jou past?</h2>
           <p>
             Plan een gratis en vrijblijvend consult bij HaarKliniek 45 in Grazen, België. Onze
-            specialisten analyseren uw hoofdhuid, bespreken uw situatie en stellen een
+            specialist analyseert uw hoofdhuid, bespreekt uw situatie en stelt een
             gepersonaliseerd behandelplan op — zonder verborgen kosten.
           </p>
           <div class="cta-actions">

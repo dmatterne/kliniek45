@@ -171,7 +171,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <h3>Geen bijwerkingen</h3>
             <p>
               De behandeling is plaatselijk en uitwendig, dus volledig veilig in gebruik thuis
-              zonder risico op bijwerkingen.
+              met een laag risico op bijwerkingen.
             </p>
           </div>
           <div class="benefit-card">

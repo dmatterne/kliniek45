@@ -25,11 +25,11 @@ const legalPages: Record<
     sections: [
       {
         title: 'Welke gegevens verwerken we?',
-        body: 'We verwerken contactgegevens, afspraakgegevens en informatie die u vrijwillig deelt om uw vraag of intake goed te kunnen opvolgen. Medische of gevoelige informatie wordt alleen gevraagd wanneer die relevant is voor advies, voorbereiding of nazorg.',
+        body: 'Wij verzamelen alleen gegevens die u vrijwillig via e-mail of WhatsApp verstrekt. Wij gebruiken geen contactformulieren en verzamelen geen gegevens automatisch via de website. We verwerken contactgegevens, afspraakgegevens en informatie die u vrijwillig deelt om uw vraag of intake goed te kunnen opvolgen. Medische of gevoelige informatie wordt alleen gevraagd wanneer die relevant is voor advies, voorbereiding of nazorg.',
       },
       {
         title: 'Waarom verwerken we gegevens?',
-        body: 'We gebruiken gegevens om uw vraag te beantwoorden, een consult te plannen, u te begeleiden tijdens een traject en waar nodig de samenwerking met Hair Clinic Wolf correct af te stemmen.',
+        body: 'We gebruiken gegevens om uw vraag te beantwoorden, een consult te plannen, u te begeleiden tijdens een traject en waar nodig de samenwerking met Hair Clinic Wolf correct af te stemmen. Rechtsgrond: Wij verwerken uw persoonsgegevens op basis van uw toestemming (door contact op te nemen geeft u aan dat wij uw vraag mogen beantwoorden) of op basis van gerechtvaardigd belang (opvolging van een consult of intakegesprek).',
       },
       {
         title: 'Delen met partners',
@@ -37,7 +37,7 @@ const legalPages: Record<
       },
       {
         title: 'Bewaartermijn en rechten',
-        body: 'We bewaren gegevens niet langer dan nodig voor contact, opvolging, administratie en wettelijke verplichtingen. U kunt vragen om inzage, correctie of verwijdering via info@haarkliniek45.be.',
+        body: 'Wij stellen een concrete bewaartermijn vast (bij voorkeur 2 jaar na laatste contact). We bewaren gegevens niet langer dan nodig voor contact, opvolging, administratie en wettelijke verplichtingen. U kunt vragen om inzage, correctie of verwijdering via info@haarkliniek45.be. Heeft u vragen of wilt u uw gegevens laten verwijderen? Stuur een e-mail naar info@haarkliniek45.be.',
       },
     ],
   },
@@ -49,11 +49,11 @@ const legalPages: Record<
     sections: [
       {
         title: 'Functionele cookies',
-        body: 'Functionele cookies kunnen nodig zijn om de website technisch goed te laten werken, bijvoorbeeld voor navigatie, beveiliging of voorkeursinstellingen.',
+        body: 'Deze website plaatst zelf geen cookies. Uw browser kan cookies ontvangen als gevolg van externe links (WhatsApp, Facebook, Instagram). Wij hebben geen controle over cookies van derden.',
       },
       {
         title: 'Analyse en verbetering',
-        body: 'Als analysetools worden gebruikt, doen we dat om te begrijpen welke pagina’s nuttig zijn en waar de website verbeterd kan worden. Gebruik van niet-noodzakelijke cookies hoort vooraf duidelijk te worden gemeld.',
+        body: 'Deze website maakt momenteel geen gebruik van tracking- of analysetools. Functionele cookies kunnen worden geplaatst door externe diensten waarvan links aanwezig zijn op deze website (WhatsApp, Google Maps, sociale media)',
       },
       {
         title: 'Externe diensten',

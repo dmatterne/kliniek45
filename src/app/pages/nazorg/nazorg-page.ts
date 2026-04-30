@@ -60,6 +60,14 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       </div>
     </section>
 
+    <!-- Nazorg images -->
+    <section class="content-section">
+      <div class="container">
+        <img src="assets/images/werkwijze-wassing.webp" alt="Eerste wassing na haartransplantatie" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/werkwijze-controleafspraken.png" alt="Controleafspraken en nazorg" loading="lazy" class="content-img" width="800" height="533">
+      </div>
+    </section>
+
     <section class="why-section">
       <div class="container">
         <h2 class="section-title">Waarom is nazorg zo belangrijk?</h2>
@@ -151,13 +159,13 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               <h3>Maandelijks — Fotocontrole op afstand</h3>
             </div>
             <p>
-              Maandelijks stuurt u ons foto's van uw hoofdhuid. Onze specialisten volgen uw
+              Maandelijks stuurt u ons foto's van uw hoofdhuid. Onze specialist volgt uw
               haargroei op afstand, beantwoorden vragen en kunnen tijdig ingrijpen als er iets
               bijzonders is. Zo heeft u gedurende het hele herstelproces gemoedsrust.
             </p>
             <ul class="phase-list">
               <li>Stuur maandelijkse voortgangsfoto's via WhatsApp of e-mail</li>
-              <li>Persoonlijke feedback van onze specialisten</li>
+              <li>Persoonlijke feedback van onze specialist</li>
               <li>Vragen stellen wanneer het u uitkomt</li>
               <li>Proactieve signalering bij afwijkingen</li>
             </ul>

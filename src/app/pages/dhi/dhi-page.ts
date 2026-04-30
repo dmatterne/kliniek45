@@ -50,6 +50,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             />
           </div>
         </div>
+        <img src="assets/images/dhi-behandeling-1.jpg" alt="DHI behandeling — uitgevoerd door Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/dhi-behandeling-2.jpg" alt="DHI ingreep detail — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 

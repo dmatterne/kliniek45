@@ -333,7 +333,7 @@ export class HaaruitvalManPageComponent {
     {
       icon: 'assets/icons/process-icons-2025/implanteren-grafts.png',
       title: 'Haartransplantatie voor mannen',
-      desc: 'Permanente oplossing voor gevorderde haaruitval. Eigen haar, eigen donorzone, levenslang resultaat.',
+      desc: 'Permanente oplossing voor gevorderde haaruitval. Eigen haar, eigen donorzone, langdurig resultaat.',
       link: '/behandelingen/haartransplantatie-mannen',
       type: 'surgical',
       typeLabel: 'Chirurgisch',

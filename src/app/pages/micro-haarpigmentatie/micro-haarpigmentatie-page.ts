@@ -109,7 +109,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           om dunner wordend haar te verbergen en uw natuurlijke schoonheid te herstellen.
         </p>
         <p>
-          Onze specialisten bij HaarKliniek 45 zorgen ervoor dat de pigmentatie perfect aansluit bij
+          Onze specialist bij HaarKliniek 45 zorgt ervoor dat de pigmentatie perfect aansluit bij
           uw natuurlijke haarkleur en -structuur, zodat het resultaat subtiel en volkomen natuurlijk
           is. Voor vrouwen wordt MHP vaak ingezet om de haardichtheid optisch te vergroten zonder
           het bestaande haar te beschadigen.

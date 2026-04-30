@@ -166,7 +166,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <div class="step-content">
               <h3>Gebruik uitsluitend de meegeleverde shampoo</h3>
               <p>
-                Onze specialisten geven u een speciaal samengestelde shampoo mee die zachtzinnig is
+                Onze specialist geeft u een speciaal samengestelde shampoo mee die zachtzinnig is
                 voor de gevoelige huid en grafts. Gebruik geen gewone shampoo in de eerste twee
                 weken.
               </p>

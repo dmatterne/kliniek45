@@ -67,6 +67,14 @@ import { RouterLink } from '@angular/router';
       </div>
     </section>
 
+    <!-- IMAGES BEHANDELING -->
+    <section class="content-section">
+      <div class="container">
+        <img src="assets/images/haartransplantatie-mannen-behandeling.jpg" alt="Haartransplantatie mannen behandeling — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/haartransplantatie-mannen-voorkant.jpg" alt="Haartransplantatie mannen resultaat voorkant" loading="lazy" class="content-img" width="800" height="533">
+      </div>
+    </section>
+
     <!-- VOOR EN NA -->
     <section class="content-section alt-bg">
       <div class="container">

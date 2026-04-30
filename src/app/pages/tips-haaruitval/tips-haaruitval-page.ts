@@ -85,7 +85,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             specifieke situatie, genetisch profiel en de oorzaak van uw haaruitval.
           </p>
           <p>
-            Onze specialisten staan klaar voor een gratis en vrijblijvend intakegesprek. Wij
+            Onze specialist staat klaar voor een gratis en vrijblijvend intakegesprek. Wij
             analyseren uw situatie en stellen een persoonlijk behandelplan op — zonder
             verplichtingen.
           </p>

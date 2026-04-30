@@ -56,6 +56,8 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             <p class="image-attribution"><em>Resultaten van onze partner Hair Clinic Wolf</em></p>
           </div>
         </div>
+        <img src="assets/images/baardtransplantatie-behandeling.jpg" alt="Baardtransplantatie behandeling — Hair Clinic Wolf" loading="lazy" class="content-img" width="800" height="533">
+        <img src="assets/images/baardtransplantatie-close.jpg" alt="Baardtransplantatie resultaat close-up" loading="lazy" class="content-img" width="800" height="533">
       </div>
     </section>
 
@@ -70,7 +72,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <p>
           De procedure wordt uitgevoerd onder plaatselijke verdoving en - ondanks de duur van 4 tot
-          8 uur - is deze niet ingrijpend. U ervaart tijdens de ingreep geen pijn. Na de behandeling
+          8 uur - is deze niet ingrijpend. Dankzij plaatselijke verdoving ervaart u doorgaans geen pijn tijdens de ingreep. Na de behandeling
           ontvangt u duidelijke nazorginstructies van de uitvoerende behandelaar en lokale opvolging
           bij HaarKliniek 45.
         </p>

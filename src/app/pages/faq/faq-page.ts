@@ -251,7 +251,8 @@ export class FaqPageComponent {
         },
         {
           q: 'Is er een garantie op het resultaat?',
-          a: 'Hair Clinic Wolf biedt een garantiecertificaat op de haargroei. De exacte voorwaarden worden besproken tijdens de intake bij HaarKliniek 45.',
+          // TODO: bevestig garantievoorwaarden en exacte condities met Hair Clinic Wolf
+          a: 'Hair Clinic Wolf kan in bepaalde gevallen een garantiecertificaat aanbieden. De exacte voorwaarden worden besproken tijdens de intake bij HaarKliniek 45.',
           open: false,
         },
         {

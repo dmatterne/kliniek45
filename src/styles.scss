@@ -566,3 +566,66 @@ button {
   font-weight: 600;
   border: 1px solid rgba($primary-green, 0.15);
 }
+
+// Partner roles section
+.partner-roles-section {
+  padding: 80px 0;
+  background: #f8f5f0;
+}
+.partner-roles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 48px;
+}
+.partner-role-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 32px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+.partner-role-card--k45 {
+  border-top: 4px solid #1a4d47;
+}
+.partner-role-card--hcw {
+  border-top: 4px solid #8B6914;
+}
+.partner-role-header {
+  margin-bottom: 24px;
+}
+.partner-role-logo {
+  height: 40px;
+  width: auto;
+  margin-bottom: 12px;
+  display: block;
+}
+.partner-role-card h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  color: #1a4d47;
+  margin: 0 0 4px;
+}
+.partner-role-subtitle {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+.partner-role-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.partner-role-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0ece6;
+  font-size: 15px;
+  color: #333;
+}
+.partner-role-list li:last-child {
+  border-bottom: none;
+}
+@media (max-width: 768px) {
+  .partner-roles-grid {
+    grid-template-columns: 1fr;
+  }
+}
