@@ -36,6 +36,9 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
               doorgaans niet, omdat het wordt gezien als een cosmetische ingreep. Bij HaarKliniek 45
               in Grazen krijgt u duidelijke uitleg over de kostenfactoren, zonder verkoopdruk.
             </p>
+            <p>
+              Voor een concrete prijsopgave kunt u de online kostencalculator van <a href='https://hairclinicwolf.be' target='_blank' rel='noopener'>Hair Clinic Wolf</a> raadplegen, of uw situatie bespreken tijdens een gratis consult bij ons in Grazen.
+            </p>
           </div>
           <div class="image-block">
             <img
@@ -51,7 +54,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
       <div class="container">
         <h2>Waarom zijn shampoos en sprays niet altijd effectief?</h2>
         <p>
-          Meer dan 95% van de mannen heeft last van erfelijke kaalheid. Velen proberen dit te
+          Erfelijke haaruitval — ook wel androgenetische alopecia genaamd — is de meest voorkomende oorzaak van haarverlies bij mannen. Velen proberen dit te
           bestrijden met shampoos, kruidenremedies, cremes en sprays. Soms werken deze middelen een
           beetje en kunnen ze het haarverlies tijdelijk vertragen, maar ze bieden geen permanente
           oplossing voor genetisch haarverlies.

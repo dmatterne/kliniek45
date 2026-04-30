@@ -44,6 +44,13 @@
   }
 }
 
+.step-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: $space-3;
+}
+
 .timeline-step {
   flex: 1;
   display: flex;

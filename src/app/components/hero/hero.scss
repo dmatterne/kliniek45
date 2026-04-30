@@ -13,16 +13,19 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #0a1f1a 0%, #1a4d47 55%, #2d6b5f 100%);
+  background-image: url('/assets/images/werkwijze-consult.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-color: #0a1f1a;
 
   .hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(
       to right,
-      rgba($primary-green-dark, 0.96) 0%,
-      rgba($primary-green-dark, 0.65) 55%,
-      rgba($primary-green-dark, 0.05) 100%
+      rgba($primary-green-dark, 0.97) 0%,
+      rgba($primary-green-dark, 0.80) 50%,
+      rgba($primary-green-dark, 0.40) 100%
     );
   }
 }

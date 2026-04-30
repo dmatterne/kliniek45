@@ -176,7 +176,7 @@ export class FaqPageComponent {
         },
         {
           q: 'Wat is de Long Hair methode?',
-          a: 'De Long Hair methode laat toe om een haartransplantatie uit te voeren zonder het haar te scheren. Dit is ideaal voor kleinere behandelzones of voor patienten die discretie wensen. Het resultaat is direct zichtbaar na de ingreep.',
+          a: 'De Long Hair methode laat toe om een haartransplantatie uit te voeren zonder het haar te scheren. Dit is ideaal voor kleinere behandelzones of voor patienten die discretie wensen. De haarlengte blijft behouden na de ingreep, waardoor de behandeling minder opvallend is. Definitieve haargroei volgt, net zoals bij andere technieken, na 12 tot 18 maanden.',
           open: false,
         },
         {

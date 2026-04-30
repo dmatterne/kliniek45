@@ -119,8 +119,7 @@
     margin-bottom: $space-6;
   }
 
-  .benefits-list {
-    list-style: none;
+  .benefits-list {    list-style: none;
     padding: 0;
     margin: $space-6 0 $space-8;
     display: flex;
@@ -159,5 +158,28 @@
         margin: 0;
       }
     }
+  }
+}
+
+.partner-badge-inline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(26, 77, 71, 0.06);
+  border-radius: 8px;
+  border-left: 3px solid #1a4d47;
+
+  img {
+    filter: invert(1) sepia(1) saturate(2) hue-rotate(120deg) brightness(0.4);
+    flex-shrink: 0;
+  }
+
+  .partner-badge-text {
+    font-size: 0.85rem;
+    color: #1a4d47;
+    margin: 0;
+    line-height: 1.4;
   }
 }
