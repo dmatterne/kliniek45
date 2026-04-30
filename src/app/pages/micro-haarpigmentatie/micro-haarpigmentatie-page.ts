@@ -156,7 +156,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2>De mogelijkheden met micro haarpigmentatie</h2>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">💆</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/gratis-hoofd-haar-analyse.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Haardichtheid vergroten</h3>
             <p>
               Laat uw bestaande haardos voller lijken door pigmentatie subtiel tussen de bestaande

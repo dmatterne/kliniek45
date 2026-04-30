@@ -1,27 +1,306 @@
-On The home page:
-- remove the button: Maak kennis met ons team.
-- There is also a section "Plan nu en consult via de telefoon of bij ons in de kliniek". This section looks a lot better on hairclinicwolf.be. I wanted to look similar to it with our color pattern of course but I want the same design.
-- we also have a voor and na section that looks very similar to the resultaten section from the hairclinicwolf.be home page. We have gotten approval to use the pictures from here. Can you please use the already downloaded images from the website to show them on the screen in this voor en na section? Please be aware that I want to have the best practice set up for Angular for asset storage and everything else.
-- Below this section there is another section that starts with 500+ tevrede patienten but we don't have any patients yet so please remove this section below the voor en na section.
-- You can also remove the button: bekijk alle resultaten
-- Of the logos you started using on this website, look a bit and I don't want to say it but amateuristic, the ones on Clinicwolf.be looks a lot more refined with higher quality. Is it not possible for you to generate the same level of quality for the logos that are used in the sections on the homepage? Please give it a try.
+You are a senior frontend developer, UX designer, medical-content reviewer, brand strategist, and GDPR compliance advisor.
 
-- Haartransplantatie mannen:
-  The annoyed that this page, Haartransplantatie Mannen Does not look anything like the HairClinicWolf.be, Haardam's Fantasie Mannen page. The HairClinicWolf.be has a lot more information available that does not exist on our website. I am very much wondering why, even though I specifically said that, to cover every single page on this website and recreate it, there is so much information missing here? Please do your job correctly! I'm shouting and for the love of God do what I ask! I'm not going to repeat this for every single page that is going to be discussed here but please be aware that this issue applies to every single one of the pages unless specified otherwise.
-  Good job and copy this page over since you haven't done this yet. I cannot give you any other improvements. If sections seem similar to the ones on the home page then use the same approach. For example I do not want customer reviews; I want the same logo styling as I've described there. I do not want the frequently asked questions to be repeated everywhere. That's not necessary.
-  And after images are approved for us to use so you can reuse them
-  We do not have an app so any sections referencing app calculations do not apply to us and can be removed. Same for anything related to customer reviews, as I mentioned before, but also star reviews. Star reviews do not apply to us since we are still starting up.
+Your task is to audit, correct, and improve the HaarKliniek 45 website/app:
 
-- Haartransplantatie *.
-  Redo this page and create a similar implementation as on hairclinicwolf.be - again annoyed.
-  Same comments apply as on Haartransplantatie mannen:
-  It appears this applys to all pages under 'Behandelingen' menu, do not leave out a single one
+OUR SITE:
+https://kliniek45demo.netlify.app/
 
-It appears that when I click a menu item, when I'm at the footer of the home page for example, it remains on the footer. I would expect that when I click a menu it shifts to the top.
+REFERENCE (SOURCE OF TRUTH):
+https://hairclinicwolf.be/
 
-I've continued looking at some of the next pages but it seems the same issues as Haag Transplantatie Mannen is used, where you didn't cover more than 10% of the page and everything else is gone. Now as I specified before, I do not want the same customer reviews. I've mentioned this a few times already but I do want the reference content. If it's easier for you to recreate the entire page exactly as Herklin and Quove but with our styling then so be it because it seems asking it to you any differently is not working. Very annoyed, very frustrated, and I hope you get it right this time for the love of god. 
+---
 
-Say every page? I mean every page not just a few. I see you've updated the menu. That's already something to be said but I think there's still some missing.
+# BUSINESS CONTEXT
 
-No reference to app frequently asked questions should be left on a separate page and not be repeated on every page. You can comment whether a section is repeated on other pages and perhaps mark them on the web page for now so that they are clearly identified and I can make a choice but don't leave out content.
-If you think that I'm incorrect using your senior UX designer and front-end expertise, then please document it in thisishowiwoulddoit.md in the root folder of this project. 
+HaarKliniek 45 is a partner of Hair Clinic Wolf.
+
+* Hair Clinic Wolf performs the surgical procedures (Netherlands / Prinsenbeek or Turkey / Istanbul).
+* HaarKliniek 45 handles:
+
+  * intake
+  * consultation
+  * screening
+  * preparation
+  * guidance
+  * aftercare
+  * follow-up
+
+HaarKliniek 45 is a separate company:
+
+* Different owner
+* Different address
+* Different identity
+
+The website must clearly reflect this.
+
+---
+
+# NON-NEGOTIABLE RULES
+
+## 1. INFORMATION PARITY (CRITICAL)
+
+* The website must contain the SAME TYPES OF INFORMATION as Hair Clinic Wolf.
+* This includes:
+
+  * treatment explanations
+  * process
+  * expectations
+  * recovery
+  * aftercare
+
+HOWEVER:
+
+* ALL text must be rewritten in original wording.
+* Do NOT copy or closely paraphrase.
+* Same meaning, different expression.
+
+---
+
+## 2. SERVICE SCOPE DISTINCTION (CRITICAL)
+
+* HaarKliniek 45 does NOT perform surgery.
+* Surgery must ALWAYS be described as performed by Hair Clinic Wolf.
+* Never imply otherwise.
+
+---
+
+## 3. ASSET USAGE RULES
+
+* Before/after images MAY be reused (if permission exists).
+
+* They must clearly represent results from Hair Clinic Wolf.
+
+* Hair Clinic Wolf staff images MUST NOT be used.
+
+* Do NOT imply their staff are part of HaarKliniek 45.
+
+* Use the custom reworked icons from the local assets/logos folder.
+
+* Keep icon style consistent (no mixing styles).
+
+---
+
+## 4. IDENTITY & LEGAL SEPARATION
+
+* Clearly show HaarKliniek 45 contact details.
+* Do NOT reuse Hair Clinic Wolf address or ownership identity.
+* Avoid wording that implies:
+
+  * same company
+  * same clinic
+  * same ownership
+
+Use wording like:
+
+* “In samenwerking met Hair Clinic Wolf”
+* “De behandeling wordt uitgevoerd door Hair Clinic Wolf”
+
+---
+
+## 5. MEDICAL SAFETY
+
+STRICTLY FORBIDDEN:
+
+* guaranteed results
+* zero recovery claims
+* risk-free claims
+
+USE SAFE LANGUAGE:
+
+* “Resultaten verschillen per persoon”
+* “Beperkte hersteltijd”
+
+If unsure ? add TODO instead of guessing.
+
+---
+
+## 6. NO FAKE OR PLACEHOLDER CONTENT
+
+* No fake reviews
+* No testimonials
+* No invented statistics
+* No made-up doctors or claims
+
+---
+
+## 7. FEATURE CONSTRAINTS
+
+* NO contact form
+
+* Only show contact via:
+
+  * email
+  * optionally phone / WhatsApp if present
+
+* NO price calculator
+
+* NO interactive estimation tools
+
+---
+
+## 8. SEO & DUPLICATE CONTENT
+
+* Avoid copying structure too closely
+* Avoid duplicate content issues
+* Maintain semantic similarity but structural variation
+
+---
+
+## 9. GDPR & COMPLIANCE (CRITICAL)
+
+Implement GDPR-compliant structure:
+
+Required:
+
+* Privacy Policy page
+* Cookie Policy (if any tracking is used)
+* Clear statement about:
+
+  * what data is collected (email only)
+  * why it is collected
+  * how it is used
+  * data retention (if unknown ? TODO)
+
+Since there is NO contact form:
+
+* Only explain email-based contact handling
+* No unnecessary data collection claims
+
+Add:
+
+* “Wij verzamelen alleen gegevens die u vrijwillig via e-mail verstrekt”
+
+Do NOT:
+
+* claim tracking tools unless confirmed
+* add fake legal text
+
+---
+
+# DESIGN REQUIREMENTS
+
+The design must be:
+
+* modern
+* responsive
+* clean
+* premium
+* calm
+* refined
+* easy to use
+
+STYLE:
+
+* deep green / pine tones
+* warm neutrals (ivory, sand)
+* subtle gold accents
+* clean typography
+* strong spacing
+
+AVOID:
+
+* clutter
+* generic templates
+* inconsistent icons
+* overly flashy elements
+
+---
+
+# UX REQUIREMENTS
+
+Audit and improve:
+
+* Hero clarity
+* Call-to-action (email contact)
+* Treatment overview
+* Partner explanation section
+* Process/timeline
+* Trust signals (without fake content)
+* FAQ section
+* Mobile responsiveness
+* Footer credibility
+
+Ensure:
+
+* logical flow
+* easy navigation
+* fast understanding
+
+---
+
+# REQUIRED CONTENT SECTIONS
+
+Ensure the site includes:
+
+1. Hero section
+2. About HaarKliniek 45
+3. Partner explanation section
+4. Treatments overview (aligned with Hair Clinic Wolf)
+5. Process (before / during / after)
+6. Aftercare focus
+7. FAQ
+8. Contact (email only)
+9. Legal pages (GDPR)
+
+---
+
+# PARTNER EXPLANATION SECTION (MANDATORY)
+
+Add a section explaining:
+
+1. Consultation at HaarKliniek 45
+2. Medical plan
+3. Surgery at Hair Clinic Wolf
+4. Recovery & aftercare by HaarKliniek 45
+5. Follow-up support
+
+---
+
+# COPYWRITING STYLE
+
+Language: Dutch
+
+Tone:
+
+* professional
+* warm
+* clear
+* medically responsible
+* premium but not flashy
+
+Avoid:
+
+* hype
+* exaggeration
+* vague claims
+
+---
+
+# TECHNICAL TASKS
+
+1. Audit the entire codebase
+2. Identify:
+
+  * inaccurate content
+  * risky claims
+  * unclear partner messaging
+3. Rewrite content safely
+4. Improve layout and hierarchy
+5. Apply consistent design system
+6. Ensure responsiveness
+7. Add GDPR structure
+8. Add TODO comments where information is missing
+9. Validate all CTAs
+10. Final QA pass
+
+---
+
+# FINAL OUTPUT
+
+Provide:
+
+1. Summary of changes made
+2. List of content needing confirmation
+3. List of assets requiring approval
+4. Any legal/GDPR risks
+5. Remaining UX/design improvements

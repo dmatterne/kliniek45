@@ -32,7 +32,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         <h2 class="section-title">Waarom is slaaphouding zo belangrijk?</h2>
         <div class="why-grid">
           <div class="why-card">
-            <div class="why-icon">🩸</div>
+            <div class="why-icon"><img src="assets/icons/process-icons-2025/minder-bloeding-en-schade.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Beschermen van de grafts</h3>
             <p>
               De eerste dagen zijn de grafts nog niet volledig verankerd in de huid. Druk op het
@@ -85,7 +85,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </ul>
           </div>
           <div class="position-card position-ok">
-            <div class="position-badge position-badge-ok">👍 Aanvaardbaar</div>
+            <div class="position-badge position-badge-ok">✓ Aanvaardbaar</div>
             <div class="position-icon">🪑</div>
             <h3>Halfzittend slapen</h3>
             <p>

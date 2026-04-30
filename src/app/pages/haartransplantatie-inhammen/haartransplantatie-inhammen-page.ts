@@ -147,7 +147,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🩸</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/minder-bloeding-en-schade.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Minder bloeding en schade</h3>
             <p>
               Omdat er geen incisies zijn, is er bijna geen bloeding tijdens de procedure en wordt

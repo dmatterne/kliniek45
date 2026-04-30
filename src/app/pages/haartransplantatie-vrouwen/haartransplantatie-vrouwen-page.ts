@@ -113,7 +113,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="image-block" style="margin-top: 2rem;">
           <img
-            src="assets/images/voor-na-inhammen.png"
+            src="assets/images/voor-na-vrouwen-inhammen.png"
             alt="Haartransplantatie inhammen vrouwen voor en na"
           />
         </div>
@@ -131,7 +131,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">💉</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/directe-haarimplantatie.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Directe haarimplantatie</h3>
             <p>
               Met DHI worden haarzakjes rechtstreeks in het gewenste gebied geplaatst, zonder de
@@ -140,7 +140,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">🩸</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/minder-bloeding-en-schade.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Minder bloeding en schade</h3>
             <p>
               Omdat er geen incisies nodig zijn, is er bijna geen bloeding tijdens de procedure en
@@ -167,7 +167,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">💆</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/gratis-hoofd-haar-analyse.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Geschikt voor bestaand haar</h3>
             <p>
               De DHI-methode is ideaal voor vrouwen omdat de behandeling kan worden uitgevoerd
@@ -176,7 +176,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
             </p>
           </div>
           <div class="benefit-card">
-            <div class="benefit-icon">✨</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/maximale-haardichtheid.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>Natuurlijk eindresultaat</h3>
             <p>
               Door de precieze plaatsing van elke individuele haarzakje sluit het resultaat naadloos

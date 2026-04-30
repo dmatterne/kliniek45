@@ -109,7 +109,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="treatments-grid">
           <div class="treatment-card">
-            <div class="card-icon">👨</div>
+            <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0112 0v2"/></svg></div>
             <h3>Haartransplantatie Mannen</h3>
             <p>
               Intake en advies voor mannelijk haaruitval. Als een transplantatie passend is,
@@ -121,7 +121,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
           </div>
 
           <div class="treatment-card">
-            <div class="card-icon">👩</div>
+            <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0112 0v2"/></svg></div>
             <h3>Haartransplantatie Vrouwen</h3>
             <p>
               Advies voor vrouwelijke haaruitval en verdunning, met aandacht voor oorzaak,
@@ -239,7 +239,7 @@ import { ConsultationComponent } from '../../components/consultation/consultatio
         </p>
         <div class="benefits-grid">
           <div class="benefit-card">
-            <div class="benefit-icon">🩸</div>
+            <div class="benefit-icon"><img src="assets/icons/process-icons-2025/minder-bloeding-en-schade.png" alt="" width="32" height="32" aria-hidden="true"></div>
             <h3>PRP Behandeling</h3>
             <p>
               Platelet Rich Plasma — groeifactoren uit uw eigen bloed worden geconcentreerd via
